@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP TPS61098
+D Low power 150mA LDO variable output voltage, SOT-23-5
+K linear low dropout Regulator adjustable
+F http://www.ti.com/lit/ds/symlink/tps763.pdf
+$ENDCMP
+#
+#End Doc Library

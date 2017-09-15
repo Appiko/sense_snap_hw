@@ -1,0 +1,26 @@
+Reference,Quantity,Value,Rating,Part Number,Datasheet
+U2,1,MDBT42Q,,,http://www.raytac.com/download/MDBT42/MDBT42Q-Version%20B.pdf
+C2,C8,2,10u,>10V,
+C6,1,100n,,,
+C1,C4,2,1u,,
+L2,1,10u,,,
+L1,1,15n,,,
+C5,C7,2,8.2p,,
+P1,1,CONN_02X05,,,
+Q1,1,TSM2301,,TSM2301CX,http://www.farnell.com/datasheets/2044652.pdf
+X1,1,ABS25,,ABS25-32.768KHZ-6-T,http://www.abracon.com/Resonators/abs25.pdf
+D2,1,IR26-21C-L110-TR8,,,http://www.everlight.com/file/ProductFile/IR26-21C-L110-TR8.pdf
+R2,1,82,,,
+R3,1,68,,,
+R4,1,33,,,
+R5,1,130,,,
+BT1,1,AA battery,,,
+J1,1,TP,,,
+L3,1,4.7u,,,
+R1,1,400,,,
+C3,C9,2,100n,>10V,
+J2,1,Conn_01x03,,,
+U1,1,TPS610986,,TPS610986,http://www.ti.com/lit/ds/symlink/tps610985.pdf
+SW1,1,PTS645SM43SMTR92,,PTS645SM43SMTR92,
+D1,1,CLX6F-FKC,,CLX6F-FKC,http://www.cree.com/led-components/media/documents/ds-CLX6F-FKC-1352.pdf
+MK1,MK2,2,Mounting_Hole,,

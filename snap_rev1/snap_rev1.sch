@@ -1,12 +1,8 @@
-EESchema Schematic File Version 2
+EESchema Schematic File Version 3
 LIBS:power
 LIBS:device
-LIBS:transistors
-LIBS:conn
 LIBS:linear
 LIBS:regul
-LIBS:74xx
-LIBS:cmos4000
 LIBS:adc-dac
 LIBS:memory
 LIBS:xilinx
@@ -21,19 +17,16 @@ LIBS:audio
 LIBS:interface
 LIBS:digital-audio
 LIBS:philips
-LIBS:display
 LIBS:cypress
 LIBS:siliconi
 LIBS:opto
 LIBS:atmel
 LIBS:contrib
-LIBS:valves
 LIBS:dual_led
 LIBS:mdbt42q
 LIBS:nfc_antenna
 LIBS:pir_sensor
 LIBS:tps61098
-LIBS:74xgxx
 LIBS:Altera
 LIBS:ESD_Protection
 LIBS:LEM
@@ -45,57 +38,33 @@ LIBS:Worldsemi
 LIBS:Xicor
 LIBS:Zilog
 LIBS:ac-dc
-LIBS:actel
-LIBS:allegro
 LIBS:analog_devices
-LIBS:battery_management
 LIBS:bbd
 LIBS:bosch
 LIBS:brooktre
-LIBS:cmos_ieee
 LIBS:dc-dc
-LIBS:diode
 LIBS:elec-unifil
 LIBS:ftdi
 LIBS:gennum
-LIBS:graphic_symbols
 LIBS:hc11
 LIBS:infineon
 LIBS:intersil
 LIBS:ir
-LIBS:leds
 LIBS:logic_programmable
 LIBS:maxim
-LIBS:mechanical
-LIBS:microchip_dspic33dsc
-LIBS:microchip_pic10mcu
-LIBS:microchip_pic12mcu
-LIBS:microchip_pic16mcu
-LIBS:microchip_pic18mcu
-LIBS:microchip_pic24mcu
-LIBS:microchip_pic32mcu
 LIBS:modules
 LIBS:motor_drivers
-LIBS:motors
-LIBS:msp430
 LIBS:nordicsemi
 LIBS:nxp
-LIBS:nxp_armmcu
 LIBS:onsemi
 LIBS:powerint
 LIBS:pspice
 LIBS:references
-LIBS:relays
 LIBS:rfcom
 LIBS:sensors
 LIBS:silabs
-LIBS:stm8
-LIBS:stm32
 LIBS:supertex
-LIBS:switches
-LIBS:transf
 LIBS:triac_thyristor
-LIBS:ttl_ieee
 LIBS:video
 LIBS:wiznet
 LIBS:zetex
@@ -509,12 +478,12 @@ F 3 "" H 6500 1525 60  0000 C CNN
 	1    6500 1525
 	1    0    0    -1  
 $EndComp
-Text Label 8200 975  2    60   ~ 0
-LED_RED
+Text Label 8325 975  2    60   ~ 0
+LED_BLUE
 Text Label 8325 1175 2    60   ~ 0
 LED_GREEN
-Text Label 8255 1375 2    60   ~ 0
-LED_BLUE
+Text Label 8325 1375 2    60   ~ 0
+LED_RED
 Text Label 7035 1175 0    60   ~ 0
 LED_SENSE
 Wire Wire Line
@@ -630,9 +599,7 @@ Wire Wire Line
 Connection ~ 6500 1175
 Connection ~ 6500 1375
 Wire Wire Line
-	7825 975  8200 975 
-Wire Wire Line
-	7825 1375 8255 1375
+	7825 975  8325 975 
 Wire Wire Line
 	7825 1175 8325 1175
 Wire Wire Line
@@ -640,11 +607,11 @@ Wire Wire Line
 Text Label 6100 5200 1    60   ~ 0
 LED_SENSE
 Text Label 6000 5200 1    60   ~ 0
-LED_RED
+LED_BLUE
 Text Label 6200 5200 1    60   ~ 0
 LED_GREEN
 Text Label 6300 5200 1    60   ~ 0
-LED_BLUE
+LED_RED
 Wire Wire Line
 	7300 3900 7550 3900
 Wire Wire Line
@@ -992,4 +959,6 @@ Wire Wire Line
 Wire Wire Line
 	7650 3700 7300 3700
 NoConn ~ 7300 3100
+Wire Wire Line
+	7825 1375 8325 1375
 $EndSCHEMATC

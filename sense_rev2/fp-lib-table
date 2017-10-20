@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name detect_trigger)(type KiCad)(uri /home/prithvi/KiCadProjects/detect_trigger_hw/kicad_lib/detect_trigger.pretty)(options "")(descr ""))
+)

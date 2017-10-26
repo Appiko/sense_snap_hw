@@ -1,4 +1,4 @@
-update=Fri Oct 20 19:55:10 2017
+update=Thu Oct 26 16:53:06 2017
 version=1
 last_client=kicad
 [general]
@@ -29,7 +29,7 @@ version=1
 NetIExt=net
 [eeschema]
 version=1
-LibDir=../../kicad_lib/schema_components
+LibDir=../kicad_lib/schema_components
 [eeschema/libraries]
 LibName1=power
 LibName2=device

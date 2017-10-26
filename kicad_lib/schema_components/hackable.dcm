@@ -1,3 +1,13 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP hackaBLE
+D A tiny Nordic nRF52832 based board that can be embeded in a larger project
+K nRF52, nRF52832, hackaBLE
+$ENDCMP
+#
+$CMP hackaBLE_half
+D A tiny Nordic nRF52832 based board that can be embeded in a larger project. This symbol is of a small portion of the entire hackaBLE module.
+K nRF52, nRF52832, hackaBLE
+$ENDCMP
+#
 #End Doc Library

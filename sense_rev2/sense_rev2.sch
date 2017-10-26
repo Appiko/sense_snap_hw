@@ -23,7 +23,6 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:hackable
-LIBS:pir_sensor
 LIBS:tps61098
 LIBS:sense_rev2-cache
 EELAYER 26 0
@@ -601,9 +600,9 @@ L D D1
 U 1 1 59E4E805
 P 2900 4700
 F 0 "D1" H 2900 4916 50  0000 C CNN
-F 1 "D" H 2900 4825 50  0000 C CNN
+F 1 "LL4148" H 2900 4825 50  0000 C CNN
 F 2 "Diodes_SMD:D_1206" H 2900 4700 50  0001 C CNN
-F 3 "" H 2900 4700 50  0001 C CNN
+F 3 "https://www.fairchildsemi.com/datasheets/LL/LL4148.pdf" H 2900 4700 50  0001 C CNN
 	1    2900 4700
 	1    0    0    -1  
 $EndComp
@@ -724,7 +723,7 @@ P 7150 1550
 F 0 "U4" H 7150 2017 50  0000 C CNN
 F 1 "TPS61098" H 7150 1926 50  0000 C CNN
 F 2 "Housings_SON:WSON6_1.5x1.5mm_Pitch0.5mm" H 7150 1975 50  0001 C CIN
-F 3 "" H 7100 1650 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/tps610985.pdf" H 7100 1650 50  0001 C CNN
 	1    7150 1550
 	1    0    0    -1  
 $EndComp
@@ -744,7 +743,7 @@ L R R13
 U 1 1 59E562C8
 P 5900 1550
 F 0 "R13" V 5800 1550 50  0000 C CNN
-F 1 "400" V 5900 1550 50  0000 C CNN
+F 1 "400E" V 5900 1550 50  0000 C CNN
 F 2 "Capacitors_SMD:C_0805" V 5830 1550 50  0001 C CNN
 F 3 "" H 5900 1550 50  0001 C CNN
 	1    5900 1550
@@ -806,7 +805,7 @@ P 10000 1500
 F 0 "U6" H 10000 1842 50  0000 C CNN
 F 1 "TPS70630" H 10000 1751 50  0000 C CNN
 F 2 "TO_SOT_Packages_SMD:SOT-23-5" H 10000 1825 50  0001 C CIN
-F 3 "" H 10000 1500 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/tps706.pdf" H 10000 1500 50  0001 C CNN
 	1    10000 1500
 	1    0    0    -1  
 $EndComp
@@ -1282,7 +1281,7 @@ P 8200 4000
 F 0 "U5" H 8750 3300 60  0000 C CNN
 F 1 "hackaBLE_half" H 7850 3300 60  0000 C CNN
 F 2 "detect_trigger:hackable_footprint_half" H 7700 4050 60  0001 C CNN
-F 3 "" H 7700 4050 60  0001 C CNN
+F 3 "https://github.com/electronut/ElectronutLabs-hackaBLE" H 7700 4050 60  0001 C CNN
 	1    8200 4000
 	1    0    0    -1  
 $EndComp

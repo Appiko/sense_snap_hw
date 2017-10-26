@@ -223,10 +223,10 @@ ENDDEF
 DEF TPS61098 U 0 10 Y Y 1 F N
 F0 "U" -250 -500 50 H V C CNN
 F1 "TPS61098" -200 350 50 H V L CNN
-F2 "" 0 425 50 H I C CIN
-F3 "" -50 100 50 H I C CNN
+F2 "Housings_SON:WSON6_1.5x1.5mm_Pitch0.5mm" 0 425 50 H I C CIN
+F3 "http://www.ti.com/lit/ds/symlink/tps610985.pdf" 0 500 50 H I C CNN
 $FPLIST
- SOT?23*
+ WSON6*
 $ENDFPLIST
 DRAW
 S 300 -400 -300 300 0 1 10 f
@@ -306,8 +306,8 @@ ENDDEF
 DEF hackaBLE_half U 0 40 Y Y 1 F N
 F0 "U" 600 -700 60 H V C CNN
 F1 "hackaBLE_half" -550 -700 60 H V C CNN
-F2 "" -500 50 60 H I C CNN
-F3 "" -500 50 60 H I C CNN
+F2 "detect_trigger:hackable_footprint_half" -500 50 60 H I C CNN
+F3 "https://github.com/electronut/ElectronutLabs-hackaBLE" -500 50 60 H I C CNN
 DRAW
 S -700 700 650 -650 0 1 0 N
 S 2730 -1410 2730 -1410 0 1 0 N

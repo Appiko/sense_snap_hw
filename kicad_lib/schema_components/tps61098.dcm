@@ -6,4 +6,10 @@ K switching boost regulator low power
 F http://www.ti.com/lit/ds/symlink/tps610985.pdf
 $ENDCMP
 #
+$CMP TPS61098x
+D Low quiescent current synchronous boost regulator with integrated LDO/load switch, WSON6
+K switching boost regulator low power
+F http://www.ti.com/lit/ds/symlink/tps610985.pdf
+$ENDCMP
+#
 #End Doc Library

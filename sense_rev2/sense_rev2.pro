@@ -1,4 +1,4 @@
-update=Thu Oct 26 16:53:06 2017
+update=Thu Oct 26 17:56:00 2017
 version=1
 last_client=kicad
 [general]
@@ -27,9 +27,19 @@ ModuleOutlineThickness=0.150000000000
 [cvpcb]
 version=1
 NetIExt=net
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=output/
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=
+SpiceAjustPassiveValues=0
+LabSize=60
+ERC_TestSimilarLabels=1
 [eeschema]
 version=1
-LibDir=../kicad_lib/schema_components
+LibDir=../kicad_lib/schema_components;/home/prithvi/IDEs/kicad-library/library
 [eeschema/libraries]
 LibName1=power
 LibName2=device
@@ -63,13 +73,4 @@ LibName29=valves
 LibName30=hackable
 LibName31=pir_sensor
 LibName32=tps61098
-[schematic_editor]
-version=1
-PageLayoutDescrFile=
-PlotDirectoryName=output/
-SubpartIdSeparator=0
-SubpartFirstId=65
-NetFmtName=
-SpiceAjustPassiveValues=0
-LabSize=60
-ERC_TestSimilarLabels=1
+LibName33=dc-dc

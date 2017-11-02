@@ -1,4 +1,4 @@
-update=Tue Oct 31 20:59:41 2017
+update=Thu Nov  2 21:38:01 2017
 version=1
 last_client=kicad
 [general]
@@ -138,3 +138,4 @@ LibName104=video
 LibName105=wiznet
 LibName106=zetex
 LibName107=audio-jack-4_1switches
+LibName108=led_rgb

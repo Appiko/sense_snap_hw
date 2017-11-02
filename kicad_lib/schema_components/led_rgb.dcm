@@ -5,7 +5,7 @@ D LED RGB 6 pins
 K led rgb diode
 $ENDCMP
 #
-$CMP LED_RGB
+$CMP LED_BRG
 D LED RGB 6 pins
 K led rgb diode
 $ENDCMP

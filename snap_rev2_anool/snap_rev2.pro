@@ -1,4 +1,4 @@
-update=Fri Nov  3 14:35:14 2017
+update=Fri Nov  3 23:10:56 2017
 version=1
 last_client=kicad
 [pcbnew]
@@ -23,8 +23,6 @@ ModuleOutlineThickness=0.150000000000
 [cvpcb]
 version=1
 NetIExt=net
-[general]
-version=1
 [eeschema]
 version=1
 LibDir=../kicad_lib/schema_components;../../../kicad_sources/library-repos/kicad-library/library
@@ -99,3 +97,5 @@ NetFmtName=
 SpiceAjustPassiveValues=0
 LabSize=60
 ERC_TestSimilarLabels=1
+[general]
+version=1

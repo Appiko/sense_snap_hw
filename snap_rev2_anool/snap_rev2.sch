@@ -1,4 +1,4 @@
-EESchema Schematic File Version 3
+EESchema Schematic File Version 2
 LIBS:snap_rev2_symbol
 LIBS:power
 LIBS:device
@@ -60,7 +60,7 @@ LIBS:supertex
 LIBS:video
 LIBS:audio-jack-4_1switches
 LIBS:snap_rev2-cache
-EELAYER 26 0
+EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -622,7 +622,7 @@ U 1 1 59F31729
 P 6825 1175
 F 0 "D1" H 6825 825 50  0000 C CNN
 F 1 "CLX6F-FKC" H 6825 1581 50  0000 C CNN
-F 2 "snap_fp:LED_RGB_PLCC-6" H 6825 1125 50  0001 C CNN
+F 2 "snap_fp:LED_RGB_5050-6" H 6825 1125 50  0001 C CNN
 F 3 "http://www.cree.com/led-components/media/documents/ds-CLX6F-FKC-1352.pdf" H 6825 1125 50  0001 C CNN
 F 4 "CLX6F-FKC" H 0   0   60  0001 C CNN "Part Number"
 	1    6825 1175

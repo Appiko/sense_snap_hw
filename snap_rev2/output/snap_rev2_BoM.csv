@@ -15,7 +15,7 @@ Reference,Quantity,Value,Footprint,Datasheet,Rating,Part Number
 "R7","1","130E","Resistors_SMD:R_0805","","",""
 "BT1","1","AA battery","detect_trigger:AA_keystone_206","http://www.keyelco.com/product-pdf.cfm?p=847","",""
 "L3","1","4.7u","Capacitors_SMD:C_0805","","",""
-"R1","1","400E","Resistors_SMD:R_0805","","",""
+"R1;R3","2","390E","Resistors_SMD:R_0805","","",""
 "C3","1","100n","Capacitors_SMD:C_0805","",">10V",""
 "U1","1","TPS610986","Housings_SON:WSON6_1.5x1.5mm_Pitch0.5mm","http://www.ti.com/lit/ds/symlink/tps610985.pdf","","TPS610986"
 "D1","1","5050_RGB_LED","LEDs:LED_RGB_5050-6","https://d114hh0cykhyb0.cloudfront.net/pdfs/5050-RGB.pdf","",""
@@ -24,4 +24,3 @@ Reference,Quantity,Value,Footprint,Datasheet,Rating,Part Number
 "Y1","1","ECS-3X8X","Crystals:Crystal_C38-LF_d3.0mm_l8.0mm_Horizontal","https://www.ecsxtal.com/store/pdf/ECS-3x8X%202x6X%201X5X.pdf","",""
 "MK1","1","Mounting_Hole_PAD","detect_trigger:MountingHole_1.7mm_M1.6","","",""
 "J1","1","SJ2-35863B1","detect_trigger:SJ2-35863B1-SMT","http://www.cui.com/product/resource/digikeypdf/sj2-3586x-smt.pdf","",""
-"R3","1","390E","Resistors_SMD:R_0805","","",""

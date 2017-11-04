@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2
+EESchema Schematic File Version 3
 LIBS:snap_rev2_symbol
 LIBS:power
 LIBS:device
@@ -60,7 +60,7 @@ LIBS:supertex
 LIBS:video
 LIBS:audio-jack-4_1switches
 LIBS:snap_rev2-cache
-EELAYER 25 0
+EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -623,8 +623,9 @@ P 6825 1175
 F 0 "D1" H 6825 825 50  0000 C CNN
 F 1 "CLX6F-FKC" H 6825 1581 50  0000 C CNN
 F 2 "snap_fp:LED_RGB_5050-6" H 6825 1125 50  0001 C CNN
-F 3 "http://www.cree.com/led-components/media/documents/ds-CLX6F-FKC-1352.pdf" H 6825 1125 50  0001 C CNN
-F 4 "CLX6F-FKC" H 0   0   60  0001 C CNN "Part Number"
+F 3 "https://d114hh0cykhyb0.cloudfront.net/pdfs/5050-RGB.pdf" H 6825 1125 50  0001 C CNN
+F 4 "Value" H 6825 1175 60  0001 C CNN "manf#"
+F 5 "CLX6F-FKC" H 0   0   60  0001 C CNN "Part Number"
 	1    6825 1175
 	1    0    0    -1  
 $EndComp
@@ -665,9 +666,10 @@ L SW_SPST SW1
 U 1 1 59F321EA
 P 3200 2725
 F 0 "SW1" H 3200 2960 50  0000 C CNN
-F 1 "1825910-6" H 3200 2869 50  0000 C CNN
+F 1 "TL3304AF260QJ" H 3200 2869 50  0000 C CNN
 F 2 "snap_fp:SW_SPST_B3SL-1002P" H 3200 2725 50  0001 C CNN
-F 3 "http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1825910&DocType=Customer+Drawing&DocLang=English" H 3200 2725 50  0001 C CNN
+F 3 "https://www.digikey.com/product-detail/en/e-switch/TL3304AF260QJ/EG4377TR-ND/1144802" H 3200 2725 50  0001 C CNN
+F 4 "Value" H 3200 2725 60  0001 C CNN "manf#"
 	1    3200 2725
 	1    0    0    -1  
 $EndComp
@@ -681,7 +683,8 @@ P 5025 5600
 F 0 "Y1" H 5025 5775 50  0000 C CNN
 F 1 "32786Hz" H 5025 5450 50  0000 C CNN
 F 2 "snap_fp:Crystal_C38-LF_d3.0mm_l8.0mm_Horizontal" H 5025 5600 50  0001 C CNN
-F 3 "http://cfd.citizen.co.jp/english/prod-tech/product/pdf/datasheet_TF/CFS-206_CFS-145_E.pdf" H 5025 5600 50  0001 C CNN
+F 3 "https://www.ecsxtal.com/store/pdf/ECS-3x8X%202x6X%201X5X.pdf" H 5025 5600 50  0001 C CNN
+F 4 "Value" H 5025 5600 60  0001 C CNN "manf#"
 	1    5025 5600
 	-1   0    0    1   
 $EndComp

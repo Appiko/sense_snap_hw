@@ -2178,7 +2178,7 @@
       )
     )
   )
-  (zone (net 0) (net_name "") (layers *.Cu) (tstamp 5A012A66) (hatch edge 0.508)
+  (zone (net 0) (net_name "") (layer *.Cu) (tstamp 5A012A66) (hatch edge 0.508)
     (connect_pads (clearance 0.25))
     (min_thickness 0.25)
     (keepout (tracks not_allowed) (vias not_allowed) (copperpour not_allowed))

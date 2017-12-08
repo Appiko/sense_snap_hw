@@ -566,9 +566,9 @@ F 3 "" H 4300 1350 50  0001 C CNN
 	1    4300 1400
 	1    0    0    -1  
 $EndComp
-Text Label 3900 5950 3    60   ~ 0
-LFCLK_XL1
 Text Label 3500 5950 3    60   ~ 0
+LFCLK_XL1
+Text Label 3900 5950 3    60   ~ 0
 LFCLK_XL2
 $Comp
 L VDD #PWR014

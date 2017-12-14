@@ -1,4 +1,4 @@
-update=12/8/2017 1:04:00 PM
+update=12/13/2017 7:00:34 PM
 version=1
 last_client=kicad
 [pcbnew]
@@ -25,16 +25,6 @@ version=1
 NetIExt=net
 [general]
 version=1
-[schematic_editor]
-version=1
-PageLayoutDescrFile=
-PlotDirectoryName=Documents/
-SubpartIdSeparator=0
-SubpartFirstId=65
-NetFmtName=Pcbnew
-SpiceForceRefPrefix=0
-SpiceUseNetNumbers=0
-LabSize=60
 [eeschema]
 version=1
 LibDir=../kicad_lib;sense_rev3_sch
@@ -86,3 +76,13 @@ LibName44=schema_components/mdbt42q
 LibName45=schema_components/nfc_antenna
 LibName46=schema_components/pir_sensor
 LibName47=schema_components/tps61098
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=Documents/
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=Pcbnew
+SpiceForceRefPrefix=0
+SpiceUseNetNumbers=0
+LabSize=60

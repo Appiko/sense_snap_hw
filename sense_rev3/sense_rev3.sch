@@ -1,0 +1,1260 @@
+EESchema Schematic File Version 2
+LIBS:sense_rev3
+LIBS:detect_rev1-rescue
+LIBS:detect_rev1-cache
+LIBS:sense_rev2-cache
+LIBS:snap_rev3_symbol
+LIBS:Appiko_Logo
+LIBS:OSHW
+LIBS:power
+LIBS:device
+LIBS:switches
+LIBS:relays
+LIBS:motors
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:audio-jack-4_1switches
+LIBS:dual_led
+LIBS:hackable
+LIBS:led_rgb
+LIBS:mdbt42q
+LIBS:nfc_antenna
+LIBS:pir_sensor
+LIBS:tps61098
+LIBS:sense_rev3-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title "sense_rev3_fp"
+Date ""
+Rev "3"
+Comp "Appiko"
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L PIR U3
+U 1 1 5A1FEF9F
+P 9150 1300
+F 0 "U3" H 8600 1300 60  0000 C CNN
+F 1 "PIR" H 9150 850 60  0000 C CNN
+F 2 "sense_rev3_fp:PIR_TO5" H 9500 1300 60  0001 C CNN
+F 3 "" H 9500 1300 60  0000 C CNN
+	1    9150 1300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Q_PMOS_DGS Q1
+U 1 1 5A20F1AB
+P 2050 1300
+F 0 "Q1" V 2250 1350 50  0000 R CNN
+F 1 "TSM2301" V 1875 1450 50  0000 R CNN
+F 2 "sense_rev3_fp:SOT-23" H 2250 1400 29  0001 C CNN
+F 3 "" H 2050 1300 60  0000 C CNN
+	1    2050 1300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Battery BT1
+U 1 1 5A2108FE
+P 1200 1500
+F 0 "BT1" H 1050 1625 50  0000 L CNN
+F 1 "2.4 V" H 1300 1500 50  0000 L CNN
+F 2 "sense_rev3_fp:Molex_KK-6410-02_02x2.54mm_Straight" V 1200 1540 60  0001 C CNN
+F 3 "" V 1200 1540 60  0000 C CNN
+	1    1200 1500
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_02X05 P1
+U 1 1 5A210FBC
+P 1950 6500
+F 0 "P1" H 1950 6800 50  0000 C CNN
+F 1 "CONN_02X05" H 1950 6200 50  0000 C CNN
+F 2 "sense_rev3_fp:prog_connect" H 1950 5300 60  0001 C CNN
+F 3 "" H 1950 5300 60  0000 C CNN
+	1    1950 6500
+	-1   0    0    -1  
+$EndComp
+$Comp
+L INDUCTOR_SMALL L2
+U 1 1 5A2110C2
+P 2050 4450
+F 0 "L2" H 2050 4550 50  0000 C CNN
+F 1 "10uH" H 2050 4400 50  0000 C CNN
+F 2 "sense_rev3_fp:L_0805" H 2050 4450 60  0001 C CNN
+F 3 "" H 2050 4450 60  0000 C CNN
+	1    2050 4450
+	1    0    0    -1  
+$EndComp
+$Comp
+L MDBT42Q U2
+U 1 1 5A2111B8
+P 5200 3750
+F 0 "U2" H 5200 4725 60  0000 C CNN
+F 1 "MDBT42Q" H 5200 3750 60  0000 C CNN
+F 2 "sense_rev3_fp:mdbt42Q" H 5000 4850 60  0001 C CNN
+F 3 "" H 5000 4850 60  0000 C CNN
+	1    5200 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R1
+U 1 1 5A211223
+P 7150 1250
+F 0 "R1" H 7250 1250 50  0000 C CNN
+F 1 "47k" V 7150 1250 50  0000 C CNN
+F 2 "sense_rev3_fp:R_0805" V 7080 1250 30  0001 C CNN
+F 3 "" H 7150 1250 30  0000 C CNN
+	1    7150 1250
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C11
+U 1 1 5A211350
+P 3900 6750
+F 0 "C11" H 3650 6750 50  0000 L CNN
+F 1 "8pF" H 3925 6650 50  0000 L CNN
+F 2 "sense_rev3_fp:C_0805" H 3938 6600 30  0001 C CNN
+F 3 "" H 3900 6750 60  0000 C CNN
+	1    3900 6750
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR01
+U 1 1 5A2113D3
+P 3900 6950
+F 0 "#PWR01" H 3900 6700 50  0001 C CNN
+F 1 "GND" H 3900 6800 50  0000 C CNN
+F 2 "" H 3900 6950 60  0000 C CNN
+F 3 "" H 3900 6950 60  0000 C CNN
+	1    3900 6950
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C6
+U 1 1 5A21166E
+P 10175 5050
+F 0 "C6" H 9975 5050 50  0000 L CNN
+F 1 "100pF" H 10200 4950 50  0000 L CNN
+F 2 "sense_rev3_fp:C_0805" H 10213 4900 30  0001 C CNN
+F 3 "" H 10175 5050 60  0000 C CNN
+	1    10175 5050
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R7
+U 1 1 5A211701
+P 9025 5350
+F 0 "R7" V 8925 5350 50  0000 C CNN
+F 1 "1M5" V 9025 5350 50  0000 C CNN
+F 2 "sense_rev3_fp:R_0805" V 8955 5350 30  0001 C CNN
+F 3 "" H 9025 5350 30  0000 C CNN
+	1    9025 5350
+	0    1    1    0   
+$EndComp
+$Comp
+L VDD #PWR02
+U 1 1 5A21179E
+P 10200 900
+F 0 "#PWR02" H 10200 750 50  0001 C CNN
+F 1 "VDD" H 10200 1050 50  0000 C CNN
+F 2 "" H 10200 900 60  0000 C CNN
+F 3 "" H 10200 900 60  0000 C CNN
+	1    10200 900 
+	1    0    0    -1  
+$EndComp
+$Comp
+L INDUCTOR_SMALL L1
+U 1 1 5A211B4D
+P 1500 4450
+F 0 "L1" H 1500 4550 50  0000 C CNN
+F 1 "15nH" H 1500 4400 50  0000 C CNN
+F 2 "sense_rev3_fp:L_0805" H 1500 4450 60  0001 C CNN
+F 3 "" H 1500 4450 60  0000 C CNN
+	1    1500 4450
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C10
+U 1 1 5A211BC7
+P 3500 6750
+F 0 "C10" H 3250 6750 50  0000 L CNN
+F 1 "8pF" H 3525 6650 50  0000 L CNN
+F 2 "sense_rev3_fp:C_0805" H 3538 6600 30  0001 C CNN
+F 3 "" H 3500 6750 60  0000 C CNN
+	1    3500 6750
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C7
+U 1 1 5A211C37
+P 1250 4700
+F 0 "C7" H 1050 4700 50  0000 L CNN
+F 1 "1uF" H 1275 4600 50  0000 L CNN
+F 2 "sense_rev3_fp:C_0805" H 1288 4550 30  0001 C CNN
+F 3 "" H 1250 4700 60  0000 C CNN
+	1    1250 4700
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR03
+U 1 1 5A212D3B
+P 3500 6950
+F 0 "#PWR03" H 3500 6700 50  0001 C CNN
+F 1 "GND" H 3500 6800 50  0000 C CNN
+F 2 "" H 3500 6950 60  0000 C CNN
+F 3 "" H 3500 6950 60  0000 C CNN
+	1    3500 6950
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C9
+U 1 1 5A212F3F
+P 3625 4750
+F 0 "C9" H 3425 4750 50  0000 L CNN
+F 1 "100nF" H 3650 4650 50  0000 L CNN
+F 2 "sense_rev3_fp:C_0805" H 3663 4600 30  0001 C CNN
+F 3 "" H 3625 4750 60  0000 C CNN
+	1    3625 4750
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C8
+U 1 1 5A213025
+P 3300 4750
+F 0 "C8" H 3100 4750 50  0000 L CNN
+F 1 "1uF" H 3325 4650 50  0000 L CNN
+F 2 "sense_rev3_fp:C_0805" H 3338 4600 30  0001 C CNN
+F 3 "" H 3300 4750 60  0000 C CNN
+	1    3300 4750
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR04
+U 1 1 5A2137C0
+P 1250 4900
+F 0 "#PWR04" H 1250 4650 50  0001 C CNN
+F 1 "GND" H 1250 4750 50  0000 C CNN
+F 2 "" H 1250 4900 60  0000 C CNN
+F 3 "" H 1250 4900 60  0000 C CNN
+	1    1250 4900
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR05
+U 1 1 5A213BC3
+P 3300 3450
+F 0 "#PWR05" H 3300 3200 50  0001 C CNN
+F 1 "GND" H 3300 3300 50  0000 C CNN
+F 2 "" H 3300 3450 60  0000 C CNN
+F 3 "" H 3300 3450 60  0000 C CNN
+	1    3300 3450
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR06
+U 1 1 5A213D3E
+P 3625 5000
+F 0 "#PWR06" H 3625 4750 50  0001 C CNN
+F 1 "GND" H 3625 4850 50  0000 C CNN
+F 2 "" H 3625 5000 60  0000 C CNN
+F 3 "" H 3625 5000 60  0000 C CNN
+	1    3625 5000
+	1    0    0    -1  
+$EndComp
+NoConn ~ 4000 3650
+NoConn ~ 6400 4150
+NoConn ~ 6400 3050
+NoConn ~ 6400 3150
+Text Label 6900 3950 2    60   ~ 0
+TX
+Text Label 6900 3750 2    60   ~ 0
+SWDIO
+Text Label 6900 3650 2    60   ~ 0
+SWDCLK
+Text Label 6900 3850 2    60   ~ 0
+RESET
+Text Label 6900 3350 2    60   ~ 0
+RX
+Text Label 6900 3550 2    60   ~ 0
+GPIO1
+Text Label 6900 3450 2    60   ~ 0
+GPIO2
+Text Label 4700 5900 1    60   ~ 0
+LFCLK_XL1
+Text Label 4800 5900 1    60   ~ 0
+LFCLK_XL2
+Text Label 3700 4350 0    60   ~ 0
+DEC4
+Text Label 3700 4450 0    60   ~ 0
+DCC
+$Comp
+L VDD #PWR07
+U 1 1 5A218D07
+P 3150 4250
+F 0 "#PWR07" H 3150 4100 50  0001 C CNN
+F 1 "VDD" H 3150 4400 50  0000 C CNN
+F 2 "" H 3150 4250 60  0000 C CNN
+F 3 "" H 3150 4250 60  0000 C CNN
+	1    3150 4250
+	1    0    0    -1  
+$EndComp
+Text Label 2450 4275 2    60   ~ 0
+DEC4
+Text Label 2450 4450 2    60   ~ 0
+DCC
+$Comp
+L VDD #PWR08
+U 1 1 5A219E23
+P 1250 6350
+F 0 "#PWR08" H 1250 6200 50  0001 C CNN
+F 1 "VDD" H 1250 6500 50  0000 C CNN
+F 2 "" H 1250 6350 60  0000 C CNN
+F 3 "" H 1250 6350 60  0000 C CNN
+	1    1250 6350
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR09
+U 1 1 5A21A077
+P 1950 6950
+F 0 "#PWR09" H 1950 6700 50  0001 C CNN
+F 1 "GND" H 1950 6800 50  0000 C CNN
+F 2 "" H 1950 6950 60  0000 C CNN
+F 3 "" H 1950 6950 60  0000 C CNN
+	1    1950 6950
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR010
+U 1 1 5A21A3D8
+P 3300 5000
+F 0 "#PWR010" H 3300 4750 50  0001 C CNN
+F 1 "GND" H 3300 4850 50  0000 C CNN
+F 2 "" H 3300 5000 60  0000 C CNN
+F 3 "" H 3300 5000 60  0000 C CNN
+	1    3300 5000
+	1    0    0    -1  
+$EndComp
+Text Label 1400 6300 0    60   ~ 0
+TX
+Text Label 1400 6600 0    60   ~ 0
+SWDIO
+Text Label 1400 6500 0    60   ~ 0
+RESET
+Text Label 2500 6300 2    60   ~ 0
+RX
+Text Label 2500 6600 2    60   ~ 0
+SWDCLK
+Text Label 2500 6500 2    60   ~ 0
+GPIO1
+Text Label 2500 6400 2    60   ~ 0
+GPIO2
+$Comp
+L VDD #PWR011
+U 1 1 5A21C35E
+P 2800 1150
+F 0 "#PWR011" H 2800 1000 50  0001 C CNN
+F 1 "VDD" H 2800 1300 50  0000 C CNN
+F 2 "" H 2800 1150 60  0000 C CNN
+F 3 "" H 2800 1150 60  0000 C CNN
+	1    2800 1150
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR012
+U 1 1 5A21C655
+P 1200 1950
+F 0 "#PWR012" H 1200 1700 50  0001 C CNN
+F 1 "GND" H 1200 1800 50  0000 C CNN
+F 2 "" H 1200 1950 60  0000 C CNN
+F 3 "" H 1200 1950 60  0000 C CNN
+	1    1200 1950
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C3
+U 1 1 5A21CCE3
+P 7825 4950
+F 0 "C3" V 7975 4950 50  0000 L CNN
+F 1 "10uF" V 7675 4950 50  0000 L CNN
+F 2 "sense_rev3_fp:C_0805" H 7863 4800 30  0001 C CNN
+F 3 "" H 7825 4950 60  0000 C CNN
+	1    7825 4950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L C C2
+U 1 1 5A21CDA0
+P 9025 2750
+F 0 "C2" V 9150 2700 50  0000 L CNN
+F 1 "6.8nF" V 8900 2650 50  0000 L CNN
+F 2 "sense_rev3_fp:C_0805" H 9063 2600 30  0001 C CNN
+F 3 "" H 9025 2750 60  0000 C CNN
+	1    9025 2750
+	0    -1   -1   0   
+$EndComp
+$Comp
+L R R5
+U 1 1 5A21CE60
+P 8275 4950
+F 0 "R5" V 8355 4950 50  0000 C CNN
+F 1 "47k" V 8275 4950 50  0000 C CNN
+F 2 "sense_rev3_fp:R_0805" V 8205 4950 30  0001 C CNN
+F 3 "" H 8275 4950 30  0000 C CNN
+	1    8275 4950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L R R3
+U 1 1 5A21CF00
+P 9025 3050
+F 0 "R3" V 9125 3050 50  0000 C CNN
+F 1 "1M5" V 9025 3050 50  0000 C CNN
+F 2 "sense_rev3_fp:R_0805" V 8955 3050 30  0001 C CNN
+F 3 "" H 9025 3050 30  0000 C CNN
+	1    9025 3050
+	0    -1   -1   0   
+$EndComp
+$Comp
+L C C4
+U 1 1 5A21D760
+P 8025 4050
+F 0 "C4" H 7825 4050 50  0000 L CNN
+F 1 "10uF" H 8050 3950 50  0000 L CNN
+F 2 "sense_rev3_fp:C_0805" H 8063 3900 30  0001 C CNN
+F 3 "" H 8025 4050 60  0000 C CNN
+	1    8025 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R4
+U 1 1 5A21D803
+P 8175 3800
+F 0 "R4" V 8255 3800 50  0000 C CNN
+F 1 "47k" V 8175 3800 50  0000 C CNN
+F 2 "sense_rev3_fp:R_0805" V 8105 3800 30  0001 C CNN
+F 3 "" H 8175 3800 30  0000 C CNN
+	1    8175 3800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L D D1
+U 1 1 5A21D9C9
+P 9025 2400
+F 0 "D1" H 9025 2300 50  0000 C CNN
+F 1 "1N4148" H 9025 2500 50  0000 C CNN
+F 2 "sense_rev3_fp:D_MiniMELF" H 9025 2400 50  0001 C CNN
+F 3 "" H 9025 2400 50  0001 C CNN
+	1    9025 2400
+	-1   0    0    1   
+$EndComp
+$Comp
+L C C1
+U 1 1 5A21DE79
+P 2800 1500
+F 0 "C1" H 2600 1500 50  0000 L CNN
+F 1 "10uF" H 2825 1400 50  0000 L CNN
+F 2 "sense_rev3_fp:C_0805" H 2838 1350 30  0001 C CNN
+F 3 "" H 2800 1500 60  0000 C CNN
+	1    2800 1500
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R8
+U 1 1 5A2205E0
+P 10200 1550
+F 0 "R8" H 10325 1550 50  0000 C CNN
+F 1 "47k" V 10200 1550 50  0000 C CNN
+F 2 "sense_rev3_fp:R_0805" V 10130 1550 30  0001 C CNN
+F 3 "" H 10200 1550 30  0000 C CNN
+	1    10200 1550
+	-1   0    0    1   
+$EndComp
+$Comp
+L GND #PWR013
+U 1 1 5A220663
+P 10200 1900
+F 0 "#PWR013" H 10200 1650 50  0001 C CNN
+F 1 "GND" H 10200 1750 50  0000 C CNN
+F 2 "" H 10200 1900 60  0000 C CNN
+F 3 "" H 10200 1900 60  0000 C CNN
+	1    10200 1900
+	1    0    0    -1  
+$EndComp
+Text Label 10100 1150 2    60   ~ 0
+PIR_OUT
+Text Label 7975 3500 0    60   ~ 0
+PIR_OUT
+$Comp
+L R R2
+U 1 1 5A222B11
+P 7150 1700
+F 0 "R2" H 7250 1700 50  0000 C CNN
+F 1 "47k" V 7150 1700 50  0000 C CNN
+F 2 "sense_rev3_fp:R_0805" V 7080 1700 30  0001 C CNN
+F 3 "" H 7150 1700 30  0000 C CNN
+	1    7150 1700
+	1    0    0    -1  
+$EndComp
+Text Label 7650 1450 2    60   ~ 0
+AMP_REF
+$Comp
+L R R6
+U 1 1 5A223821
+P 9925 4800
+F 0 "R6" V 9825 4800 50  0000 C CNN
+F 1 "47k" V 9925 4800 50  0000 C CNN
+F 2 "sense_rev3_fp:R_0805" V 9855 4800 30  0001 C CNN
+F 3 "" H 9925 4800 30  0000 C CNN
+	1    9925 4800
+	0    1    1    0   
+$EndComp
+$Comp
+L C C5
+U 1 1 5A2238C2
+P 9025 5650
+F 0 "C5" V 8875 5600 50  0000 L CNN
+F 1 "6.8nF" V 9175 5500 50  0000 L CNN
+F 2 "sense_rev3_fp:C_0805" H 9063 5500 30  0001 C CNN
+F 3 "" H 9025 5650 60  0000 C CNN
+	1    9025 5650
+	0    1    1    0   
+$EndComp
+Text Label 7975 4650 0    60   ~ 0
+AMP_REF
+Text Label 10775 4800 2    60   ~ 0
+AMP_SIGNAL
+$Comp
+L LED_BRG D2
+U 1 1 5A23332F
+P 4525 1400
+F 0 "D2" H 4525 1770 50  0000 C CNN
+F 1 "LED_BRG" H 4525 1050 50  0000 C CNN
+F 2 "sense_rev3_fp:LED_RGB_5050-6" H 4525 1350 50  0001 C CNN
+F 3 "" H 4525 1350 50  0001 C CNN
+	1    4525 1400
+	1    0    0    -1  
+$EndComp
+Text Label 3500 5950 3    60   ~ 0
+LFCLK_XL1
+Text Label 3900 5950 3    60   ~ 0
+LFCLK_XL2
+$Comp
+L VDD #PWR014
+U 1 1 5A234A17
+P 7150 1000
+F 0 "#PWR014" H 7150 850 50  0001 C CNN
+F 1 "VDD" H 7150 1150 50  0000 C CNN
+F 2 "" H 7150 1000 60  0000 C CNN
+F 3 "" H 7150 1000 60  0000 C CNN
+	1    7150 1000
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR015
+U 1 1 5A234EFC
+P 7150 1900
+F 0 "#PWR015" H 7150 1650 50  0001 C CNN
+F 1 "GND" H 7150 1750 50  0000 C CNN
+F 2 "" H 7150 1900 60  0000 C CNN
+F 3 "" H 7150 1900 60  0000 C CNN
+	1    7150 1900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Crystal Y1
+U 1 1 5A2363CB
+P 3700 6500
+F 0 "Y1" H 3700 6650 50  0000 C CNN
+F 1 "Crystal" H 3700 6350 50  0000 C CNN
+F 2 "sense_rev3_fp:Crystal_C38-LF_d3.0mm_l8.0mm_Horizontal" H 3700 6500 50  0001 C CNN
+F 3 "" H 3700 6500 50  0000 C CNN
+	1    3700 6500
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C14
+U 1 1 5A23770A
+P 10500 1550
+F 0 "C14" H 10250 1550 50  0000 L CNN
+F 1 "100nF" H 10250 1675 50  0000 L CNN
+F 2 "sense_rev3_fp:C_0805" H 10538 1400 30  0001 C CNN
+F 3 "" H 10500 1550 60  0000 C CNN
+	1    10500 1550
+	-1   0    0    1   
+$EndComp
+Text Label 3300 3850 0    60   ~ 0
+LED_BLUE
+Text Label 3300 3950 0    60   ~ 0
+LED_RED
+Text Label 3300 4050 0    60   ~ 0
+LED_GREEN
+NoConn ~ 4900 5300
+Text Label 6125 1200 2    60   ~ 0
+LED_BLUE
+Text Label 6125 1400 2    60   ~ 0
+LED_RED
+Text Label 6125 1600 2    60   ~ 0
+LED_GREEN
+$Comp
+L R R9
+U 1 1 5A23BA09
+P 5375 1200
+F 0 "R9" V 5300 1200 50  0000 C CNN
+F 1 "22E" V 5375 1200 50  0000 C CNN
+F 2 "sense_rev3_fp:R_0805" V 5305 1200 30  0001 C CNN
+F 3 "" H 5375 1200 30  0000 C CNN
+	1    5375 1200
+	0    1    1    0   
+$EndComp
+$Comp
+L R R10
+U 1 1 5A23BAC1
+P 5375 1400
+F 0 "R10" V 5300 1400 50  0000 C CNN
+F 1 "82E" V 5375 1400 50  0000 C CNN
+F 2 "sense_rev3_fp:R_0805" V 5305 1400 30  0001 C CNN
+F 3 "" H 5375 1400 30  0000 C CNN
+	1    5375 1400
+	0    1    1    0   
+$EndComp
+$Comp
+L R R11
+U 1 1 5A23BB57
+P 5375 1600
+F 0 "R11" V 5300 1600 50  0000 C CNN
+F 1 "22E" V 5375 1600 50  0000 C CNN
+F 2 "sense_rev3_fp:R_0805" V 5305 1600 30  0001 C CNN
+F 3 "" H 5375 1600 30  0000 C CNN
+	1    5375 1600
+	0    1    1    0   
+$EndComp
+$Comp
+L GND #PWR016
+U 1 1 5A23C4BB
+P 4225 1700
+F 0 "#PWR016" H 4225 1450 50  0001 C CNN
+F 1 "GND" H 4225 1550 50  0000 C CNN
+F 2 "" H 4225 1700 60  0000 C CNN
+F 3 "" H 4225 1700 60  0000 C CNN
+	1    4225 1700
+	1    0    0    -1  
+$EndComp
+Text Label 3300 3750 0    60   ~ 0
+BUTTON
+$Comp
+L SW_SPST SW1
+U 1 1 5A23E5B4
+P 1550 2900
+F 0 "SW1" H 1550 3025 50  0000 C CNN
+F 1 "SW_SPST" H 1550 2800 50  0000 C CNN
+F 2 "sense_rev3_fp:Molex_KK-6410-02_02x2.54mm_Straight" H 1550 2900 50  0001 C CNN
+F 3 "" H 1550 2900 50  0001 C CNN
+	1    1550 2900
+	1    0    0    -1  
+$EndComp
+Text Label 2100 2900 2    60   ~ 0
+BUTTON
+$Comp
+L GND #PWR017
+U 1 1 5A23F3DD
+P 1250 3150
+F 0 "#PWR017" H 1250 2900 50  0001 C CNN
+F 1 "GND" H 1250 3000 50  0000 C CNN
+F 2 "" H 1250 3150 60  0000 C CNN
+F 3 "" H 1250 3150 60  0000 C CNN
+	1    1250 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L TLV8802 U1
+U 1 1 5A241BD0
+P 9025 4150
+F 0 "U1" H 9025 4950 60  0000 C CNN
+F 1 "TLV8802" H 9025 3900 60  0000 C CNN
+F 2 "sense_rev3_fp:SSOP-8_2.95x2.8mm_Pitch0.65mm" H 9375 4450 60  0001 C CNN
+F 3 "" H 9375 4450 60  0001 C CNN
+	1    9025 4150
+	1    0    0    -1  
+$EndComp
+Connection ~ 3900 6500
+Connection ~ 3500 6500
+Connection ~ 10175 4800
+Wire Wire Line
+	10175 4800 10175 4900
+Wire Wire Line
+	10075 4800 10775 4800
+Wire Wire Line
+	7150 1400 7150 1550
+Wire Wire Line
+	10200 1400 10200 1150
+Wire Wire Line
+	9600 1850 10500 1850
+Wire Wire Line
+	9600 1850 9600 1650
+Wire Wire Line
+	10200 1700 10200 1900
+Wire Wire Line
+	9600 1150 10500 1150
+Connection ~ 2050 1950
+Wire Wire Line
+	2800 1950 2800 1650
+Wire Wire Line
+	2050 1500 2050 1950
+Wire Wire Line
+	1200 1650 1200 1950
+Wire Wire Line
+	1200 1200 1850 1200
+Wire Wire Line
+	1200 1350 1200 1200
+Wire Wire Line
+	2450 4450 2300 4450
+Connection ~ 1250 4450
+Wire Wire Line
+	1250 4275 1250 4550
+Wire Wire Line
+	1250 4275 2450 4275
+Wire Wire Line
+	4000 4450 3700 4450
+Wire Wire Line
+	4700 5300 4700 5900
+Wire Wire Line
+	4800 5300 4800 5900
+Wire Wire Line
+	6400 3950 6900 3950
+Wire Wire Line
+	6400 3850 6900 3850
+Wire Wire Line
+	6400 3550 6900 3550
+Wire Wire Line
+	6400 3450 6900 3450
+Wire Wire Line
+	6400 3350 6900 3350
+Connection ~ 3300 3400
+Wire Wire Line
+	3300 3400 4000 3400
+Connection ~ 3300 3300
+Wire Wire Line
+	3300 3300 4000 3300
+Connection ~ 3300 3200
+Wire Wire Line
+	3300 3200 4000 3200
+Wire Wire Line
+	3300 3100 3300 3450
+Wire Wire Line
+	3300 3100 4000 3100
+Wire Wire Line
+	3625 4900 3625 5000
+Wire Wire Line
+	3300 4900 3300 5000
+Wire Wire Line
+	3900 5950 3900 6600
+Wire Wire Line
+	3500 5950 3500 6600
+Wire Wire Line
+	1200 1950 2800 1950
+Wire Wire Line
+	7150 1450 7650 1450
+Wire Wire Line
+	3550 6500 3500 6500
+Wire Wire Line
+	3850 6500 3900 6500
+Connection ~ 10200 1850
+Wire Wire Line
+	10500 1850 10500 1700
+Wire Wire Line
+	10500 1150 10500 1400
+Connection ~ 10200 1150
+Wire Wire Line
+	3300 3850 4000 3850
+Wire Wire Line
+	4000 3950 3300 3950
+Wire Wire Line
+	3300 4050 4000 4050
+Wire Wire Line
+	6125 1600 5525 1600
+Wire Wire Line
+	5225 1600 4725 1600
+Wire Wire Line
+	4725 1400 5225 1400
+Wire Wire Line
+	5525 1400 6125 1400
+Wire Wire Line
+	6125 1200 5525 1200
+Wire Wire Line
+	5225 1200 4725 1200
+Wire Wire Line
+	4325 1200 4225 1200
+Wire Wire Line
+	4225 1200 4225 1700
+Wire Wire Line
+	4325 1600 4225 1600
+Connection ~ 4225 1600
+Wire Wire Line
+	4325 1400 4225 1400
+Connection ~ 4225 1400
+Wire Wire Line
+	1250 3150 1250 2900
+Wire Wire Line
+	1250 2900 1350 2900
+Wire Wire Line
+	1750 2900 2100 2900
+Wire Wire Line
+	9625 2400 9625 3650
+Wire Wire Line
+	8425 2400 8425 3800
+Wire Wire Line
+	9625 3050 9175 3050
+Wire Wire Line
+	8425 3050 8875 3050
+Wire Wire Line
+	8875 2750 8425 2750
+Connection ~ 8425 2750
+Wire Wire Line
+	8875 2400 8425 2400
+Connection ~ 8425 2400
+Wire Wire Line
+	9175 2750 9625 2750
+Connection ~ 9625 2750
+Wire Wire Line
+	9175 2400 9625 2400
+Connection ~ 9625 2400
+$Comp
+L VDD #PWR018
+U 1 1 5A24753C
+P 9175 4500
+F 0 "#PWR018" H 9175 4350 50  0001 C CNN
+F 1 "VDD" H 9075 4550 50  0000 C CNN
+F 2 "" H 9175 4500 60  0000 C CNN
+F 3 "" H 9175 4500 60  0000 C CNN
+	1    9175 4500
+	-1   0    0    1   
+$EndComp
+$Comp
+L GND #PWR019
+U 1 1 5A248322
+P 8025 4250
+F 0 "#PWR019" H 8025 4000 50  0001 C CNN
+F 1 "GND" H 8025 4100 50  0000 C CNN
+F 2 "" H 8025 4250 60  0000 C CNN
+F 3 "" H 8025 4250 60  0000 C CNN
+	1    8025 4250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9625 4800 9625 5650
+Wire Wire Line
+	8525 5650 8875 5650
+Wire Wire Line
+	9175 5350 9625 5350
+Connection ~ 9625 5350
+Wire Wire Line
+	1250 4900 1250 4850
+Wire Wire Line
+	2800 1150 2800 1350
+Wire Wire Line
+	2250 1200 2800 1200
+Connection ~ 2800 1200
+Wire Wire Line
+	3500 6900 3500 6950
+Wire Wire Line
+	3900 6900 3900 6950
+Wire Wire Line
+	7150 1000 7150 1100
+Wire Wire Line
+	10200 900  10200 950 
+Wire Wire Line
+	10200 950  9600 950 
+Wire Wire Line
+	3150 4550 4000 4550
+Connection ~ 3625 4550
+Wire Wire Line
+	4000 4350 3700 4350
+Wire Wire Line
+	1800 4450 1750 4450
+$Comp
+L GND #PWR020
+U 1 1 5A254526
+P 10175 5350
+F 0 "#PWR020" H 10175 5100 50  0001 C CNN
+F 1 "GND" H 10175 5200 50  0000 C CNN
+F 2 "" H 10175 5350 60  0000 C CNN
+F 3 "" H 10175 5350 60  0000 C CNN
+	1    10175 5350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10175 5200 10175 5350
+Connection ~ 8425 3050
+Wire Wire Line
+	9525 3650 9925 3650
+Connection ~ 9625 3050
+Wire Wire Line
+	7975 4650 8575 4650
+Wire Wire Line
+	9525 4800 9775 4800
+Wire Wire Line
+	9175 4500 9025 4500
+$Comp
+L GND #PWR021
+U 1 1 5A259C3E
+P 9025 4000
+F 0 "#PWR021" H 9025 3750 50  0001 C CNN
+F 1 "GND" H 9025 3850 50  0000 C CNN
+F 2 "" H 9025 4000 60  0000 C CNN
+F 3 "" H 9025 4000 60  0000 C CNN
+	1    9025 4000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9025 4000 9025 3950
+Wire Wire Line
+	8325 3800 8575 3800
+Wire Wire Line
+	7975 3500 8575 3500
+Connection ~ 8425 3800
+Wire Wire Line
+	8025 3900 8025 3800
+Wire Wire Line
+	8025 4200 8025 4250
+Connection ~ 9625 4800
+$Comp
+L R R12
+U 1 1 5A25C9B7
+P 9925 5650
+F 0 "R12" V 10005 5650 50  0000 C CNN
+F 1 "47k" V 9925 5650 50  0000 C CNN
+F 2 "sense_rev3_fp:R_0805" V 9855 5650 30  0001 C CNN
+F 3 "" H 9925 5650 30  0000 C CNN
+	1    9925 5650
+	0    1    1    0   
+$EndComp
+$Comp
+L C C12
+U 1 1 5A25CD09
+P 10175 6000
+F 0 "C12" H 9925 6000 50  0000 L CNN
+F 1 "10uF" H 10200 5900 50  0000 L CNN
+F 2 "sense_rev3_fp:C_0805" H 10213 5850 30  0001 C CNN
+F 3 "" H 10175 6000 60  0000 C CNN
+	1    10175 6000
+	1    0    0    -1  
+$EndComp
+Text Label 10725 5650 2    60   ~ 0
+AMP_OFFSET
+Wire Wire Line
+	10075 5650 10725 5650
+Wire Wire Line
+	10175 5850 10175 5650
+Connection ~ 10175 5650
+$Comp
+L GND #PWR022
+U 1 1 5A25D079
+P 10175 6250
+F 0 "#PWR022" H 10175 6000 50  0001 C CNN
+F 1 "GND" H 10175 6100 50  0000 C CNN
+F 2 "" H 10175 6250 60  0000 C CNN
+F 3 "" H 10175 6250 60  0000 C CNN
+	1    10175 6250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10175 6150 10175 6250
+Text Label 9925 3650 2    60   ~ 0
+OUT_A
+Connection ~ 9625 3650
+Text Label 7375 4950 0    60   ~ 0
+OUT_A
+Wire Wire Line
+	7675 4950 7375 4950
+Wire Wire Line
+	7975 4950 8125 4950
+Wire Wire Line
+	8425 4950 8575 4950
+Wire Wire Line
+	8525 5350 8875 5350
+Wire Wire Line
+	8525 4950 8525 5650
+Connection ~ 8525 4950
+Connection ~ 8525 5350
+Wire Wire Line
+	9625 5650 9175 5650
+Wire Wire Line
+	9775 5650 9675 5650
+Wire Wire Line
+	9675 5650 9675 4800
+Connection ~ 9675 4800
+$Comp
+L Audio-Jack-4 J1
+U 1 1 5A24FF5A
+P 5500 6550
+F 0 "J1" H 5450 6630 50  0000 C CNN
+F 1 "Audio-Jack-4" H 5620 6180 50  0000 C CNN
+F 2 "sense_rev3_fp:Molex_KK-6410-04_04x2.54mm_Straight" H 5750 6650 50  0001 C CNN
+F 3 "" H 5750 6650 50  0001 C CNN
+	1    5500 6550
+	1    0    0    -1  
+$EndComp
+Text Label 6900 4550 2    60   ~ 0
+TRIGGER
+Text Label 6950 4350 2    60   ~ 0
+JACK_DETECT
+Text Label 6900 4450 2    60   ~ 0
+FOCUS
+$Comp
+L VDD #PWR023
+U 1 1 5A251102
+P 7100 3900
+F 0 "#PWR023" H 7100 3750 50  0001 C CNN
+F 1 "VDD" H 7100 4050 50  0000 C CNN
+F 2 "" H 7100 3900 60  0000 C CNN
+F 3 "" H 7100 3900 60  0000 C CNN
+	1    7100 3900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7100 4350 7100 4250
+Text Label 6300 6650 2    60   ~ 0
+JACK_DETECT
+Text Label 6300 6750 2    60   ~ 0
+FOCUS
+Text Label 6300 6550 2    60   ~ 0
+TRIGGER
+$Comp
+L GND #PWR024
+U 1 1 5A251FE5
+P 6300 6950
+F 0 "#PWR024" H 6300 6700 50  0001 C CNN
+F 1 "GND" H 6300 6800 50  0000 C CNN
+F 2 "" H 6300 6950 60  0000 C CNN
+F 3 "" H 6300 6950 60  0000 C CNN
+	1    6300 6950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6300 6950 5300 6950
+Wire Wire Line
+	5700 6750 6300 6750
+Wire Wire Line
+	6300 6650 5700 6650
+Wire Wire Line
+	5700 6550 6300 6550
+$Comp
+L R R13
+U 1 1 5A25300C
+P 7100 4100
+F 0 "R13" V 7180 4100 50  0000 C CNN
+F 1 "390E" V 7100 4100 50  0000 C CNN
+F 2 "sense_rev3_fp:R_0805" V 7030 4100 30  0001 C CNN
+F 3 "" H 7100 4100 30  0000 C CNN
+	1    7100 4100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7100 3900 7100 3950
+Text Label 4775 1600 0    60   ~ 0
+LED_SENSE
+Text Label 3300 4150 0    60   ~ 0
+LED_SENSE
+Wire Wire Line
+	3300 4150 4000 4150
+Text Label 10775 4800 2    60   ~ 0
+AMP_SIGNAL
+Text Label 5200 5900 1    60   ~ 0
+AMP_SIGNAL
+Text Label 5100 5900 1    60   ~ 0
+AMP_OFFSET
+Wire Wire Line
+	5100 5300 5100 5900
+NoConn ~ 6400 4050
+NoConn ~ 6400 3250
+$Comp
+L Mounting_Hole MK1
+U 1 1 5A25B0C9
+P 5000 7550
+F 0 "MK1" H 5000 7750 50  0000 C CNN
+F 1 "Mounting_Hole1" H 5000 7675 50  0000 C CNN
+F 2 "sense_rev3_fp:MountingHole_3.2mm_M3" H 5000 7550 50  0001 C CNN
+F 3 "" H 5000 7550 50  0001 C CNN
+	1    5000 7550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mounting_Hole MK2
+U 1 1 5A25B228
+P 5550 7550
+F 0 "MK2" H 5550 7750 50  0000 C CNN
+F 1 "Mounting_Hole2" H 5550 7675 50  0000 C CNN
+F 2 "sense_rev3_fp:MountingHole_3.2mm_M3" H 5550 7550 50  0001 C CNN
+F 3 "" H 5550 7550 50  0001 C CNN
+	1    5550 7550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mounting_Hole MK3
+U 1 1 5A25B2C9
+P 6100 7550
+F 0 "MK3" H 6100 7750 50  0000 C CNN
+F 1 "Mounting_Hole3" H 6100 7675 50  0000 C CNN
+F 2 "sense_rev3_fp:MountingHole_3.2mm_M3" H 6100 7550 50  0001 C CNN
+F 3 "" H 6100 7550 50  0001 C CNN
+	1    6100 7550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mounting_Hole MK4
+U 1 1 5A25B36D
+P 6650 7550
+F 0 "MK4" H 6650 7750 50  0000 C CNN
+F 1 "Mounting_Hole4" H 6650 7675 50  0000 C CNN
+F 2 "sense_rev3_fp:MountingHole_3.2mm_M3" H 6650 7550 50  0001 C CNN
+F 3 "" H 6650 7550 50  0001 C CNN
+	1    6650 7550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3150 4250 4000 4250
+Wire Wire Line
+	3300 3750 4000 3750
+Wire Wire Line
+	5200 5900 5200 5300
+NoConn ~ 5000 5300
+Wire Wire Line
+	6900 3650 6400 3650
+Wire Wire Line
+	6400 3750 6900 3750
+Wire Wire Line
+	6400 4550 6900 4550
+Wire Wire Line
+	6900 4450 6400 4450
+Wire Wire Line
+	6400 4350 7100 4350
+NoConn ~ 6400 4250
+NoConn ~ 5700 5300
+NoConn ~ 5600 5300
+NoConn ~ 5500 5300
+NoConn ~ 5400 5300
+NoConn ~ 5300 5300
+Wire Wire Line
+	1700 6700 1600 6700
+Wire Wire Line
+	1600 6700 1600 6950
+Wire Wire Line
+	1600 6950 2300 6950
+Wire Wire Line
+	2200 6700 2300 6700
+Wire Wire Line
+	2300 6700 2300 6950
+Connection ~ 1950 6950
+Wire Wire Line
+	2500 6600 2200 6600
+Wire Wire Line
+	2200 6500 2500 6500
+Wire Wire Line
+	2500 6400 2200 6400
+Wire Wire Line
+	2200 6300 2500 6300
+Wire Wire Line
+	1400 6300 1700 6300
+Wire Wire Line
+	1250 6350 1250 6400
+Wire Wire Line
+	1250 6400 1700 6400
+Wire Wire Line
+	1700 6500 1400 6500
+Wire Wire Line
+	1400 6600 1700 6600
+Connection ~ 7150 1450
+Wire Wire Line
+	7150 1850 7150 1900
+$Comp
+L VDD #PWR025
+U 1 1 5A299248
+P 3150 4500
+F 0 "#PWR025" H 3150 4350 50  0001 C CNN
+F 1 "VDD" H 3150 4650 50  0000 C CNN
+F 2 "" H 3150 4500 60  0000 C CNN
+F 3 "" H 3150 4500 60  0000 C CNN
+	1    3150 4500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3150 4500 3150 4550
+Connection ~ 3300 4550
+Wire Wire Line
+	3625 4550 3625 4600
+Wire Wire Line
+	3300 4550 3300 4600
+$Comp
+L LOGO #G1
+U 1 1 5A2A9ADA
+P 7700 6875
+F 0 "#G1" H 7700 6677 60  0001 C CNN
+F 1 "LOGO" H 7700 7073 60  0001 C CNN
+F 2 "" H 7700 6875 60  0001 C CNN
+F 3 "" H 7700 6875 60  0001 C CNN
+	1    7700 6875
+	1    0    0    -1  
+$EndComp
+Text Notes 1425 1025 0    60   ~ 0
+Reverse polarity protection
+Text Notes 475  1600 0    60   ~ 0
+Two 1.2 Volts\nAA Batteries
+Text Notes 1250 2725 0    60   ~ 0
+Button is a momentary\npush button for switching\nto config mode.
+Text Notes 1250 4175 0    60   ~ 0
+To use the Internal\nDC/DC regulator\nwe need an LC filter
+Text Notes 1575 6125 0    60   ~ 0
+For programming\nand debugging\nthe nRF controller
+Text Notes 3500 5925 0    60   ~ 0
+Low freq.\nCrystal\n32.768 kHz
+Text Notes 5300 6425 0    60   ~ 0
+Audio Jack to connect\nwith DSLR Camera and\ntrigger it
+Text Notes 7425 5650 0    60   ~ 0
+Band Pass filter with\nTotal cut-off freq. :\nlow  = 0.217Hz\nhigh = 10.039Hz
+Text Notes 7400 3050 0    60   ~ 0
+Band Pass filter with\nStage cut-off freq. :\nlow = 0.338Hz\nhigh = 15.603Hz
+Text Notes 10475 5200 0    60   ~ 0
+Since TLV8802\ncan't drive\ncapacitive \nloads directly
+Text Notes 10475 6125 0    60   ~ 0
+RC low pass\nfilter with cut\noff at 0.338 Hz.\nTo get the DC\noffset
+Text Notes 8250 2250 0    60   ~ 0
+Diode to shorten the startup time
+Text Notes 7350 1275 0    60   ~ 0
+Voltage divider to\ngenerate 1.2V ref\nfor the op-amp
+Text Notes 4650 1000 0    60   ~ 0
+LED to indicate changes\nin sensor configuration\n
+Text Notes 4225 2225 0    60   ~ 0
+Two AA batteries do not provide\nenough voltage for Blue and Green LEDs.\nTO BE FIXED IN NEXT VERSION.
+$EndSCHEMATC

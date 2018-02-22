@@ -108,7 +108,7 @@ U 1 1 5A8689DA
 P 2300 1250
 F 0 "C1" H 2325 1350 50  0000 L CNN
 F 1 "10uF" H 2325 1150 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603_HandSoldering" H 2338 1100 30  0001 C CNN
+F 2 "Capacitors_SMD:C_0805_HandSoldering" H 2338 1100 30  0001 C CNN
 F 3 "" H 2300 1250 60  0000 C CNN
 	1    2300 1250
 	1    0    0    -1  
@@ -347,12 +347,12 @@ $EndComp
 $Comp
 L GND #PWR012
 U 1 1 5A870E1C
-P 2150 7250
-F 0 "#PWR012" H 2150 7000 50  0001 C CNN
-F 1 "GND" H 2150 7100 50  0000 C CNN
-F 2 "" H 2150 7250 60  0000 C CNN
-F 3 "" H 2150 7250 60  0000 C CNN
-	1    2150 7250
+P 1500 7400
+F 0 "#PWR012" H 1500 7150 50  0001 C CNN
+F 1 "GND" H 1500 7250 50  0000 C CNN
+F 2 "" H 1500 7400 60  0000 C CNN
+F 3 "" H 1500 7400 60  0000 C CNN
+	1    1500 7400
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -454,12 +454,11 @@ F 3 "" H 3150 3250 60  0000 C CNN
 	1    3150 3250
 	1    0    0    -1  
 $EndComp
-NoConn ~ 4000 3550
+NoConn ~ 4000 3850
 NoConn ~ 4900 5100
 NoConn ~ 5000 5100
 NoConn ~ 5600 5100
 NoConn ~ 5700 5100
-NoConn ~ 6400 3450
 NoConn ~ 6400 3950
 NoConn ~ 6400 3850
 NoConn ~ 6400 2850
@@ -467,9 +466,9 @@ NoConn ~ 6400 2950
 NoConn ~ 6400 3050
 Text Label 3550 3450 0    60   ~ 0
 BUTTON
-Text Label 3550 3850 0    60   ~ 0
+Text Label 3550 3550 0    60   ~ 0
 LED_RED
-Text Label 3550 3950 0    60   ~ 0
+Text Label 3550 3650 0    60   ~ 0
 LED_GREEN
 Text Label 3550 3750 0    60   ~ 0
 LED_SENSE
@@ -477,9 +476,9 @@ Text Label 3550 4150 0    60   ~ 0
 DEC4
 Text Label 3550 4250 0    60   ~ 0
 DCC
-Text Label 7050 3550 2    60   ~ 0
+Text Label 7000 4150 2    60   ~ 0
 TRIGGER
-Text Label 7050 3650 2    60   ~ 0
+Text Label 7000 4250 2    60   ~ 0
 FOCUS
 Text Label 7050 3150 2    60   ~ 0
 SWDIO
@@ -487,13 +486,13 @@ Text Label 7050 3250 2    60   ~ 0
 SWDCLK
 Text Label 7050 3350 2    60   ~ 0
 RESET
-Text Label 7000 4050 2    60   ~ 0
+Text Label 7050 3750 2    60   ~ 0
 RX
-Text Label 7000 4150 2    60   ~ 0
+Text Label 7050 3450 2    60   ~ 0
 TX
-Text Label 7000 4250 2    60   ~ 0
+Text Label 7050 3550 2    60   ~ 0
 GPIO1
-Text Label 7000 4350 2    60   ~ 0
+Text Label 7050 3650 2    60   ~ 0
 GPIO2
 $Comp
 L VDD #PWR021
@@ -518,7 +517,7 @@ Text Label 5200 5800 1    60   ~ 0
 AMP_OFFSET
 Text Label 5100 5800 1    60   ~ 0
 AMP_SIGNAL
-NoConn ~ 4000 3650
+NoConn ~ 4000 3950
 Text Label 3450 5950 3    60   ~ 0
 LFCLK_XL1
 Text Label 4050 5950 3    60   ~ 0
@@ -571,13 +570,13 @@ Text Label 950  6800 0    60   ~ 0
 SWDCLK
 Text Label 950  6900 0    60   ~ 0
 RESET
-Text Label 950  7000 0    60   ~ 0
-RX
-Text Label 950  7100 0    60   ~ 0
-TX
-Text Label 2050 7100 2    60   ~ 0
-GPIO1
 Text Label 2050 7000 2    60   ~ 0
+RX
+Text Label 2050 6700 2    60   ~ 0
+TX
+Text Label 2050 6900 2    60   ~ 0
+GPIO1
+Text Label 950  7000 0    60   ~ 0
 GPIO2
 $Comp
 L Audio-Jack-4 J1
@@ -595,12 +594,12 @@ LED_SENSE
 $Comp
 L VDD #PWR024
 U 1 1 5A8B4EEA
-P 2200 6600
-F 0 "#PWR024" H 2200 6450 50  0001 C CNN
-F 1 "VDD" H 2200 6750 50  0000 C CNN
-F 2 "" H 2200 6600 60  0000 C CNN
-F 3 "" H 2200 6600 60  0000 C CNN
-	1    2200 6600
+P 2150 6600
+F 0 "#PWR024" H 2150 6450 50  0001 C CNN
+F 1 "VDD" H 2150 6750 50  0000 C CNN
+F 2 "" H 2150 6600 60  0000 C CNN
+F 3 "" H 2150 6600 60  0000 C CNN
+	1    2150 6600
 	1    0    0    -1  
 $EndComp
 Text Label 6500 6450 2    60   ~ 0
@@ -620,7 +619,7 @@ F 3 "" H 10550 1450 60  0000 C CNN
 	1    10550 1450
 	1    0    0    -1  
 $EndComp
-Text Label 7050 3750 2    60   ~ 0
+Text Label 7000 4350 2    60   ~ 0
 AUDIO_JACK_IO
 $Comp
 L C C9
@@ -947,9 +946,9 @@ Text Label 5300 5800 1    60   ~ 0
 MCP4012T_U/d
 Text Label 5400 5800 1    60   ~ 0
 MCP4012T_CS
-Text Label 6350 5850 0    60   ~ 0
+Text Label 8500 5850 2    60   ~ 0
 MCP4012T_U/d
-Text Label 8400 5850 2    60   ~ 0
+Text Label 6350 5850 0    60   ~ 0
 MCP4012T_CS
 $Comp
 L LED_GREEN/RED D1
@@ -1116,8 +1115,6 @@ Connection ~ 3150 3200
 Wire Wire Line
 	4000 3750 3550 3750
 Wire Wire Line
-	3550 3850 4000 3850
-Wire Wire Line
 	3550 4250 4000 4250
 Wire Wire Line
 	4700 5800 4700 5100
@@ -1174,12 +1171,6 @@ Wire Wire Line
 Wire Wire Line
 	1750 7000 2050 7000
 Wire Wire Line
-	1750 6900 2150 6900
-Wire Wire Line
-	1750 6800 2150 6800
-Wire Wire Line
-	1750 6700 2200 6700
-Wire Wire Line
 	7000 4150 6400 4150
 Wire Wire Line
 	9800 1700 10800 1700
@@ -1199,7 +1190,7 @@ Wire Wire Line
 Wire Wire Line
 	8450 5250 8800 5250
 Wire Wire Line
-	7850 5850 8400 5850
+	7850 5850 8500 5850
 Wire Wire Line
 	10500 3550 10500 3600
 Connection ~ 10500 3600
@@ -1227,27 +1218,14 @@ Wire Wire Line
 Wire Wire Line
 	7700 3400 7800 3400
 Wire Wire Line
-	7850 5600 8400 5600
-Wire Wire Line
 	950  6800 1250 6800
 Wire Wire Line
-	1750 7100 2050 7100
-Wire Wire Line
-	1250 7100 950  7100
-Connection ~ 2150 6900
-Wire Wire Line
-	2150 6800 2150 7250
-Wire Wire Line
-	2200 6700 2200 6600
+	2150 6600 2150 6800
 Wire Wire Line
 	5100 5100 5100 5800
 NoConn ~ 5500 5100
 Wire Wire Line
 	3550 3450 4000 3450
-Wire Wire Line
-	4000 3950 3550 3950
-Wire Wire Line
-	6400 4050 7000 4050
 $Comp
 L R R12
 U 1 1 5A8D0E6E
@@ -1261,11 +1239,6 @@ F 3 "" H 8200 5150 30  0000 C CNN
 $EndComp
 Wire Wire Line
 	7850 4950 8200 4950
-Wire Wire Line
-	7850 5350 8200 5350
-Wire Wire Line
-	8400 5600 8400 4950
-Connection ~ 8400 4950
 Wire Wire Line
 	8400 4950 8800 4950
 $Comp
@@ -1288,15 +1261,10 @@ Wire Wire Line
 	10800 1700 10800 1500
 Connection ~ 10550 1700
 Wire Wire Line
-	8200 5350 8200 5300
-Wire Wire Line
 	8200 4950 8200 5000
 Wire Wire Line
 	8000 5000 8000 4950
 Connection ~ 8000 4950
-Wire Wire Line
-	8000 5300 8000 5350
-Connection ~ 8000 5350
 $Comp
 L C C15
 U 1 1 5A8D8A1C
@@ -1341,4 +1309,39 @@ Wire Wire Line
 Wire Wire Line
 	6850 5200 6850 5350
 Connection ~ 6850 5350
+Wire Wire Line
+	2150 6800 1750 6800
+Wire Wire Line
+	2050 6700 1750 6700
+Wire Wire Line
+	1750 6900 2050 6900
+Wire Wire Line
+	1100 7400 1900 7400
+Wire Wire Line
+	1100 7400 1100 7100
+Wire Wire Line
+	1900 7400 1900 7100
+Connection ~ 1500 7400
+Wire Wire Line
+	1100 7100 1250 7100
+Wire Wire Line
+	1900 7100 1750 7100
+Wire Wire Line
+	3550 3550 4000 3550
+Wire Wire Line
+	4000 3650 3550 3650
+Wire Wire Line
+	8400 5600 7850 5600
+Wire Wire Line
+	8400 4950 8400 5600
+Wire Wire Line
+	7850 5350 8200 5350
+Wire Wire Line
+	8200 5350 8200 5300
+Wire Wire Line
+	8000 5300 8000 5350
+Connection ~ 8000 5350
+NoConn ~ 6400 4050
+Wire Wire Line
+	6400 3450 7050 3450
 $EndSCHEMATC

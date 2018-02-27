@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name sense_rev4_sch)(type Legacy)(uri D:/Shubham_M/Appiko/GitHub/sense_snap_hw/sense_rev4/sense_rev4_sch/sense_rev4_sch.lib)(options "")(descr ""))
+  (lib (name sense_rev4-rescue)(type Legacy)(uri ${KIPRJMOD}/sense_rev4-rescue.lib)(options "")(descr ""))
+)

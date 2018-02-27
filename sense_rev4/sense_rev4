@@ -1,0 +1,58 @@
+Source,D:\Shubham_M\Appiko\GitHub\sense_snap_hw\sense_rev4\sense_rev4.sch
+Kicad Rev,Eeschema (5.0-dev-4140-g2e42d5c00)
+Generated Date,02/26/18 19:10:30
+
+Title,Not Set
+Company,Not Set
+Revision,Not Set
+Date Issue,Not Set
+
+Reference,Value,Library,Library Ref
+BT1,Battery,sense_rev3,Battery
+Y1,Crystal,sense_rev3,Crystal
+U1,MDBT42Q,sense_rev3,MDBT42Q
+U2,PIR,sense_rev3,PIR
+C1,10uF,sense_rev3,C
+U3,TLV8802,sense_rev4-rescue,TLV8802-RESCUE-sense_rev4
+SW1,SW_SPST,sense_rev3,SW_SPST
+MK1,Mounting_Hole,sense_rev3,Mounting_Hole
+P1,CONN_02X05,sense_rev3,CONN_02X05
+R3,1M5,sense_rev3,R
+MK2,Mounting_Hole,sense_rev3,Mounting_Hole
+MK3,Mounting_Hole,sense_rev3,Mounting_Hole
+MK4,Mounting_Hole,sense_rev3,Mounting_Hole
+L2,10nH,sense_rev3,INDUCTOR_SMALL
+D2,1N4148,device,D_ALT
+J1,Audio-Jack-4,sense_rev4-rescue,Audio-Jack-4-RESCUE-sense_rev4
+C11,100nF,sense_rev3,C
+C9,6.8nF,sense_rev3,C
+C8,22uF,sense_rev3,C
+C10,6.8nF,sense_rev3,C
+C7,22uF,sense_rev3,C
+C13,22uF,sense_rev3,C
+C12,100pF,sense_rev3,C
+C6,8pF,sense_rev3,C
+C4,8pF,sense_rev3,C
+C3,1uF,sense_rev3,C
+C5,100nF,sense_rev3,C
+C2,1uF,sense_rev3,C
+R4,1M5,sense_rev3,R
+R11,47k,sense_rev3,R
+R1,33E,sense_rev3,R
+R2,33E,sense_rev3,R
+R7,1M5,sense_rev3,R
+R6,33k,sense_rev3,R
+R8,1M5,sense_rev3,R
+R9,33k,sense_rev3,R
+R10,33k,sense_rev3,R
+L1,15nH,sense_rev3,INDUCTOR_SMALL
+Q1,Q_PMOS_DGS,sense_rev4-rescue,Q_PMOS_DGS-RESCUE-sense_rev4
+U4,MCP4012T-503E/CH,sense_rev4-rescue,MCP4012T-503E_CH-RESCUE-sense_rev4
+R5,33k,sense_rev3,R
+TP3,TEST,device,TEST
+TP1,TEST,device,TEST
+D1,LED_GREEN/RED,sense_rev4-rescue,LED_GREEN_RED-RESCUE-sense_rev4
+R12,33k,sense_rev3,R
+J2,Conn_01x02,conn,Conn_01x02
+C15,0.1uF,sense_rev3,C
+C14,0.1uF,sense_rev3,C

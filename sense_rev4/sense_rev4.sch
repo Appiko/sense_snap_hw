@@ -910,13 +910,13 @@ F 3 "" H 6200 5700 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Text Label 5300 5800 1    60   ~ 0
-MCP4012T_U/d
+MCP4012T_CS
 Text Label 5400 5800 1    60   ~ 0
-MCP4012T_CS
+MCP4012T_U\D
 Text Label 8500 5850 2    60   ~ 0
-MCP4012T_U/d
-Text Label 6350 5850 0    60   ~ 0
 MCP4012T_CS
+Text Label 6350 5850 0    60   ~ 0
+MCP4012T_U\D
 $Comp
 L sense_rev4-rescue:LED_GREEN_RED-RESCUE-sense_rev4-sense_rev4-rescue-sense_rev4-rescue-sense_rev4-rescue D1
 U 1 1 5A8E0998

@@ -1,71 +1,11 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
-# conn:Conn_01x02
+# sense_rev4-rescue_Audio-Jack-4-RESCUE-sense_rev4-sense_rev4-rescue-sense_rev4-rescue-sense_rev4-rescue
 #
-DEF conn:Conn_01x02 J 0 40 Y N 1 F N
-F0 "J" 0 100 50 H V C CNN
-F1 "conn:Conn_01x02" 0 -200 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-$FPLIST
- Connector*:*_??x*mm*
- Connector*:*1x??x*mm*
- Pin?Header?Straight?1X*
- Pin?Header?Angled?1X*
- Socket?Strip?Straight?1X*
- Socket?Strip?Angled?1X*
-$ENDFPLIST
-DRAW
-S -50 -95 0 -105 1 1 6 N
-S -50 5 0 -5 1 1 6 N
-S -50 50 50 -150 1 1 10 f
-X Pin_1 1 -200 0 150 R 50 50 1 1 P
-X Pin_2 2 -200 -100 150 R 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# device:D_ALT
-#
-DEF device:D_ALT D 0 40 N N 1 F N
-F0 "D" 0 100 50 H V C CNN
-F1 "device:D_ALT" 0 -100 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-$FPLIST
- TO-???*
- *SingleDiode
- *_Diode_*
- *SingleDiode*
- D_*
-$ENDFPLIST
-DRAW
-P 2 0 1 8 -50 50 -50 -50 N
-P 2 0 1 0 50 0 -50 0 N
-P 4 0 1 8 50 50 50 -50 -50 0 50 50 F
-X K 1 -150 0 100 R 50 50 1 1 P
-X A 2 150 0 100 L 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# device:TEST
-#
-DEF device:TEST TP 0 40 N N 1 F N
-F0 "TP" 0 300 50 H V C BNN
-F1 "device:TEST" 0 250 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-DRAW
-P 6 0 1 0 0 200 -50 150 0 100 50 150 0 200 0 200 N
-X ~ 1 0 0 100 U 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# sense_rev4-rescue:Audio-Jack-4-RESCUE-sense_rev4-sense_rev4-rescue-sense_rev4-rescue-sense_rev4-rescue
-#
-DEF sense_rev4-rescue:Audio-Jack-4-RESCUE-sense_rev4-sense_rev4-rescue-sense_rev4-rescue-sense_rev4-rescue J 0 40 Y Y 1 F N
+DEF sense_rev4-rescue_Audio-Jack-4-RESCUE-sense_rev4-sense_rev4-rescue-sense_rev4-rescue-sense_rev4-rescue J 0 40 Y Y 1 F N
 F0 "J" -50 80 50 H V C CNN
-F1 "sense_rev4-rescue:Audio-Jack-4-RESCUE-sense_rev4-sense_rev4-rescue-sense_rev4-rescue-sense_rev4-rescue" 120 -370 50 H V C CNN
+F1 "sense_rev4-rescue_Audio-Jack-4-RESCUE-sense_rev4-sense_rev4-rescue-sense_rev4-rescue-sense_rev4-rescue" 120 -370 50 H V C CNN
 F2 "" 250 100 50 H I C CNN
 F3 "" 250 100 50 H I C CNN
 DRAW
@@ -84,11 +24,11 @@ X ~ D -200 -400 100 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# sense_rev4-rescue:Battery-sense_rev3-sense_rev4-rescue-sense_rev4-rescue
+# sense_rev4-rescue_Battery-sense_rev3-sense_rev4-rescue-sense_rev4-rescue
 #
-DEF sense_rev4-rescue:Battery-sense_rev3-sense_rev4-rescue-sense_rev4-rescue BT 0 0 N Y 1 F N
+DEF sense_rev4-rescue_Battery-sense_rev3-sense_rev4-rescue-sense_rev4-rescue BT 0 0 N Y 1 F N
 F0 "BT" 100 50 50 H V L CNN
-F1 "sense_rev4-rescue:Battery-sense_rev3-sense_rev4-rescue-sense_rev4-rescue" 100 -50 50 H V L CNN
+F1 "sense_rev4-rescue_Battery-sense_rev3-sense_rev4-rescue-sense_rev4-rescue" 100 -50 50 H V L CNN
 F2 "Wire_Pads:SolderWirePad_2x_1-2mmDrill" 0 40 60 V I C CNN
 F3 "" 0 40 60 V V C CNN
 DRAW
@@ -103,11 +43,11 @@ X ~ 2 0 -150 100 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# sense_rev4-rescue:C-sense_rev3-sense_rev4-rescue-sense_rev4-rescue
+# sense_rev4-rescue_C-sense_rev3-sense_rev4-rescue-sense_rev4-rescue
 #
-DEF sense_rev4-rescue:C-sense_rev3-sense_rev4-rescue-sense_rev4-rescue C 0 10 N Y 1 F N
+DEF sense_rev4-rescue_C-sense_rev3-sense_rev4-rescue-sense_rev4-rescue C 0 10 N Y 1 F N
 F0 "C" 25 100 50 H V L CNN
-F1 "sense_rev4-rescue:C-sense_rev3-sense_rev4-rescue-sense_rev4-rescue" 25 -100 50 H V L CNN
+F1 "sense_rev4-rescue_C-sense_rev3-sense_rev4-rescue-sense_rev4-rescue" 25 -100 50 H V L CNN
 F2 "" 38 -150 30 H V C CNN
 F3 "" 0 0 60 H V C CNN
 $FPLIST
@@ -125,11 +65,11 @@ X ~ 2 0 -150 110 U 40 40 1 1 P
 ENDDRAW
 ENDDEF
 #
-# sense_rev4-rescue:CONN_02X05-sense_rev3-sense_rev4-rescue-sense_rev4-rescue
+# sense_rev4-rescue_CONN_02X05-sense_rev3-sense_rev4-rescue-sense_rev4-rescue
 #
-DEF sense_rev4-rescue:CONN_02X05-sense_rev3-sense_rev4-rescue-sense_rev4-rescue P 0 1 Y N 1 F N
+DEF sense_rev4-rescue_CONN_02X05-sense_rev3-sense_rev4-rescue-sense_rev4-rescue P 0 1 Y N 1 F N
 F0 "P" 0 300 50 H V C CNN
-F1 "sense_rev4-rescue:CONN_02X05-sense_rev3-sense_rev4-rescue-sense_rev4-rescue" 0 -300 50 H V C CNN
+F1 "sense_rev4-rescue_CONN_02X05-sense_rev3-sense_rev4-rescue-sense_rev4-rescue" 0 -300 50 H V C CNN
 F2 "" 0 -1200 60 H V C CNN
 F3 "" 0 -1200 60 H V C CNN
 $FPLIST
@@ -163,11 +103,11 @@ X P9 9 -250 -200 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# sense_rev4-rescue:Crystal-sense_rev3-sense_rev4-rescue-sense_rev4-rescue
+# sense_rev4-rescue_Crystal-sense_rev3-sense_rev4-rescue-sense_rev4-rescue
 #
-DEF sense_rev4-rescue:Crystal-sense_rev3-sense_rev4-rescue-sense_rev4-rescue Y 0 40 N N 1 F N
+DEF sense_rev4-rescue_Crystal-sense_rev3-sense_rev4-rescue-sense_rev4-rescue Y 0 40 N N 1 F N
 F0 "Y" 0 150 50 H V C CNN
-F1 "sense_rev4-rescue:Crystal-sense_rev3-sense_rev4-rescue-sense_rev4-rescue" 0 -150 50 H V C CNN
+F1 "sense_rev4-rescue_Crystal-sense_rev3-sense_rev4-rescue-sense_rev4-rescue" 0 -150 50 H V C CNN
 F2 "" 0 0 50 H V C CNN
 F3 "" 0 0 50 H V C CNN
 $FPLIST
@@ -182,11 +122,11 @@ X 2 2 150 0 50 L 40 40 1 1 P
 ENDDRAW
 ENDDEF
 #
-# sense_rev4-rescue:GND-sense_rev3-sense_rev4-rescue-sense_rev4-rescue
+# sense_rev4-rescue_GND-sense_rev3-sense_rev4-rescue-sense_rev4-rescue
 #
-DEF sense_rev4-rescue:GND-sense_rev3-sense_rev4-rescue-sense_rev4-rescue #PWR 0 0 Y Y 1 F P
+DEF sense_rev4-rescue_GND-sense_rev3-sense_rev4-rescue-sense_rev4-rescue #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -250 50 H I C CNN
-F1 "sense_rev4-rescue:GND-sense_rev3-sense_rev4-rescue-sense_rev4-rescue" 0 -150 50 H V C CNN
+F1 "sense_rev4-rescue_GND-sense_rev3-sense_rev4-rescue-sense_rev4-rescue" 0 -150 50 H V C CNN
 F2 "" 0 0 60 H V C CNN
 F3 "" 0 0 60 H V C CNN
 DRAW
@@ -195,11 +135,11 @@ X GND 1 0 0 0 D 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# sense_rev4-rescue:INDUCTOR_SMALL-sense_rev3-sense_rev4-rescue-sense_rev4-rescue
+# sense_rev4-rescue_INDUCTOR_SMALL-sense_rev3-sense_rev4-rescue-sense_rev4-rescue
 #
-DEF sense_rev4-rescue:INDUCTOR_SMALL-sense_rev3-sense_rev4-rescue-sense_rev4-rescue L 0 0 N N 1 F N
+DEF sense_rev4-rescue_INDUCTOR_SMALL-sense_rev3-sense_rev4-rescue-sense_rev4-rescue L 0 0 N N 1 F N
 F0 "L" 0 100 50 H V C CNN
-F1 "sense_rev4-rescue:INDUCTOR_SMALL-sense_rev3-sense_rev4-rescue-sense_rev4-rescue" 0 -50 50 H V C CNN
+F1 "sense_rev4-rescue_INDUCTOR_SMALL-sense_rev3-sense_rev4-rescue-sense_rev4-rescue" 0 -50 50 H V C CNN
 F2 "" 0 0 60 H V C CNN
 F3 "" 0 0 60 H V C CNN
 DRAW
@@ -212,11 +152,11 @@ X 2 2 250 0 50 L 30 30 1 1 I
 ENDDRAW
 ENDDEF
 #
-# sense_rev4-rescue:LED_GREEN_RED-RESCUE-sense_rev4-sense_rev4-rescue-sense_rev4-rescue-sense_rev4-rescue
+# sense_rev4-rescue_LED_GREEN_RED-RESCUE-sense_rev4-sense_rev4-rescue-sense_rev4-rescue-sense_rev4-rescue
 #
-DEF sense_rev4-rescue:LED_GREEN_RED-RESCUE-sense_rev4-sense_rev4-rescue-sense_rev4-rescue-sense_rev4-rescue D 0 40 Y Y 1 F N
+DEF sense_rev4-rescue_LED_GREEN_RED-RESCUE-sense_rev4-sense_rev4-rescue-sense_rev4-rescue-sense_rev4-rescue D 0 40 Y Y 1 F N
 F0 "D" 0 300 60 H V C CNN
-F1 "sense_rev4-rescue:LED_GREEN_RED-RESCUE-sense_rev4-sense_rev4-rescue-sense_rev4-rescue-sense_rev4-rescue" 0 -300 60 H V C CNN
+F1 "sense_rev4-rescue_LED_GREEN_RED-RESCUE-sense_rev4-sense_rev4-rescue-sense_rev4-rescue-sense_rev4-rescue" 0 -300 60 H V C CNN
 F2 "" 0 0 60 H I C CNN
 F3 "" 0 0 60 H I C CNN
 DRAW
@@ -240,11 +180,11 @@ X ~ 4 400 100 200 L 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
-# sense_rev4-rescue:LOGO-sense_rev3-sense_rev4-rescue-sense_rev4-rescue
+# sense_rev4-rescue_LOGO-sense_rev3-sense_rev4-rescue-sense_rev4-rescue
 #
-DEF ~sense_rev4-rescue:LOGO-sense_rev3-sense_rev4-rescue-sense_rev4-rescue #G 0 40 Y Y 1 F N
+DEF ~sense_rev4-rescue_LOGO-sense_rev3-sense_rev4-rescue-sense_rev4-rescue #G 0 40 Y Y 1 F N
 F0 "#G" 0 -198 60 H I C CNN
-F1 "sense_rev4-rescue:LOGO-sense_rev3-sense_rev4-rescue-sense_rev4-rescue" 0 198 60 H I C CNN
+F1 "sense_rev4-rescue_LOGO-sense_rev3-sense_rev4-rescue-sense_rev4-rescue" 0 198 60 H I C CNN
 F2 "" 0 0 60 H I C CNN
 F3 "" 0 0 60 H I C CNN
 DRAW
@@ -253,11 +193,11 @@ P 385 0 0 1 176 -192 176 -189 177 -170 177 -77 176 -67 176 -59 175 -55 174 -52 1
 ENDDRAW
 ENDDEF
 #
-# sense_rev4-rescue:MCP4012T-503E_CH-RESCUE-sense_rev4-sense_rev4-rescue-sense_rev4-rescue-sense_rev4-rescue
+# sense_rev4-rescue_MCP4012T-503E_CH-RESCUE-sense_rev4-sense_rev4-rescue-sense_rev4-rescue-sense_rev4-rescue
 #
-DEF sense_rev4-rescue:MCP4012T-503E_CH-RESCUE-sense_rev4-sense_rev4-rescue-sense_rev4-rescue-sense_rev4-rescue U 0 40 Y Y 1 F N
+DEF sense_rev4-rescue_MCP4012T-503E_CH-RESCUE-sense_rev4-sense_rev4-rescue-sense_rev4-rescue-sense_rev4-rescue U 0 40 Y Y 1 F N
 F0 "U" 0 388 60 H V C CNN
-F1 "sense_rev4-rescue:MCP4012T-503E_CH-RESCUE-sense_rev4-sense_rev4-rescue-sense_rev4-rescue-sense_rev4-rescue" 0 -396 60 H V C CNN
+F1 "sense_rev4-rescue_MCP4012T-503E_CH-RESCUE-sense_rev4-sense_rev4-rescue-sense_rev4-rescue-sense_rev4-rescue" 0 -396 60 H V C CNN
 F2 "" 0 0 60 H I C CNN
 F3 "" 0 0 60 H I C CNN
 DRAW
@@ -279,11 +219,11 @@ X A 6 450 250 197 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# sense_rev4-rescue:MDBT42Q-sense_rev3-sense_rev4-rescue-sense_rev4-rescue
+# sense_rev4-rescue_MDBT42Q-sense_rev3-sense_rev4-rescue-sense_rev4-rescue
 #
-DEF sense_rev4-rescue:MDBT42Q-sense_rev3-sense_rev4-rescue-sense_rev4-rescue U 0 40 Y Y 1 F N
+DEF sense_rev4-rescue_MDBT42Q-sense_rev3-sense_rev4-rescue-sense_rev4-rescue U 0 40 Y Y 1 F N
 F0 "U" -100 300 60 H V C CNN
-F1 "sense_rev4-rescue:MDBT42Q-sense_rev3-sense_rev4-rescue-sense_rev4-rescue" -250 600 60 H V C CNN
+F1 "sense_rev4-rescue_MDBT42Q-sense_rev3-sense_rev4-rescue-sense_rev4-rescue" -250 600 60 H V C CNN
 F2 "" -200 1100 60 H V C CNN
 F3 "" -200 1100 60 H V C CNN
 DRAW
@@ -333,11 +273,11 @@ X DEC4 9 -1200 -600 200 R 50 50 1 1 W
 ENDDRAW
 ENDDEF
 #
-# sense_rev4-rescue:Mounting_Hole-sense_rev3-sense_rev4-rescue-sense_rev4-rescue
+# sense_rev4-rescue_Mounting_Hole-sense_rev3-sense_rev4-rescue-sense_rev4-rescue
 #
-DEF sense_rev4-rescue:Mounting_Hole-sense_rev3-sense_rev4-rescue-sense_rev4-rescue MK 0 40 Y Y 1 F N
+DEF sense_rev4-rescue_Mounting_Hole-sense_rev3-sense_rev4-rescue-sense_rev4-rescue MK 0 40 Y Y 1 F N
 F0 "MK" 0 200 50 H V C CNN
-F1 "sense_rev4-rescue:Mounting_Hole-sense_rev3-sense_rev4-rescue-sense_rev4-rescue" 0 125 50 H V C CNN
+F1 "sense_rev4-rescue_Mounting_Hole-sense_rev3-sense_rev4-rescue-sense_rev4-rescue" 0 125 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -349,11 +289,11 @@ C 0 0 50 0 1 50 N
 ENDDRAW
 ENDDEF
 #
-# sense_rev4-rescue:PIR-sense_rev3-sense_rev4-rescue-sense_rev4-rescue
+# sense_rev4-rescue_PIR-sense_rev3-sense_rev4-rescue-sense_rev4-rescue
 #
-DEF sense_rev4-rescue:PIR-sense_rev3-sense_rev4-rescue-sense_rev4-rescue U 0 40 Y Y 1 F N
+DEF sense_rev4-rescue_PIR-sense_rev3-sense_rev4-rescue-sense_rev4-rescue U 0 40 Y Y 1 F N
 F0 "U" 100 -50 60 H V C CNN
-F1 "sense_rev4-rescue:PIR-sense_rev3-sense_rev4-rescue-sense_rev4-rescue" 100 -200 60 H V C CNN
+F1 "sense_rev4-rescue_PIR-sense_rev3-sense_rev4-rescue-sense_rev4-rescue" 100 -200 60 H V C CNN
 F2 "" 350 0 60 H V C CNN
 F3 "" 350 0 60 H V C CNN
 DRAW
@@ -380,11 +320,11 @@ X GND 3 450 -350 100 L 50 50 1 1 W
 ENDDRAW
 ENDDEF
 #
-# sense_rev4-rescue:Q_PMOS_DGS-RESCUE-sense_rev4-sense_rev4-rescue-sense_rev4-rescue-sense_rev4-rescue
+# sense_rev4-rescue_Q_PMOS_DGS-RESCUE-sense_rev4-sense_rev4-rescue-sense_rev4-rescue-sense_rev4-rescue
 #
-DEF sense_rev4-rescue:Q_PMOS_DGS-RESCUE-sense_rev4-sense_rev4-rescue-sense_rev4-rescue-sense_rev4-rescue Q 0 0 Y N 1 F N
+DEF sense_rev4-rescue_Q_PMOS_DGS-RESCUE-sense_rev4-sense_rev4-rescue-sense_rev4-rescue-sense_rev4-rescue Q 0 0 Y N 1 F N
 F0 "Q" 300 50 50 H V R CNN
-F1 "sense_rev4-rescue:Q_PMOS_DGS-RESCUE-sense_rev4-sense_rev4-rescue-sense_rev4-rescue-sense_rev4-rescue" 650 -50 50 H V R CNN
+F1 "sense_rev4-rescue_Q_PMOS_DGS-RESCUE-sense_rev4-sense_rev4-rescue-sense_rev4-rescue-sense_rev4-rescue" 650 -50 50 H V R CNN
 F2 "" 200 100 29 H V C CNN
 F3 "" 0 0 60 H V C CNN
 DRAW
@@ -406,11 +346,11 @@ X S 3 100 200 100 D 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# sense_rev4-rescue:R-sense_rev3-sense_rev4-rescue-sense_rev4-rescue
+# sense_rev4-rescue_R-sense_rev3-sense_rev4-rescue-sense_rev4-rescue
 #
-DEF sense_rev4-rescue:R-sense_rev3-sense_rev4-rescue-sense_rev4-rescue R 0 0 N Y 1 F N
+DEF sense_rev4-rescue_R-sense_rev3-sense_rev4-rescue-sense_rev4-rescue R 0 0 N Y 1 F N
 F0 "R" 80 0 50 V V C CNN
-F1 "sense_rev4-rescue:R-sense_rev3-sense_rev4-rescue-sense_rev4-rescue" 0 0 50 V V C CNN
+F1 "sense_rev4-rescue_R-sense_rev3-sense_rev4-rescue-sense_rev4-rescue" 0 0 50 V V C CNN
 F2 "" -70 0 30 V V C CNN
 F3 "" 0 0 30 H V C CNN
 $FPLIST
@@ -424,11 +364,11 @@ X ~ 2 0 -150 50 U 60 60 1 1 P
 ENDDRAW
 ENDDEF
 #
-# sense_rev4-rescue:SW_SPST-sense_rev3-sense_rev4-rescue-sense_rev4-rescue
+# sense_rev4-rescue_SW_SPST-sense_rev3-sense_rev4-rescue-sense_rev4-rescue
 #
-DEF sense_rev4-rescue:SW_SPST-sense_rev3-sense_rev4-rescue-sense_rev4-rescue SW 0 0 Y N 1 F N
+DEF sense_rev4-rescue_SW_SPST-sense_rev3-sense_rev4-rescue-sense_rev4-rescue SW 0 0 Y N 1 F N
 F0 "SW" 0 125 50 H V C CNN
-F1 "sense_rev4-rescue:SW_SPST-sense_rev3-sense_rev4-rescue-sense_rev4-rescue" 0 -100 50 H V C CNN
+F1 "sense_rev4-rescue_SW_SPST-sense_rev3-sense_rev4-rescue-sense_rev4-rescue" 0 -100 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -440,11 +380,11 @@ X B 2 200 0 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# sense_rev4-rescue:TLV8802-RESCUE-sense_rev4-sense_rev4-rescue-sense_rev4-rescue-sense_rev4-rescue
+# sense_rev4-rescue_TLV8802-RESCUE-sense_rev4-sense_rev4-rescue-sense_rev4-rescue-sense_rev4-rescue
 #
-DEF sense_rev4-rescue:TLV8802-RESCUE-sense_rev4-sense_rev4-rescue-sense_rev4-rescue-sense_rev4-rescue U 0 40 Y Y 2 L N
+DEF sense_rev4-rescue_TLV8802-RESCUE-sense_rev4-sense_rev4-rescue-sense_rev4-rescue-sense_rev4-rescue U 0 40 Y Y 2 L N
 F0 "U" 0 300 60 H V C CNN
-F1 "sense_rev4-rescue:TLV8802-RESCUE-sense_rev4-sense_rev4-rescue-sense_rev4-rescue-sense_rev4-rescue" 0 -350 60 H V C CNN
+F1 "sense_rev4-rescue_TLV8802-RESCUE-sense_rev4-sense_rev4-rescue-sense_rev4-rescue-sense_rev4-rescue" 0 -350 60 H V C CNN
 F2 "" 100 -50 60 H I C CNN
 F3 "" 100 -50 60 H I C CNN
 DRAW
@@ -460,11 +400,11 @@ X OUT_B 7 500 -50 157 L 39 39 2 1 O
 ENDDRAW
 ENDDEF
 #
-# sense_rev4-rescue:VDD-sense_rev3-sense_rev4-rescue-sense_rev4-rescue
+# sense_rev4-rescue_VDD-sense_rev3-sense_rev4-rescue-sense_rev4-rescue
 #
-DEF sense_rev4-rescue:VDD-sense_rev3-sense_rev4-rescue-sense_rev4-rescue #PWR 0 0 Y Y 1 F P
+DEF sense_rev4-rescue_VDD-sense_rev3-sense_rev4-rescue-sense_rev4-rescue #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -150 50 H I C CNN
-F1 "sense_rev4-rescue:VDD-sense_rev3-sense_rev4-rescue-sense_rev4-rescue" 0 150 50 H V C CNN
+F1 "sense_rev4-rescue_VDD-sense_rev3-sense_rev4-rescue-sense_rev4-rescue" 0 150 50 H V C CNN
 F2 "" 0 0 60 H V C CNN
 F3 "" 0 0 60 H V C CNN
 DRAW

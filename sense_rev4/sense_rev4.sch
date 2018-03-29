@@ -400,7 +400,7 @@ F 3 "" H 10850 5600 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:D_ALT D2
+L Device:D_ALT D2
 U 1 1 5A876D31
 P 9200 2100
 F 0 "D2" H 9200 2000 50  0000 C CNN
@@ -877,7 +877,7 @@ F 3 "" H 8000 5150 30  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L device:TEST TP3
+L Connector_Specialized:Test_Point TP3
 U 1 1 5A8CE4FE
 P 10850 5100
 F 0 "TP3" H 10850 5400 50  0000 C BNN
@@ -888,7 +888,7 @@ F 3 "" H 10850 5100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:TEST TP1
+L Connector_Specialized:Test_Point TP1
 U 1 1 5A8CE825
 P 10500 3550
 F 0 "TP1" H 10500 3850 50  0000 C BNN
@@ -1209,7 +1209,7 @@ Wire Wire Line
 Wire Wire Line
 	8400 4950 8650 4950
 $Comp
-L conn:Conn_01x02 J2
+L Connector_Generic:Conn_01x02 J2
 U 1 1 5A8D57DC
 P 11000 1400
 F 0 "J2" H 11000 1500 50  0000 C CNN

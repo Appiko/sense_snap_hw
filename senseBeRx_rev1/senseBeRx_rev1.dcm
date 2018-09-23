@@ -1,0 +1,55 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP D_Photo
+D Photodiode, alternative symbol
+K photodiode diode opto
+F ~
+$ENDCMP
+#
+$CMP LED_Dual_ACAC
+D LED dual, 4-pin
+K led diode bicolor dual
+F ~
+$ENDCMP
+#
+$CMP Q_NMOS_DGS
+D Transistor N-MOSFET (general)
+K nmos n-mos n-mosfet transistor
+F ~
+$ENDCMP
+#
+$CMP Q_PMOS_DGS
+D Transistor P-MOSFET with substrate diode (general)
+K pmos p-mos p-mosfet transistor
+F ~
+$ENDCMP
+#
+$CMP SW_DPST
+D Double Pole Single Throw (DPST) Switch
+K switch dual double-pole single-throw OFF-ON
+$ENDCMP
+#
+$CMP SW_Push_Dual
+D Push button switch, generic, symbol, four pins
+K switch normally-open pushbutton push-button
+$ENDCMP
+#
+$CMP TSSP40xx
+D Photo Modules for PCM Remote Control Systems
+K opto IR receiver
+F http://www.vishay.com/docs/82462/tsop581.pdf
+$ENDCMP
+#
+$CMP TSSP58038
+D IR Detector for Mid Range Proximity Sensor
+K opto IR receiver proximity sensor
+F http://www.vishay.com/docs/82476/tssp58p38.pdf
+$ENDCMP
+#
+$CMP TSSP58038SS1XB
+D IR Receiver Module for Light Barrier Systems
+K opto IR receiver light barrier
+F http://www.vishay.com/docs/82740/tssp58038ss1xb.pdf
+$ENDCMP
+#
+#End Doc Library

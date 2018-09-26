@@ -181,7 +181,11 @@ L Transistor_FET:2N7002 Q4
 U 1 1 5BA4FCEF
 P 10425 2275
 F 0 "Q4" H 10575 2150 50  0000 L CNN
+<<<<<<< HEAD
 F 1 "SI2302" H 10225 2075 50  0000 L CNN
+=======
+F 1 "SI2302" H 10150 2400 50  0000 L CNN
+>>>>>>> d66aa5d7e76712379b61beb7275a42c396dbdee1
 F 2 "Package_TO_SOT_SMD:SOT-23_Handsoldering" H 10625 2375 50  0001 C CNN
 F 3 "~" H 10425 2275 50  0001 C CNN
 	1    10425 2275
@@ -196,7 +200,11 @@ L Transistor_FET:2N7002 Q3
 U 1 1 5BA595BA
 P 5900 1750
 F 0 "Q3" H 5800 1600 50  0000 L CNN
+<<<<<<< HEAD
 F 1 "SI2302" H 5675 1500 50  0000 L CNN
+=======
+F 1 "SI2302" H 5650 1900 50  0000 L CNN
+>>>>>>> d66aa5d7e76712379b61beb7275a42c396dbdee1
 F 2 "Package_TO_SOT_SMD:SOT-23_Handsoldering" H 6100 1850 50  0001 C CNN
 F 3 "~" H 5900 1750 50  0001 C CNN
 	1    5900 1750
@@ -207,7 +215,11 @@ L Transistor_FET:2N7002 Q2
 U 1 1 5BA59F79
 P 5475 1750
 F 0 "Q2" H 5400 1600 50  0000 L CNN
+<<<<<<< HEAD
 F 1 "SI2302" H 5275 1500 50  0000 L CNN
+=======
+F 1 "SI2302" H 5275 1900 50  0000 L CNN
+>>>>>>> d66aa5d7e76712379b61beb7275a42c396dbdee1
 F 2 "Package_TO_SOT_SMD:SOT-23_Handsoldering" H 5675 1850 50  0001 C CNN
 F 3 "~" H 5475 1750 50  0001 C CNN
 	1    5475 1750
@@ -519,11 +531,11 @@ NoConn ~ 5700 5100
 NoConn ~ 6400 2850
 NoConn ~ 6400 2950
 NoConn ~ 6400 3050
-Text Label 5500 5800 1    60   ~ 0
+Text Label 3550 3450 0    60   ~ 0
 BUTTON
 Text Label 3550 3550 0    60   ~ 0
 LED_RED
-Text Label 3550 3450 0    60   ~ 0
+Text Label 3550 3650 0    60   ~ 0
 LED_GREEN
 Text Label 3550 4150 0    60   ~ 0
 DEC4
@@ -797,6 +809,7 @@ Wire Wire Line
 	950  6650 1250 6650
 Wire Wire Line
 	2150 6450 2150 6650
+NoConn ~ 5500 5100
 Wire Wire Line
 	3550 3450 4000 3450
 Wire Wire Line
@@ -818,6 +831,8 @@ Wire Wire Line
 	1900 6950 1750 6950
 Wire Wire Line
 	3550 3550 4000 3550
+Wire Wire Line
+	4000 3650 3550 3650
 Wire Wire Line
 	6400 3450 7050 3450
 Wire Wire Line
@@ -873,11 +888,17 @@ F 3 "" H 1250 3100 50  0001 C CNN
 	1    1250 3100
 	1    0    0    -1  
 $EndComp
-Text Label 5200 5800 1    50   ~ 0
+Wire Wire Line
+	4000 3750 3550 3750
+Text Label 3550 3750 0    50   ~ 0
 LIGHT_SENSE
-Text Label 5300 5800 1    50   ~ 0
+Wire Wire Line
+	5100 5100 5100 5775
+Wire Wire Line
+	5200 5100 5200 5775
+Text Label 5100 5775 1    50   ~ 0
 RX_OUT
-Text Label 5400 5800 1    50   ~ 0
+Text Label 5200 5775 1    50   ~ 0
 RX_EN
 $Comp
 L senseBeRx_rev1:R R7
@@ -957,6 +978,8 @@ F 3 "" H 6550 2225 60  0000 C CNN
 	1    6550 2225
 	1    0    0    -1  
 $EndComp
+NoConn ~ 5300 5100
+NoConn ~ 5400 5100
 NoConn ~ 1050 3200
 NoConn ~ 1450 3200
 $Comp
@@ -993,8 +1016,13 @@ L snap_rev3_symbol:Audio-Jack-4_1Switches J1
 U 1 1 5BA7C082
 P 8850 3850
 F 0 "J1" H 8840 4275 50  0000 C CNN
-F 1 "SJ2-35863B1-SMT" H 8840 4184 50  0000 C CNN
+<<<<<<< HEAD
+F 1 "Audio-Jack-4_1Switches" H 8840 4184 50  0000 C CNN
 F 2 "senseBeRx_rev1_fp:SJ2-35863B1-SMT" H 9100 3950 50  0001 C CNN
+=======
+F 1 "SJ2-35863B1-SMT" H 8840 4184 50  0000 C CNN
+F 2 "Connector_Audio:Jack_3.5mm_PJ320E_Horizontal" H 9100 3950 50  0001 C CNN
+>>>>>>> d66aa5d7e76712379b61beb7275a42c396dbdee1
 F 3 "" H 9100 3950 50  0001 C CNN
 	1    8850 3850
 	1    0    0    -1  
@@ -1004,8 +1032,13 @@ L snap_rev3_symbol:Audio-Jack-4_1Switches J2
 U 1 1 5BA7C1CA
 P 8875 5600
 F 0 "J2" H 8865 6025 50  0000 C CNN
-F 1 "SJ2-35863B1-SMT" H 8865 5934 50  0000 C CNN
+<<<<<<< HEAD
+F 1 "Audio-Jack-4_1Switches" H 8865 5934 50  0000 C CNN
 F 2 "senseBeRx_rev1_fp:SJ2-35863B1-SMT" H 9125 5700 50  0001 C CNN
+=======
+F 1 "SJ2-35863B1-SMT" H 8865 5934 50  0000 C CNN
+F 2 "Connector_Audio:Jack_3.5mm_PJ320E_Horizontal" H 9125 5700 50  0001 C CNN
+>>>>>>> d66aa5d7e76712379b61beb7275a42c396dbdee1
 F 3 "" H 9125 5700 50  0001 C CNN
 	1    8875 5600
 	1    0    0    -1  
@@ -1152,15 +1185,4 @@ Wire Wire Line
 	6100 1750 6550 1750
 Wire Wire Line
 	6550 1750 6550 1850
-NoConn ~ 4000 3650
-NoConn ~ 4000 3750
-NoConn ~ 5100 5100
-Wire Wire Line
-	5200 5100 5200 5800
-Wire Wire Line
-	5300 5800 5300 5100
-Wire Wire Line
-	5400 5100 5400 5800
-Wire Wire Line
-	5500 5800 5500 5100
 $EndSCHEMATC

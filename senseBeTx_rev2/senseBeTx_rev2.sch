@@ -1,0 +1,1057 @@
+EESchema Schematic File Version 4
+LIBS:senseBeTx_rev1-cache
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L senseBeRx_rev1:Battery BT?
+U 1 1 5BB20932
+P 950 1225
+F 0 "BT?" H 1068 1271 50  0000 L CNN
+F 1 "Battery" H 1068 1180 50  0000 L CNN
+F 2 "senseBeTx_rev1_fp:BT_Symbol" V 950 1265 60  0001 C CNN
+F 3 "" V 950 1265 60  0000 C CNN
+	1    950  1225
+	1    0    0    -1  
+$EndComp
+$Comp
+L senseBeRx_rev1:C C?
+U 1 1 5BB20A1D
+P 2125 1225
+F 0 "C?" H 2240 1271 50  0000 L CNN
+F 1 "10uF" H 2240 1180 50  0000 L CNN
+F 2 "senseBeTx_rev1_fp:C_0805" H 2163 1075 30  0001 C CNN
+F 3 "" H 2125 1225 60  0000 C CNN
+	1    2125 1225
+	1    0    0    -1  
+$EndComp
+$Comp
+L senseBeRx_rev1:CONN_02X05 P?
+U 1 1 5BB20B0C
+P 1650 7075
+F 0 "P?" H 1650 7425 50  0000 C CNN
+F 1 "CONN_02X05" H 1650 6775 50  0000 C CNN
+F 2 "senseBeTx_rev1_fp:prog_connect" H 1650 5875 60  0001 C CNN
+F 3 "" H 1650 5875 60  0000 C CNN
+	1    1650 7075
+	1    0    0    -1  
+$EndComp
+$Comp
+L senseBeRx_rev1:Crystal Y?
+U 1 1 5BB20C6E
+P 3925 6925
+F 0 "Y?" H 3925 6750 50  0000 C CNN
+F 1 "Crystal" H 3925 7102 50  0000 C CNN
+F 2 "senseBeTx_rev1_fp:Crystal_C38-LF_d3.0mm_l8.0mm_Horizontal" H 3925 6925 50  0001 C CNN
+F 3 "" H 3925 6925 50  0000 C CNN
+	1    3925 6925
+	-1   0    0    1   
+$EndComp
+$Comp
+L senseBeRx_rev1:Audio-Jack-4_1Switches J?
+U 1 1 5BB20D41
+P 1375 5675
+F 0 "J?" H 1050 5675 50  0000 C CNN
+F 1 "Audio-Jack-4_1Switches" H 1365 6009 50  0000 C CNN
+F 2 "senseBeTx_rev1_fp:SJ2-35863B1-SMT" H 1625 5775 50  0001 C CNN
+F 3 "" H 1625 5775 50  0001 C CNN
+	1    1375 5675
+	1    0    0    -1  
+$EndComp
+$Comp
+L senseBeRx_rev1:D_Photo D?
+U 1 1 5BB20E44
+P 1625 2875
+F 0 "D?" V 1575 3125 50  0000 C CNN
+F 1 "D_Photo" V 1475 3125 50  0000 C CNN
+F 2 "LED_THT:LED_D5.0mm" H 1575 2875 50  0001 C CNN
+F 3 "~" H 1575 2875 50  0001 C CNN
+	1    1625 2875
+	0    1    1    0   
+$EndComp
+$Comp
+L senseBeRx_rev1:GND #PWR?
+U 1 1 5BB21001
+P 950 1575
+F 0 "#PWR?" H 950 1325 50  0001 C CNN
+F 1 "GND" H 955 1402 50  0000 C CNN
+F 2 "" H 950 1575 60  0000 C CNN
+F 3 "" H 950 1575 60  0000 C CNN
+	1    950  1575
+	1    0    0    -1  
+$EndComp
+$Comp
+L senseBeRx_rev1:LOGO #G?
+U 1 1 5BB21290
+P 10775 6825
+F 0 "#G?" H 10775 6627 60  0001 C CNN
+F 1 "LOGO" H 10775 7023 60  0001 C CNN
+F 2 "" H 10775 6825 60  0001 C CNN
+F 3 "" H 10775 6825 60  0001 C CNN
+	1    10775 6825
+	1    0    0    -1  
+$EndComp
+$Comp
+L senseBeRx_rev1:Mounting_Hole MK?
+U 1 1 5BB213C3
+P 6250 7100
+F 0 "MK?" H 6350 7146 50  0000 L CNN
+F 1 "Mounting_Hole" H 6350 7055 50  0000 L CNN
+F 2 "senseBeTx_rev1_fp:MountingHole_3.2mm_M3" H 6250 7100 50  0001 C CNN
+F 3 "" H 6250 7100 50  0001 C CNN
+	1    6250 7100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Q_NMOS_GSD Q?
+U 1 1 5BB214EE
+P 10225 3400
+F 0 "Q?" H 10430 3446 50  0000 L CNN
+F 1 "SI2302" H 10430 3355 50  0000 L CNN
+F 2 "senseBeTx_rev1_fp:SOT-23" H 10425 3500 50  0001 C CNN
+F 3 "~" H 10225 3400 50  0001 C CNN
+	1    10225 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Q_NMOS_GSD Q?
+U 1 1 5BB215F4
+P 1600 1100
+F 0 "Q?" V 1825 1100 50  0000 C CNN
+F 1 "SI2301" V 1425 1100 50  0000 C CNN
+F 2 "senseBeTx_rev1_fp:SOT-23" H 1800 1200 50  0001 C CNN
+F 3 "~" H 1600 1100 50  0001 C CNN
+	1    1600 1100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L senseBeRx_rev1:R R?
+U 1 1 5BB21725
+P 5000 1025
+F 0 "R?" V 4925 1025 50  0000 C CNN
+F 1 "33E" V 5000 1025 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 4930 1025 30  0001 C CNN
+F 3 "" H 5000 1025 30  0000 C CNN
+	1    5000 1025
+	0    1    1    0   
+$EndComp
+$Comp
+L senseBeRx_rev1:SW_Push_Dual SW?
+U 1 1 5BB21947
+P 1650 4000
+F 0 "SW?" H 1650 4175 50  0000 C CNN
+F 1 "SW_Push_Dual" H 1650 3675 50  0000 C CNN
+F 2 "Button_Switch_THT:SW_TH_Tactile_Omron_B3F-10xx" H 1650 4200 50  0001 C CNN
+F 3 "" H 1650 4200 50  0001 C CNN
+	1    1650 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L senseBeRx_rev1:VDD #PWR?
+U 1 1 5BB21AE6
+P 2125 1000
+F 0 "#PWR?" H 2125 850 50  0001 C CNN
+F 1 "VDD" H 2142 1173 50  0000 C CNN
+F 2 "" H 2125 1000 60  0000 C CNN
+F 3 "" H 2125 1000 60  0000 C CNN
+	1    2125 1000
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:SFH4546 D?
+U 1 1 5BB21C37
+P 8400 1300
+F 0 "D?" H 8350 1085 50  0000 C CNN
+F 1 "SFH4546" H 8350 1176 50  0000 C CNN
+F 2 "LED_THT:LED_D5.0mm_IRGrey" H 8400 1475 50  0001 C CNN
+F 3 "http://www.osram-os.com/Graphics/XPic1/00101982_0.pdf" H 8350 1300 50  0001 C CNN
+	1    8400 1300
+	-1   0    0    1   
+$EndComp
+$Comp
+L MCU_ST_STM32L0:STM32L011F3Px U?
+U 1 1 5BB21D50
+P 4900 4000
+F 0 "U?" H 4850 3950 50  0000 C CNN
+F 1 "STM32L011F3Px" H 5300 3125 50  0000 C CNN
+F 2 "Package_SO:TSSOP-20_4.4x6.5mm_P0.65mm" H 4500 3300 50  0001 R CNN
+F 3 "http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00206508.pdf" H 4900 4000 50  0001 C CNN
+	1    4900 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L senseBeRx_rev1:R R?
+U 1 1 5BB23318
+P 5000 1225
+F 0 "R?" V 4925 1225 50  0000 C CNN
+F 1 "24E" V 5000 1225 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 4930 1225 30  0001 C CNN
+F 3 "" H 5000 1225 30  0000 C CNN
+	1    5000 1225
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:Q_NMOS_GSD Q?
+U 1 1 5BB24770
+P 8700 3400
+F 0 "Q?" H 8905 3446 50  0000 L CNN
+F 1 "SI2302" H 8905 3355 50  0000 L CNN
+F 2 "senseBeTx_rev1_fp:SOT-23" H 8900 3500 50  0001 C CNN
+F 3 "~" H 8700 3400 50  0001 C CNN
+	1    8700 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Q_NMOS_GSD Q?
+U 1 1 5BB2480F
+P 7225 3400
+F 0 "Q?" H 7430 3446 50  0000 L CNN
+F 1 "SI2302" H 7430 3355 50  0000 L CNN
+F 2 "senseBeTx_rev1_fp:SOT-23" H 7425 3500 50  0001 C CNN
+F 3 "~" H 7225 3400 50  0001 C CNN
+	1    7225 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Q_NMOS_GSD Q?
+U 1 1 5BB24881
+P 8700 5125
+F 0 "Q?" H 8905 5171 50  0000 L CNN
+F 1 "SI2302" H 8905 5080 50  0000 L CNN
+F 2 "senseBeTx_rev1_fp:SOT-23" H 8900 5225 50  0001 C CNN
+F 3 "~" H 8700 5125 50  0001 C CNN
+	1    8700 5125
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Q_NMOS_GSD Q?
+U 1 1 5BB248F7
+P 8700 5925
+F 0 "Q?" H 8905 5971 50  0000 L CNN
+F 1 "SI2302" H 8905 5880 50  0000 L CNN
+F 2 "senseBeTx_rev1_fp:SOT-23" H 8900 6025 50  0001 C CNN
+F 3 "~" H 8700 5925 50  0001 C CNN
+	1    8700 5925
+	1    0    0    -1  
+$EndComp
+$Comp
+L senseBeRx_rev1:R R?
+U 1 1 5BB24A56
+P 1625 2200
+F 0 "R?" V 1418 2200 50  0000 C CNN
+F 1 "100k" V 1509 2200 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 1555 2200 30  0001 C CNN
+F 3 "" H 1625 2200 30  0000 C CNN
+	1    1625 2200
+	1    0    0    -1  
+$EndComp
+$Comp
+L senseBeRx_rev1:R R?
+U 1 1 5BB24D0F
+P 9450 925
+F 0 "R?" V 9350 925 50  0000 C CNN
+F 1 "20E" V 9450 925 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 9380 925 30  0001 C CNN
+F 3 "" H 9450 925 30  0000 C CNN
+	1    9450 925 
+	0    1    1    0   
+$EndComp
+$Comp
+L senseBeRx_rev1:R R?
+U 1 1 5BB24FF7
+P 9450 1300
+F 0 "R?" V 9350 1300 50  0000 C CNN
+F 1 "12E" V 9450 1300 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 9380 1300 30  0001 C CNN
+F 3 "" H 9450 1300 30  0000 C CNN
+	1    9450 1300
+	0    1    1    0   
+$EndComp
+$Comp
+L senseBeRx_rev1:R R?
+U 1 1 5BB2507F
+P 9450 1700
+F 0 "R?" V 9350 1700 50  0000 C CNN
+F 1 "4.7E" V 9450 1700 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 9380 1700 30  0001 C CNN
+F 3 "" H 9450 1700 30  0000 C CNN
+	1    9450 1700
+	0    1    1    0   
+$EndComp
+$Comp
+L senseBeRx_rev1:R R?
+U 1 1 5BB2589F
+P 9875 3550
+F 0 "R?" H 10050 3550 50  0000 R CNN
+F 1 "100k" V 9875 3650 50  0000 R CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 9805 3550 30  0001 C CNN
+F 3 "" H 9875 3550 30  0000 C CNN
+	1    9875 3550
+	-1   0    0    1   
+$EndComp
+$Comp
+L senseBeRx_rev1:R R?
+U 1 1 5BB25A2D
+P 8350 3550
+F 0 "R?" H 8500 3550 50  0000 R CNN
+F 1 "100k" V 8350 3650 50  0000 R CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 8280 3550 30  0001 C CNN
+F 3 "" H 8350 3550 30  0000 C CNN
+	1    8350 3550
+	-1   0    0    1   
+$EndComp
+$Comp
+L senseBeRx_rev1:R R?
+U 1 1 5BB25B99
+P 6875 3550
+F 0 "R?" H 7025 3550 50  0000 R CNN
+F 1 "100k" V 6875 3650 50  0000 R CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 6805 3550 30  0001 C CNN
+F 3 "" H 6875 3550 30  0000 C CNN
+	1    6875 3550
+	-1   0    0    1   
+$EndComp
+$Comp
+L senseBeRx_rev1:R R?
+U 1 1 5BB25C33
+P 8350 5275
+F 0 "R?" H 8500 5275 50  0000 R CNN
+F 1 "100k" V 8350 5375 50  0000 R CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 8280 5275 30  0001 C CNN
+F 3 "" H 8350 5275 30  0000 C CNN
+	1    8350 5275
+	-1   0    0    1   
+$EndComp
+$Comp
+L senseBeRx_rev1:R R?
+U 1 1 5BB25D77
+P 8350 6075
+F 0 "R?" H 8550 6075 50  0000 R CNN
+F 1 "100k" V 8350 6175 50  0000 R CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 8280 6075 30  0001 C CNN
+F 3 "" H 8350 6075 30  0000 C CNN
+	1    8350 6075
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	950  1075 950  1000
+Wire Wire Line
+	950  1000 1400 1000
+Wire Wire Line
+	1800 1000 2125 1000
+Wire Wire Line
+	2125 1075 2125 1000
+Connection ~ 2125 1000
+Wire Wire Line
+	950  1375 950  1500
+Wire Wire Line
+	2125 1375 2125 1500
+Wire Wire Line
+	2125 1500 1600 1500
+Connection ~ 950  1500
+Wire Wire Line
+	950  1500 950  1575
+Wire Wire Line
+	1600 1300 1600 1500
+Connection ~ 1600 1500
+Wire Wire Line
+	1600 1500 950  1500
+$Comp
+L senseBeRx_rev1:VDD #PWR?
+U 1 1 5BB27ED8
+P 8050 1250
+F 0 "#PWR?" H 8050 1100 50  0001 C CNN
+F 1 "VDD" H 8067 1423 50  0000 C CNN
+F 2 "" H 8050 1250 60  0000 C CNN
+F 3 "" H 8050 1250 60  0000 C CNN
+	1    8050 1250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8050 1250 8050 1300
+Wire Wire Line
+	8050 1300 8300 1300
+Wire Wire Line
+	8600 1300 8825 1300
+Wire Wire Line
+	7325 3150 7325 3200
+$Comp
+L senseBeRx_rev1:GND #PWR?
+U 1 1 5BB2949E
+P 5400 2125
+F 0 "#PWR?" H 5400 1875 50  0001 C CNN
+F 1 "GND" H 5405 1952 50  0000 C CNN
+F 2 "" H 5400 2125 60  0000 C CNN
+F 3 "" H 5400 2125 60  0000 C CNN
+	1    5400 2125
+	1    0    0    -1  
+$EndComp
+$Comp
+L senseBeRx_rev1:GND #PWR?
+U 1 1 5BB297D5
+P 9875 3775
+F 0 "#PWR?" H 9875 3525 50  0001 C CNN
+F 1 "GND" H 9880 3602 50  0000 C CNN
+F 2 "" H 9875 3775 60  0000 C CNN
+F 3 "" H 9875 3775 60  0000 C CNN
+	1    9875 3775
+	1    0    0    -1  
+$EndComp
+$Comp
+L senseBeRx_rev1:GND #PWR?
+U 1 1 5BB29993
+P 8350 3775
+F 0 "#PWR?" H 8350 3525 50  0001 C CNN
+F 1 "GND" H 8355 3602 50  0000 C CNN
+F 2 "" H 8350 3775 60  0000 C CNN
+F 3 "" H 8350 3775 60  0000 C CNN
+	1    8350 3775
+	1    0    0    -1  
+$EndComp
+$Comp
+L senseBeRx_rev1:GND #PWR?
+U 1 1 5BB29AC0
+P 6875 3775
+F 0 "#PWR?" H 6875 3525 50  0001 C CNN
+F 1 "GND" H 6880 3602 50  0000 C CNN
+F 2 "" H 6875 3775 60  0000 C CNN
+F 3 "" H 6875 3775 60  0000 C CNN
+	1    6875 3775
+	1    0    0    -1  
+$EndComp
+$Comp
+L senseBeRx_rev1:GND #PWR?
+U 1 1 5BB29EDA
+P 8350 5525
+F 0 "#PWR?" H 8350 5275 50  0001 C CNN
+F 1 "GND" H 8355 5352 50  0000 C CNN
+F 2 "" H 8350 5525 60  0000 C CNN
+F 3 "" H 8350 5525 60  0000 C CNN
+	1    8350 5525
+	1    0    0    -1  
+$EndComp
+$Comp
+L senseBeRx_rev1:GND #PWR?
+U 1 1 5BB29F1F
+P 8350 6300
+F 0 "#PWR?" H 8350 6050 50  0001 C CNN
+F 1 "GND" H 8355 6127 50  0000 C CNN
+F 2 "" H 8350 6300 60  0000 C CNN
+F 3 "" H 8350 6300 60  0000 C CNN
+	1    8350 6300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9875 3400 10025 3400
+Wire Wire Line
+	9875 3700 9875 3775
+Wire Wire Line
+	8350 3400 8500 3400
+Wire Wire Line
+	8350 3700 8350 3775
+Wire Wire Line
+	6875 3400 7025 3400
+Wire Wire Line
+	6875 3700 6875 3775
+Wire Wire Line
+	8350 6225 8350 6300
+Wire Wire Line
+	8350 5925 8500 5925
+Wire Wire Line
+	8350 5425 8350 5525
+Wire Wire Line
+	8350 5125 8500 5125
+Wire Wire Line
+	8800 5325 8800 5725
+Wire Wire Line
+	8800 6125 8800 6300
+Wire Wire Line
+	8800 6300 8350 6300
+Connection ~ 8350 6300
+$Comp
+L Device:Q_NMOS_GSD Q?
+U 1 1 5BB46834
+P 5300 1675
+F 0 "Q?" H 5150 1750 50  0000 L CNN
+F 1 "SI2302" H 5100 1875 50  0000 L CNN
+F 2 "senseBeTx_rev1_fp:SOT-23" H 5500 1775 50  0001 C CNN
+F 3 "~" H 5300 1675 50  0001 C CNN
+	1    5300 1675
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Q_NMOS_GSD Q?
+U 1 1 5BB4CABE
+P 6125 1675
+F 0 "Q?" H 5975 1750 50  0000 L CNN
+F 1 "SI2302" H 5925 1875 50  0000 L CNN
+F 2 "senseBeTx_rev1_fp:SOT-23" H 6325 1775 50  0001 C CNN
+F 3 "~" H 6125 1675 50  0001 C CNN
+	1    6125 1675
+	-1   0    0    -1  
+$EndComp
+$Comp
+L senseBeRx_rev1:GND #PWR?
+U 1 1 5BB4CBB1
+P 6025 2125
+F 0 "#PWR?" H 6025 1875 50  0001 C CNN
+F 1 "GND" H 6030 1952 50  0000 C CNN
+F 2 "" H 6025 2125 60  0000 C CNN
+F 3 "" H 6025 2125 60  0000 C CNN
+	1    6025 2125
+	1    0    0    -1  
+$EndComp
+$Comp
+L senseBeRx_rev1:VDD #PWR?
+U 1 1 5BB4CD6E
+P 3900 975
+F 0 "#PWR?" H 3900 825 50  0001 C CNN
+F 1 "VDD" H 3917 1148 50  0000 C CNN
+F 2 "" H 3900 975 60  0000 C CNN
+F 3 "" H 3900 975 60  0000 C CNN
+	1    3900 975 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3900 975  3900 1025
+Wire Wire Line
+	3900 1225 4100 1225
+Wire Wire Line
+	4100 1025 3900 1025
+Connection ~ 3900 1025
+Wire Wire Line
+	3900 1025 3900 1225
+$Comp
+L senseBeRx_rev1:R R?
+U 1 1 5BB4E33D
+P 5000 1900
+F 0 "R?" H 5100 1900 50  0000 C CNN
+F 1 "100k" V 5000 1900 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 4930 1900 30  0001 C CNN
+F 3 "" H 5000 1900 30  0000 C CNN
+	1    5000 1900
+	-1   0    0    1   
+$EndComp
+$Comp
+L senseBeRx_rev1:R R?
+U 1 1 5BB4E433
+P 6450 1900
+F 0 "R?" H 6350 1900 50  0000 C CNN
+F 1 "100k" V 6450 1900 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 6380 1900 30  0001 C CNN
+F 3 "" H 6450 1900 30  0000 C CNN
+	1    6450 1900
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4700 1025 4850 1025
+Wire Wire Line
+	4700 1225 4850 1225
+$Comp
+L senseBeRx_rev1:LED_Dual_ACAC D?
+U 1 1 5BB2119E
+P 4400 1125
+F 0 "D?" H 4400 1375 50  0000 C CNN
+F 1 "KPTBD-3216SURKCGKC" H 4400 850 50  0000 C CNN
+F 2 "senseBeTx_rev1_fp:LED_KPTBD-3216SURKCGKC" H 4430 1125 50  0001 C CNN
+F 3 "~" H 4430 1125 50  0001 C CNN
+	1    4400 1125
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5400 2125 5000 2125
+Wire Wire Line
+	5000 2125 5000 2050
+Wire Wire Line
+	5400 1875 5400 2125
+Connection ~ 5400 2125
+Wire Wire Line
+	6025 1875 6025 2125
+Wire Wire Line
+	6450 2050 6450 2125
+Wire Wire Line
+	6450 2125 6025 2125
+Connection ~ 6025 2125
+Wire Wire Line
+	5000 1750 5000 1675
+Wire Wire Line
+	5000 1675 5100 1675
+Wire Wire Line
+	6325 1675 6450 1675
+Wire Wire Line
+	6450 1675 6450 1750
+Wire Wire Line
+	5400 1475 5400 1225
+Wire Wire Line
+	5400 1225 5150 1225
+Wire Wire Line
+	5150 1025 6025 1025
+Wire Wire Line
+	6025 1025 6025 1475
+NoConn ~ 1450 4200
+NoConn ~ 1850 4200
+NoConn ~ 1575 5675
+$Comp
+L senseBeRx_rev1:Mounting_Hole MK?
+U 1 1 5BB5BE10
+P 5475 7100
+F 0 "MK?" H 5575 7146 50  0000 L CNN
+F 1 "Mounting_Hole" H 5575 7055 50  0000 L CNN
+F 2 "senseBeTx_rev1_fp:MountingHole_3.2mm_M3" H 5475 7100 50  0001 C CNN
+F 3 "" H 5475 7100 50  0001 C CNN
+	1    5475 7100
+	1    0    0    -1  
+$EndComp
+$Comp
+L senseBeRx_rev1:C C?
+U 1 1 5BB5C810
+P 3575 7250
+F 0 "C?" H 3450 7350 50  0000 L CNN
+F 1 "8pF" H 3350 7250 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 3613 7100 30  0001 C CNN
+F 3 "" H 3575 7250 60  0000 C CNN
+	1    3575 7250
+	1    0    0    -1  
+$EndComp
+$Comp
+L senseBeRx_rev1:C C?
+U 1 1 5BB5CB21
+P 4275 7250
+F 0 "C?" H 4325 7350 50  0000 L CNN
+F 1 "8pF" H 4375 7250 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 4313 7100 30  0001 C CNN
+F 3 "" H 4275 7250 60  0000 C CNN
+	1    4275 7250
+	1    0    0    -1  
+$EndComp
+$Comp
+L senseBeRx_rev1:GND #PWR?
+U 1 1 5BB5CD23
+P 3925 7550
+F 0 "#PWR?" H 3925 7300 50  0001 C CNN
+F 1 "GND" H 3930 7377 50  0000 C CNN
+F 2 "" H 3925 7550 60  0000 C CNN
+F 3 "" H 3925 7550 60  0000 C CNN
+	1    3925 7550
+	1    0    0    -1  
+$EndComp
+Text Label 3800 4200 0    50   ~ 0
+RCC_OSC32_IN
+Text Label 3800 4300 0    50   ~ 0
+RCC_OSC32_OUT
+Text Label 4275 6175 3    50   ~ 0
+RCC_OSC32_IN
+Text Label 3575 6175 3    50   ~ 0
+RCC_OSC32_OUT
+Wire Wire Line
+	3575 7400 3575 7550
+Wire Wire Line
+	3575 7550 3925 7550
+Wire Wire Line
+	4275 7400 4275 7550
+Wire Wire Line
+	4275 7550 3925 7550
+Connection ~ 3925 7550
+Text Label 5900 3800 2    50   ~ 0
+LPUART1_RX
+Text Label 5900 3600 2    50   ~ 0
+LPUART1_TX
+Text Label 2475 6875 2    50   ~ 0
+USART2_TX
+Text Label 5900 3900 2    50   ~ 0
+LIGHT_SENSE
+Text Label 5900 4000 2    50   ~ 0
+LEDIR_CNTRL2
+Text Label 5900 4400 2    50   ~ 0
+LEDIR_CNTRL1
+Text Label 5900 4500 2    50   ~ 0
+SYS_SWDIO
+Text Label 5900 4600 2    50   ~ 0
+SYS_SWDCLK
+Wire Wire Line
+	5300 3500 5900 3500
+Wire Wire Line
+	5300 3600 5900 3600
+Wire Wire Line
+	1900 6875 2475 6875
+Wire Wire Line
+	900  6875 1400 6875
+Wire Wire Line
+	5300 3900 5900 3900
+Wire Wire Line
+	5900 4500 5300 4500
+Wire Wire Line
+	5300 4600 5900 4600
+Wire Wire Line
+	5300 4300 5900 4300
+Text Label 3800 4600 0    50   ~ 0
+BUTTON
+Text Label 1625 2525 0    50   ~ 0
+LIGHT_SENSE
+Text Label 2200 4000 0    50   ~ 0
+BUTTON
+Text Label 2100 5775 2    50   ~ 0
+LPUART1_RX
+Text Label 2125 5575 2    50   ~ 0
+LPUART1_TX
+Text Label 5900 3700 2    50   ~ 0
+USART2_TX
+Wire Wire Line
+	2125 5575 1575 5575
+Wire Wire Line
+	5300 3700 5900 3700
+Wire Wire Line
+	5900 3800 5300 3800
+Wire Wire Line
+	3800 4200 4400 4200
+Wire Wire Line
+	3800 4300 4400 4300
+Wire Wire Line
+	3800 4600 4400 4600
+Text Label 3800 4500 0    50   ~ 0
+LEDIR_PWR3
+Text Label 5900 3500 2    50   ~ 0
+LEDIR_PWR2
+Text Label 5900 4300 2    50   ~ 0
+LEDIR_PWR1
+Wire Wire Line
+	5300 4400 5900 4400
+Wire Wire Line
+	5300 4000 5900 4000
+Text Label 5900 4100 2    50   ~ 0
+LED_RED
+Text Label 5900 4200 2    50   ~ 0
+LED_GREEN
+Wire Wire Line
+	5300 4200 5900 4200
+Wire Wire Line
+	5900 4100 5300 4100
+Wire Wire Line
+	3800 4500 4400 4500
+Text Label 900  6875 0    50   ~ 0
+SYS_SWDIO
+Text Label 900  6975 0    50   ~ 0
+SYS_SWDCLK
+$Comp
+L senseBeRx_rev1:GND #PWR?
+U 1 1 5BBD7127
+P 1650 7450
+F 0 "#PWR?" H 1650 7200 50  0001 C CNN
+F 1 "GND" H 1655 7277 50  0000 C CNN
+F 2 "" H 1650 7450 60  0000 C CNN
+F 3 "" H 1650 7450 60  0000 C CNN
+	1    1650 7450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	900  6975 1400 6975
+Wire Wire Line
+	1400 7275 1200 7275
+Wire Wire Line
+	1200 7275 1200 7450
+Wire Wire Line
+	1200 7450 1650 7450
+Wire Wire Line
+	2125 7450 2125 7275
+Wire Wire Line
+	2125 7275 1900 7275
+Wire Wire Line
+	2125 7450 1650 7450
+$Comp
+L senseBeRx_rev1:C C?
+U 1 1 5BBF6E2B
+P 2200 4275
+F 0 "C?" H 2315 4321 50  0000 L CNN
+F 1 "100nF" H 2315 4230 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 2238 4125 30  0001 C CNN
+F 3 "" H 2200 4275 60  0000 C CNN
+	1    2200 4275
+	1    0    0    -1  
+$EndComp
+$Comp
+L senseBeRx_rev1:GND #PWR?
+U 1 1 5BBF6EB7
+P 2200 4550
+F 0 "#PWR?" H 2200 4300 50  0001 C CNN
+F 1 "GND" H 2205 4377 50  0000 C CNN
+F 2 "" H 2200 4550 60  0000 C CNN
+F 3 "" H 2200 4550 60  0000 C CNN
+	1    2200 4550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2200 4425 2200 4550
+Wire Wire Line
+	1850 4000 2200 4000
+Wire Wire Line
+	2200 4000 2200 4125
+$Comp
+L senseBeRx_rev1:GND #PWR?
+U 1 1 5BC03C96
+P 1150 4225
+F 0 "#PWR?" H 1150 3975 50  0001 C CNN
+F 1 "GND" H 1155 4052 50  0000 C CNN
+F 2 "" H 1150 4225 60  0000 C CNN
+F 3 "" H 1150 4225 60  0000 C CNN
+	1    1150 4225
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1150 4225 1150 4000
+Wire Wire Line
+	1150 4000 1450 4000
+$Comp
+L senseBeRx_rev1:GND #PWR?
+U 1 1 5BC0B655
+P 1625 3125
+F 0 "#PWR?" H 1625 2875 50  0001 C CNN
+F 1 "GND" H 1630 2952 50  0000 C CNN
+F 2 "" H 1625 3125 60  0000 C CNN
+F 3 "" H 1625 3125 60  0000 C CNN
+	1    1625 3125
+	1    0    0    -1  
+$EndComp
+$Comp
+L senseBeRx_rev1:VDD #PWR?
+U 1 1 5BC0BA50
+P 1625 1900
+F 0 "#PWR?" H 1625 1750 50  0001 C CNN
+F 1 "VDD" H 1642 2073 50  0000 C CNN
+F 2 "" H 1625 1900 60  0000 C CNN
+F 3 "" H 1625 1900 60  0000 C CNN
+	1    1625 1900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1625 1900 1625 2050
+Wire Wire Line
+	1625 2350 1625 2675
+Wire Wire Line
+	1625 2975 1625 3125
+Wire Wire Line
+	2100 5775 1575 5775
+$Comp
+L senseBeRx_rev1:GND #PWR?
+U 1 1 5BC1A23E
+P 2300 5900
+F 0 "#PWR?" H 2300 5650 50  0001 C CNN
+F 1 "GND" H 2305 5727 50  0000 C CNN
+F 2 "" H 2300 5900 60  0000 C CNN
+F 3 "" H 2300 5900 60  0000 C CNN
+	1    2300 5900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2300 5900 2300 5475
+Wire Wire Line
+	1575 5475 2300 5475
+NoConn ~ 1575 5875
+Text Label 7650 5125 0    50   ~ 0
+LEDIR_CNTRL1
+Text Label 8075 3400 0    50   ~ 0
+LEDIR_PWR2
+Text Label 7650 5925 0    50   ~ 0
+LEDIR_CNTRL2
+Text Label 9600 3400 0    50   ~ 0
+LEDIR_PWR1
+Text Label 6600 3400 0    50   ~ 0
+LEDIR_PWR3
+$Comp
+L senseBeRx_rev1:VDD #PWR?
+U 1 1 5BC22F0C
+P 4800 2675
+F 0 "#PWR?" H 4800 2525 50  0001 C CNN
+F 1 "VDD" H 4817 2848 50  0000 C CNN
+F 2 "" H 4800 2675 60  0000 C CNN
+F 3 "" H 4800 2675 60  0000 C CNN
+	1    4800 2675
+	1    0    0    -1  
+$EndComp
+$Comp
+L senseBeRx_rev1:VDD #PWR?
+U 1 1 5BC23870
+P 2650 6975
+F 0 "#PWR?" H 2650 6825 50  0001 C CNN
+F 1 "VDD" H 2667 7148 50  0000 C CNN
+F 2 "" H 2650 6975 60  0000 C CNN
+F 3 "" H 2650 6975 60  0000 C CNN
+	1    2650 6975
+	1    0    0    -1  
+$EndComp
+Connection ~ 8350 5925
+Connection ~ 8350 5125
+Connection ~ 6875 3400
+Connection ~ 8350 3400
+Connection ~ 9875 3400
+Text Label 3800 3500 0    50   ~ 0
+RESET
+Wire Wire Line
+	3800 3500 4400 3500
+Text Label 900  7075 0    50   ~ 0
+RESET
+Wire Wire Line
+	900  7075 1400 7075
+NoConn ~ 1400 7175
+NoConn ~ 1900 7175
+NoConn ~ 1900 7075
+Wire Wire Line
+	2650 6975 1900 6975
+Wire Wire Line
+	4800 2675 4800 2725
+Wire Wire Line
+	4900 3300 4900 3225
+Wire Wire Line
+	4900 3225 4800 3225
+Connection ~ 4800 3225
+Wire Wire Line
+	4800 3225 4800 3300
+$Comp
+L senseBeRx_rev1:GND #PWR?
+U 1 1 5BC6E4AA
+P 4800 5125
+F 0 "#PWR?" H 4800 4875 50  0001 C CNN
+F 1 "GND" H 4805 4952 50  0000 C CNN
+F 2 "" H 4800 5125 60  0000 C CNN
+F 3 "" H 4800 5125 60  0000 C CNN
+	1    4800 5125
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4800 5125 4800 4800
+Text Label 5000 1675 2    50   ~ 0
+LED_GREEN
+Text Label 6450 1675 0    50   ~ 0
+LED_RED
+Wire Wire Line
+	9300 1700 8825 1700
+Wire Wire Line
+	8825 1700 8825 1300
+Connection ~ 8825 1300
+Wire Wire Line
+	8825 1300 9300 1300
+Wire Wire Line
+	9300 925  8825 925 
+Wire Wire Line
+	8825 925  8825 1300
+Text Label 9850 925  2    50   ~ 0
+R20
+Text Label 9850 1300 2    50   ~ 0
+R12
+Text Label 9850 1700 2    50   ~ 0
+4R7
+Wire Wire Line
+	9850 1700 9600 1700
+Wire Wire Line
+	9850 1300 9600 1300
+Wire Wire Line
+	9850 925  9600 925 
+Text Label 10325 3150 2    50   ~ 0
+R20
+Text Label 8800 3200 2    50   ~ 0
+R12
+Text Label 7325 3150 2    50   ~ 0
+4R7
+Wire Wire Line
+	10325 3150 10325 3200
+$Comp
+L senseBeRx_rev1:C C?
+U 1 1 5BBABF7A
+P 4550 2950
+F 0 "C?" H 4665 2996 50  0000 L CNN
+F 1 "100nF" H 4665 2905 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 4588 2800 30  0001 C CNN
+F 3 "" H 4550 2950 60  0000 C CNN
+	1    4550 2950
+	-1   0    0    1   
+$EndComp
+$Comp
+L senseBeRx_rev1:GND #PWR?
+U 1 1 5BBB011A
+P 4550 3100
+F 0 "#PWR?" H 4550 2850 50  0001 C CNN
+F 1 "GND" H 4555 2927 50  0000 C CNN
+F 2 "" H 4550 3100 60  0000 C CNN
+F 3 "" H 4550 3100 60  0000 C CNN
+	1    4550 3100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4550 2800 4550 2725
+Wire Wire Line
+	4550 2725 4800 2725
+Connection ~ 4800 2725
+Wire Wire Line
+	4800 2725 4800 3225
+Text Notes 575  675  0    50   ~ 0
+Reverse Polarity Protection
+Text Notes 550  3725 0    50   ~ 0
+A momentary Push button\n w/ debouncing Cap to \nswitch to config, mode.
+Wire Wire Line
+	7650 5925 8350 5925
+Wire Wire Line
+	7650 5125 8350 5125
+Wire Wire Line
+	9600 3400 9875 3400
+Wire Wire Line
+	8075 3400 8350 3400
+Wire Wire Line
+	6600 3400 6875 3400
+Text Notes 550  2525 0    50   ~ 0
+Ambient Light Sensing
+Text Notes 550  5275 0    50   ~ 0
+Port for UART comm. b/w \nSenseBe Rx and Tx units
+Text Notes 550  6625 0    50   ~ 0
+For Programming/Debugging \nthe STM Controller
+Text Notes 3725 6550 0    50   ~ 0
+Low Freq. \nCrystal\n32.768 kHz
+Wire Wire Line
+	3575 6175 3575 6925
+Wire Wire Line
+	4275 6175 4275 6925
+Wire Wire Line
+	3775 6925 3575 6925
+Connection ~ 3575 6925
+Wire Wire Line
+	3575 6925 3575 7100
+Wire Wire Line
+	4075 6925 4275 6925
+Connection ~ 4275 6925
+Wire Wire Line
+	4275 6925 4275 7100
+Text Notes 4125 775  0    50   ~ 0
+Two color (Red/Green) LED
+Text Notes 8175 2950 0    50   ~ 0
+N-Channel MOSFET Array \nto change Current flowing \nthrough the IR Tx LED.
+Text Notes 8225 4700 0    50   ~ 0
+N-Channel MOSFET Array \nto give the IR LED Tx\na pulse input.
+Wire Wire Line
+	8800 4925 8800 4875
+Wire Wire Line
+	10325 3675 10325 3600
+Text Label 10325 3675 0    50   ~ 0
+R_CNTRL
+Text Label 8800 3700 0    50   ~ 0
+R_CNTRL
+Text Label 7325 3700 0    50   ~ 0
+R_CNTRL
+Wire Wire Line
+	7325 3700 7325 3600
+Wire Wire Line
+	8800 3700 8800 3600
+Text Label 8800 4875 0    50   ~ 0
+R_CNTRL
+Text Notes 8625 1875 0    50   ~ 0
+Infra Red LED Tx
+Connection ~ 1650 7450
+$EndSCHEMATC

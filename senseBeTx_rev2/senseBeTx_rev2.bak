@@ -20,7 +20,7 @@ U 1 1 5BB20932
 P 950 1225
 F 0 "BT1" H 1068 1271 50  0000 L CNN
 F 1 "Battery" H 1068 1180 50  0000 L CNN
-F 2 "senseBeTx_rev2_fp:AA_BAT_Holder" V 950 1265 60  0001 C CNN
+F 2 "senseBeTx_rev1_fp:BT_Symbol" V 950 1265 60  0001 C CNN
 F 3 "" V 950 1265 60  0000 C CNN
 	1    950  1225
 	1    0    0    -1  

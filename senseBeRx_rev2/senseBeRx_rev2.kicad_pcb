@@ -195,7 +195,7 @@
   )
 
   (module senseBeRx_rev2_fp:Appiko_Logo_2 (layer F.Cu) (tedit 5C021CA6) (tstamp 5C02393C)
-    (at 108.2 89)
+    (at 107.3 113.8)
     (fp_text reference G*** (at 0.07 -4.46) (layer F.SilkS) hide
       (effects (font (size 1.524 1.524) (thickness 0.3)))
     )
@@ -1753,7 +1753,7 @@
   )
 
   (module senseBeRx_rev2_fp:Appiko_LOGO_img (layer F.Cu) (tedit 0) (tstamp 5C02390C)
-    (at 106.8 79.8)
+    (at 106.5 82.2)
     (fp_text reference G*** (at 0 0) (layer F.SilkS) hide
       (effects (font (size 1.524 1.524) (thickness 0.3)))
     )
@@ -1981,8 +1981,6 @@
   (segment (start 103.225 120.45) (end 101.879999 120.45) (width 0.25) (layer F.Cu) (net 2))
   (segment (start 122.625 77.9) (end 113.75 77.9) (width 0.25) (layer F.Cu) (net 2))
   (segment (start 126.2 81.475) (end 122.625 77.9) (width 0.25) (layer F.Cu) (net 2))
-  (segment (start 132.16137 135.98) (end 133.57 135.98) (width 0.25) (layer B.Cu) (net 31))
-  (segment (start 131.03 135.98) (end 132.16137 135.98) (width 0.25) (layer B.Cu) (net 31))
   (segment (start 134 87.6) (end 134 88.225) (width 0.25) (layer F.Cu) (net 2))
   (segment (start 134 82.5) (end 134 87.6) (width 0.25) (layer F.Cu) (net 2))
   (segment (start 133.05 81.55) (end 134 82.5) (width 0.25) (layer F.Cu) (net 2))
@@ -2191,8 +2189,6 @@
   (via (at 133.8 101) (size 0.8) (drill 0.4) (layers F.Cu B.Cu) (net 20))
   (segment (start 108.2 101) (end 107 102.2) (width 0.25) (layer B.Cu) (net 20))
   (segment (start 107 102.2) (end 107 132.3) (width 0.25) (layer B.Cu) (net 20))
-  (segment (start 133.125 89.1) (end 134 89.975) (width 0.25) (layer F.Cu) (net 32))
-  (segment (start 131.6 89.1) (end 133.125 89.1) (width 0.25) (layer F.Cu) (net 32))
   (segment (start 112.275 97.575) (end 112.9 96.95) (width 0.25) (layer F.Cu) (net 21))
   (segment (start 112.275 99.2) (end 112.275 97.575) (width 0.25) (layer F.Cu) (net 21))
   (segment (start 114.7 111.4) (end 112.275 108.975) (width 0.25) (layer F.Cu) (net 21))
@@ -2242,6 +2238,10 @@
   (segment (start 120.04 92.327208) (end 118.812792 91.1) (width 0.25) (layer F.Cu) (net 30))
   (segment (start 118.812792 91.1) (end 111.2 91.1) (width 0.25) (layer F.Cu) (net 30))
   (segment (start 111.2 91.1) (end 110.525 91.775) (width 0.25) (layer F.Cu) (net 30) (tstamp 5C023961))
+  (segment (start 132.16137 135.98) (end 133.57 135.98) (width 0.25) (layer B.Cu) (net 31))
+  (segment (start 131.03 135.98) (end 132.16137 135.98) (width 0.25) (layer B.Cu) (net 31))
+  (segment (start 133.125 89.1) (end 134 89.975) (width 0.25) (layer F.Cu) (net 32))
+  (segment (start 131.6 89.1) (end 133.125 89.1) (width 0.25) (layer F.Cu) (net 32))
   (segment (start 126.3 118.1) (end 126.2 118.1) (width 0.25) (layer F.Cu) (net 32))
   (segment (start 128.6 115.8) (end 126.3 118.1) (width 0.25) (layer F.Cu) (net 32))
   (via (at 126.2 118.1) (size 0.8) (drill 0.4) (layers F.Cu B.Cu) (net 32))

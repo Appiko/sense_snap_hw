@@ -15,7 +15,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L senseBeRx_rev1:TSSP40xx U2
+L senseBeRx_rev2-rescue:TSSP40xx-senseBeRx_rev1 U2
 U 1 1 5BA4B8BC
 P 8275 1675
 F 0 "U2" H 8250 2000 50  0000 C CNN
@@ -30,7 +30,7 @@ Wire Wire Line
 Wire Wire Line
 	9050 1475 9050 1075
 $Comp
-L senseBeRx_rev1:VDD #PWR020
+L senseBeRx_rev2-rescue:VDD-senseBeRx_rev1 #PWR020
 U 1 1 5BA4C69F
 P 9050 975
 F 0 "#PWR020" H 9050 825 50  0001 C CNN
@@ -47,7 +47,7 @@ Wire Wire Line
 Wire Wire Line
 	9050 1875 9050 1950
 $Comp
-L senseBeRx_rev1:R R6
+L senseBeRx_rev2-rescue:R-senseBeRx_rev1 R6
 U 1 1 5BA4C85A
 P 9050 2100
 F 0 "R6" H 8900 2100 50  0000 L CNN
@@ -58,7 +58,7 @@ F 3 "" H 9050 2100 30  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L senseBeRx_rev1:GND #PWR021
+L senseBeRx_rev2-rescue:GND-senseBeRx_rev1 #PWR021
 U 1 1 5BA4C9F5
 P 9050 2450
 F 0 "#PWR021" H 9050 2200 50  0001 C CNN
@@ -69,7 +69,7 @@ F 3 "" H 9050 2450 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L senseBeRx_rev1:C C8
+L senseBeRx_rev2-rescue:C-senseBeRx_rev1 C8
 U 1 1 5BA50692
 P 9225 1250
 F 0 "C8" H 9340 1296 50  0000 L CNN
@@ -80,7 +80,7 @@ F 3 "" H 9225 1250 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L senseBeRx_rev1:GND #PWR022
+L senseBeRx_rev2-rescue:GND-senseBeRx_rev1 #PWR022
 U 1 1 5BA50766
 P 9225 1450
 F 0 "#PWR022" H 9225 1200 50  0001 C CNN
@@ -111,7 +111,7 @@ Wire Wire Line
 	4025 1200 4025 950 
 Connection ~ 4025 1200
 $Comp
-L senseBeRx_rev1:VDD #PWR014
+L senseBeRx_rev2-rescue:VDD-senseBeRx_rev1 #PWR014
 U 1 1 5BA556BC
 P 4025 950
 F 0 "#PWR014" H 4025 800 50  0001 C CNN
@@ -122,7 +122,7 @@ F 3 "" H 4025 950 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L senseBeRx_rev1:LED_Dual_ACAC D1
+L senseBeRx_rev2-rescue:LED_Dual_ACAC-senseBeRx_rev1 D1
 U 1 1 5BA559EF
 P 4475 1300
 F 0 "D1" H 4475 1575 50  0000 C CNN
@@ -133,7 +133,7 @@ F 3 "~" H 4505 1300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L senseBeRx_rev1:R R2
+L senseBeRx_rev2-rescue:R-senseBeRx_rev1 R2
 U 1 1 5BA55B89
 P 5025 1200
 F 0 "R2" V 4925 1250 50  0000 L CNN
@@ -144,7 +144,7 @@ F 3 "" H 5025 1200 30  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L senseBeRx_rev1:R R3
+L senseBeRx_rev2-rescue:R-senseBeRx_rev1 R3
 U 1 1 5BA55CAF
 P 5025 1400
 F 0 "R3" V 5125 1425 50  0000 L CNN
@@ -216,7 +216,7 @@ $EndComp
 Wire Wire Line
 	5800 1200 5800 1550
 $Comp
-L senseBeRx_rev1:GND #PWR017
+L senseBeRx_rev2-rescue:GND-senseBeRx_rev1 #PWR017
 U 1 1 5BA5FEE1
 P 5575 2050
 F 0 "#PWR017" H 5575 1800 50  0001 C CNN
@@ -227,7 +227,7 @@ F 3 "" H 5575 2050 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L senseBeRx_rev1:GND #PWR018
+L senseBeRx_rev2-rescue:GND-senseBeRx_rev1 #PWR018
 U 1 1 5BA5FF06
 P 5800 2050
 F 0 "#PWR018" H 5800 1800 50  0001 C CNN
@@ -246,7 +246,7 @@ Connection ~ 9050 2350
 Wire Wire Line
 	9050 2350 9050 2450
 $Comp
-L senseBeRx_rev1:D_Photo D2
+L senseBeRx_rev2-rescue:D_Photo-senseBeRx_rev1 D2
 U 1 1 5BA62392
 P 9800 4275
 F 0 "D2" V 9704 4432 50  0000 L CNN
@@ -257,7 +257,7 @@ F 3 "~" H 9750 4275 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L senseBeRx_rev1:R R8
+L senseBeRx_rev2-rescue:R-senseBeRx_rev1 R8
 U 1 1 5BA626E5
 P 9800 3800
 F 0 "R8" H 9650 3800 50  0000 L CNN
@@ -268,18 +268,18 @@ F 3 "" H 9800 3800 30  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L senseBeRx_rev1:GND #PWR024
+L senseBeRx_rev2-rescue:GND-senseBeRx_rev1 #PWR024
 U 1 1 5BA64552
-P 9350 4725
-F 0 "#PWR024" H 9350 4475 50  0001 C CNN
-F 1 "GND" H 9350 4575 50  0000 C CNN
-F 2 "" H 9350 4725 60  0000 C CNN
-F 3 "" H 9350 4725 60  0000 C CNN
-	1    9350 4725
+P 9350 4750
+F 0 "#PWR024" H 9350 4500 50  0001 C CNN
+F 1 "GND" H 9350 4600 50  0000 C CNN
+F 2 "" H 9350 4750 60  0000 C CNN
+F 3 "" H 9350 4750 60  0000 C CNN
+	1    9350 4750
 	1    0    0    -1  
 $EndComp
 $Comp
-L senseBeRx_rev1:VDD #PWR023
+L senseBeRx_rev2-rescue:VDD-senseBeRx_rev1 #PWR023
 U 1 1 5BA64611
 P 9350 3475
 F 0 "#PWR023" H 9350 3325 50  0001 C CNN
@@ -289,7 +289,7 @@ F 3 "" H 9350 3475 60  0000 C CNN
 	1    9350 3475
 	1    0    0    -1  
 $EndComp
-Text Label 9800 4000 0    50   ~ 0
+Text Label 9975 4000 0    50   ~ 0
 LIGHT_SENSE
 $Comp
 L Device:Battery_Cell BT1
@@ -303,7 +303,7 @@ F 3 "" V 1050 1340 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L senseBeRx_rev1:Crystal Y1
+L senseBeRx_rev2-rescue:Crystal-senseBeRx_rev1 Y1
 U 1 1 5A868576
 P 3750 6550
 F 0 "Y1" H 3750 6700 50  0000 C CNN
@@ -314,7 +314,7 @@ F 3 "" H 3750 6550 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L senseBeRx_rev1:LOGO #G1
+L senseBeRx_rev2-rescue:LOGO-senseBeRx_rev1 #G1
 U 1 1 5A868666
 P 7600 6850
 F 0 "#G1" H 7600 6652 60  0001 C CNN
@@ -325,7 +325,7 @@ F 3 "" H 7600 6850 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L senseBeRx_rev1:MDBT42Q U1
+L senseBeRx_rev2-rescue:MDBT42Q-senseBeRx_rev1 U1
 U 1 1 5A8686CF
 P 5200 3550
 F 0 "U1" H 5200 4500 60  0000 C CNN
@@ -336,7 +336,7 @@ F 3 "" H 5000 4650 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L senseBeRx_rev1:C C3
+L senseBeRx_rev2-rescue:C-senseBeRx_rev1 C3
 U 1 1 5A8689DA
 P 2500 1250
 F 0 "C3" H 2525 1350 50  0000 L CNN
@@ -347,7 +347,7 @@ F 3 "" H 2500 1250 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L senseBeRx_rev1:Mounting_Hole MK1
+L senseBeRx_rev2-rescue:Mounting_Hole-senseBeRx_rev1 MK1
 U 1 1 5A86D851
 P 5625 7125
 F 0 "MK1" H 5625 7325 50  0000 C CNN
@@ -358,7 +358,7 @@ F 3 "" H 5625 7125 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L senseBeRx_rev1:GND #PWR03
+L senseBeRx_rev2-rescue:GND-senseBeRx_rev1 #PWR03
 U 1 1 5A86D9CE
 P 1050 1700
 F 0 "#PWR03" H 1050 1450 50  0001 C CNN
@@ -369,7 +369,7 @@ F 3 "" H 1050 1700 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L senseBeRx_rev1:VDD #PWR07
+L senseBeRx_rev2-rescue:VDD-senseBeRx_rev1 #PWR07
 U 1 1 5A86DA3A
 P 2500 850
 F 0 "#PWR07" H 2500 700 50  0001 C CNN
@@ -380,7 +380,7 @@ F 3 "" H 2500 850 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L senseBeRx_rev1:CONN_02X05 P1
+L senseBeRx_rev2-rescue:CONN_02X05-senseBeRx_rev1 P1
 U 1 1 5A86DAE8
 P 1500 6750
 F 0 "P1" H 1500 7050 50  0000 C CNN
@@ -391,7 +391,7 @@ F 3 "" H 1500 5550 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L senseBeRx_rev1:Mounting_Hole MK2
+L senseBeRx_rev2-rescue:Mounting_Hole-senseBeRx_rev1 MK2
 U 1 1 5A86FCEA
 P 6175 7125
 F 0 "MK2" H 6175 7325 50  0000 C CNN
@@ -402,7 +402,7 @@ F 3 "" H 6175 7125 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L senseBeRx_rev1:INDUCTOR_SMALL L2
+L senseBeRx_rev2-rescue:INDUCTOR_SMALL-senseBeRx_rev1 L2
 U 1 1 5A8701FA
 P 2000 4300
 F 0 "L2" H 2000 4400 50  0000 C CNN
@@ -413,7 +413,7 @@ F 3 "" H 2000 4300 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L senseBeRx_rev1:GND #PWR01
+L senseBeRx_rev2-rescue:GND-senseBeRx_rev1 #PWR01
 U 1 1 5A8704B4
 P 850 3200
 F 0 "#PWR01" H 850 2950 50  0001 C CNN
@@ -424,7 +424,7 @@ F 3 "" H 850 3200 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L senseBeRx_rev1:GND #PWR012
+L senseBeRx_rev2-rescue:GND-senseBeRx_rev1 #PWR012
 U 1 1 5A870D28
 P 3350 7250
 F 0 "#PWR012" H 3350 7000 50  0001 C CNN
@@ -435,7 +435,7 @@ F 3 "" H 3350 7250 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L senseBeRx_rev1:GND #PWR015
+L senseBeRx_rev2-rescue:GND-senseBeRx_rev1 #PWR015
 U 1 1 5A870DA2
 P 4150 7250
 F 0 "#PWR015" H 4150 7000 50  0001 C CNN
@@ -446,7 +446,7 @@ F 3 "" H 4150 7250 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L senseBeRx_rev1:GND #PWR04
+L senseBeRx_rev2-rescue:GND-senseBeRx_rev1 #PWR04
 U 1 1 5A870E1C
 P 1500 7250
 F 0 "#PWR04" H 1500 7000 50  0001 C CNN
@@ -457,18 +457,7 @@ F 3 "" H 1500 7250 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L senseBeRx_rev1:GND #PWR02
-U 1 1 5A8728A3
-P 850 4850
-F 0 "#PWR02" H 850 4600 50  0001 C CNN
-F 1 "GND" H 850 4700 50  0000 C CNN
-F 2 "" H 850 4850 60  0000 C CNN
-F 3 "" H 850 4850 60  0000 C CNN
-	1    850  4850
-	1    0    0    -1  
-$EndComp
-$Comp
-L senseBeRx_rev1:GND #PWR011
+L senseBeRx_rev2-rescue:GND-senseBeRx_rev1 #PWR011
 U 1 1 5A86E920
 P 3300 5000
 F 0 "#PWR011" H 3300 4750 50  0001 C CNN
@@ -479,7 +468,7 @@ F 3 "" H 3300 5000 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L senseBeRx_rev1:GND #PWR013
+L senseBeRx_rev2-rescue:GND-senseBeRx_rev1 #PWR013
 U 1 1 5A86EA6B
 P 3650 5000
 F 0 "#PWR013" H 3650 4750 50  0001 C CNN
@@ -490,7 +479,7 @@ F 3 "" H 3650 5000 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L senseBeRx_rev1:GND #PWR08
+L senseBeRx_rev2-rescue:GND-senseBeRx_rev1 #PWR08
 U 1 1 5A8A6A27
 P 3150 3250
 F 0 "#PWR08" H 3150 3000 50  0001 C CNN
@@ -533,7 +522,7 @@ GPIO1
 Text Label 7050 3650 2    60   ~ 0
 GPIO2
 $Comp
-L senseBeRx_rev1:VDD #PWR010
+L senseBeRx_rev2-rescue:VDD-senseBeRx_rev1 #PWR010
 U 1 1 5A8A9811
 P 3150 4250
 F 0 "#PWR010" H 3150 4100 50  0001 C CNN
@@ -573,7 +562,7 @@ GPIO1
 Text Label 950  6850 0    60   ~ 0
 GPIO2
 $Comp
-L senseBeRx_rev1:VDD #PWR06
+L senseBeRx_rev2-rescue:VDD-senseBeRx_rev1 #PWR06
 U 1 1 5A8B4EEA
 P 2150 6450
 F 0 "#PWR06" H 2150 6300 50  0001 C CNN
@@ -584,7 +573,7 @@ F 3 "" H 2150 6450 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L senseBeRx_rev1:C C7
+L senseBeRx_rev2-rescue:C-senseBeRx_rev1 C7
 U 1 1 5A8BBEF5
 P 4150 6900
 F 0 "C7" H 4175 7000 50  0000 L CNN
@@ -595,7 +584,7 @@ F 3 "" H 4150 6900 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L senseBeRx_rev1:C C5
+L senseBeRx_rev2-rescue:C-senseBeRx_rev1 C5
 U 1 1 5A8BC0B2
 P 3350 6900
 F 0 "C5" H 3375 7000 50  0000 L CNN
@@ -606,7 +595,7 @@ F 3 "" H 3350 6900 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L senseBeRx_rev1:C C4
+L senseBeRx_rev2-rescue:C-senseBeRx_rev1 C4
 U 1 1 5A8BC1C2
 P 3300 4600
 F 0 "C4" H 3325 4700 50  0000 L CNN
@@ -617,7 +606,7 @@ F 3 "" H 3300 4600 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L senseBeRx_rev1:C C6
+L senseBeRx_rev2-rescue:C-senseBeRx_rev1 C6
 U 1 1 5A8BC389
 P 3650 4600
 F 0 "C6" H 3675 4700 50  0000 L CNN
@@ -628,7 +617,7 @@ F 3 "" H 3650 4600 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L senseBeRx_rev1:C C1
+L senseBeRx_rev2-rescue:C-senseBeRx_rev1 C1
 U 1 1 5A8BC51E
 P 850 4600
 F 0 "C1" H 875 4700 50  0000 L CNN
@@ -639,7 +628,7 @@ F 3 "" H 850 4600 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L senseBeRx_rev1:INDUCTOR_SMALL L1
+L senseBeRx_rev2-rescue:INDUCTOR_SMALL-senseBeRx_rev1 L1
 U 1 1 5A8BE5C8
 P 1450 4300
 F 0 "L1" H 1450 4400 50  0000 C CNN
@@ -661,7 +650,7 @@ F 3 "" H 1850 1050 60  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L senseBeRx_rev1:VDD #PWR09
+L senseBeRx_rev2-rescue:VDD-senseBeRx_rev1 #PWR09
 U 1 1 5A8C68A3
 P 3150 4000
 F 0 "#PWR09" H 3150 3850 50  0001 C CNN
@@ -795,12 +784,9 @@ Wire Wire Line
 Wire Wire Line
 	1750 6750 2050 6750
 Wire Wire Line
-	1100 7250 1500 7250
-Wire Wire Line
 	1100 7250 1100 6950
 Wire Wire Line
 	1900 7250 1900 6950
-Connection ~ 1500 7250
 Wire Wire Line
 	1100 6950 1250 6950
 Wire Wire Line
@@ -831,8 +817,6 @@ Wire Wire Line
 	2500 950  2500 1100
 Wire Wire Line
 	1050 1650 1050 1700
-Wire Wire Line
-	1500 7250 1900 7250
 Text Notes 500  1500 0    60   ~ 0
 Two 1.2V \nAA Batteries
 Text Notes 1200 800  0    60   ~ 0
@@ -869,7 +853,7 @@ RX_OUT
 Text Label 5400 5800 1    50   ~ 0
 RX_EN
 $Comp
-L senseBeRx_rev1:R R9
+L senseBeRx_rev2-rescue:R-senseBeRx_rev1 R9
 U 1 1 5BB1DDFB
 P 9950 2400
 F 0 "R9" H 9800 2400 50  0000 L CNN
@@ -884,7 +868,7 @@ Wire Wire Line
 Wire Wire Line
 	9950 2550 9950 2650
 $Comp
-L senseBeRx_rev1:GND #PWR026
+L senseBeRx_rev2-rescue:GND-senseBeRx_rev1 #PWR026
 U 1 1 5BB25F91
 P 9950 2650
 F 0 "#PWR026" H 9950 2400 50  0001 C CNN
@@ -895,7 +879,7 @@ F 3 "" H 9950 2650 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L senseBeRx_rev1:R R1
+L senseBeRx_rev2-rescue:R-senseBeRx_rev1 R1
 U 1 1 5BB2650D
 P 4900 2000
 F 0 "R1" H 4750 1925 50  0000 L CNN
@@ -908,7 +892,7 @@ $EndComp
 Wire Wire Line
 	4900 2150 4900 2275
 $Comp
-L senseBeRx_rev1:GND #PWR016
+L senseBeRx_rev2-rescue:GND-senseBeRx_rev1 #PWR016
 U 1 1 5BB26515
 P 4900 2275
 F 0 "#PWR016" H 4900 2025 50  0001 C CNN
@@ -923,7 +907,7 @@ Wire Wire Line
 Wire Wire Line
 	4900 1750 5275 1750
 $Comp
-L senseBeRx_rev1:R R4
+L senseBeRx_rev2-rescue:R-senseBeRx_rev1 R4
 U 1 1 5BB32D48
 P 6550 2000
 F 0 "R4" H 6400 1925 50  0000 L CNN
@@ -936,7 +920,7 @@ $EndComp
 Wire Wire Line
 	6550 2150 6550 2225
 $Comp
-L senseBeRx_rev1:GND #PWR019
+L senseBeRx_rev2-rescue:GND-senseBeRx_rev1 #PWR019
 U 1 1 5BB32D50
 P 6550 2225
 F 0 "#PWR019" H 6550 1975 50  0001 C CNN
@@ -947,7 +931,7 @@ F 3 "" H 6550 2225 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L senseBeRx_rev1:C C2
+L senseBeRx_rev2-rescue:C-senseBeRx_rev1 C2
 U 1 1 5BB68ABA
 P 1800 3225
 F 0 "C2" H 1825 3325 50  0000 L CNN
@@ -963,7 +947,7 @@ Connection ~ 1800 3000
 Wire Wire Line
 	1800 3000 1850 3000
 $Comp
-L senseBeRx_rev1:GND #PWR05
+L senseBeRx_rev2-rescue:GND-senseBeRx_rev1 #PWR05
 U 1 1 5BB6D282
 P 1800 3425
 F 0 "#PWR05" H 1800 3175 50  0001 C CNN
@@ -990,20 +974,16 @@ Wire Wire Line
 	9125 6000 9600 6000
 Wire Wire Line
 	9125 5900 9600 5900
-Wire Wire Line
-	10000 6100 10000 5975
-Wire Wire Line
-	9125 6100 10000 6100
-Text Label 9600 6000 2    50   ~ 0
+Text Label 9600 6100 2    50   ~ 0
 TRIGGER
-Text Label 9600 5900 2    50   ~ 0
+Text Label 9600 6000 2    50   ~ 0
 FOCUS
 Wire Wire Line
 	9775 5800 9775 5825
 Wire Wire Line
 	9125 5800 9775 5800
 $Comp
-L senseBeRx_rev1:GND #PWR025
+L senseBeRx_rev2-rescue:GND-senseBeRx_rev1 #PWR025
 U 1 1 5BAC12C8
 P 9775 5825
 F 0 "#PWR025" H 9775 5575 50  0001 C CNN
@@ -1013,30 +993,6 @@ F 3 "" H 9775 5825 60  0000 C CNN
 	1    9775 5825
 	1    0    0    -1  
 $EndComp
-$Comp
-L senseBeRx_rev1:R R10
-U 1 1 5BAD1F74
-P 10000 5825
-F 0 "R10" H 10100 5775 50  0000 L CNN
-F 1 "100k" H 10050 5875 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 9930 5825 30  0001 C CNN
-F 3 "" H 10000 5825 30  0000 C CNN
-	1    10000 5825
-	1    0    0    -1  
-$EndComp
-$Comp
-L senseBeRx_rev1:VDD #PWR027
-U 1 1 5BAD207F
-P 10000 5625
-F 0 "#PWR027" H 10000 5475 50  0001 C CNN
-F 1 "VDD" H 10017 5798 50  0000 C CNN
-F 2 "" H 10000 5625 60  0000 C CNN
-F 3 "" H 10000 5625 60  0000 C CNN
-	1    10000 5625
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	10000 5625 10000 5675
 Text Notes 8775 5375 0    60   ~ 0
 Port to trigger the camera
 Wire Wire Line
@@ -1047,7 +1003,7 @@ Text Label 7050 4150 2    60   ~ 0
 TRIGGER
 Text Label 7050 4250 2    60   ~ 0
 FOCUS
-Text Label 9225 6100 0    50   ~ 0
+Text Label 9600 5900 2    50   ~ 0
 CAM_JACK
 Wire Wire Line
 	6400 3850 7050 3850
@@ -1094,7 +1050,7 @@ F 3 "~" H 9025 4000 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L senseBeRx_rev1:R R7
+L senseBeRx_rev2-rescue:R-senseBeRx_rev1 R7
 U 1 1 5C050FE2
 P 9375 4000
 F 0 "R7" V 9275 3950 50  0000 L CNN
@@ -1105,7 +1061,7 @@ F 3 "" H 9375 4000 30  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L senseBeRx_rev1:R R5
+L senseBeRx_rev2-rescue:R-senseBeRx_rev1 R5
 U 1 1 5C051127
 P 8925 4475
 F 0 "R5" H 8775 4475 50  0000 L CNN
@@ -1116,13 +1072,9 @@ F 3 "" H 8925 4475 30  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	8925 4725 9350 4725
-Wire Wire Line
 	9800 4375 9800 4725
 Wire Wire Line
-	9800 4725 9350 4725
-Wire Wire Line
-	8925 4200 8925 4325
+	8925 4200 8925 4275
 Wire Wire Line
 	9800 3950 9800 4000
 Wire Wire Line
@@ -1141,13 +1093,42 @@ Wire Wire Line
 Wire Wire Line
 	9800 3525 9350 3525
 Connection ~ 9350 3525
-Text Label 8925 4225 2    60   ~ 0
-RX_UARTTX
-Text Label 8925 4300 2    50   ~ 0
-LED_RED
-Connection ~ 9350 4725
+Text Label 8775 4275 2    60   ~ 0
+RX_UARTRX
 Wire Wire Line
 	8925 4625 8925 4725
-Text Label 6550 1850 2    60   ~ 0
+Text Label 6650 1750 0    60   ~ 0
 RX_UARTTX
+Wire Wire Line
+	1100 7250 1900 7250
+Wire Wire Line
+	8925 4725 9350 4725
+$Comp
+L senseBeRx_rev2-rescue:GND-senseBeRx_rev1 #PWR02
+U 1 1 5A8728A3
+P 850 4850
+F 0 "#PWR02" H 850 4600 50  0001 C CNN
+F 1 "GND" H 850 4700 50  0000 C CNN
+F 2 "" H 850 4850 60  0000 C CNN
+F 3 "" H 850 4850 60  0000 C CNN
+	1    850  4850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9125 6100 9600 6100
+Connection ~ 8925 4275
+Wire Wire Line
+	8925 4275 8925 4325
+Wire Wire Line
+	8775 4275 8925 4275
+Wire Wire Line
+	9800 4000 9975 4000
+Wire Wire Line
+	6550 1750 6650 1750
+Connection ~ 6550 1750
+Wire Wire Line
+	9350 4750 9350 4725
+Connection ~ 9350 4725
+Wire Wire Line
+	9350 4725 9800 4725
 $EndSCHEMATC

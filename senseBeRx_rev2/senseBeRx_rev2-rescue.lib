@@ -1,122 +1,11 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
-# Device_Battery_Cell
+# C-senseBeRx_rev1
 #
-DEF Device_Battery_Cell BT 0 0 N N 1 F N
-F0 "BT" 100 100 50 H V L CNN
-F1 "Device_Battery_Cell" 100 0 50 H V L CNN
-F2 "" 0 60 50 V I C CNN
-F3 "" 0 60 50 V I C CNN
-DRAW
-S -90 70 90 60 0 1 0 F
-S -62 47 58 27 0 1 0 F
-P 2 0 1 0 0 30 0 0 N
-P 2 0 1 0 0 70 0 100 N
-P 2 0 1 10 20 135 60 135 N
-P 2 0 1 10 40 155 40 115 N
-X + 1 0 200 100 D 50 50 1 1 P
-X - 2 0 -100 100 U 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# Device_Q_PNP_BEC
-#
-DEF Device_Q_PNP_BEC Q 0 0 Y N 1 F N
-F0 "Q" 200 50 50 H V L CNN
-F1 "Device_Q_PNP_BEC" 200 -50 50 H V L CNN
-F2 "" 200 100 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-DRAW
-C 50 0 111 0 1 10 N
-P 2 0 1 0 25 25 100 100 N
-P 3 0 1 0 25 -25 100 -100 100 -100 N
-P 3 0 1 20 25 75 25 -75 25 -75 N
-P 5 0 1 0 90 -70 70 -90 50 -50 90 -70 90 -70 F
-X B 1 -200 0 225 R 50 50 1 1 I
-X E 2 100 -200 100 U 50 50 1 1 P
-X C 3 100 200 100 D 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# STEREO_SOCKET_3.5MM_SMD
-#
-DEF STEREO_SOCKET_3.5MM_SMD J 0 40 Y Y 1 F N
-F0 "J" 0 350 50 H V C CNN
-F1 "STEREO_SOCKET_3.5MM_SMD" 0 450 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-DRAW
-S -200 -250 -230 -150 1 1 0 F
-S 150 -275 -205 225 1 1 10 f
-P 4 1 1 10 50 -150 75 -175 100 -150 150 -150 N
-P 5 1 1 10 -175 -150 -150 -175 -125 -150 -125 150 150 150 N
-P 5 1 1 10 -25 -150 0 -175 25 -150 25 -50 150 -50 N
-P 5 1 1 10 150 50 -50 50 -50 -150 -75 -175 -100 -150 N
-X ~ 2 250 150 100 L 50 50 1 1 P
-X ~ 3 250 -50 100 L 50 50 1 1 P
-X ~ 4 250 -150 100 L 50 50 1 1 P
-X ~ 5 250 50 100 L 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# Switch_SW_Push
-#
-DEF Switch_SW_Push SW 0 40 N N 1 F N
-F0 "SW" 50 100 50 H V L CNN
-F1 "Switch_SW_Push" 0 -60 50 H V C CNN
-F2 "" 0 200 50 H I C CNN
-F3 "" 0 200 50 H I C CNN
-DRAW
-C -80 0 20 0 1 0 N
-C 80 0 20 0 1 0 N
-P 2 0 1 0 0 50 0 120 N
-P 2 0 1 0 100 50 -100 50 N
-X 1 1 -200 0 100 R 50 50 0 1 P
-X 2 2 200 0 100 L 50 50 0 1 P
-ENDDRAW
-ENDDEF
-#
-# Transistor_FET_2N7002
-#
-DEF Transistor_FET_2N7002 Q 0 0 Y N 1 F N
-F0 "Q" 200 75 50 H V L CNN
-F1 "Transistor_FET_2N7002" 200 0 50 H V L CNN
-F2 "Package_TO_SOT_SMD:SOT-23" 200 -75 50 H I L CIN
-F3 "" 0 0 50 H I L CNN
-ALIAS 2N7002 MMBF170
-$FPLIST
- SOT?23*
-$ENDFPLIST
-DRAW
-C 65 0 111 0 1 10 N
-C 100 -70 11 0 1 0 F
-C 100 70 11 0 1 0 F
-P 2 0 1 0 30 -70 100 -70 N
-P 2 0 1 10 30 -50 30 -90 N
-P 2 0 1 0 30 0 100 0 N
-P 2 0 1 10 30 20 30 -20 N
-P 2 0 1 0 30 70 100 70 N
-P 2 0 1 10 30 90 30 50 N
-P 2 0 1 0 100 -70 100 -100 N
-P 2 0 1 0 100 -70 100 0 N
-P 2 0 1 0 100 100 100 70 N
-P 3 0 1 10 10 75 10 -75 10 -75 N
-P 4 0 1 0 40 0 80 15 80 -15 40 0 F
-P 4 0 1 0 100 -70 130 -70 130 70 100 70 N
-P 4 0 1 0 110 20 115 15 145 15 150 10 N
-P 4 0 1 0 130 15 115 -10 145 -10 130 15 N
-X G 1 -200 0 210 R 50 50 1 1 I
-X S 2 100 -200 100 U 50 50 1 1 P
-X D 3 100 200 100 D 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# senseBeRx_rev1_C
-#
-DEF senseBeRx_rev1_C C 0 10 N Y 1 F N
+DEF C-senseBeRx_rev1 C 0 10 N Y 1 F N
 F0 "C" 25 100 50 H V L CNN
-F1 "senseBeRx_rev1_C" 25 -100 50 H V L CNN
+F1 "C-senseBeRx_rev1" 25 -100 50 H V L CNN
 F2 "" 38 -150 30 H V C CNN
 F3 "" 0 0 60 H V C CNN
 $FPLIST
@@ -134,11 +23,11 @@ X ~ 2 0 -150 110 U 40 40 1 1 P
 ENDDRAW
 ENDDEF
 #
-# senseBeRx_rev1_CONN_02X05
+# CONN_02X05-senseBeRx_rev1
 #
-DEF senseBeRx_rev1_CONN_02X05 P 0 1 Y N 1 F N
+DEF CONN_02X05-senseBeRx_rev1 P 0 1 Y N 1 F N
 F0 "P" 0 300 50 H V C CNN
-F1 "senseBeRx_rev1_CONN_02X05" 0 -300 50 H V C CNN
+F1 "CONN_02X05-senseBeRx_rev1" 0 -300 50 H V C CNN
 F2 "" 0 -1200 60 H V C CNN
 F3 "" 0 -1200 60 H V C CNN
 $FPLIST
@@ -172,11 +61,11 @@ X P9 9 -250 -200 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# senseBeRx_rev1_Crystal
+# Crystal-senseBeRx_rev1
 #
-DEF senseBeRx_rev1_Crystal Y 0 40 N N 1 F N
+DEF Crystal-senseBeRx_rev1 Y 0 40 N N 1 F N
 F0 "Y" 0 150 50 H V C CNN
-F1 "senseBeRx_rev1_Crystal" 0 -150 50 H V C CNN
+F1 "Crystal-senseBeRx_rev1" 0 -150 50 H V C CNN
 F2 "" 0 0 50 H V C CNN
 F3 "" 0 0 50 H V C CNN
 $FPLIST
@@ -191,11 +80,11 @@ X 2 2 150 0 50 L 40 40 1 1 P
 ENDDRAW
 ENDDEF
 #
-# senseBeRx_rev1_D_Photo
+# D_Photo-senseBeRx_rev1
 #
-DEF senseBeRx_rev1_D_Photo D 0 20 N N 1 F N
+DEF D_Photo-senseBeRx_rev1 D 0 20 N N 1 F N
 F0 "D" 20 70 50 H V L CNN
-F1 "senseBeRx_rev1_D_Photo" -40 -110 50 H V C CNN
+F1 "D_Photo-senseBeRx_rev1" -40 -110 50 H V C CNN
 F2 "" -50 0 50 H I C CNN
 F3 "" -50 0 50 H I C CNN
 DRAW
@@ -210,11 +99,11 @@ X A 2 100 0 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# senseBeRx_rev1_GND
+# GND-senseBeRx_rev1
 #
-DEF senseBeRx_rev1_GND #PWR 0 0 Y Y 1 F P
+DEF GND-senseBeRx_rev1 #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -250 50 H I C CNN
-F1 "senseBeRx_rev1_GND" 0 -150 50 H V C CNN
+F1 "GND-senseBeRx_rev1" 0 -150 50 H V C CNN
 F2 "" 0 0 60 H V C CNN
 F3 "" 0 0 60 H V C CNN
 DRAW
@@ -223,11 +112,11 @@ X GND 1 0 0 0 D 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# senseBeRx_rev1_INDUCTOR_SMALL
+# INDUCTOR_SMALL-senseBeRx_rev1
 #
-DEF senseBeRx_rev1_INDUCTOR_SMALL L 0 0 N N 1 F N
+DEF INDUCTOR_SMALL-senseBeRx_rev1 L 0 0 N N 1 F N
 F0 "L" 0 100 50 H V C CNN
-F1 "senseBeRx_rev1_INDUCTOR_SMALL" 0 -50 50 H V C CNN
+F1 "INDUCTOR_SMALL-senseBeRx_rev1" 0 -50 50 H V C CNN
 F2 "" 0 0 60 H V C CNN
 F3 "" 0 0 60 H V C CNN
 DRAW
@@ -240,11 +129,11 @@ X 2 2 250 0 50 L 30 30 1 1 I
 ENDDRAW
 ENDDEF
 #
-# senseBeRx_rev1_LED_Dual_ACAC
+# LED_Dual_ACAC-senseBeRx_rev1
 #
-DEF senseBeRx_rev1_LED_Dual_ACAC D 0 0 Y N 1 F N
+DEF LED_Dual_ACAC-senseBeRx_rev1 D 0 0 Y N 1 F N
 F0 "D" 0 225 50 H V C CNN
-F1 "senseBeRx_rev1_LED_Dual_ACAC" 0 -250 50 H V C CNN
+F1 "LED_Dual_ACAC-senseBeRx_rev1" 0 -250 50 H V C CNN
 F2 "" 30 0 50 H I C CNN
 F3 "" 30 0 50 H I C CNN
 $FPLIST
@@ -271,11 +160,11 @@ X K2 4 300 -100 150 L 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
-# senseBeRx_rev1_LOGO
+# LOGO-senseBeRx_rev1
 #
-DEF ~senseBeRx_rev1_LOGO #G 0 40 Y Y 1 F N
+DEF ~LOGO-senseBeRx_rev1 #G 0 40 Y Y 1 F N
 F0 "#G" 0 -198 60 H I C CNN
-F1 "senseBeRx_rev1_LOGO" 0 198 60 H I C CNN
+F1 "LOGO-senseBeRx_rev1" 0 198 60 H I C CNN
 F2 "" 0 0 60 H I C CNN
 F3 "" 0 0 60 H I C CNN
 DRAW
@@ -284,11 +173,11 @@ P 385 0 0 1 176 -192 176 -189 177 -170 177 -77 176 -67 176 -59 175 -55 174 -52 1
 ENDDRAW
 ENDDEF
 #
-# senseBeRx_rev1_MDBT42Q
+# MDBT42Q-senseBeRx_rev1
 #
-DEF senseBeRx_rev1_MDBT42Q U 0 40 Y Y 1 F N
+DEF MDBT42Q-senseBeRx_rev1 U 0 40 Y Y 1 F N
 F0 "U" -100 300 60 H V C CNN
-F1 "senseBeRx_rev1_MDBT42Q" -250 600 60 H V C CNN
+F1 "MDBT42Q-senseBeRx_rev1" -250 600 60 H V C CNN
 F2 "" -200 1100 60 H V C CNN
 F3 "" -200 1100 60 H V C CNN
 DRAW
@@ -338,11 +227,11 @@ X DEC4 9 -1200 -600 200 R 50 50 1 1 W
 ENDDRAW
 ENDDEF
 #
-# senseBeRx_rev1_Mounting_Hole
+# Mounting_Hole-senseBeRx_rev1
 #
-DEF senseBeRx_rev1_Mounting_Hole MK 0 40 Y Y 1 F N
+DEF Mounting_Hole-senseBeRx_rev1 MK 0 40 Y Y 1 F N
 F0 "MK" 0 200 50 H V C CNN
-F1 "senseBeRx_rev1_Mounting_Hole" 0 125 50 H V C CNN
+F1 "Mounting_Hole-senseBeRx_rev1" 0 125 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -354,11 +243,11 @@ C 0 0 50 0 1 50 N
 ENDDRAW
 ENDDEF
 #
-# senseBeRx_rev1_R
+# R-senseBeRx_rev1
 #
-DEF senseBeRx_rev1_R R 0 0 N Y 1 F N
+DEF R-senseBeRx_rev1 R 0 0 N Y 1 F N
 F0 "R" 80 0 50 V V C CNN
-F1 "senseBeRx_rev1_R" 0 0 50 V V C CNN
+F1 "R-senseBeRx_rev1" 0 0 50 V V C CNN
 F2 "" -70 0 30 V V C CNN
 F3 "" 0 0 30 H V C CNN
 $FPLIST
@@ -372,14 +261,13 @@ X ~ 2 0 -150 50 U 60 60 1 1 P
 ENDDRAW
 ENDDEF
 #
-# senseBeRx_rev1_TSSP40xx
+# TSSP40xx-senseBeRx_rev1
 #
-DEF senseBeRx_rev1_TSSP40xx U 0 40 Y Y 1 F N
+DEF TSSP40xx-senseBeRx_rev1 U 0 40 Y Y 1 F N
 F0 "U" -400 300 50 H V L CNN
-F1 "senseBeRx_rev1_TSSP40xx" -400 -300 50 H V L CNN
+F1 "TSSP40xx-senseBeRx_rev1" -400 -300 50 H V L CNN
 F2 "OptoDevice:Vishay_MINICAST-3pin" -50 -375 50 H I C CNN
 F3 "" 650 300 50 H I C CNN
-ALIAS TSSP58038 TSSP58038SS1XB
 $FPLIST
  Vishay*MINICAST*
 $ENDFPLIST
@@ -415,45 +303,17 @@ X Vs 3 400 200 100 L 50 50 1 1 W
 ENDDRAW
 ENDDEF
 #
-# senseBeRx_rev1_VDD
+# VDD-senseBeRx_rev1
 #
-DEF senseBeRx_rev1_VDD #PWR 0 0 Y Y 1 F P
+DEF VDD-senseBeRx_rev1 #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -150 50 H I C CNN
-F1 "senseBeRx_rev1_VDD" 0 150 50 H V C CNN
+F1 "VDD-senseBeRx_rev1" 0 150 50 H V C CNN
 F2 "" 0 0 60 H V C CNN
 F3 "" 0 0 60 H V C CNN
 DRAW
 C 0 75 25 0 1 0 N
 P 2 0 1 0 0 0 0 50 N
 X VDD 1 0 0 0 U 50 50 1 1 W N
-ENDDRAW
-ENDDEF
-#
-# snap_rev3_symbol_Audio-Jack-4_1Switches
-#
-DEF snap_rev3_symbol_Audio-Jack-4_1Switches J 0 40 Y Y 1 F N
-F0 "J" 0 290 50 H V C CNN
-F1 "snap_rev3_symbol_Audio-Jack-4_1Switches" -370 -260 50 H V L CNN
-F2 "" 250 100 50 H I C CNN
-F3 "" 250 100 50 H I C CNN
-DRAW
-T 0 -25 -50 30 0 0 0 1 Normal 0 C C
-T 0 -100 50 30 0 0 0 2 Normal 0 C C
-S -230 240 100 -220 0 0 10 f
-S -175 -160 -205 -60 0 1 0 F
-S 100 0 50 0 0 1 0 N
-P 2 0 1 0 50 -90 30 -70 N
-P 2 0 1 0 50 -90 50 0 N
-P 2 0 1 0 50 -90 70 -70 N
-P 3 0 1 10 100 200 -190 200 -190 -60 N
-P 4 0 1 10 -210 -200 -190 -180 -170 -200 100 -200 N
-P 4 0 1 10 -50 -100 -25 -75 0 -100 100 -100 N
-P 4 0 1 10 100 100 -75 100 -100 75 -125 100 N
-X ~ 1 200 200 100 L 50 50 1 1 P
-X ~ 10 200 0 100 L 50 50 1 1 P
-X ~ 2 200 -100 100 L 50 50 1 1 P
-X ~ 3 200 100 100 L 50 50 1 1 P
-X ~ 4 200 -200 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #

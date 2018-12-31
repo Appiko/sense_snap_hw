@@ -1,0 +1,61 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP C
+D Unpolarized capacitor
+K cap capacitor
+F ~
+$ENDCMP
+#
+$CMP Conn_01x02
+D Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)
+K connector
+F ~
+$ENDCMP
+#
+$CMP Conn_01x04
+D Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)
+K connector
+F ~
+$ENDCMP
+#
+$CMP GND
+D GROUND power-flag symbol
+K Power Flag Symbol
+$ENDCMP
+#
+$CMP L
+D Inductor
+K inductor choke coil reactor magnetic
+F ~
+$ENDCMP
+#
+$CMP LED
+D LED generic
+K led diode
+F ~
+$ENDCMP
+#
+$CMP Q_NMOS_GSD
+D Transistor N-MOSFETwith substrate diode (general)
+K NMOS n-mos n-mosfet transistor
+F ~
+$ENDCMP
+#
+$CMP R
+D Resistor
+K r res resistor
+F ~
+$ENDCMP
+#
+$CMP Test_Point
+D test point
+K test point tp
+F ~
+$ENDCMP
+#
+$CMP VDD
+D positive voltage power-flag symbol
+K Power Flag Symbol
+$ENDCMP
+#
+#End Doc Library

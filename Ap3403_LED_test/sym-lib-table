@@ -1,3 +1,4 @@
 (sym_lib_table
   (lib (name AP3403_LED_test)(type Legacy)(uri /home/prithvi/KiCadProjects/sense_snap_hw/Ap3403_LED_test/AP3403_LED_test.lib)(options "")(descr ""))
+  (lib (name Ap3403_LED_test-rescue)(type Legacy)(uri ${KIPRJMOD}/Ap3403_LED_test-rescue.lib)(options "")(descr ""))
 )

@@ -286,7 +286,7 @@ U 1 1 5A868475
 P 1050 1300
 F 0 "BT1" H 1150 1350 50  0000 L CNN
 F 1 "Battery" H 1150 1250 50  0000 L CNN
-F 2 "senseBeRx_rev3_fp:2462_BatteryHolder_AAx2" H 1050 1340 60  0001 C CNN
+F 2 "Connector_JST:JST_XH_S02B-XH-A_1x02_P2.50mm_Horizontal" H 1050 1340 60  0001 C CNN
 F 3 "" V 1050 1340 60  0000 C CNN
 	1    1050 1300
 	1    0    0    -1  
@@ -624,18 +624,12 @@ F 3 "" H 3150 4000 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1050 1650 1850 1650
-Wire Wire Line
 	2500 1650 2500 1400
 Wire Wire Line
 	1050 1400 1050 1650
 Wire Wire Line
 	1850 1250 1850 1650
 Connection ~ 1850 1650
-Wire Wire Line
-	1050 1100 1050 950 
-Wire Wire Line
-	1050 950  1650 950 
 Wire Wire Line
 	1050 3000 850  3000
 Wire Wire Line
@@ -1025,4 +1019,25 @@ Wire Wire Line
 Connection ~ 9250 5900
 Wire Wire Line
 	9250 5900 9600 5900
+$Comp
+L Switch:SW_SPDT SW2
+U 1 1 5C3621CE
+P 1325 950
+F 0 "SW2" H 1150 875 50  0000 C CNN
+F 1 "SW_SPST" H 1325 775 50  0000 C CNN
+F 2 "senseBeRx_rev3_fp:SlideSwitch_1P2T_RightAngle" H 1325 950 50  0001 C CNN
+F 3 "" H 1325 950 50  0001 C CNN
+	1    1325 950 
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	1525 950  1650 950 
+Wire Wire Line
+	1525 850  1525 950 
+Wire Wire Line
+	1050 1650 1850 1650
+Wire Wire Line
+	1125 950  1050 950 
+Wire Wire Line
+	1050 950  1050 1100
 $EndSCHEMATC

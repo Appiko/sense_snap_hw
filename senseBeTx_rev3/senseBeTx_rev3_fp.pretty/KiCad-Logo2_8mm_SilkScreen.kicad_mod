@@ -1,8 +1,8 @@
-(module Symbols:KiCad-Logo2_8mm_SilkScreen (layer F.Cu) (tedit 0)
+(module sense_rev3_fp:KiCad-Logo2_8mm_SilkScreen (layer F.Cu) (tedit 0)
   (descr "KiCad Logo")
   (tags "Logo KiCad")
   (attr virtual)
-  (fp_text reference REF*** (at 0 0) (layer F.SilkS) hide
+  (fp_text reference "" (at 0 0) (layer F.SilkS) hide
     (effects (font (size 0.8 0.8) (thickness 0.12)))
   )
   (fp_text value KiCad-Logo2_8mm_SilkScreen (at 0.75 0) (layer F.Fab) hide

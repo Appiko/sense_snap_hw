@@ -17,23 +17,23 @@ $EndDescr
 $Comp
 L senseBeTx_rev3-rescue:Battery-senseBeRx_rev1 BT1
 U 1 1 5BB20932
-P 950 1225
-F 0 "BT1" H 1068 1271 50  0000 L CNN
-F 1 "Battery" H 1068 1180 50  0000 L CNN
-F 2 "senseBeTx_rev2_fp:AA_BAT_Holder" V 950 1265 60  0001 C CNN
-F 3 "" V 950 1265 60  0000 C CNN
-	1    950  1225
+P 825 1300
+F 0 "BT1" H 943 1346 50  0000 L CNN
+F 1 "Battery" H 943 1255 50  0000 L CNN
+F 2 "Connector_JST:JST_XH_S02B-XH-A_1x02_P2.50mm_Horizontal" V 825 1340 60  0001 C CNN
+F 3 "" V 825 1340 60  0000 C CNN
+	1    825  1300
 	1    0    0    -1  
 $EndComp
 $Comp
-L senseBeTx_rev3-rescue:C-senseBeRx_rev1 C1
+L senseBeTx_rev3-rescue:C-senseBeRx_rev1 C2
 U 1 1 5BB20A1D
-P 2125 1225
-F 0 "C1" H 2240 1271 50  0000 L CNN
-F 1 "10uF" H 2240 1180 50  0000 L CNN
-F 2 "senseBeTx_rev1_fp:C_0805" H 2163 1075 30  0001 C CNN
-F 3 "" H 2125 1225 60  0000 C CNN
-	1    2125 1225
+P 2525 1300
+F 0 "C2" H 2640 1346 50  0000 L CNN
+F 1 "10uF" H 2640 1255 50  0000 L CNN
+F 2 "senseBeTx_rev3_fp:C_0805" H 2563 1150 30  0001 C CNN
+F 3 "" H 2525 1300 60  0000 C CNN
+	1    2525 1300
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -42,7 +42,7 @@ U 1 1 5BB20C6E
 P 4450 6750
 F 0 "Y1" H 4450 6575 50  0000 C CNN
 F 1 "Crystal" H 4450 6927 50  0000 C CNN
-F 2 "senseBeTx_rev2_fp:Crystal_C38-LF_d3.0mm_l8.0mm_Vertical" H 4450 6750 50  0001 C CNN
+F 2 "senseBeTx_rev3_fp:Crystal_C38-LF_d3.0mm_l8.0mm_Vertical" H 4450 6750 50  0001 C CNN
 F 3 "" H 4450 6750 50  0000 C CNN
 	1    4450 6750
 	-1   0    0    1   
@@ -61,12 +61,12 @@ $EndComp
 $Comp
 L senseBeTx_rev3-rescue:GND-senseBeRx_rev1 #PWR01
 U 1 1 5BB21001
-P 950 1575
-F 0 "#PWR01" H 950 1325 50  0001 C CNN
-F 1 "GND" H 955 1402 50  0000 C CNN
-F 2 "" H 950 1575 60  0000 C CNN
-F 3 "" H 950 1575 60  0000 C CNN
-	1    950  1575
+P 825 1650
+F 0 "#PWR01" H 825 1400 50  0001 C CNN
+F 1 "GND" H 830 1477 50  0000 C CNN
+F 2 "" H 825 1650 60  0000 C CNN
+F 3 "" H 825 1650 60  0000 C CNN
+	1    825  1650
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -81,32 +81,21 @@ F 3 "" H 10825 6850 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L senseBeTx_rev3-rescue:Mounting_Hole-senseBeRx_rev1 MK2
-U 1 1 5BB213C3
-P 6125 7125
-F 0 "MK2" H 6225 7171 50  0000 L CNN
-F 1 "Mounting_Hole" H 6225 7080 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3" H 6125 7125 50  0001 C CNN
-F 3 "" H 6125 7125 50  0001 C CNN
-	1    6125 7125
-	1    0    0    -1  
-$EndComp
-$Comp
 L Device:Q_NMOS_GSD Q1
 U 1 1 5BB215F4
-P 1600 1100
-F 0 "Q1" V 1825 1100 50  0000 C CNN
-F 1 "SI2301" V 1425 1100 50  0000 C CNN
-F 2 "senseBeTx_rev1_fp:SOT-23" H 1800 1200 50  0001 C CNN
-F 3 "~" H 1600 1100 50  0001 C CNN
-	1    1600 1100
+P 2000 1100
+F 0 "Q1" V 2225 1100 50  0000 C CNN
+F 1 "SI2301" V 1825 1100 50  0000 C CNN
+F 2 "senseBeTx_rev3_fp:SOT-23_Handsoldering" H 2200 1200 50  0001 C CNN
+F 3 "~" H 2000 1100 50  0001 C CNN
+	1    2000 1100
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Switch:SW_DPST SW1
+L Switch:SW_DPST SW2
 U 1 1 5BB21947
 P 1400 5100
-F 0 "SW1" H 1400 5275 50  0000 C CNN
+F 0 "SW2" H 1400 5275 50  0000 C CNN
 F 1 "SW_Push_Dual" H 1400 4925 50  0000 C CNN
 F 2 "Button_Switch_THT:SW_PUSH_6mm" H 1400 5300 50  0001 C CNN
 F 3 "" H 1400 5300 50  0001 C CNN
@@ -114,14 +103,14 @@ F 3 "" H 1400 5300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L senseBeTx_rev3-rescue:VDD-senseBeRx_rev1 #PWR04
+L senseBeTx_rev3-rescue:VDD-senseBeRx_rev1 #PWR07
 U 1 1 5BB21AE6
-P 2125 1000
-F 0 "#PWR04" H 2125 850 50  0001 C CNN
-F 1 "VDD" H 2142 1173 50  0000 C CNN
-F 2 "" H 2125 1000 60  0000 C CNN
-F 3 "" H 2125 1000 60  0000 C CNN
-	1    2125 1000
+P 2525 925
+F 0 "#PWR07" H 2525 775 50  0001 C CNN
+F 1 "VDD" H 2542 1098 50  0000 C CNN
+F 2 "" H 2525 925 60  0000 C CNN
+F 3 "" H 2525 925 60  0000 C CNN
+	1    2525 925 
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -136,27 +125,15 @@ F 3 "http://www.st.com/st-web-ui/static/active/en/resource/technical/document/da
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	950  1075 950  1000
+	825  1150 825  900 
 Wire Wire Line
-	950  1000 1400 1000
+	2200 1000 2525 1000
 Wire Wire Line
-	1800 1000 2125 1000
+	2525 1450 2525 1575
 Wire Wire Line
-	2125 1075 2125 1000
+	2525 1575 2000 1575
 Wire Wire Line
-	950  1375 950  1500
-Wire Wire Line
-	2125 1375 2125 1500
-Wire Wire Line
-	2125 1500 1600 1500
-Connection ~ 950  1500
-Wire Wire Line
-	950  1500 950  1575
-Wire Wire Line
-	1600 1300 1600 1500
-Connection ~ 1600 1500
-Wire Wire Line
-	1600 1500 950  1500
+	2000 1300 2000 1575
 $Comp
 L senseBeTx_rev3-rescue:Mounting_Hole-senseBeRx_rev1 MK1
 U 1 1 5BB5BE10
@@ -180,10 +157,10 @@ F 3 "" H 4100 7075 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L senseBeTx_rev3-rescue:C-senseBeRx_rev1 C5
+L senseBeTx_rev3-rescue:C-senseBeRx_rev1 C4
 U 1 1 5BB5CB21
 P 4800 7075
-F 0 "C5" H 4850 7175 50  0000 L CNN
+F 0 "C4" H 4850 7175 50  0000 L CNN
 F 1 "8pF" H 4900 7075 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 4838 6925 30  0001 C CNN
 F 3 "" H 4800 7075 60  0000 C CNN
@@ -191,10 +168,10 @@ F 3 "" H 4800 7075 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L senseBeTx_rev3-rescue:GND-senseBeRx_rev1 #PWR010
+L senseBeTx_rev3-rescue:GND-senseBeRx_rev1 #PWR09
 U 1 1 5BB5CD23
 P 4450 7375
-F 0 "#PWR010" H 4450 7125 50  0001 C CNN
+F 0 "#PWR09" H 4450 7125 50  0001 C CNN
 F 1 "GND" H 4455 7202 50  0000 C CNN
 F 2 "" H 4450 7375 60  0000 C CNN
 F 3 "" H 4450 7375 60  0000 C CNN
@@ -260,10 +237,10 @@ SYS_SWDIO
 Text Label 800  6650 0    50   ~ 0
 SYS_SWDCLK
 $Comp
-L senseBeTx_rev3-rescue:GND-senseBeRx_rev1 #PWR02
+L senseBeTx_rev3-rescue:GND-senseBeRx_rev1 #PWR06
 U 1 1 5BBD7127
 P 2325 6825
-F 0 "#PWR02" H 2325 6575 50  0001 C CNN
+F 0 "#PWR06" H 2325 6575 50  0001 C CNN
 F 1 "GND" H 2330 6652 50  0000 C CNN
 F 2 "" H 2325 6825 60  0000 C CNN
 F 3 "" H 2325 6825 60  0000 C CNN
@@ -273,10 +250,10 @@ $EndComp
 Wire Wire Line
 	800  6650 1300 6650
 $Comp
-L senseBeTx_rev3-rescue:C-senseBeRx_rev1 C2
+L senseBeTx_rev3-rescue:C-senseBeRx_rev1 C1
 U 1 1 5BBF6E2B
 P 1950 5275
-F 0 "C2" H 2065 5321 50  0000 L CNN
+F 0 "C1" H 2065 5321 50  0000 L CNN
 F 1 "100nF" H 2065 5230 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 1988 5125 30  0001 C CNN
 F 3 "" H 1950 5275 60  0000 C CNN
@@ -284,10 +261,10 @@ F 3 "" H 1950 5275 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L senseBeTx_rev3-rescue:GND-senseBeRx_rev1 #PWR08
+L senseBeTx_rev3-rescue:GND-senseBeRx_rev1 #PWR04
 U 1 1 5BBF6EB7
 P 1950 5550
-F 0 "#PWR08" H 1950 5300 50  0001 C CNN
+F 0 "#PWR04" H 1950 5300 50  0001 C CNN
 F 1 "GND" H 1955 5377 50  0000 C CNN
 F 2 "" H 1950 5550 60  0000 C CNN
 F 3 "" H 1950 5550 60  0000 C CNN
@@ -297,14 +274,14 @@ $EndComp
 Wire Wire Line
 	1950 5425 1950 5550
 Wire Wire Line
-	1600 5000 1950 5000
+	1600 5000 1700 5000
 Wire Wire Line
 	1950 5000 1950 5125
 $Comp
-L senseBeTx_rev3-rescue:GND-senseBeRx_rev1 #PWR03
+L senseBeTx_rev3-rescue:GND-senseBeRx_rev1 #PWR02
 U 1 1 5BC03C96
 P 900 5225
-F 0 "#PWR03" H 900 4975 50  0001 C CNN
+F 0 "#PWR02" H 900 4975 50  0001 C CNN
 F 1 "GND" H 905 5052 50  0000 C CNN
 F 2 "" H 900 5225 60  0000 C CNN
 F 3 "" H 900 5225 60  0000 C CNN
@@ -314,12 +291,12 @@ $EndComp
 Wire Wire Line
 	900  5225 900  5000
 Wire Wire Line
-	900  5000 1200 5000
+	900  5000 1050 5000
 $Comp
-L senseBeTx_rev3-rescue:GND-senseBeRx_rev1 #PWR06
+L senseBeTx_rev3-rescue:GND-senseBeRx_rev1 #PWR03
 U 1 1 5BC0B655
 P 1500 3825
-F 0 "#PWR06" H 1500 3575 50  0001 C CNN
+F 0 "#PWR03" H 1500 3575 50  0001 C CNN
 F 1 "GND" H 1505 3652 50  0000 C CNN
 F 2 "" H 1500 3825 60  0000 C CNN
 F 3 "" H 1500 3825 60  0000 C CNN
@@ -327,10 +304,10 @@ F 3 "" H 1500 3825 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L senseBeTx_rev3-rescue:VDD-senseBeRx_rev1 #PWR012
+L senseBeTx_rev3-rescue:VDD-senseBeRx_rev1 #PWR011
 U 1 1 5BC22F0C
 P 5425 2475
-F 0 "#PWR012" H 5425 2325 50  0001 C CNN
+F 0 "#PWR011" H 5425 2325 50  0001 C CNN
 F 1 "VDD" H 5442 2648 50  0000 C CNN
 F 2 "" H 5425 2475 60  0000 C CNN
 F 3 "" H 5425 2475 60  0000 C CNN
@@ -338,10 +315,10 @@ F 3 "" H 5425 2475 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L senseBeTx_rev3-rescue:VDD-senseBeRx_rev1 #PWR07
+L senseBeTx_rev3-rescue:VDD-senseBeRx_rev1 #PWR05
 U 1 1 5BC23870
 P 2325 6625
-F 0 "#PWR07" H 2325 6475 50  0001 C CNN
+F 0 "#PWR05" H 2325 6475 50  0001 C CNN
 F 1 "VDD" H 2342 6798 50  0000 C CNN
 F 2 "" H 2325 6625 60  0000 C CNN
 F 3 "" H 2325 6625 60  0000 C CNN
@@ -359,10 +336,10 @@ Wire Wire Line
 Wire Wire Line
 	2325 6650 1800 6650
 $Comp
-L senseBeTx_rev3-rescue:GND-senseBeRx_rev1 #PWR013
+L senseBeTx_rev3-rescue:GND-senseBeRx_rev1 #PWR012
 U 1 1 5BC6E4AA
 P 5425 4825
-F 0 "#PWR013" H 5425 4575 50  0001 C CNN
+F 0 "#PWR012" H 5425 4575 50  0001 C CNN
 F 1 "GND" H 5430 4652 50  0000 C CNN
 F 2 "" H 5425 4825 60  0000 C CNN
 F 3 "" H 5425 4825 60  0000 C CNN
@@ -371,15 +348,15 @@ F 3 "" H 5425 4825 60  0000 C CNN
 $EndComp
 Wire Wire Line
 	5425 4825 5425 4600
-Text Label 5325 1075 2    50   ~ 0
+Text Label 4975 1075 2    50   ~ 0
 LED_RED_1
-Text Label 5325 1475 2    50   ~ 0
+Text Label 4975 1475 2    50   ~ 0
 LED_RED_2
 $Comp
-L senseBeTx_rev3-rescue:C-senseBeRx_rev1 C4
+L senseBeTx_rev3-rescue:C-senseBeRx_rev1 C5
 U 1 1 5BBABF7A
 P 5175 2750
-F 0 "C4" H 5290 2796 50  0000 L CNN
+F 0 "C5" H 5290 2796 50  0000 L CNN
 F 1 "100nF" H 5290 2705 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 5213 2600 30  0001 C CNN
 F 3 "" H 5175 2750 60  0000 C CNN
@@ -387,10 +364,10 @@ F 3 "" H 5175 2750 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L senseBeTx_rev3-rescue:GND-senseBeRx_rev1 #PWR011
+L senseBeTx_rev3-rescue:GND-senseBeRx_rev1 #PWR010
 U 1 1 5BBB011A
 P 5175 2900
-F 0 "#PWR011" H 5175 2650 50  0001 C CNN
+F 0 "#PWR010" H 5175 2650 50  0001 C CNN
 F 1 "GND" H 5180 2727 50  0000 C CNN
 F 2 "" H 5175 2900 60  0000 C CNN
 F 3 "" H 5175 2900 60  0000 C CNN
@@ -429,13 +406,13 @@ Text Notes 9050 625  0    50   ~ 0
 Infra Red LED Tx
 Text Label 6525 3400 2    50   ~ 0
 BUTTON
-Text Label 5325 1875 2    50   ~ 0
+Text Label 4975 1875 2    50   ~ 0
 LED_RED_3
 $Comp
-L senseBeTx_rev3-rescue:R-senseBeRx_rev1 R3
+L senseBeTx_rev3-rescue:R-senseBeRx_rev1 R1
 U 1 1 5BFFF578
 P 1500 3425
-F 0 "R3" H 1650 3500 50  0000 C CNN
+F 0 "R1" H 1650 3500 50  0000 C CNN
 F 1 "100k" H 1650 3425 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 1430 3425 30  0001 C CNN
 F 3 "" H 1500 3425 30  0000 C CNN
@@ -445,10 +422,10 @@ $EndComp
 Wire Wire Line
 	1500 2350 1500 2525
 $Comp
-L senseBeTx_rev3-rescue:GND-senseBeRx_rev1 #PWR09
+L senseBeTx_rev3-rescue:GND-senseBeRx_rev1 #PWR08
 U 1 1 5C029F13
 P 4375 4825
-F 0 "#PWR09" H 4375 4575 50  0001 C CNN
+F 0 "#PWR08" H 4375 4575 50  0001 C CNN
 F 1 "GND" H 4380 4652 50  0000 C CNN
 F 2 "" H 4375 4825 60  0000 C CNN
 F 3 "" H 4375 4825 60  0000 C CNN
@@ -460,10 +437,10 @@ Wire Wire Line
 Wire Wire Line
 	4375 4400 4375 4450
 $Comp
-L senseBeTx_rev3-rescue:R-senseBeRx_rev1 R4
+L senseBeTx_rev3-rescue:R-senseBeRx_rev1 R2
 U 1 1 5C02DB32
 P 4375 4600
-F 0 "R4" H 4575 4600 50  0000 R CNN
+F 0 "R2" H 4575 4600 50  0000 R CNN
 F 1 "100k" V 4375 4700 50  0000 R CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 4305 4600 30  0001 C CNN
 F 3 "" H 4375 4600 30  0000 C CNN
@@ -474,7 +451,6 @@ Wire Wire Line
 	4375 4750 4375 4825
 Wire Wire Line
 	4100 7375 4450 7375
-Connection ~ 2125 1000
 Connection ~ 4450 7375
 Wire Wire Line
 	4450 7375 4800 7375
@@ -484,18 +460,18 @@ U 1 1 5C28BCDE
 P 8775 3575
 F 0 "U2" H 8775 4050 50  0000 C CNN
 F 1 "AP3403" H 8775 3959 50  0000 C CNN
-F 2 "Ap3403_LED_test_fp:AP3403_U-DFN1616-6(Type G)" H 8775 3425 50  0001 C CNN
+F 2 "senseBeTx_rev3_fp:AP3403_U-DFN1616-6(Type G)" H 8775 3425 50  0001 C CNN
 F 3 "" H 8775 3425 50  0001 C CNN
 	1    8775 3575
 	1    0    0    -1  
 $EndComp
 $Comp
-L senseBeTx_rev3-rescue:R-AP3403_LED_test-Ap3403_LED_test-rescue R10
+L senseBeTx_rev3-rescue:R-AP3403_LED_test-Ap3403_LED_test-rescue R9
 U 1 1 5C28F0DC
 P 10175 3500
-F 0 "R10" H 10245 3546 50  0000 L CNN
+F 0 "R9" H 10245 3546 50  0000 L CNN
 F 1 "510k" H 10245 3455 50  0000 L CNN
-F 2 "Ap3403_LED_test_fp:R_0603_HandSoldering" V 10105 3500 50  0001 C CNN
+F 2 "senseBeTx_rev3_fp:R_0603_HandSoldering" V 10105 3500 50  0001 C CNN
 F 3 "~" H 10175 3500 50  0001 C CNN
 	1    10175 3500
 	1    0    0    -1  
@@ -506,16 +482,16 @@ U 1 1 5C28F1F7
 P 7725 3575
 F 0 "C6" H 7840 3621 50  0000 L CNN
 F 1 "22u" H 7840 3530 50  0000 L CNN
-F 2 "Ap3403_LED_test_fp:C_0805_HandSoldering" H 7763 3425 50  0001 C CNN
+F 2 "senseBeTx_rev3_fp:C_0805_HandSoldering" H 7763 3425 50  0001 C CNN
 F 3 "~" H 7725 3575 50  0001 C CNN
 	1    7725 3575
 	1    0    0    -1  
 $EndComp
 $Comp
-L senseBeTx_rev3-rescue:GND-AP3403_LED_test-Ap3403_LED_test-rescue #PWR020
+L senseBeTx_rev3-rescue:GND-AP3403_LED_test-Ap3403_LED_test-rescue #PWR019
 U 1 1 5C28F2CF
 P 9425 3900
-F 0 "#PWR020" H 9425 3650 50  0001 C CNN
+F 0 "#PWR019" H 9425 3650 50  0001 C CNN
 F 1 "GND" H 9430 3727 50  0000 C CNN
 F 2 "" H 9425 3900 50  0001 C CNN
 F 3 "" H 9425 3900 50  0001 C CNN
@@ -523,21 +499,21 @@ F 3 "" H 9425 3900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L senseBeTx_rev3-rescue:Q_NMOS_GSD-AP3403_LED_test-Ap3403_LED_test-rescue Q5
+L senseBeTx_rev3-rescue:Q_NMOS_GSD-AP3403_LED_test-Ap3403_LED_test-rescue Q3
 U 1 1 5C28F427
 P 10000 5300
-F 0 "Q5" H 9900 5150 50  0000 L CNN
+F 0 "Q3" H 9900 5150 50  0000 L CNN
 F 1 "SI2302" H 9725 5425 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-23_Handsoldering" H 10200 5400 50  0001 C CNN
+F 2 "senseBeTx_rev3_fp:SOT-23_Handsoldering" H 10200 5400 50  0001 C CNN
 F 3 "~" H 10000 5300 50  0001 C CNN
 	1    10000 5300
 	1    0    0    -1  
 $EndComp
 $Comp
-L senseBeTx_rev3-rescue:LED-AP3403_LED_test-Ap3403_LED_test-rescue D3
+L senseBeTx_rev3-rescue:LED-AP3403_LED_test-Ap3403_LED_test-rescue D5
 U 1 1 5C299534
 P 9425 850
-F 0 "D3" H 9475 975 50  0000 R CNN
+F 0 "D5" H 9475 975 50  0000 R CNN
 F 1 "LED" H 9500 725 50  0000 R CNN
 F 2 "LED_THT:LED_D5.0mm" H 9425 850 50  0001 C CNN
 F 3 "~" H 9425 850 50  0001 C CNN
@@ -545,10 +521,10 @@ F 3 "~" H 9425 850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L senseBeTx_rev3-rescue:GND-AP3403_LED_test-Ap3403_LED_test-rescue #PWR018
+L senseBeTx_rev3-rescue:GND-AP3403_LED_test-Ap3403_LED_test-rescue #PWR015
 U 1 1 5C29998F
 P 7725 3775
-F 0 "#PWR018" H 7725 3525 50  0001 C CNN
+F 0 "#PWR015" H 7725 3525 50  0001 C CNN
 F 1 "GND" H 7730 3602 50  0000 C CNN
 F 2 "" H 7725 3775 50  0001 C CNN
 F 3 "" H 7725 3775 50  0001 C CNN
@@ -583,12 +559,12 @@ Wire Wire Line
 Wire Wire Line
 	9525 3325 10175 3325
 $Comp
-L senseBeTx_rev3-rescue:C-AP3403_LED_test-Ap3403_LED_test-rescue C7
+L senseBeTx_rev3-rescue:C-AP3403_LED_test-Ap3403_LED_test-rescue C8
 U 1 1 5C29A643
 P 10550 3500
-F 0 "C7" H 10665 3546 50  0000 L CNN
+F 0 "C8" H 10665 3546 50  0000 L CNN
 F 1 "22p" H 10665 3455 50  0000 L CNN
-F 2 "Ap3403_LED_test_fp:C_0603_HandSoldering" H 10588 3350 50  0001 C CNN
+F 2 "senseBeTx_rev3_fp:C_0603_HandSoldering" H 10588 3350 50  0001 C CNN
 F 3 "~" H 10550 3500 50  0001 C CNN
 	1    10550 3500
 	1    0    0    -1  
@@ -614,12 +590,12 @@ Wire Wire Line
 	10550 3725 10550 3650
 Connection ~ 10175 3725
 $Comp
-L senseBeTx_rev3-rescue:R-AP3403_LED_test-Ap3403_LED_test-rescue R11
+L senseBeTx_rev3-rescue:R-AP3403_LED_test-Ap3403_LED_test-rescue R10
 U 1 1 5C29AE9D
 P 10175 4175
-F 0 "R11" H 10245 4221 50  0000 L CNN
+F 0 "R10" H 10245 4221 50  0000 L CNN
 F 1 "470k" H 10245 4130 50  0000 L CNN
-F 2 "Ap3403_LED_test_fp:R_0603_HandSoldering" V 10105 4175 50  0001 C CNN
+F 2 "senseBeTx_rev3_fp:R_0603_HandSoldering" V 10105 4175 50  0001 C CNN
 F 3 "~" H 10175 4175 50  0001 C CNN
 	1    10175 4175
 	1    0    0    -1  
@@ -627,10 +603,10 @@ $EndComp
 Wire Wire Line
 	10175 4325 10175 4500
 $Comp
-L senseBeTx_rev3-rescue:GND-AP3403_LED_test-Ap3403_LED_test-rescue #PWR021
+L senseBeTx_rev3-rescue:GND-AP3403_LED_test-Ap3403_LED_test-rescue #PWR023
 U 1 1 5C29B4B1
 P 10175 4500
-F 0 "#PWR021" H 10175 4250 50  0001 C CNN
+F 0 "#PWR023" H 10175 4250 50  0001 C CNN
 F 1 "GND" H 10180 4327 50  0000 C CNN
 F 2 "" H 10175 4500 50  0001 C CNN
 F 3 "" H 10175 4500 50  0001 C CNN
@@ -638,32 +614,32 @@ F 3 "" H 10175 4500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L senseBeTx_rev3-rescue:R-AP3403_LED_test-Ap3403_LED_test-rescue R14
+L senseBeTx_rev3-rescue:R-AP3403_LED_test-Ap3403_LED_test-rescue R12
 U 1 1 5C29C39A
 P 10550 4175
-F 0 "R14" H 10620 4221 50  0000 L CNN
-F 1 "1.5M" H 10620 4130 50  0000 L CNN
-F 2 "Ap3403_LED_test_fp:R_0603_HandSoldering" V 10480 4175 50  0001 C CNN
+F 0 "R12" H 10620 4221 50  0000 L CNN
+F 1 "4.7M" H 10620 4130 50  0000 L CNN
+F 2 "senseBeTx_rev3_fp:R_0603_HandSoldering" V 10480 4175 50  0001 C CNN
 F 3 "~" H 10550 4175 50  0001 C CNN
 	1    10550 4175
 	1    0    0    -1  
 $EndComp
 $Comp
-L senseBeTx_rev3-rescue:C-AP3403_LED_test-Ap3403_LED_test-rescue C8
+L senseBeTx_rev3-rescue:C-AP3403_LED_test-Ap3403_LED_test-rescue C7
 U 1 1 5C29C78E
 P 9900 1300
-F 0 "C8" H 10015 1346 50  0000 L CNN
+F 0 "C7" H 10015 1346 50  0000 L CNN
 F 1 "10u" H 10015 1255 50  0000 L CNN
-F 2 "Ap3403_LED_test_fp:C_0805_HandSoldering" H 9938 1150 50  0001 C CNN
+F 2 "senseBeTx_rev3_fp:C_0805_HandSoldering" H 9938 1150 50  0001 C CNN
 F 3 "~" H 9900 1300 50  0001 C CNN
 	1    9900 1300
 	1    0    0    -1  
 $EndComp
 $Comp
-L senseBeTx_rev3-rescue:GND-AP3403_LED_test-Ap3403_LED_test-rescue #PWR027
+L senseBeTx_rev3-rescue:GND-AP3403_LED_test-Ap3403_LED_test-rescue #PWR021
 U 1 1 5C29CE5B
 P 9900 1625
-F 0 "#PWR027" H 9900 1375 50  0001 C CNN
+F 0 "#PWR021" H 9900 1375 50  0001 C CNN
 F 1 "GND" H 9905 1452 50  0000 C CNN
 F 2 "" H 9900 1625 50  0001 C CNN
 F 3 "" H 9900 1625 50  0001 C CNN
@@ -671,32 +647,32 @@ F 3 "" H 9900 1625 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L senseBeTx_rev3-rescue:R-AP3403_LED_test-Ap3403_LED_test-rescue R16
+L senseBeTx_rev3-rescue:R-AP3403_LED_test-Ap3403_LED_test-rescue R13
 U 1 1 5C29D6DF
 P 10900 4175
-F 0 "R16" H 10970 4221 50  0000 L CNN
-F 1 "1.5M" H 10970 4130 50  0000 L CNN
-F 2 "Ap3403_LED_test_fp:R_0603_HandSoldering" V 10830 4175 50  0001 C CNN
+F 0 "R13" H 10970 4221 50  0000 L CNN
+F 1 "1.2M" H 10970 4130 50  0000 L CNN
+F 2 "senseBeTx_rev3_fp:R_0603_HandSoldering" V 10830 4175 50  0001 C CNN
 F 3 "~" H 10900 4175 50  0001 C CNN
 	1    10900 4175
 	1    0    0    -1  
 $EndComp
 $Comp
-L senseBeTx_rev3-rescue:Q_NMOS_GSD-AP3403_LED_test-Ap3403_LED_test-rescue Q7
+L senseBeTx_rev3-rescue:Q_NMOS_GSD-AP3403_LED_test-Ap3403_LED_test-rescue Q4
 U 1 1 5C29D83B
 P 10800 5300
-F 0 "Q7" H 10675 5150 50  0000 L CNN
+F 0 "Q4" H 10675 5150 50  0000 L CNN
 F 1 "SI2302" H 10550 5425 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-23_Handsoldering" H 11000 5400 50  0001 C CNN
+F 2 "senseBeTx_rev3_fp:SOT-23_Handsoldering" H 11000 5400 50  0001 C CNN
 F 3 "~" H 10800 5300 50  0001 C CNN
 	1    10800 5300
 	1    0    0    -1  
 $EndComp
 $Comp
-L senseBeTx_rev3-rescue:GND-AP3403_LED_test-Ap3403_LED_test-rescue #PWR024
+L senseBeTx_rev3-rescue:GND-AP3403_LED_test-Ap3403_LED_test-rescue #PWR022
 U 1 1 5C29D9F4
 P 10100 5575
-F 0 "#PWR024" H 10100 5325 50  0001 C CNN
+F 0 "#PWR022" H 10100 5325 50  0001 C CNN
 F 1 "GND" H 10105 5402 50  0000 C CNN
 F 2 "" H 10100 5575 50  0001 C CNN
 F 3 "" H 10100 5575 50  0001 C CNN
@@ -706,10 +682,10 @@ $EndComp
 Wire Wire Line
 	10100 5500 10100 5575
 $Comp
-L senseBeTx_rev3-rescue:GND-AP3403_LED_test-Ap3403_LED_test-rescue #PWR028
+L senseBeTx_rev3-rescue:GND-AP3403_LED_test-Ap3403_LED_test-rescue #PWR025
 U 1 1 5C29DE0D
 P 10900 5575
-F 0 "#PWR028" H 10900 5325 50  0001 C CNN
+F 0 "#PWR025" H 10900 5325 50  0001 C CNN
 F 1 "GND" H 10905 5402 50  0000 C CNN
 F 2 "" H 10900 5575 50  0001 C CNN
 F 3 "" H 10900 5575 50  0001 C CNN
@@ -725,21 +701,21 @@ PWR1
 Text Label 10350 5300 0    50   ~ 0
 PWR2
 $Comp
-L senseBeTx_rev3-rescue:Q_NMOS_GSD-AP3403_LED_test-Ap3403_LED_test-rescue Q6
+L senseBeTx_rev3-rescue:Q_NMOS_GSD-AP3403_LED_test-Ap3403_LED_test-rescue Q2
 U 1 1 5C2A346A
 P 8825 1100
-F 0 "Q6" H 8700 950 50  0000 L CNN
+F 0 "Q2" H 8700 950 50  0000 L CNN
 F 1 "SI2302" H 8575 1225 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-23_Handsoldering" H 9025 1200 50  0001 C CNN
+F 2 "senseBeTx_rev3_fp:SOT-23_Handsoldering" H 9025 1200 50  0001 C CNN
 F 3 "~" H 8825 1100 50  0001 C CNN
 	1    8825 1100
 	1    0    0    -1  
 $EndComp
 $Comp
-L senseBeTx_rev3-rescue:GND-AP3403_LED_test-Ap3403_LED_test-rescue #PWR026
+L senseBeTx_rev3-rescue:GND-AP3403_LED_test-Ap3403_LED_test-rescue #PWR018
 U 1 1 5C2A3DF1
 P 8925 1625
-F 0 "#PWR026" H 8925 1375 50  0001 C CNN
+F 0 "#PWR018" H 8925 1375 50  0001 C CNN
 F 1 "GND" H 8930 1452 50  0000 C CNN
 F 2 "" H 8925 1625 50  0001 C CNN
 F 3 "" H 8925 1625 50  0001 C CNN
@@ -757,21 +733,21 @@ Wire Wire Line
 Text Label 9900 850  2    50   ~ 0
 VLED
 $Comp
-L senseBeTx_rev3-rescue:R-AP3403_LED_test-Ap3403_LED_test-rescue R8
+L senseBeTx_rev3-rescue:R-AP3403_LED_test-Ap3403_LED_test-rescue R6
 U 1 1 5C2AC35B
 P 8075 4000
-F 0 "R8" H 8145 4046 50  0000 L CNN
+F 0 "R6" H 8145 4046 50  0000 L CNN
 F 1 "470k" H 8145 3955 50  0000 L CNN
-F 2 "Ap3403_LED_test_fp:R_0603_HandSoldering" V 8005 4000 50  0001 C CNN
+F 2 "senseBeTx_rev3_fp:R_0603_HandSoldering" V 8005 4000 50  0001 C CNN
 F 3 "~" H 8075 4000 50  0001 C CNN
 	1    8075 4000
 	1    0    0    -1  
 $EndComp
 $Comp
-L senseBeTx_rev3-rescue:GND-AP3403_LED_test-Ap3403_LED_test-rescue #PWR019
+L senseBeTx_rev3-rescue:GND-AP3403_LED_test-Ap3403_LED_test-rescue #PWR016
 U 1 1 5C2ACEF4
 P 8075 4175
-F 0 "#PWR019" H 8075 3925 50  0001 C CNN
+F 0 "#PWR016" H 8075 3925 50  0001 C CNN
 F 1 "GND" H 8080 4002 50  0000 C CNN
 F 2 "" H 8075 4175 50  0001 C CNN
 F 3 "" H 8075 4175 50  0001 C CNN
@@ -785,12 +761,12 @@ Wire Wire Line
 Wire Wire Line
 	8075 3825 8425 3825
 $Comp
-L senseBeTx_rev3-rescue:R-AP3403_LED_test-Ap3403_LED_test-rescue R12
+L senseBeTx_rev3-rescue:R-AP3403_LED_test-Ap3403_LED_test-rescue R8
 U 1 1 5C2A0A0F
 P 9575 5800
-F 0 "R12" H 9645 5846 50  0000 L CNN
+F 0 "R8" H 9645 5846 50  0000 L CNN
 F 1 "470k" H 9645 5755 50  0000 L CNN
-F 2 "Ap3403_LED_test_fp:R_0603_HandSoldering" V 9505 5800 50  0001 C CNN
+F 2 "senseBeTx_rev3_fp:R_0603_HandSoldering" V 9505 5800 50  0001 C CNN
 F 3 "~" H 9575 5800 50  0001 C CNN
 	1    9575 5800
 	1    0    0    -1  
@@ -800,10 +776,10 @@ Wire Wire Line
 Wire Wire Line
 	9575 5950 9575 6000
 $Comp
-L senseBeTx_rev3-rescue:GND-AP3403_LED_test-Ap3403_LED_test-rescue #PWR022
+L senseBeTx_rev3-rescue:GND-AP3403_LED_test-Ap3403_LED_test-rescue #PWR020
 U 1 1 5C2A22CE
 P 9575 6000
-F 0 "#PWR022" H 9575 5750 50  0001 C CNN
+F 0 "#PWR020" H 9575 5750 50  0001 C CNN
 F 1 "GND" H 9580 5827 50  0000 C CNN
 F 2 "" H 9575 6000 50  0001 C CNN
 F 3 "" H 9575 6000 50  0001 C CNN
@@ -811,12 +787,12 @@ F 3 "" H 9575 6000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L senseBeTx_rev3-rescue:R-AP3403_LED_test-Ap3403_LED_test-rescue R15
+L senseBeTx_rev3-rescue:R-AP3403_LED_test-Ap3403_LED_test-rescue R11
 U 1 1 5C2A23C3
 P 10350 5800
-F 0 "R15" H 10420 5846 50  0000 L CNN
+F 0 "R11" H 10420 5846 50  0000 L CNN
 F 1 "470k" H 10420 5755 50  0000 L CNN
-F 2 "Ap3403_LED_test_fp:R_0603_HandSoldering" V 10280 5800 50  0001 C CNN
+F 2 "senseBeTx_rev3_fp:R_0603_HandSoldering" V 10280 5800 50  0001 C CNN
 F 3 "~" H 10350 5800 50  0001 C CNN
 	1    10350 5800
 	1    0    0    -1  
@@ -826,10 +802,10 @@ Wire Wire Line
 Wire Wire Line
 	10350 5300 10600 5300
 $Comp
-L senseBeTx_rev3-rescue:GND-AP3403_LED_test-Ap3403_LED_test-rescue #PWR025
+L senseBeTx_rev3-rescue:GND-AP3403_LED_test-Ap3403_LED_test-rescue #PWR024
 U 1 1 5C2A4A37
 P 10350 6000
-F 0 "#PWR025" H 10350 5750 50  0001 C CNN
+F 0 "#PWR024" H 10350 5750 50  0001 C CNN
 F 1 "GND" H 10355 5827 50  0000 C CNN
 F 2 "" H 10350 6000 50  0001 C CNN
 F 3 "" H 10350 6000 50  0001 C CNN
@@ -837,12 +813,12 @@ F 3 "" H 10350 6000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L senseBeTx_rev3-rescue:R-AP3403_LED_test-Ap3403_LED_test-rescue R13
+L senseBeTx_rev3-rescue:R-AP3403_LED_test-Ap3403_LED_test-rescue R7
 U 1 1 5C2A852B
 P 8325 1400
-F 0 "R13" H 8395 1446 50  0000 L CNN
+F 0 "R7" H 8395 1446 50  0000 L CNN
 F 1 "470k" H 8395 1355 50  0000 L CNN
-F 2 "Ap3403_LED_test_fp:R_0603_HandSoldering" V 8255 1400 50  0001 C CNN
+F 2 "senseBeTx_rev3_fp:R_0603_HandSoldering" V 8255 1400 50  0001 C CNN
 F 3 "~" H 8325 1400 50  0001 C CNN
 	1    8325 1400
 	1    0    0    -1  
@@ -852,10 +828,10 @@ Wire Wire Line
 Wire Wire Line
 	8325 1100 8625 1100
 $Comp
-L senseBeTx_rev3-rescue:GND-AP3403_LED_test-Ap3403_LED_test-rescue #PWR023
+L senseBeTx_rev3-rescue:GND-AP3403_LED_test-Ap3403_LED_test-rescue #PWR017
 U 1 1 5C2A944B
 P 8325 1625
-F 0 "#PWR023" H 8325 1375 50  0001 C CNN
+F 0 "#PWR017" H 8325 1375 50  0001 C CNN
 F 1 "GND" H 8330 1452 50  0000 C CNN
 F 2 "" H 8325 1625 50  0001 C CNN
 F 3 "" H 8325 1625 50  0001 C CNN
@@ -872,7 +848,7 @@ U 1 1 5C2BAE84
 P 9750 3650
 F 0 "TP1" H 9808 3770 50  0000 L CNN
 F 1 "FB_TP" H 9808 3679 50  0000 L CNN
-F 2 "Ap3403_LED_test_fp:Measurement_Point_Round-SMD-Pad_Small" H 9950 3650 50  0001 C CNN
+F 2 "senseBeTx_rev3_fp:Measurement_Point_Round-SMD-Pad_Small" H 9950 3650 50  0001 C CNN
 F 3 "~" H 9950 3650 50  0001 C CNN
 	1    9750 3650
 	1    0    0    -1  
@@ -888,7 +864,7 @@ U 1 1 5BB20B0C
 P 1500 6650
 F 0 "P1" H 1550 6850 50  0000 C CNN
 F 1 "CONN_02X05" H 1525 6425 50  0000 C CNN
-F 2 "senseBeTx_rev2_fp:prog_connect" H 1500 5450 60  0001 C CNN
+F 2 "senseBeTx_rev3_fp:prog_connect_2x3" H 1500 5450 60  0001 C CNN
 F 3 "" H 1500 5450 60  0000 C CNN
 	1    1500 6650
 	1    0    0    -1  
@@ -898,10 +874,10 @@ Wire Wire Line
 Wire Wire Line
 	2325 6750 1800 6750
 $Comp
-L senseBeTx_rev3-rescue:VDD-senseBeRx_rev1 #PWR016
+L senseBeTx_rev3-rescue:VDD-senseBeRx_rev1 #PWR014
 U 1 1 5C54B3A9
 P 7450 3325
-F 0 "#PWR016" H 7450 3175 50  0001 C CNN
+F 0 "#PWR014" H 7450 3175 50  0001 C CNN
 F 1 "VDD" H 7467 3498 50  0000 C CNN
 F 2 "" H 7450 3325 60  0000 C CNN
 F 3 "" H 7450 3325 60  0000 C CNN
@@ -927,56 +903,52 @@ Wire Wire Line
 	1500 3025 1500 3275
 Wire Wire Line
 	1500 2350 1400 2350
-NoConn ~ 1200 5200
-NoConn ~ 1600 5200
 $Comp
 L Device:LED D2
 U 1 1 5C4DFD9D
 P 5725 1075
 F 0 "D2" H 5717 820 50  0000 C CNN
 F 1 "LED" H 5717 911 50  0000 C CNN
-F 2 "" H 5725 1075 50  0001 C CNN
+F 2 "LED_SMD:LED_0805_2012Metric" H 5725 1075 50  0001 C CNN
 F 3 "~" H 5725 1075 50  0001 C CNN
 	1    5725 1075
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:LED D4
+L Device:LED D3
 U 1 1 5C4DFF9E
 P 5725 1475
-F 0 "D4" H 5717 1220 50  0000 C CNN
+F 0 "D3" H 5717 1220 50  0000 C CNN
 F 1 "LED" H 5717 1311 50  0000 C CNN
-F 2 "" H 5725 1475 50  0001 C CNN
+F 2 "LED_SMD:LED_0805_2012Metric" H 5725 1475 50  0001 C CNN
 F 3 "~" H 5725 1475 50  0001 C CNN
 	1    5725 1475
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:LED D5
+L Device:LED D4
 U 1 1 5C4E00A0
 P 5725 1875
-F 0 "D5" H 5717 1620 50  0000 C CNN
+F 0 "D4" H 5717 1620 50  0000 C CNN
 F 1 "LED" H 5717 1711 50  0000 C CNN
-F 2 "" H 5725 1875 50  0001 C CNN
+F 2 "LED_SMD:LED_0805_2012Metric" H 5725 1875 50  0001 C CNN
 F 3 "~" H 5725 1875 50  0001 C CNN
 	1    5725 1875
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	5325 1075 5575 1075
-Wire Wire Line
 	5875 1075 6250 1075
 Wire Wire Line
 	6250 1075 6250 1475
 Wire Wire Line
-	5325 1475 5575 1475
+	4975 1475 5175 1475
 Wire Wire Line
 	5875 1475 6250 1475
 Connection ~ 6250 1475
 Wire Wire Line
 	6250 1475 6250 1875
 Wire Wire Line
-	5325 1875 5575 1875
+	4975 1875 5175 1875
 Wire Wire Line
 	5875 1875 6250 1875
 Connection ~ 6250 1875
@@ -1003,10 +975,10 @@ Wire Wire Line
 Wire Wire Line
 	8925 850  9275 850 
 $Comp
-L senseBeTx_rev3-rescue:GND-AP3403_LED_test-Ap3403_LED_test-rescue #PWR0101
+L senseBeTx_rev3-rescue:GND-AP3403_LED_test-Ap3403_LED_test-rescue #PWR013
 U 1 1 5C57F91A
 P 6250 2000
-F 0 "#PWR0101" H 6250 1750 50  0001 C CNN
+F 0 "#PWR013" H 6250 1750 50  0001 C CNN
 F 1 "GND" H 6255 1827 50  0000 C CNN
 F 2 "" H 6250 2000 50  0001 C CNN
 F 3 "" H 6250 2000 50  0001 C CNN
@@ -1065,4 +1037,92 @@ Wire Wire Line
 	5425 2825 5425 3100
 Text Notes 8625 2900 0    50   ~ 0
 Buck Regulator for IR LED\ninput Voltage/Current control.
+Wire Wire Line
+	825  1450 825  1575
+$Comp
+L Switch:SW_Push_SPDT SW1
+U 1 1 5C4B43E3
+P 1400 1000
+F 0 "SW1" H 1400 1200 50  0000 C CNN
+F 1 "Switch_SW_SPST" H 1425 850 50  0000 C CNN
+F 2 "senseBeTx_rev3_fp:SlideSwitch_1P2T_RightAngle" H 1400 1000 50  0001 C CNN
+F 3 "" H 1400 1000 50  0001 C CNN
+	1    1400 1000
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	1800 1000 1600 1000
+Wire Wire Line
+	2000 1575 1200 1575
+Connection ~ 2000 1575
+Connection ~ 825  1575
+Wire Wire Line
+	825  1575 825  1650
+Wire Wire Line
+	2525 1000 2525 1150
+Wire Wire Line
+	2525 925  2525 1000
+Connection ~ 2525 1000
+Wire Wire Line
+	1200 900  825  900 
+Wire Wire Line
+	1200 1100 1200 1575
+Connection ~ 1200 1575
+Wire Wire Line
+	1200 1575 825  1575
+Wire Wire Line
+	1600 5200 1700 5200
+Wire Wire Line
+	1700 5200 1700 5000
+Connection ~ 1700 5000
+Wire Wire Line
+	1700 5000 1950 5000
+Wire Wire Line
+	1200 5200 1050 5200
+Wire Wire Line
+	1050 5200 1050 5000
+Connection ~ 1050 5000
+Wire Wire Line
+	1050 5000 1200 5000
+$Comp
+L Device:R R3
+U 1 1 5C529F95
+P 5325 1075
+F 0 "R3" V 5118 1075 50  0000 C CNN
+F 1 "100E" V 5209 1075 50  0000 C CNN
+F 2 "senseBeTx_rev3_fp:R_0603_HandSoldering" V 5255 1075 50  0001 C CNN
+F 3 "~" H 5325 1075 50  0001 C CNN
+	1    5325 1075
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5475 1075 5575 1075
+Wire Wire Line
+	4975 1075 5175 1075
+$Comp
+L Device:R R4
+U 1 1 5C53E7C6
+P 5325 1475
+F 0 "R4" V 5118 1475 50  0000 C CNN
+F 1 "100E" V 5209 1475 50  0000 C CNN
+F 2 "senseBeTx_rev3_fp:R_0603_HandSoldering" V 5255 1475 50  0001 C CNN
+F 3 "~" H 5325 1475 50  0001 C CNN
+	1    5325 1475
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5475 1475 5575 1475
+$Comp
+L Device:R R5
+U 1 1 5C53E846
+P 5325 1875
+F 0 "R5" V 5118 1875 50  0000 C CNN
+F 1 "100E" V 5209 1875 50  0000 C CNN
+F 2 "senseBeTx_rev3_fp:R_0603_HandSoldering" V 5255 1875 50  0001 C CNN
+F 3 "~" H 5325 1875 50  0001 C CNN
+	1    5325 1875
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5475 1875 5575 1875
 $EndSCHEMATC

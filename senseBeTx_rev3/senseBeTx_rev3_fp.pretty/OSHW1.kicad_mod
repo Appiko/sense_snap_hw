@@ -1,4 +1,4 @@
-(module Appiko_Logo:OSHW1 (layer F.Cu) (tedit 0)
+(module sense_rev3_fp:OSHW1 (layer F.Cu) (tedit 0)
   (fp_text reference G*** (at 0 0) (layer F.SilkS) hide
     (effects (font (size 0.8 0.8) (thickness 0.12)))
   )

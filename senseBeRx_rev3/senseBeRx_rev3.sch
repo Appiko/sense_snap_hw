@@ -126,8 +126,8 @@ L senseBeRx_rev3-rescue:LED_Dual_ACAC-senseBeRx_rev1-senseBeRx_rev2-rescue D1
 U 1 1 5BA559EF
 P 4475 1300
 F 0 "D1" H 4475 1575 50  0000 C CNN
-F 1 "KPTBD-3216SURKCGKC" H 4450 1050 50  0000 C CNN
-F 2 "senseBeRx_rev3_fp:LED_KPTBD-3216SURKCGKC" H 4505 1300 50  0001 C CNN
+F 1 "18-225/R6G6C-A01/3T" H 4450 1050 50  0000 C CNN
+F 2 "senseBeRx_rev3_fp:18-225_R6G6C-A01_3T" H 4505 1300 50  0001 C CNN
 F 3 "~" H 4505 1300 50  0001 C CNN
 	1    4475 1300
 	1    0    0    -1  
@@ -189,7 +189,7 @@ F 3 "~" H 9425 2125 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	9050 2250 9050 2350
-Text Label 6550 1750 2    50   ~ 0
+Text Label 4900 1750 0    50   ~ 0
 LED_RED
 $Comp
 L Transistor_FET:2N7002 Q3
@@ -631,11 +631,11 @@ Wire Wire Line
 	1850 1250 1850 1650
 Connection ~ 1850 1650
 Wire Wire Line
-	1050 3000 850  3000
+	1050 3000 950  3000
 Wire Wire Line
 	850  3000 850  3200
 Wire Wire Line
-	1450 3000 1800 3000
+	1450 3000 1550 3000
 Wire Wire Line
 	850  4100 850  4300
 Wire Wire Line
@@ -774,17 +774,6 @@ Text Notes 7900 1175 0    60   ~ 0
 IR pattern receiver \nwith an enable switch\n
 Text Notes 8900 3200 0    60   ~ 0
 Ambient light sensing
-$Comp
-L Switch:SW_Push SW1
-U 1 1 5BB09C80
-P 1250 3000
-F 0 "SW1" H 1250 3175 50  0000 C CNN
-F 1 "SW_DPST" H 1250 2900 50  0000 C CNN
-F 2 "senseBeRx_rev3_fp:TC-1101T-C-A-B_Switch" H 1250 3000 50  0001 C CNN
-F 3 "" H 1250 3000 50  0001 C CNN
-	1    1250 3000
-	1    0    0    -1  
-$EndComp
 Text Label 5200 5800 1    50   ~ 0
 LIGHT_SENSE
 Text Label 5300 5800 1    50   ~ 0
@@ -947,7 +936,7 @@ Text Label 7050 3950 2    60   ~ 0
 RX_UARTRX
 Text Label 7050 3850 2    60   ~ 0
 RX_UARTTX
-Text Label 4900 1750 0    50   ~ 0
+Text Label 6550 1750 2    50   ~ 0
 LED_GREEN
 Wire Wire Line
 	6100 1750 6550 1750
@@ -971,7 +960,7 @@ Wire Wire Line
 	9350 4000 9350 4075
 Wire Wire Line
 	9350 3650 9350 3525
-Text Label 6650 1750 0    60   ~ 0
+Text Label 7100 1750 2    60   ~ 0
 RX_UARTTX
 $Comp
 L senseBeRx_rev3-rescue:GND-senseBeRx_rev1-senseBeRx_rev2-rescue #PWR0124
@@ -988,8 +977,6 @@ Wire Wire Line
 	9125 6100 9600 6100
 Wire Wire Line
 	9350 4000 9525 4000
-Wire Wire Line
-	6550 1750 6650 1750
 Connection ~ 6550 1750
 Wire Wire Line
 	9350 4375 9350 4750
@@ -1040,4 +1027,31 @@ Wire Wire Line
 	1125 950  1050 950 
 Wire Wire Line
 	1050 950  1050 1100
+$Comp
+L Switch:SW_DPST SW1
+U 1 1 5C50A691
+P 1250 3100
+F 0 "SW1" H 1250 3425 50  0000 C CNN
+F 1 "SW_DPST" H 1250 3334 50  0000 C CNN
+F 2 "Button_Switch_THT:SW_PUSH_6mm" H 1250 3100 50  0001 C CNN
+F 3 "" H 1250 3100 50  0001 C CNN
+	1    1250 3100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1050 3200 950  3200
+Wire Wire Line
+	950  3200 950  3000
+Connection ~ 950  3000
+Wire Wire Line
+	950  3000 850  3000
+Wire Wire Line
+	1450 3200 1550 3200
+Wire Wire Line
+	1550 3200 1550 3000
+Connection ~ 1550 3000
+Wire Wire Line
+	1550 3000 1800 3000
+Wire Wire Line
+	6550 1750 7100 1750
 $EndSCHEMATC

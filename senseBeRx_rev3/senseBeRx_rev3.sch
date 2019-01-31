@@ -991,7 +991,7 @@ Wire Wire Line
 Wire Wire Line
 	1750 6650 2050 6650
 $Comp
-L senseBeRx_rev3:PJ-32434_3-5mmAudioJack J1
+L senseBeRx_rev3:senseBeRx_rev3_PJ-32434_3-5mmAudioJack J1
 U 1 1 5C2EAFA3
 P 8875 5950
 F 0 "J1" H 8891 6342 50  0000 C CNN

@@ -47,41 +47,46 @@ X - 2 0 -100 100 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# PJ-32434_3-5mmAudioJack
+# Switch_SW_DPST
 #
-DEF PJ-32434_3-5mmAudioJack J 0 40 Y Y 1 F N
-F0 "J" 0 350 50 H V C CNN
-F1 "PJ-32434_3-5mmAudioJack" 0 450 50 H V C CNN
+DEF Switch_SW_DPST SW 0 0 Y N 1 F N
+F0 "SW" 0 200 50 H V C CNN
+F1 "Switch_SW_DPST" 0 -200 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
-S -200 -250 -230 -150 1 1 0 F
-S 150 -275 -205 225 1 1 10 f
-P 4 1 1 10 50 -150 75 -175 100 -150 150 -150 N
-P 5 1 1 10 -175 -150 -150 -175 -125 -150 -125 150 150 150 N
-P 5 1 1 10 -25 -150 0 -175 25 -150 25 -50 150 -50 N
-P 5 1 1 10 150 50 -50 50 -50 -150 -75 -175 -100 -150 N
-X ~ 1 250 150 100 L 50 50 1 1 P
-X ~ 2 250 50 100 L 50 50 1 1 P
-X ~ 3 250 -150 100 L 50 50 1 1 P
-X ~ 4 250 -50 100 L 50 50 1 1 P
+C -80 -100 20 0 0 0 N
+C -80 100 20 0 0 0 N
+C 80 -100 20 0 0 0 N
+C 80 100 20 0 0 0 N
+P 2 0 0 0 -60 -90 50 -40 N
+P 2 0 0 0 -60 110 50 160 N
+P 2 0 0 0 0 -50 0 -25 N
+P 2 0 0 0 0 0 0 25 N
+P 2 0 0 0 0 50 0 75 N
+P 2 0 0 0 0 100 0 125 N
+X 1 1 -200 -100 100 R 50 50 1 1 P
+X 2 2 200 -100 100 L 50 50 1 1 P
+X 3 3 -200 100 100 R 50 50 1 1 P
+X 4 4 200 100 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Switch_SW_Push
+# Switch_SW_SPDT
 #
-DEF Switch_SW_Push SW 0 40 N N 1 F N
-F0 "SW" 50 100 50 H V L CNN
-F1 "Switch_SW_Push" 0 -60 50 H V C CNN
-F2 "" 0 200 50 H I C CNN
-F3 "" 0 200 50 H I C CNN
+DEF Switch_SW_SPDT SW 0 0 Y N 1 F N
+F0 "SW" 0 170 50 H V C CNN
+F1 "Switch_SW_SPDT" 0 -200 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
 DRAW
-C -80 0 20 0 1 0 N
-C 80 0 20 0 1 0 N
-P 2 0 1 0 0 50 0 120 N
-P 2 0 1 0 100 50 -100 50 N
-X 1 1 -200 0 100 R 50 50 0 1 P
-X 2 2 200 0 100 L 50 50 0 1 P
+C -80 0 20 0 0 0 N
+C 80 -100 20 0 0 0 N
+C 80 100 20 0 1 0 N
+P 2 0 1 0 -60 10 65 90 N
+X A 1 200 100 100 L 50 50 1 1 P
+X B 2 -200 0 100 R 50 50 1 1 P
+X C 3 200 -100 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
@@ -120,11 +125,11 @@ X D 3 100 200 100 D 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# senseBeRx_rev3-rescue_C-senseBeRx_rev1-senseBeRx_rev2-rescue
+# senseBeRx_rev3_C-senseBeRx_rev1-senseBeRx_rev2-rescue
 #
-DEF senseBeRx_rev3-rescue_C-senseBeRx_rev1-senseBeRx_rev2-rescue C 0 10 N Y 1 F N
+DEF senseBeRx_rev3_C-senseBeRx_rev1-senseBeRx_rev2-rescue C 0 10 N Y 1 F N
 F0 "C" 25 100 50 H V L CNN
-F1 "senseBeRx_rev3-rescue_C-senseBeRx_rev1-senseBeRx_rev2-rescue" 25 -100 50 H V L CNN
+F1 "senseBeRx_rev3_C-senseBeRx_rev1-senseBeRx_rev2-rescue" 25 -100 50 H V L CNN
 F2 "" 38 -150 30 H V C CNN
 F3 "" 0 0 60 H V C CNN
 $FPLIST
@@ -142,11 +147,11 @@ X ~ 2 0 -150 110 U 40 40 1 1 P
 ENDDRAW
 ENDDEF
 #
-# senseBeRx_rev3-rescue_Crystal-senseBeRx_rev1-senseBeRx_rev2-rescue
+# senseBeRx_rev3_Crystal-senseBeRx_rev1-senseBeRx_rev2-rescue
 #
-DEF senseBeRx_rev3-rescue_Crystal-senseBeRx_rev1-senseBeRx_rev2-rescue Y 0 40 N N 1 F N
+DEF senseBeRx_rev3_Crystal-senseBeRx_rev1-senseBeRx_rev2-rescue Y 0 40 N N 1 F N
 F0 "Y" 0 150 50 H V C CNN
-F1 "senseBeRx_rev3-rescue_Crystal-senseBeRx_rev1-senseBeRx_rev2-rescue" 0 -150 50 H V C CNN
+F1 "senseBeRx_rev3_Crystal-senseBeRx_rev1-senseBeRx_rev2-rescue" 0 -150 50 H V C CNN
 F2 "" 0 0 50 H V C CNN
 F3 "" 0 0 50 H V C CNN
 $FPLIST
@@ -161,11 +166,11 @@ X 2 2 150 0 50 L 40 40 1 1 P
 ENDDRAW
 ENDDEF
 #
-# senseBeRx_rev3-rescue_D_Photo-senseBeRx_rev1-senseBeRx_rev2-rescue
+# senseBeRx_rev3_D_Photo-senseBeRx_rev1-senseBeRx_rev2-rescue
 #
-DEF senseBeRx_rev3-rescue_D_Photo-senseBeRx_rev1-senseBeRx_rev2-rescue D 0 20 N N 1 F N
+DEF senseBeRx_rev3_D_Photo-senseBeRx_rev1-senseBeRx_rev2-rescue D 0 20 N N 1 F N
 F0 "D" 20 70 50 H V L CNN
-F1 "senseBeRx_rev3-rescue_D_Photo-senseBeRx_rev1-senseBeRx_rev2-rescue" -40 -110 50 H V C CNN
+F1 "senseBeRx_rev3_D_Photo-senseBeRx_rev1-senseBeRx_rev2-rescue" -40 -110 50 H V C CNN
 F2 "" -50 0 50 H I C CNN
 F3 "" -50 0 50 H I C CNN
 DRAW
@@ -180,11 +185,11 @@ X A 2 100 0 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# senseBeRx_rev3-rescue_GND-senseBeRx_rev1-senseBeRx_rev2-rescue
+# senseBeRx_rev3_GND-senseBeRx_rev1-senseBeRx_rev2-rescue
 #
-DEF senseBeRx_rev3-rescue_GND-senseBeRx_rev1-senseBeRx_rev2-rescue #PWR 0 0 Y Y 1 F P
+DEF senseBeRx_rev3_GND-senseBeRx_rev1-senseBeRx_rev2-rescue #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -250 50 H I C CNN
-F1 "senseBeRx_rev3-rescue_GND-senseBeRx_rev1-senseBeRx_rev2-rescue" 0 -150 50 H V C CNN
+F1 "senseBeRx_rev3_GND-senseBeRx_rev1-senseBeRx_rev2-rescue" 0 -150 50 H V C CNN
 F2 "" 0 0 60 H V C CNN
 F3 "" 0 0 60 H V C CNN
 DRAW
@@ -193,11 +198,11 @@ X GND 1 0 0 0 D 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# senseBeRx_rev3-rescue_INDUCTOR_SMALL-senseBeRx_rev1-senseBeRx_rev2-rescue
+# senseBeRx_rev3_INDUCTOR_SMALL-senseBeRx_rev1-senseBeRx_rev2-rescue
 #
-DEF senseBeRx_rev3-rescue_INDUCTOR_SMALL-senseBeRx_rev1-senseBeRx_rev2-rescue L 0 0 N N 1 F N
+DEF senseBeRx_rev3_INDUCTOR_SMALL-senseBeRx_rev1-senseBeRx_rev2-rescue L 0 0 N N 1 F N
 F0 "L" 0 100 50 H V C CNN
-F1 "senseBeRx_rev3-rescue_INDUCTOR_SMALL-senseBeRx_rev1-senseBeRx_rev2-rescue" 0 -50 50 H V C CNN
+F1 "senseBeRx_rev3_INDUCTOR_SMALL-senseBeRx_rev1-senseBeRx_rev2-rescue" 0 -50 50 H V C CNN
 F2 "" 0 0 60 H V C CNN
 F3 "" 0 0 60 H V C CNN
 DRAW
@@ -210,11 +215,11 @@ X 2 2 250 0 50 L 30 30 1 1 I
 ENDDRAW
 ENDDEF
 #
-# senseBeRx_rev3-rescue_LED_Dual_ACAC-senseBeRx_rev1-senseBeRx_rev2-rescue
+# senseBeRx_rev3_LED_Dual_ACAC-senseBeRx_rev1-senseBeRx_rev2-rescue
 #
-DEF senseBeRx_rev3-rescue_LED_Dual_ACAC-senseBeRx_rev1-senseBeRx_rev2-rescue D 0 0 Y N 1 F N
+DEF senseBeRx_rev3_LED_Dual_ACAC-senseBeRx_rev1-senseBeRx_rev2-rescue D 0 0 Y N 1 F N
 F0 "D" 0 225 50 H V C CNN
-F1 "senseBeRx_rev3-rescue_LED_Dual_ACAC-senseBeRx_rev1-senseBeRx_rev2-rescue" 0 -250 50 H V C CNN
+F1 "senseBeRx_rev3_LED_Dual_ACAC-senseBeRx_rev1-senseBeRx_rev2-rescue" 0 -250 50 H V C CNN
 F2 "" 30 0 50 H I C CNN
 F3 "" 30 0 50 H I C CNN
 $FPLIST
@@ -241,11 +246,11 @@ X K2 4 300 -100 150 L 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
-# senseBeRx_rev3-rescue_LOGO-senseBeRx_rev1-senseBeRx_rev2-rescue
+# senseBeRx_rev3_LOGO-senseBeRx_rev1-senseBeRx_rev2-rescue
 #
-DEF ~senseBeRx_rev3-rescue_LOGO-senseBeRx_rev1-senseBeRx_rev2-rescue #G 0 40 Y Y 1 F N
+DEF ~senseBeRx_rev3_LOGO-senseBeRx_rev1-senseBeRx_rev2-rescue #G 0 40 Y Y 1 F N
 F0 "#G" 0 -198 60 H I C CNN
-F1 "senseBeRx_rev3-rescue_LOGO-senseBeRx_rev1-senseBeRx_rev2-rescue" 0 198 60 H I C CNN
+F1 "senseBeRx_rev3_LOGO-senseBeRx_rev1-senseBeRx_rev2-rescue" 0 198 60 H I C CNN
 F2 "" 0 0 60 H I C CNN
 F3 "" 0 0 60 H I C CNN
 DRAW
@@ -254,11 +259,11 @@ P 385 0 0 1 176 -192 176 -189 177 -170 177 -77 176 -67 176 -59 175 -55 174 -52 1
 ENDDRAW
 ENDDEF
 #
-# senseBeRx_rev3-rescue_MDBT42Q-senseBeRx_rev1-senseBeRx_rev2-rescue
+# senseBeRx_rev3_MDBT42Q-senseBeRx_rev1-senseBeRx_rev2-rescue
 #
-DEF senseBeRx_rev3-rescue_MDBT42Q-senseBeRx_rev1-senseBeRx_rev2-rescue U 0 40 Y Y 1 F N
+DEF senseBeRx_rev3_MDBT42Q-senseBeRx_rev1-senseBeRx_rev2-rescue U 0 40 Y Y 1 F N
 F0 "U" -100 300 60 H V C CNN
-F1 "senseBeRx_rev3-rescue_MDBT42Q-senseBeRx_rev1-senseBeRx_rev2-rescue" -250 600 60 H V C CNN
+F1 "senseBeRx_rev3_MDBT42Q-senseBeRx_rev1-senseBeRx_rev2-rescue" -250 600 60 H V C CNN
 F2 "" -200 1100 60 H V C CNN
 F3 "" -200 1100 60 H V C CNN
 DRAW
@@ -308,11 +313,11 @@ X DEC4 9 -1200 -600 200 R 50 50 1 1 W
 ENDDRAW
 ENDDEF
 #
-# senseBeRx_rev3-rescue_Mounting_Hole-senseBeRx_rev1-senseBeRx_rev2-rescue
+# senseBeRx_rev3_Mounting_Hole-senseBeRx_rev1-senseBeRx_rev2-rescue
 #
-DEF senseBeRx_rev3-rescue_Mounting_Hole-senseBeRx_rev1-senseBeRx_rev2-rescue MK 0 40 Y Y 1 F N
+DEF senseBeRx_rev3_Mounting_Hole-senseBeRx_rev1-senseBeRx_rev2-rescue MK 0 40 Y Y 1 F N
 F0 "MK" 0 200 50 H V C CNN
-F1 "senseBeRx_rev3-rescue_Mounting_Hole-senseBeRx_rev1-senseBeRx_rev2-rescue" 0 125 50 H V C CNN
+F1 "senseBeRx_rev3_Mounting_Hole-senseBeRx_rev1-senseBeRx_rev2-rescue" 0 125 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -324,11 +329,11 @@ C 0 0 50 0 1 50 N
 ENDDRAW
 ENDDEF
 #
-# senseBeRx_rev3-rescue_R-senseBeRx_rev1-senseBeRx_rev2-rescue
+# senseBeRx_rev3_R-senseBeRx_rev1-senseBeRx_rev2-rescue
 #
-DEF senseBeRx_rev3-rescue_R-senseBeRx_rev1-senseBeRx_rev2-rescue R 0 0 N Y 1 F N
+DEF senseBeRx_rev3_R-senseBeRx_rev1-senseBeRx_rev2-rescue R 0 0 N Y 1 F N
 F0 "R" 80 0 50 V V C CNN
-F1 "senseBeRx_rev3-rescue_R-senseBeRx_rev1-senseBeRx_rev2-rescue" 0 0 50 V V C CNN
+F1 "senseBeRx_rev3_R-senseBeRx_rev1-senseBeRx_rev2-rescue" 0 0 50 V V C CNN
 F2 "" -70 0 30 V V C CNN
 F3 "" 0 0 30 H V C CNN
 $FPLIST
@@ -342,11 +347,11 @@ X ~ 2 0 -150 50 U 60 60 1 1 P
 ENDDRAW
 ENDDEF
 #
-# senseBeRx_rev3-rescue_TSSP40xx-senseBeRx_rev1-senseBeRx_rev2-rescue
+# senseBeRx_rev3_TSSP40xx-senseBeRx_rev1-senseBeRx_rev2-rescue
 #
-DEF senseBeRx_rev3-rescue_TSSP40xx-senseBeRx_rev1-senseBeRx_rev2-rescue U 0 40 Y Y 1 F N
+DEF senseBeRx_rev3_TSSP40xx-senseBeRx_rev1-senseBeRx_rev2-rescue U 0 40 Y Y 1 F N
 F0 "U" -400 300 50 H V L CNN
-F1 "senseBeRx_rev3-rescue_TSSP40xx-senseBeRx_rev1-senseBeRx_rev2-rescue" -400 -300 50 H V L CNN
+F1 "senseBeRx_rev3_TSSP40xx-senseBeRx_rev1-senseBeRx_rev2-rescue" -400 -300 50 H V L CNN
 F2 "OptoDevice:Vishay_MINICAST-3pin" -50 -375 50 H I C CNN
 F3 "" 650 300 50 H I C CNN
 $FPLIST
@@ -384,17 +389,38 @@ X Vs 3 400 200 100 L 50 50 1 1 W
 ENDDRAW
 ENDDEF
 #
-# senseBeRx_rev3-rescue_VDD-senseBeRx_rev1-senseBeRx_rev2-rescue
+# senseBeRx_rev3_VDD-senseBeRx_rev1-senseBeRx_rev2-rescue
 #
-DEF senseBeRx_rev3-rescue_VDD-senseBeRx_rev1-senseBeRx_rev2-rescue #PWR 0 0 Y Y 1 F P
+DEF senseBeRx_rev3_VDD-senseBeRx_rev1-senseBeRx_rev2-rescue #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -150 50 H I C CNN
-F1 "senseBeRx_rev3-rescue_VDD-senseBeRx_rev1-senseBeRx_rev2-rescue" 0 150 50 H V C CNN
+F1 "senseBeRx_rev3_VDD-senseBeRx_rev1-senseBeRx_rev2-rescue" 0 150 50 H V C CNN
 F2 "" 0 0 60 H V C CNN
 F3 "" 0 0 60 H V C CNN
 DRAW
 C 0 75 25 0 1 0 N
 P 2 0 1 0 0 0 0 50 N
 X VDD 1 0 0 0 U 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# senseBeRx_rev3_PJ-32434_3-5mmAudioJack
+#
+DEF senseBeRx_rev3_PJ-32434_3-5mmAudioJack J 0 40 Y Y 1 F N
+F0 "J" 0 350 50 H V C CNN
+F1 "senseBeRx_rev3_PJ-32434_3-5mmAudioJack" 0 450 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+S -200 -250 -230 -150 1 1 0 F
+S 150 -275 -205 225 1 1 10 f
+P 4 1 1 10 50 -150 75 -175 100 -150 150 -150 N
+P 5 1 1 10 -175 -150 -150 -175 -125 -150 -125 150 150 150 N
+P 5 1 1 10 -25 -150 0 -175 25 -150 25 -50 150 -50 N
+P 5 1 1 10 150 50 -50 50 -50 -150 -75 -175 -100 -150 N
+X ~ 1 250 150 100 L 50 50 1 1 P
+X ~ 2 250 50 100 L 50 50 1 1 P
+X ~ 3 250 -150 100 L 50 50 1 1 P
+X ~ 4 250 -50 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #

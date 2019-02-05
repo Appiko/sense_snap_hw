@@ -135,33 +135,29 @@ $EndComp
 $Comp
 L senseBe_rev1-rescue:R-senseBeRx_rev1-senseBeRx_rev2-rescue-senseBeRx_rev3-rescue-senseBe_rev1-rescue R3
 U 1 1 5BA55B89
-P 5325 1500
-F 0 "R3" V 5225 1550 50  0000 L CNN
-F 1 "33" V 5325 1450 50  0000 L CNN
-F 2 "senseBe_rev1_fp:R_0603_HandSoldering" V 5255 1500 30  0001 C CNN
-F 3 "" H 5325 1500 30  0000 C CNN
-	1    5325 1500
+P 5450 1500
+F 0 "R3" V 5350 1550 50  0000 L CNN
+F 1 "33" V 5450 1450 50  0000 L CNN
+F 2 "senseBe_rev1_fp:R_0603_HandSoldering" V 5380 1500 30  0001 C CNN
+F 3 "" H 5450 1500 30  0000 C CNN
+	1    5450 1500
 	0    1    1    0   
 $EndComp
 $Comp
 L senseBe_rev1-rescue:R-senseBeRx_rev1-senseBeRx_rev2-rescue-senseBeRx_rev3-rescue-senseBe_rev1-rescue R4
 U 1 1 5BA55CAF
-P 5325 1700
-F 0 "R4" V 5425 1725 50  0000 L CNN
-F 1 "24" V 5325 1650 50  0000 L CNN
-F 2 "senseBe_rev1_fp:R_0603_HandSoldering" V 5255 1700 30  0001 C CNN
-F 3 "" H 5325 1700 30  0000 C CNN
-	1    5325 1700
+P 5450 1700
+F 0 "R4" V 5550 1725 50  0000 L CNN
+F 1 "24" V 5450 1650 50  0000 L CNN
+F 2 "senseBe_rev1_fp:R_0603_HandSoldering" V 5380 1700 30  0001 C CNN
+F 3 "" H 5450 1700 30  0000 C CNN
+	1    5450 1700
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	5075 1500 5150 1500
+	5600 1500 6100 1500
 Wire Wire Line
-	5075 1700 5100 1700
-Wire Wire Line
-	5475 1500 6100 1500
-Wire Wire Line
-	5475 1700 5875 1700
+	5600 1700 5875 1700
 Wire Wire Line
 	5875 1700 5875 1850
 Text Label 11125 1900 2    50   ~ 0
@@ -281,7 +277,7 @@ $EndComp
 Text Label 9950 3700 2    50   ~ 0
 LIGHT_SENSE
 $Comp
-L Device:Battery_Cell BT1
+L senseBe_rev1:Device_Battery_Cell BT1
 U 1 1 5A868475
 P 1050 1325
 F 0 "BT1" H 1150 1375 50  0000 L CNN
@@ -621,8 +617,6 @@ F 3 "" H 3525 4125 60  0000 C CNN
 $EndComp
 Wire Wire Line
 	2500 1675 2500 1425
-Wire Wire Line
-	1050 1425 1050 1675
 Wire Wire Line
 	1850 1275 1850 1675
 Connection ~ 1850 1675
@@ -984,8 +978,6 @@ F 3 "" H 1275 775 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	1050 1675 1850 1675
-Wire Wire Line
-	1050 975  1050 1125
 $Comp
 L Connector_Generic:Conn_01x02 SW2
 U 1 1 5C50A691
@@ -1138,17 +1130,7 @@ Wire Wire Line
 Wire Wire Line
 	5075 1050 5100 1050
 Wire Wire Line
-	5100 1050 5100 1700
-Connection ~ 5100 1700
-Wire Wire Line
-	5100 1700 5175 1700
-Wire Wire Line
 	5075 850  5150 850 
-Wire Wire Line
-	5150 850  5150 1500
-Connection ~ 5150 1500
-Wire Wire Line
-	5150 1500 5175 1500
 Wire Wire Line
 	9050 5500 8875 5500
 Wire Wire Line
@@ -1163,4 +1145,20 @@ Text Label 3750 3975 0    60   ~ 0
 LIGHT_SENSE_EN
 Wire Wire Line
 	3750 3975 4500 3975
+Wire Wire Line
+	5075 1700 5150 1700
+Wire Wire Line
+	5075 1500 5100 1500
+Wire Wire Line
+	5150 850  5150 1700
+Connection ~ 5150 1700
+Wire Wire Line
+	5150 1700 5300 1700
+Wire Wire Line
+	5100 1050 5100 1500
+Connection ~ 5100 1500
+Wire Wire Line
+	5100 1500 5300 1500
+Wire Wire Line
+	1050 975  1050 1675
 $EndSCHEMATC

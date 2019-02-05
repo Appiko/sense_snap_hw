@@ -1,4 +1,4 @@
-(module mdbt42Q (layer F.Cu) (tedit 5C32F58E)
+(module mdbt42Q (layer F.Cu) (tedit 5C598408)
   (fp_text reference U1 (at -0.166 -10.606) (layer F.SilkS)
     (effects (font (size 0.5 0.5) (thickness 0.05)))
   )
@@ -56,7 +56,7 @@
   (pad 39 smd rect (at 4.75 -5.3) (size 1.6 0.9) (layers F.Cu F.Paste F.Mask))
   (pad 40 smd rect (at 2.9 -4.75) (size 1.2 0.5) (layers F.Cu F.Paste F.Mask))
   (pad 41 smd rect (at 2.9 -3.35) (size 1.2 0.5) (layers F.Cu F.Paste F.Mask))
-  (model ${KIPRJMOD}/senseBeRx_rev3_3D_Files/nRF-MDBT42Q.wrl
+  (model ${KIPRJMOD}/senseBe_rev1_3D_Files/nRF-MDBT42Q.step
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

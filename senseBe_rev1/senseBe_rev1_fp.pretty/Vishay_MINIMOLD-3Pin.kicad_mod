@@ -1,4 +1,4 @@
-(module Vishay_MINIMOLD-3Pin (layer F.Cu) (tedit 5C36F322)
+(module Vishay_MINIMOLD-3Pin (layer F.Cu) (tedit 5C5974E8)
   (descr "IR Receiver Vishay TSOP-xxxx, MINIMOLD package, see https://www.vishay.com/docs/82742/tsop331.pdf")
   (tags "IR Receiver Vishay TSOP-xxxx MINIMOLD")
   (fp_text reference U2 (at 2.6 -1.9 180) (layer F.SilkS)
@@ -25,7 +25,7 @@
   (pad 1 thru_hole roundrect (at 0 0) (size 1.8 1.8) (drill 0.9) (layers *.Cu *.Mask) (roundrect_rratio 0.139))
   (pad 2 thru_hole circle (at 2.54 0) (size 1.8 1.8) (drill 0.9) (layers *.Cu *.Mask))
   (pad 3 thru_hole circle (at 5.08 0) (size 1.8 1.8) (drill 0.9) (layers *.Cu *.Mask))
-  (model ${KIPRJMOD}/senseBeRx_rev3_3D_Files/RX_TSSP4056.wrl
+  (model ${KIPRJMOD}/senseBe_rev1_3D_Files/RX_TSSP4056.step
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

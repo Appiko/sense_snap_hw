@@ -1,4 +1,4 @@
-(module PJ-32434-3_5mm-AudioJack (layer F.Cu) (tedit 5C32F523)
+(module PJ-32434-3_5mm-AudioJack (layer F.Cu) (tedit 5C597EE6)
   (fp_text reference J1 (at -5.9 1.1) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
@@ -20,7 +20,7 @@
   (pad 4 thru_hole oval (at 2.1 6.8) (size 1 1.7) (drill oval 0.6 1.3) (layers *.Cu *.Mask))
   (pad "" thru_hole oval (at -3.5 -2.5) (size 1 1.7) (drill oval 0.6 1.3) (layers *.Cu *.Mask))
   (pad "" thru_hole oval (at 3.5 -2.5) (size 1 1.7) (drill oval 0.6 1.3) (layers *.Cu *.Mask))
-  (model ${KIPRJMOD}/senseBeRx_rev3_3D_Files/PJ-32434_3-5mmAudioJack.wrl
+  (model ${KIPRJMOD}/senseBe_rev1_3D_Files/PJ-32434_3-5mmAudioJack.step
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

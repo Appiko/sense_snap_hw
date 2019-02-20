@@ -163,43 +163,10 @@ Wire Wire Line
 	10225 1650 10225 1700
 Wire Wire Line
 	9950 1650 10225 1650
-$Comp
-L Transistor_FET:2N7002 Q4
-U 1 1 5BA4FCEF
-P 10325 1900
-F 0 "Q4" H 10200 2025 50  0000 L CNN
-F 1 "SI2302" H 10150 1675 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-23" H 10525 2000 50  0001 C CNN
-F 3 "~" H 10325 1900 50  0001 C CNN
-	1    10325 1900
-	-1   0    0    -1  
-$EndComp
 Wire Wire Line
 	9950 2025 9950 2125
 Text Label 4850 1700 0    50   ~ 0
 LED_RED
-$Comp
-L Transistor_FET:2N7002 Q3
-U 1 1 5BA595BA
-P 6200 1700
-F 0 "Q3" H 6100 1550 50  0000 L CNN
-F 1 "SI2302" H 5975 1450 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-23" H 6400 1800 50  0001 C CNN
-F 3 "~" H 6200 1700 50  0001 C CNN
-	1    6200 1700
-	-1   0    0    -1  
-$EndComp
-$Comp
-L Transistor_FET:2N7002 Q2
-U 1 1 5BA59F79
-P 5775 1700
-F 0 "Q2" H 5700 1550 50  0000 L CNN
-F 1 "SI2302" H 5575 1450 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-23" H 5975 1800 50  0001 C CNN
-F 3 "~" H 5775 1700 50  0001 C CNN
-	1    5775 1700
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	6100 1150 6100 1500
 $Comp
@@ -454,7 +421,6 @@ F 3 "" H 3525 3375 60  0000 C CNN
 	1    3525 3375
 	1    0    0    -1  
 $EndComp
-NoConn ~ 5400 5225
 NoConn ~ 6100 5225
 NoConn ~ 6200 5225
 NoConn ~ 6900 2975
@@ -462,13 +428,13 @@ NoConn ~ 6900 3075
 NoConn ~ 6900 3175
 Text Label 6000 5925 1    60   ~ 0
 BUTTON
-Text Label 3750 3675 0    60   ~ 0
+Text Label 5500 5925 1    60   ~ 0
 LED_RED
-Text Label 3750 3575 0    60   ~ 0
+Text Label 5600 5925 1    60   ~ 0
 LED_GREEN
-Text Label 4050 4275 0    60   ~ 0
+Text Label 4050 4275 0    50   ~ 0
 DEC4
-Text Label 4050 4375 0    60   ~ 0
+Text Label 4050 4375 0    50   ~ 0
 DCC
 Text Label 7550 3275 2    60   ~ 0
 SWDIO
@@ -744,7 +710,7 @@ Text Notes 8800 950  0    60   ~ 0
 IR pattern receiver \nwith an enable switch\n
 Text Notes 9225 3050 0    60   ~ 0
 Ambient light sensing
-Text Label 5700 5925 1    50   ~ 0
+Text Label 3750 3875 0    50   ~ 0
 LIGHT_SENSE
 Text Label 5800 5925 1    50   ~ 0
 RX_OUT
@@ -1048,11 +1014,11 @@ Wire Wire Line
 	1625 7525 1625 7450
 Wire Wire Line
 	1375 7050 1075 7050
-Text Label 5500 5925 1    50   ~ 0
+Text Label 3750 3575 0    50   ~ 0
 PWR1
-Text Label 5600 5925 1    50   ~ 0
+Text Label 3750 3675 0    50   ~ 0
 PWR2
-Text Label 3750 3775 0    50   ~ 0
+Text Label 5700 5925 1    50   ~ 0
 IR_LED_EN
 Wire Wire Line
 	9425 3225 9975 3225
@@ -1092,7 +1058,7 @@ Text Label 9050 5700 0    50   ~ 0
 PWR2
 Text Label 9050 6125 0    50   ~ 0
 IR_LED_EN
-Text Label 3750 3875 0    50   ~ 0
+Text Label 3750 3775 0    50   ~ 0
 REG_EN
 Text Label 9050 5900 0    50   ~ 0
 REG_EN
@@ -1106,7 +1072,7 @@ Wire Wire Line
 	8875 6125 9050 6125
 Wire Wire Line
 	3750 3875 4500 3875
-Text Label 3750 3975 0    60   ~ 0
+Text Label 3750 3975 0    50   ~ 0
 LIGHT_SENSE_EN
 Wire Wire Line
 	3750 3975 4500 3975
@@ -1128,4 +1094,38 @@ Wire Wire Line
 	5075 1150 5300 1150
 Wire Wire Line
 	5300 1350 5075 1350
+$Comp
+L q_dual_nmos_g1s2g2d2s1d1:Q_DUAL_NMOS_DMN2990UDJ-7 Q2
+U 1 1 5C6CED6D
+P 5775 1700
+F 0 "Q2" H 5575 1800 50  0000 L CNN
+F 1 "Q_DUAL_NMOS_DMN2990UDJ-7" H 5375 1050 50  0000 L CNN
+F 2 "senseBe_rev2_fp:DMN2990UDJ-7" H 5975 1700 50  0001 C CNN
+F 3 "~" H 5975 1700 50  0001 C CNN
+	1    5775 1700
+	1    0    0    -1  
+$EndComp
+$Comp
+L q_dual_nmos_g1s2g2d2s1d1:Q_DUAL_NMOS_DMN2990UDJ-7 Q2
+U 2 1 5C6CEE0C
+P 6200 1700
+F 0 "Q2" H 6025 1600 50  0000 L CNN
+F 1 "Q_DUAL_NMOS_DMN2990UDJ-7" H 5875 2250 50  0000 L CNN
+F 2 "senseBe_rev2_fp:DMN2990UDJ-7" H 6400 1700 50  0001 C CNN
+F 3 "~" H 6400 1700 50  0001 C CNN
+	2    6200 1700
+	-1   0    0    1   
+$EndComp
+$Comp
+L q_dual_nmos_g1s2g2d2s1d1:Q_DUAL_NMOS_DMN2990UDJ-7 Q3
+U 1 1 5C6E2FF6
+P 10325 1900
+F 0 "Q3" H 10125 2000 50  0000 L CNN
+F 1 "Q_DUAL_NMOS_DMN2990UDJ-7" H 9925 1250 50  0000 L CNN
+F 2 "senseBe_rev2_fp:DMN2990UDJ-7" H 10525 1900 50  0001 C CNN
+F 3 "~" H 10525 1900 50  0001 C CNN
+	1    10325 1900
+	-1   0    0    1   
+$EndComp
+NoConn ~ 5400 5225
 $EndSCHEMATC

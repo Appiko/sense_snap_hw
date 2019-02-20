@@ -69,19 +69,6 @@ F 3 "" H 7475 3150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L senseBe_rev1-rescue:Q_NMOS_GSD-AP3403_LED_test-Ap3403_LED_test-rescue-senseBeTx_rev3-rescue-senseBe_rev1-rescue Q?
-U 1 1 5C8021BF
-P 8050 4550
-AR Path="/5C8021BF" Ref="Q?"  Part="1" 
-AR Path="/5C63BFE8/5C8021BF" Ref="Q6"  Part="1" 
-F 0 "Q6" H 7950 4400 50  0000 L CNN
-F 1 "SI2302" H 7775 4675 50  0000 L CNN
-F 2 "senseBe_rev2_fp:SOT-23_Handsoldering" H 8250 4650 50  0001 C CNN
-F 3 "~" H 8050 4550 50  0001 C CNN
-	1    8050 4550
-	1    0    0    -1  
-$EndComp
-$Comp
 L senseBe_rev1-rescue:LED-AP3403_LED_test-Ap3403_LED_test-rescue-senseBeTx_rev3-rescue-senseBe_rev1-rescue D?
 U 1 1 5C8021C6
 P 3250 2575
@@ -248,19 +235,6 @@ F 3 "~" H 8950 3425 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L senseBe_rev1-rescue:Q_NMOS_GSD-AP3403_LED_test-Ap3403_LED_test-rescue-senseBeTx_rev3-rescue-senseBe_rev1-rescue Q?
-U 1 1 5C80221D
-P 9225 4550
-AR Path="/5C80221D" Ref="Q?"  Part="1" 
-AR Path="/5C63BFE8/5C80221D" Ref="Q7"  Part="1" 
-F 0 "Q7" H 9100 4400 50  0000 L CNN
-F 1 "SI2302" H 8975 4675 50  0000 L CNN
-F 2 "senseBe_rev2_fp:SOT-23_Handsoldering" H 9425 4650 50  0001 C CNN
-F 3 "~" H 9225 4550 50  0001 C CNN
-	1    9225 4550
-	1    0    0    -1  
-$EndComp
-$Comp
 L senseBe_rev1-rescue:GND-AP3403_LED_test-Ap3403_LED_test-rescue-senseBeTx_rev3-rescue-senseBe_rev1-rescue #PWR?
 U 1 1 5C802224
 P 8150 4825
@@ -292,19 +266,6 @@ Wire Wire Line
 	9325 4750 9325 4825
 Wire Wire Line
 	8150 4275 8150 4350
-$Comp
-L senseBe_rev1-rescue:Q_NMOS_GSD-AP3403_LED_test-Ap3403_LED_test-rescue-senseBeTx_rev3-rescue-senseBe_rev1-rescue Q?
-U 1 1 5C802235
-P 2650 2825
-AR Path="/5C802235" Ref="Q?"  Part="1" 
-AR Path="/5C63BFE8/5C802235" Ref="Q5"  Part="1" 
-F 0 "Q5" H 2525 2675 50  0000 L CNN
-F 1 "SI2302" H 2400 2950 50  0000 L CNN
-F 2 "senseBe_rev2_fp:SOT-23_Handsoldering" H 2850 2925 50  0001 C CNN
-F 3 "~" H 2650 2825 50  0001 C CNN
-	1    2650 2825
-	1    0    0    -1  
-$EndComp
 $Comp
 L senseBe_rev1-rescue:GND-AP3403_LED_test-Ap3403_LED_test-rescue-senseBeTx_rev3-rescue-senseBe_rev1-rescue #PWR?
 U 1 1 5C80223C
@@ -566,4 +527,43 @@ Wire Wire Line
 	8950 3575 8950 4250
 Wire Wire Line
 	9325 4250 9325 4350
+$Comp
+L q_dual_nmos_g1s2g2d2s1d1:Q_DUAL_NMOS_DMN2990UDJ-7 Q?
+U 2 1 5C6E9E9B
+P 2650 2825
+AR Path="/5C6E9E9B" Ref="Q?"  Part="2" 
+AR Path="/5C63BFE8/5C6E9E9B" Ref="Q3"  Part="2" 
+F 0 "Q3" H 2475 2725 50  0000 L CNN
+F 1 "Q_DUAL_NMOS_DMN2990UDJ-7" H 1700 3125 50  0000 L CNN
+F 2 "senseBe_rev2_fp:DMN2990UDJ-7" H 2850 2825 50  0001 C CNN
+F 3 "~" H 2850 2825 50  0001 C CNN
+	2    2650 2825
+	1    0    0    -1  
+$EndComp
+$Comp
+L q_dual_nmos_g1s2g2d2s1d1:Q_DUAL_NMOS_DMN2990UDJ-7 Q?
+U 2 1 5C6EB2FB
+P 9225 4550
+AR Path="/5C6EB2FB" Ref="Q?"  Part="2" 
+AR Path="/5C63BFE8/5C6EB2FB" Ref="Q4"  Part="2" 
+F 0 "Q4" H 9050 4450 50  0000 L CNN
+F 1 "Q_DUAL_NMOS_DMN2990UDJ-7" H 8900 5100 50  0000 L CNN
+F 2 "senseBe_rev2_fp:DMN2990UDJ-7" H 9425 4550 50  0001 C CNN
+F 3 "~" H 9425 4550 50  0001 C CNN
+	2    9225 4550
+	1    0    0    -1  
+$EndComp
+$Comp
+L q_dual_nmos_g1s2g2d2s1d1:Q_DUAL_NMOS_DMN2990UDJ-7 Q?
+U 1 1 5C6F3100
+P 8050 4550
+AR Path="/5C6F3100" Ref="Q?"  Part="1" 
+AR Path="/5C63BFE8/5C6F3100" Ref="Q4"  Part="1" 
+F 0 "Q4" H 7850 4650 50  0000 L CNN
+F 1 "Q_DUAL_NMOS_DMN2990UDJ-7" H 7650 3900 50  0000 L CNN
+F 2 "senseBe_rev2_fp:DMN2990UDJ-7" H 8250 4550 50  0001 C CNN
+F 3 "~" H 8250 4550 50  0001 C CNN
+	1    8050 4550
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

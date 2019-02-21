@@ -240,7 +240,7 @@ U 1 1 5A868475
 P 1050 1325
 F 0 "BT1" H 1150 1375 50  0000 L CNN
 F 1 "Battery" H 1150 1275 50  0000 L CNN
-F 2 "senseBe_rev2_fp:2462_BatteryHolder_AAx2" H 1050 1365 60  0001 C CNN
+F 2 "senseBe_rev2_fp:Molex_KK-6410-02_02x2.54mm_Straight" H 1050 1365 60  0001 C CNN
 F 3 "" V 1050 1365 60  0000 C CNN
 	1    1050 1325
 	1    0    0    -1  
@@ -295,7 +295,7 @@ U 1 1 5A86D851
 P 10650 5900
 F 0 "MK1" H 10650 6100 50  0000 C CNN
 F 1 "Mounting_Hole" H 10650 6025 50  0000 C CNN
-F 2 "MountingHole:MountingHole_3mm" H 10650 5900 50  0001 C CNN
+F 2 "senseBe_rev2_fp:MountingHole_3mm" H 10650 5900 50  0001 C CNN
 F 3 "" H 10650 5900 50  0001 C CNN
 	1    10650 5900
 	1    0    0    -1  
@@ -921,17 +921,6 @@ Wire Wire Line
 Connection ~ 6150 7150
 Wire Wire Line
 	6150 7150 6500 7150
-$Comp
-L Connector_Generic:Conn_01x02 SW1
-U 1 1 5C3621CE
-P 1275 775
-F 0 "SW1" V 1275 950 50  0000 C CNN
-F 1 "SW_SPST" V 1000 725 50  0000 C CNN
-F 2 "senseBe_rev2_fp:Molex_KK-6410-02_02x2.54mm_Straight" H 1275 775 50  0001 C CNN
-F 3 "" H 1275 775 50  0001 C CNN
-	1    1275 775 
-	0    -1   -1   0   
-$EndComp
 Wire Wire Line
 	1050 1675 1850 1675
 $Comp
@@ -951,7 +940,7 @@ U 1 1 5C5D82FA
 P 10650 6250
 F 0 "MK2" H 10650 6450 50  0000 C CNN
 F 1 "Mounting_Hole" H 10650 6375 50  0000 C CNN
-F 2 "MountingHole:MountingHole_3mm" H 10650 6250 50  0001 C CNN
+F 2 "senseBe_rev2_fp:MountingHole_3mm" H 10650 6250 50  0001 C CNN
 F 3 "" H 10650 6250 50  0001 C CNN
 	1    10650 6250
 	1    0    0    -1  
@@ -970,10 +959,6 @@ Wire Wire Line
 	1050 3400 1400 3400
 Wire Wire Line
 	1500 3400 2000 3400
-Wire Wire Line
-	1050 975  1275 975 
-Wire Wire Line
-	1375 975  1650 975 
 Text Label 1075 7050 0    60   ~ 0
 GPIO2
 Text Label 2175 6950 2    60   ~ 0
@@ -1072,10 +1057,8 @@ Wire Wire Line
 	8875 6125 9050 6125
 Wire Wire Line
 	3750 3875 4500 3875
-Text Label 3750 3975 0    50   ~ 0
+Text Label 5400 5925 1    50   ~ 0
 LIGHT_SENSE_EN
-Wire Wire Line
-	3750 3975 4500 3975
 Wire Wire Line
 	1050 1425 1050 1675
 Connection ~ 1050 1675
@@ -1127,5 +1110,9 @@ F 3 "~" H 10525 1900 50  0001 C CNN
 	1    10325 1900
 	-1   0    0    1   
 $EndComp
-NoConn ~ 5400 5225
+Wire Wire Line
+	1050 975  1650 975 
+Wire Wire Line
+	5400 5925 5400 5225
+NoConn ~ 4500 3975
 $EndSCHEMATC

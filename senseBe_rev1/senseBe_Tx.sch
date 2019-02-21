@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:senseBe_rev2-cache
 LIBS:senseBe_rev1-cache
 EELAYER 26 0
 EELAYER END
@@ -21,8 +22,8 @@ L senseBe_rev1-rescue:AP3403-AP3403_LED_test-Ap3403_LED_test-rescue-senseBeTx_re
 U 1 1 5C8021A4
 P 6825 2825
 AR Path="/5C8021A4" Ref="U?"  Part="1" 
-AR Path="/5C63BFE8/5C8021A4" Ref="U3"  Part="1" 
-F 0 "U3" H 6825 3300 50  0000 C CNN
+AR Path="/5C63BFE8/5C8021A4" Ref="U?"  Part="1" 
+F 0 "U?" H 6825 3300 50  0000 C CNN
 F 1 "AP3403" H 6825 3209 50  0000 C CNN
 F 2 "senseBe_rev1_fp:AP3403_U-DFN1616-6(Type G)" H 6825 2675 50  0001 C CNN
 F 3 "" H 6825 2675 50  0001 C CNN
@@ -34,8 +35,8 @@ L senseBe_rev1-rescue:R-AP3403_LED_test-Ap3403_LED_test-rescue-senseBeTx_rev3-re
 U 1 1 5C8021AB
 P 8225 2750
 AR Path="/5C8021AB" Ref="R?"  Part="1" 
-AR Path="/5C63BFE8/5C8021AB" Ref="R11"  Part="1" 
-F 0 "R11" H 8295 2796 50  0000 L CNN
+AR Path="/5C63BFE8/5C8021AB" Ref="R?"  Part="1" 
+F 0 "R?" H 8295 2796 50  0000 L CNN
 F 1 "470k" H 8295 2705 50  0000 L CNN
 F 2 "senseBe_rev1_fp:R_0603_HandSoldering" V 8155 2750 50  0001 C CNN
 F 3 "~" H 8225 2750 50  0001 C CNN
@@ -47,8 +48,8 @@ L senseBe_rev1-rescue:C-AP3403_LED_test-Ap3403_LED_test-rescue-senseBeTx_rev3-re
 U 1 1 5C8021B2
 P 5550 2850
 AR Path="/5C8021B2" Ref="C?"  Part="1" 
-AR Path="/5C63BFE8/5C8021B2" Ref="C10"  Part="1" 
-F 0 "C10" H 5665 2896 50  0000 L CNN
+AR Path="/5C63BFE8/5C8021B2" Ref="C?"  Part="1" 
+F 0 "C?" H 5665 2896 50  0000 L CNN
 F 1 "22u" H 5665 2805 50  0000 L CNN
 F 2 "senseBe_rev1_fp:C_0805_HandSoldering" H 5588 2700 50  0001 C CNN
 F 3 "~" H 5550 2850 50  0001 C CNN
@@ -60,8 +61,8 @@ L senseBe_rev1-rescue:GND-AP3403_LED_test-Ap3403_LED_test-rescue-senseBeTx_rev3-
 U 1 1 5C8021B9
 P 7475 3150
 AR Path="/5C8021B9" Ref="#PWR?"  Part="1" 
-AR Path="/5C63BFE8/5C8021B9" Ref="#PWR0101"  Part="1" 
-F 0 "#PWR0101" H 7475 2900 50  0001 C CNN
+AR Path="/5C63BFE8/5C8021B9" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 7475 2900 50  0001 C CNN
 F 1 "GND" H 7480 2977 50  0000 C CNN
 F 2 "" H 7475 3150 50  0001 C CNN
 F 3 "" H 7475 3150 50  0001 C CNN
@@ -73,8 +74,8 @@ L senseBe_rev1-rescue:Q_NMOS_GSD-AP3403_LED_test-Ap3403_LED_test-rescue-senseBeT
 U 1 1 5C8021BF
 P 8050 4550
 AR Path="/5C8021BF" Ref="Q?"  Part="1" 
-AR Path="/5C63BFE8/5C8021BF" Ref="Q6"  Part="1" 
-F 0 "Q6" H 7950 4400 50  0000 L CNN
+AR Path="/5C63BFE8/5C8021BF" Ref="Q?"  Part="1" 
+F 0 "Q?" H 7950 4400 50  0000 L CNN
 F 1 "SI2302" H 7775 4675 50  0000 L CNN
 F 2 "senseBeTx_rev3_fp:SOT-23_Handsoldering" H 8250 4650 50  0001 C CNN
 F 3 "~" H 8050 4550 50  0001 C CNN
@@ -86,8 +87,8 @@ L senseBe_rev1-rescue:LED-AP3403_LED_test-Ap3403_LED_test-rescue-senseBeTx_rev3-
 U 1 1 5C8021C6
 P 3250 2575
 AR Path="/5C8021C6" Ref="D?"  Part="1" 
-AR Path="/5C63BFE8/5C8021C6" Ref="D4"  Part="1" 
-F 0 "D4" H 3300 2700 50  0000 R CNN
+AR Path="/5C63BFE8/5C8021C6" Ref="D?"  Part="1" 
+F 0 "D?" H 3300 2700 50  0000 R CNN
 F 1 "SFH4545" H 3325 2450 50  0000 R CNN
 F 2 "LED_THT:LED_D5.0mm" H 3250 2575 50  0001 C CNN
 F 3 "~" H 3250 2575 50  0001 C CNN
@@ -99,8 +100,8 @@ L senseBe_rev1-rescue:GND-AP3403_LED_test-Ap3403_LED_test-rescue-senseBeTx_rev3-
 U 1 1 5C8021CD
 P 5550 3400
 AR Path="/5C8021CD" Ref="#PWR?"  Part="1" 
-AR Path="/5C63BFE8/5C8021CD" Ref="#PWR0102"  Part="1" 
-F 0 "#PWR0102" H 5550 3150 50  0001 C CNN
+AR Path="/5C63BFE8/5C8021CD" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 5550 3150 50  0001 C CNN
 F 1 "GND" H 5555 3227 50  0000 C CNN
 F 2 "" H 5550 3400 50  0001 C CNN
 F 3 "" H 5550 3400 50  0001 C CNN
@@ -120,8 +121,8 @@ L senseBe_rev1-rescue:L-AP3403_LED_test-Ap3403_LED_test-rescue-senseBeTx_rev3-re
 U 1 1 5C8021D8
 P 7425 2575
 AR Path="/5C8021D8" Ref="L?"  Part="1" 
-AR Path="/5C63BFE8/5C8021D8" Ref="L3"  Part="1" 
-F 0 "L3" V 7375 2575 50  0000 C CNN
+AR Path="/5C63BFE8/5C8021D8" Ref="L?"  Part="1" 
+F 0 "L?" V 7375 2575 50  0000 C CNN
 F 1 "22u" V 7524 2575 50  0000 C CNN
 F 2 "Inductor_THT:L_Radial_D12.0mm_P5.00mm_Fastron_11P" H 7425 2575 50  0001 C CNN
 F 3 "~" H 7425 2575 50  0001 C CNN
@@ -139,8 +140,8 @@ L senseBe_rev1-rescue:C-AP3403_LED_test-Ap3403_LED_test-rescue-senseBeTx_rev3-re
 U 1 1 5C8021E2
 P 8600 2750
 AR Path="/5C8021E2" Ref="C?"  Part="1" 
-AR Path="/5C63BFE8/5C8021E2" Ref="C11"  Part="1" 
-F 0 "C11" H 8715 2796 50  0000 L CNN
+AR Path="/5C63BFE8/5C8021E2" Ref="C?"  Part="1" 
+F 0 "C?" H 8715 2796 50  0000 L CNN
 F 1 "8p" H 8715 2705 50  0000 L CNN
 F 2 "senseBe_rev1_fp:C_0603_HandSoldering" H 8638 2600 50  0001 C CNN
 F 3 "~" H 8600 2750 50  0001 C CNN
@@ -172,8 +173,8 @@ L senseBe_rev1-rescue:R-AP3403_LED_test-Ap3403_LED_test-rescue-senseBeTx_rev3-re
 U 1 1 5C8021F4
 P 8225 3425
 AR Path="/5C8021F4" Ref="R?"  Part="1" 
-AR Path="/5C63BFE8/5C8021F4" Ref="R12"  Part="1" 
-F 0 "R12" H 8295 3471 50  0000 L CNN
+AR Path="/5C63BFE8/5C8021F4" Ref="R?"  Part="1" 
+F 0 "R?" H 8295 3471 50  0000 L CNN
 F 1 "470k" H 8295 3380 50  0000 L CNN
 F 2 "senseBe_rev1_fp:R_0603_HandSoldering" V 8155 3425 50  0001 C CNN
 F 3 "~" H 8225 3425 50  0001 C CNN
@@ -187,8 +188,8 @@ L senseBe_rev1-rescue:GND-AP3403_LED_test-Ap3403_LED_test-rescue-senseBeTx_rev3-
 U 1 1 5C8021FC
 P 8225 3750
 AR Path="/5C8021FC" Ref="#PWR?"  Part="1" 
-AR Path="/5C63BFE8/5C8021FC" Ref="#PWR0103"  Part="1" 
-F 0 "#PWR0103" H 8225 3500 50  0001 C CNN
+AR Path="/5C63BFE8/5C8021FC" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 8225 3500 50  0001 C CNN
 F 1 "GND" H 8230 3577 50  0000 C CNN
 F 2 "" H 8225 3750 50  0001 C CNN
 F 3 "" H 8225 3750 50  0001 C CNN
@@ -200,8 +201,8 @@ L senseBe_rev1-rescue:R-AP3403_LED_test-Ap3403_LED_test-rescue-senseBeTx_rev3-re
 U 1 1 5C802202
 P 8600 3425
 AR Path="/5C802202" Ref="R?"  Part="1" 
-AR Path="/5C63BFE8/5C802202" Ref="R14"  Part="1" 
-F 0 "R14" H 8670 3471 50  0000 L CNN
+AR Path="/5C63BFE8/5C802202" Ref="R?"  Part="1" 
+F 0 "R?" H 8670 3471 50  0000 L CNN
 F 1 "3.9M" H 8670 3380 50  0000 L CNN
 F 2 "senseBe_rev1_fp:R_0603_HandSoldering" V 8530 3425 50  0001 C CNN
 F 3 "~" H 8600 3425 50  0001 C CNN
@@ -213,8 +214,8 @@ L senseBe_rev1-rescue:C-AP3403_LED_test-Ap3403_LED_test-rescue-senseBeTx_rev3-re
 U 1 1 5C802209
 P 3725 3025
 AR Path="/5C802209" Ref="C?"  Part="1" 
-AR Path="/5C63BFE8/5C802209" Ref="C9"  Part="1" 
-F 0 "C9" H 3840 3071 50  0000 L CNN
+AR Path="/5C63BFE8/5C802209" Ref="C?"  Part="1" 
+F 0 "C?" H 3840 3071 50  0000 L CNN
 F 1 "10u" H 3840 2980 50  0000 L CNN
 F 2 "senseBe_rev1_fp:C_0603_HandSoldering" H 3763 2875 50  0001 C CNN
 F 3 "~" H 3725 3025 50  0001 C CNN
@@ -226,8 +227,8 @@ L senseBe_rev1-rescue:GND-AP3403_LED_test-Ap3403_LED_test-rescue-senseBeTx_rev3-
 U 1 1 5C802210
 P 3725 3350
 AR Path="/5C802210" Ref="#PWR?"  Part="1" 
-AR Path="/5C63BFE8/5C802210" Ref="#PWR0104"  Part="1" 
-F 0 "#PWR0104" H 3725 3100 50  0001 C CNN
+AR Path="/5C63BFE8/5C802210" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 3725 3100 50  0001 C CNN
 F 1 "GND" H 3730 3177 50  0000 C CNN
 F 2 "" H 3725 3350 50  0001 C CNN
 F 3 "" H 3725 3350 50  0001 C CNN
@@ -239,8 +240,8 @@ L senseBe_rev1-rescue:R-AP3403_LED_test-Ap3403_LED_test-rescue-senseBeTx_rev3-re
 U 1 1 5C802216
 P 8950 3425
 AR Path="/5C802216" Ref="R?"  Part="1" 
-AR Path="/5C63BFE8/5C802216" Ref="R15"  Part="1" 
-F 0 "R15" H 9020 3471 50  0000 L CNN
+AR Path="/5C63BFE8/5C802216" Ref="R?"  Part="1" 
+F 0 "R?" H 9020 3471 50  0000 L CNN
 F 1 "1.2M" H 9020 3380 50  0000 L CNN
 F 2 "senseBeTx_rev3_fp:R_0603_HandSoldering" V 8880 3425 50  0001 C CNN
 F 3 "~" H 8950 3425 50  0001 C CNN
@@ -252,8 +253,8 @@ L senseBe_rev1-rescue:Q_NMOS_GSD-AP3403_LED_test-Ap3403_LED_test-rescue-senseBeT
 U 1 1 5C80221D
 P 9225 4550
 AR Path="/5C80221D" Ref="Q?"  Part="1" 
-AR Path="/5C63BFE8/5C80221D" Ref="Q7"  Part="1" 
-F 0 "Q7" H 9100 4400 50  0000 L CNN
+AR Path="/5C63BFE8/5C80221D" Ref="Q?"  Part="1" 
+F 0 "Q?" H 9100 4400 50  0000 L CNN
 F 1 "SI2302" H 8975 4675 50  0000 L CNN
 F 2 "senseBeTx_rev3_fp:SOT-23_Handsoldering" H 9425 4650 50  0001 C CNN
 F 3 "~" H 9225 4550 50  0001 C CNN
@@ -265,8 +266,8 @@ L senseBe_rev1-rescue:GND-AP3403_LED_test-Ap3403_LED_test-rescue-senseBeTx_rev3-
 U 1 1 5C802224
 P 8150 4825
 AR Path="/5C802224" Ref="#PWR?"  Part="1" 
-AR Path="/5C63BFE8/5C802224" Ref="#PWR0105"  Part="1" 
-F 0 "#PWR0105" H 8150 4575 50  0001 C CNN
+AR Path="/5C63BFE8/5C802224" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 8150 4575 50  0001 C CNN
 F 1 "GND" H 8155 4652 50  0000 C CNN
 F 2 "" H 8150 4825 50  0001 C CNN
 F 3 "" H 8150 4825 50  0001 C CNN
@@ -280,8 +281,8 @@ L senseBe_rev1-rescue:GND-AP3403_LED_test-Ap3403_LED_test-rescue-senseBeTx_rev3-
 U 1 1 5C80222B
 P 9325 4825
 AR Path="/5C80222B" Ref="#PWR?"  Part="1" 
-AR Path="/5C63BFE8/5C80222B" Ref="#PWR0106"  Part="1" 
-F 0 "#PWR0106" H 9325 4575 50  0001 C CNN
+AR Path="/5C63BFE8/5C80222B" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 9325 4575 50  0001 C CNN
 F 1 "GND" H 9330 4652 50  0000 C CNN
 F 2 "" H 9325 4825 50  0001 C CNN
 F 3 "" H 9325 4825 50  0001 C CNN
@@ -297,8 +298,8 @@ L senseBe_rev1-rescue:Q_NMOS_GSD-AP3403_LED_test-Ap3403_LED_test-rescue-senseBeT
 U 1 1 5C802235
 P 2650 2825
 AR Path="/5C802235" Ref="Q?"  Part="1" 
-AR Path="/5C63BFE8/5C802235" Ref="Q5"  Part="1" 
-F 0 "Q5" H 2525 2675 50  0000 L CNN
+AR Path="/5C63BFE8/5C802235" Ref="Q?"  Part="1" 
+F 0 "Q?" H 2525 2675 50  0000 L CNN
 F 1 "SI2302" H 2400 2950 50  0000 L CNN
 F 2 "senseBeTx_rev3_fp:SOT-23_Handsoldering" H 2850 2925 50  0001 C CNN
 F 3 "~" H 2650 2825 50  0001 C CNN
@@ -310,8 +311,8 @@ L senseBe_rev1-rescue:GND-AP3403_LED_test-Ap3403_LED_test-rescue-senseBeTx_rev3-
 U 1 1 5C80223C
 P 2750 3350
 AR Path="/5C80223C" Ref="#PWR?"  Part="1" 
-AR Path="/5C63BFE8/5C80223C" Ref="#PWR0107"  Part="1" 
-F 0 "#PWR0107" H 2750 3100 50  0001 C CNN
+AR Path="/5C63BFE8/5C80223C" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 2750 3100 50  0001 C CNN
 F 1 "GND" H 2755 3177 50  0000 C CNN
 F 2 "" H 2750 3350 50  0001 C CNN
 F 3 "" H 2750 3350 50  0001 C CNN
@@ -331,8 +332,8 @@ L senseBe_rev1-rescue:R-AP3403_LED_test-Ap3403_LED_test-rescue-senseBeTx_rev3-re
 U 1 1 5C802247
 P 6125 3250
 AR Path="/5C802247" Ref="R?"  Part="1" 
-AR Path="/5C63BFE8/5C802247" Ref="R9"  Part="1" 
-F 0 "R9" H 6195 3296 50  0000 L CNN
+AR Path="/5C63BFE8/5C802247" Ref="R?"  Part="1" 
+F 0 "R?" H 6195 3296 50  0000 L CNN
 F 1 "470k" H 6195 3205 50  0000 L CNN
 F 2 "senseBe_rev1_fp:R_0603_HandSoldering" V 6055 3250 50  0001 C CNN
 F 3 "~" H 6125 3250 50  0001 C CNN
@@ -344,8 +345,8 @@ L senseBe_rev1-rescue:GND-AP3403_LED_test-Ap3403_LED_test-rescue-senseBeTx_rev3-
 U 1 1 5C80224E
 P 6125 3425
 AR Path="/5C80224E" Ref="#PWR?"  Part="1" 
-AR Path="/5C63BFE8/5C80224E" Ref="#PWR0108"  Part="1" 
-F 0 "#PWR0108" H 6125 3175 50  0001 C CNN
+AR Path="/5C63BFE8/5C80224E" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 6125 3175 50  0001 C CNN
 F 1 "GND" H 6130 3252 50  0000 C CNN
 F 2 "" H 6125 3425 50  0001 C CNN
 F 3 "" H 6125 3425 50  0001 C CNN
@@ -363,8 +364,8 @@ L senseBe_rev1-rescue:R-AP3403_LED_test-Ap3403_LED_test-rescue-senseBeTx_rev3-re
 U 1 1 5C802257
 P 7625 5050
 AR Path="/5C802257" Ref="R?"  Part="1" 
-AR Path="/5C63BFE8/5C802257" Ref="R10"  Part="1" 
-F 0 "R10" H 7695 5096 50  0000 L CNN
+AR Path="/5C63BFE8/5C802257" Ref="R?"  Part="1" 
+F 0 "R?" H 7695 5096 50  0000 L CNN
 F 1 "470k" H 7695 5005 50  0000 L CNN
 F 2 "senseBe_rev1_fp:R_0603_HandSoldering" V 7555 5050 50  0001 C CNN
 F 3 "~" H 7625 5050 50  0001 C CNN
@@ -378,8 +379,8 @@ L senseBe_rev1-rescue:GND-AP3403_LED_test-Ap3403_LED_test-rescue-senseBeTx_rev3-
 U 1 1 5C802260
 P 7625 5250
 AR Path="/5C802260" Ref="#PWR?"  Part="1" 
-AR Path="/5C63BFE8/5C802260" Ref="#PWR0109"  Part="1" 
-F 0 "#PWR0109" H 7625 5000 50  0001 C CNN
+AR Path="/5C63BFE8/5C802260" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 7625 5000 50  0001 C CNN
 F 1 "GND" H 7630 5077 50  0000 C CNN
 F 2 "" H 7625 5250 50  0001 C CNN
 F 3 "" H 7625 5250 50  0001 C CNN
@@ -391,8 +392,8 @@ L senseBe_rev1-rescue:R-AP3403_LED_test-Ap3403_LED_test-rescue-senseBeTx_rev3-re
 U 1 1 5C802266
 P 8775 5050
 AR Path="/5C802266" Ref="R?"  Part="1" 
-AR Path="/5C63BFE8/5C802266" Ref="R13"  Part="1" 
-F 0 "R13" H 8845 5096 50  0000 L CNN
+AR Path="/5C63BFE8/5C802266" Ref="R?"  Part="1" 
+F 0 "R?" H 8845 5096 50  0000 L CNN
 F 1 "470k" H 8845 5005 50  0000 L CNN
 F 2 "senseBe_rev1_fp:R_0603_HandSoldering" V 8705 5050 50  0001 C CNN
 F 3 "~" H 8775 5050 50  0001 C CNN
@@ -408,8 +409,8 @@ L senseBe_rev1-rescue:GND-AP3403_LED_test-Ap3403_LED_test-rescue-senseBeTx_rev3-
 U 1 1 5C80226F
 P 8775 5250
 AR Path="/5C80226F" Ref="#PWR?"  Part="1" 
-AR Path="/5C63BFE8/5C80226F" Ref="#PWR0110"  Part="1" 
-F 0 "#PWR0110" H 8775 5000 50  0001 C CNN
+AR Path="/5C63BFE8/5C80226F" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 8775 5000 50  0001 C CNN
 F 1 "GND" H 8780 5077 50  0000 C CNN
 F 2 "" H 8775 5250 50  0001 C CNN
 F 3 "" H 8775 5250 50  0001 C CNN
@@ -421,8 +422,8 @@ L senseBe_rev1-rescue:R-AP3403_LED_test-Ap3403_LED_test-rescue-senseBeTx_rev3-re
 U 1 1 5C802275
 P 2150 3125
 AR Path="/5C802275" Ref="R?"  Part="1" 
-AR Path="/5C63BFE8/5C802275" Ref="R8"  Part="1" 
-F 0 "R8" H 2220 3171 50  0000 L CNN
+AR Path="/5C63BFE8/5C802275" Ref="R?"  Part="1" 
+F 0 "R?" H 2220 3171 50  0000 L CNN
 F 1 "470k" H 2220 3080 50  0000 L CNN
 F 2 "senseBe_rev1_fp:R_0603_HandSoldering" V 2080 3125 50  0001 C CNN
 F 3 "~" H 2150 3125 50  0001 C CNN
@@ -438,8 +439,8 @@ L senseBe_rev1-rescue:GND-AP3403_LED_test-Ap3403_LED_test-rescue-senseBeTx_rev3-
 U 1 1 5C80227E
 P 2150 3350
 AR Path="/5C80227E" Ref="#PWR?"  Part="1" 
-AR Path="/5C63BFE8/5C80227E" Ref="#PWR0111"  Part="1" 
-F 0 "#PWR0111" H 2150 3100 50  0001 C CNN
+AR Path="/5C63BFE8/5C80227E" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 2150 3100 50  0001 C CNN
 F 1 "GND" H 2155 3177 50  0000 C CNN
 F 2 "" H 2150 3350 50  0001 C CNN
 F 3 "" H 2150 3350 50  0001 C CNN
@@ -455,8 +456,8 @@ L senseBe_rev1-rescue:Test_Point-AP3403_LED_test-Ap3403_LED_test-rescue-senseBeT
 U 1 1 5C802286
 P 7800 2900
 AR Path="/5C802286" Ref="TP?"  Part="1" 
-AR Path="/5C63BFE8/5C802286" Ref="TP1"  Part="1" 
-F 0 "TP1" H 7858 3020 50  0000 L CNN
+AR Path="/5C63BFE8/5C802286" Ref="TP?"  Part="1" 
+F 0 "TP?" H 7858 3020 50  0000 L CNN
 F 1 "FB_TP" H 7858 2929 50  0000 L CNN
 F 2 "senseBe_rev1_fp:Measurement_Point_Round-SMD-Pad_Small" H 8000 2900 50  0001 C CNN
 F 3 "~" H 8000 2900 50  0001 C CNN
@@ -473,8 +474,8 @@ L senseBe_rev1-rescue:VDD-senseBeRx_rev1-senseBeTx_rev3-rescue-senseBe_rev1-resc
 U 1 1 5C802290
 P 5350 2575
 AR Path="/5C802290" Ref="#PWR?"  Part="1" 
-AR Path="/5C63BFE8/5C802290" Ref="#PWR0112"  Part="1" 
-F 0 "#PWR0112" H 5350 2425 50  0001 C CNN
+AR Path="/5C63BFE8/5C802290" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 5350 2425 50  0001 C CNN
 F 1 "VDD" H 5367 2748 50  0000 C CNN
 F 2 "" H 5350 2575 60  0000 C CNN
 F 3 "" H 5350 2575 60  0000 C CNN
@@ -533,8 +534,8 @@ L senseBe_rev1-rescue:LOGO-senseBeRx_rev1-senseBeRx_rev2-rescue-senseBeRx_rev3-r
 U 1 1 5C815A89
 P 10850 6850
 AR Path="/5C815A89" Ref="#G?"  Part="1" 
-AR Path="/5C63BFE8/5C815A89" Ref="#G2"  Part="1" 
-F 0 "#G2" H 10850 6652 60  0001 C CNN
+AR Path="/5C63BFE8/5C815A89" Ref="#G?"  Part="1" 
+F 0 "#G?" H 10850 6652 60  0001 C CNN
 F 1 "LOGO" H 10850 7048 60  0001 C CNN
 F 2 "sense_rev3_fp:LOGO" H 10850 6850 60  0001 C CNN
 F 3 "" H 10850 6850 60  0001 C CNN

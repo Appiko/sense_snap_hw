@@ -110,7 +110,7 @@ AR Path="/5C8021D8" Ref="L?"  Part="1"
 AR Path="/5C63BFE8/5C8021D8" Ref="L3"  Part="1" 
 F 0 "L3" V 7375 2575 50  0000 C CNN
 F 1 "22u" V 7524 2575 50  0000 C CNN
-F 2 "Inductor_THT:L_Radial_D12.0mm_P5.00mm_Fastron_11P" H 7425 2575 50  0001 C CNN
+F 2 "senseBe_rev2_fp:L_Radial_D12.0mm_P5.00mm_Fastron_11P" H 7425 2575 50  0001 C CNN
 F 3 "~" H 7425 2575 50  0001 C CNN
 	1    7425 2575
 	0    -1   -1   0   

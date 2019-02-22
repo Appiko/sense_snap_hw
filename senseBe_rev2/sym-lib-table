@@ -1,3 +1,4 @@
 (sym_lib_table
   (lib (name senseBe_rev1-rescue)(type Legacy)(uri /home/shubham/Appiko/sense_snap_hw/senseBe_rev1/senseBe_rev1-rescue.lib)(options "")(descr ""))
+  (lib (name senseBe_rev2-rescue)(type Legacy)(uri ${KIPRJMOD}/senseBe_rev2-rescue.lib)(options "")(descr ""))
 )

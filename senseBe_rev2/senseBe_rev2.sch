@@ -15,7 +15,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L senseBe_rev1-rescue:TSSP40xx-senseBeRx_rev1-senseBeRx_rev2-rescue-senseBeRx_rev3-rescue-senseBe_rev1-rescue U2
+L senseBe_rev2-rescue:TSSP40xx-senseBeRx_rev1-senseBeRx_rev2-rescue-senseBeRx_rev3-rescue-senseBe_rev1-rescue-senseBe_rev1-rescue U2
 U 1 1 5BA4B8BC
 P 9175 1450
 F 0 "U2" H 9150 1775 50  0000 C CNN
@@ -30,7 +30,7 @@ Wire Wire Line
 Wire Wire Line
 	9950 1250 9950 850 
 $Comp
-L senseBe_rev1-rescue:VDD-senseBeRx_rev1-senseBeRx_rev2-rescue-senseBeRx_rev3-rescue-senseBe_rev1-rescue #PWR022
+L senseBe_rev2-rescue:VDD-senseBeRx_rev1-senseBeRx_rev2-rescue-senseBeRx_rev3-rescue-senseBe_rev1-rescue-senseBe_rev1-rescue #PWR022
 U 1 1 5BA4C69F
 P 9950 750
 F 0 "#PWR022" H 9950 600 50  0001 C CNN
@@ -47,7 +47,7 @@ Wire Wire Line
 Wire Wire Line
 	9950 1650 9950 1725
 $Comp
-L senseBe_rev1-rescue:R-senseBeRx_rev1-senseBeRx_rev2-rescue-senseBeRx_rev3-rescue-senseBe_rev1-rescue R6
+L senseBe_rev2-rescue:R-senseBeRx_rev1-senseBeRx_rev2-rescue-senseBeRx_rev3-rescue-senseBe_rev1-rescue-senseBe_rev1-rescue R6
 U 1 1 5BA4C85A
 P 9950 1875
 F 0 "R6" H 9800 1875 50  0000 L CNN
@@ -58,7 +58,7 @@ F 3 "" H 9950 1875 30  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L senseBe_rev1-rescue:GND-senseBeRx_rev1-senseBeRx_rev2-rescue-senseBeRx_rev3-rescue-senseBe_rev1-rescue #PWR023
+L senseBe_rev2-rescue:GND-senseBeRx_rev1-senseBeRx_rev2-rescue-senseBeRx_rev3-rescue-senseBe_rev1-rescue-senseBe_rev1-rescue #PWR023
 U 1 1 5BA4C9F5
 P 9950 2225
 F 0 "#PWR023" H 9950 1975 50  0001 C CNN
@@ -69,7 +69,7 @@ F 3 "" H 9950 2225 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L senseBe_rev1-rescue:C-senseBeRx_rev1-senseBeRx_rev2-rescue-senseBeRx_rev3-rescue-senseBe_rev1-rescue C8
+L senseBe_rev2-rescue:C-senseBeRx_rev1-senseBeRx_rev2-rescue-senseBeRx_rev3-rescue-senseBe_rev1-rescue-senseBe_rev1-rescue C8
 U 1 1 5BA50692
 P 10125 1025
 F 0 "C8" H 10240 1071 50  0000 L CNN
@@ -80,7 +80,7 @@ F 3 "" H 10125 1025 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L senseBe_rev1-rescue:GND-senseBeRx_rev1-senseBeRx_rev2-rescue-senseBeRx_rev3-rescue-senseBe_rev1-rescue #PWR024
+L senseBe_rev2-rescue:GND-senseBeRx_rev1-senseBeRx_rev2-rescue-senseBeRx_rev3-rescue-senseBe_rev1-rescue-senseBe_rev1-rescue #PWR024
 U 1 1 5BA50766
 P 10125 1225
 F 0 "#PWR024" H 10125 975 50  0001 C CNN
@@ -102,7 +102,7 @@ Wire Wire Line
 Text Label 9950 1450 2    50   ~ 0
 RX_OUT
 $Comp
-L senseBe_rev1-rescue:VDD-senseBeRx_rev1-senseBeRx_rev2-rescue-senseBeRx_rev3-rescue-senseBe_rev1-rescue #PWR015
+L senseBe_rev2-rescue:VDD-senseBeRx_rev1-senseBeRx_rev2-rescue-senseBeRx_rev3-rescue-senseBe_rev1-rescue-senseBe_rev1-rescue #PWR015
 U 1 1 5BA556BC
 P 4325 700
 F 0 "#PWR015" H 4325 550 50  0001 C CNN
@@ -113,7 +113,7 @@ F 3 "" H 4325 700 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L senseBe_rev1-rescue:LED_Dual_ACAC-senseBeRx_rev1-senseBeRx_rev2-rescue-senseBeRx_rev3-rescue-senseBe_rev1-rescue D1
+L senseBe_rev2-rescue:LED_Dual_ACAC-senseBeRx_rev1-senseBeRx_rev2-rescue-senseBeRx_rev3-rescue-senseBe_rev1-rescue-senseBe_rev1-rescue D1
 U 1 1 5BA559EF
 P 4775 1250
 F 0 "D1" H 4775 1525 50  0000 C CNN
@@ -124,7 +124,7 @@ F 3 "~" H 4805 1250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L senseBe_rev1-rescue:R-senseBeRx_rev1-senseBeRx_rev2-rescue-senseBeRx_rev3-rescue-senseBe_rev1-rescue R2
+L senseBe_rev2-rescue:R-senseBeRx_rev1-senseBeRx_rev2-rescue-senseBeRx_rev3-rescue-senseBe_rev1-rescue-senseBe_rev1-rescue R2
 U 1 1 5BA55B89
 P 5450 1150
 F 0 "R2" V 5350 1200 50  0000 L CNN
@@ -135,7 +135,7 @@ F 3 "" H 5450 1150 30  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L senseBe_rev1-rescue:R-senseBeRx_rev1-senseBeRx_rev2-rescue-senseBeRx_rev3-rescue-senseBe_rev1-rescue R3
+L senseBe_rev2-rescue:R-senseBeRx_rev1-senseBeRx_rev2-rescue-senseBeRx_rev3-rescue-senseBe_rev1-rescue-senseBe_rev1-rescue R3
 U 1 1 5BA55CAF
 P 5450 1350
 F 0 "R3" V 5550 1375 50  0000 L CNN
@@ -170,7 +170,7 @@ LED_RED
 Wire Wire Line
 	6100 1150 6100 1500
 $Comp
-L senseBe_rev1-rescue:GND-senseBeRx_rev1-senseBeRx_rev2-rescue-senseBeRx_rev3-rescue-senseBe_rev1-rescue #PWR017
+L senseBe_rev2-rescue:GND-senseBeRx_rev1-senseBeRx_rev2-rescue-senseBeRx_rev3-rescue-senseBe_rev1-rescue-senseBe_rev1-rescue #PWR017
 U 1 1 5BA5FEE1
 P 5875 2000
 F 0 "#PWR017" H 5875 1750 50  0001 C CNN
@@ -181,7 +181,7 @@ F 3 "" H 5875 2000 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L senseBe_rev1-rescue:GND-senseBeRx_rev1-senseBeRx_rev2-rescue-senseBeRx_rev3-rescue-senseBe_rev1-rescue #PWR018
+L senseBe_rev2-rescue:GND-senseBeRx_rev1-senseBeRx_rev2-rescue-senseBeRx_rev3-rescue-senseBe_rev1-rescue-senseBe_rev1-rescue #PWR018
 U 1 1 5BA5FF06
 P 6100 2000
 F 0 "#PWR018" H 6100 1750 50  0001 C CNN
@@ -200,7 +200,7 @@ Connection ~ 9950 2125
 Wire Wire Line
 	9950 2125 9950 2225
 $Comp
-L senseBe_rev1-rescue:D_Photo-senseBeRx_rev1-senseBeRx_rev2-rescue-senseBeRx_rev3-rescue-senseBe_rev1-rescue D2
+L senseBe_rev2-rescue:D_Photo-senseBeRx_rev1-senseBeRx_rev2-rescue-senseBeRx_rev3-rescue-senseBe_rev1-rescue-senseBe_rev1-rescue D2
 U 1 1 5BA62392
 P 9425 3975
 F 0 "D2" V 9329 4132 50  0000 L CNN
@@ -211,7 +211,7 @@ F 3 "~" H 9375 3975 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L senseBe_rev1-rescue:R-senseBeRx_rev1-senseBeRx_rev2-rescue-senseBeRx_rev3-rescue-senseBe_rev1-rescue R5
+L senseBe_rev2-rescue:R-senseBeRx_rev1-senseBeRx_rev2-rescue-senseBeRx_rev3-rescue-senseBe_rev1-rescue-senseBe_rev1-rescue R5
 U 1 1 5BA626E5
 P 9425 3500
 F 0 "R5" H 9275 3500 50  0000 L CNN
@@ -222,7 +222,7 @@ F 3 "" H 9425 3500 30  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L senseBe_rev1-rescue:GND-senseBeRx_rev1-senseBeRx_rev2-rescue-senseBeRx_rev3-rescue-senseBe_rev1-rescue #PWR021
+L senseBe_rev2-rescue:GND-senseBeRx_rev1-senseBeRx_rev2-rescue-senseBeRx_rev3-rescue-senseBe_rev1-rescue-senseBe_rev1-rescue #PWR021
 U 1 1 5BA64552
 P 9425 4450
 F 0 "#PWR021" H 9425 4200 50  0001 C CNN
@@ -246,7 +246,7 @@ F 3 "" V 1050 1365 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L senseBe_rev1-rescue:Crystal-senseBeRx_rev1-senseBeRx_rev2-rescue-senseBeRx_rev3-rescue-senseBe_rev1-rescue Y1
+L senseBe_rev2-rescue:Crystal-senseBeRx_rev1-senseBeRx_rev2-rescue-senseBeRx_rev3-rescue-senseBe_rev1-rescue-senseBe_rev1-rescue Y1
 U 1 1 5A868576
 P 3800 6825
 F 0 "Y1" H 3800 6975 50  0000 C CNN
@@ -257,7 +257,7 @@ F 3 "" H 3800 6825 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L senseBe_rev1-rescue:LOGO-senseBeRx_rev1-senseBeRx_rev2-rescue-senseBeRx_rev3-rescue-senseBe_rev1-rescue #G1
+L senseBe_rev2-rescue:LOGO-senseBeRx_rev1-senseBeRx_rev2-rescue-senseBeRx_rev3-rescue-senseBe_rev1-rescue-senseBe_rev1-rescue #G1
 U 1 1 5A868666
 P 10850 6925
 F 0 "#G1" H 10850 6727 60  0001 C CNN
@@ -268,7 +268,7 @@ F 3 "" H 10850 6925 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L senseBe_rev1-rescue:MDBT42Q-senseBeRx_rev1-senseBeRx_rev2-rescue-senseBeRx_rev3-rescue-senseBe_rev1-rescue U1
+L senseBe_rev2-rescue:MDBT42Q-senseBeRx_rev1-senseBeRx_rev2-rescue-senseBeRx_rev3-rescue-senseBe_rev1-rescue-senseBe_rev1-rescue U1
 U 1 1 5A8686CF
 P 5700 3675
 F 0 "U1" H 5700 4625 60  0000 C CNN
@@ -279,7 +279,7 @@ F 3 "" H 5500 4775 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L senseBe_rev1-rescue:C-senseBeRx_rev1-senseBeRx_rev2-rescue-senseBeRx_rev3-rescue-senseBe_rev1-rescue C3
+L senseBe_rev2-rescue:C-senseBeRx_rev1-senseBeRx_rev2-rescue-senseBeRx_rev3-rescue-senseBe_rev1-rescue-senseBe_rev1-rescue C3
 U 1 1 5A8689DA
 P 2500 1275
 F 0 "C3" H 2525 1375 50  0000 L CNN
@@ -290,7 +290,7 @@ F 3 "" H 2500 1275 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L senseBe_rev1-rescue:Mounting_Hole-senseBeRx_rev1-senseBeRx_rev2-rescue-senseBeRx_rev3-rescue-senseBe_rev1-rescue MK1
+L senseBe_rev2-rescue:Mounting_Hole-senseBeRx_rev1-senseBeRx_rev2-rescue-senseBeRx_rev3-rescue-senseBe_rev1-rescue-senseBe_rev1-rescue MK1
 U 1 1 5A86D851
 P 10650 5900
 F 0 "MK1" H 10650 6100 50  0000 C CNN
@@ -301,7 +301,7 @@ F 3 "" H 10650 5900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L senseBe_rev1-rescue:GND-senseBeRx_rev1-senseBeRx_rev2-rescue-senseBeRx_rev3-rescue-senseBe_rev1-rescue #PWR01
+L senseBe_rev2-rescue:GND-senseBeRx_rev1-senseBeRx_rev2-rescue-senseBeRx_rev3-rescue-senseBe_rev1-rescue-senseBe_rev1-rescue #PWR01
 U 1 1 5A86D9CE
 P 1050 1725
 F 0 "#PWR01" H 1050 1475 50  0001 C CNN
@@ -312,7 +312,7 @@ F 3 "" H 1050 1725 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L senseBe_rev1-rescue:VDD-senseBeRx_rev1-senseBeRx_rev2-rescue-senseBeRx_rev3-rescue-senseBe_rev1-rescue #PWR07
+L senseBe_rev2-rescue:VDD-senseBeRx_rev1-senseBeRx_rev2-rescue-senseBeRx_rev3-rescue-senseBe_rev1-rescue-senseBe_rev1-rescue #PWR07
 U 1 1 5A86DA3A
 P 2500 875
 F 0 "#PWR07" H 2500 725 50  0001 C CNN
@@ -323,7 +323,7 @@ F 3 "" H 2500 875 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L senseBe_rev1-rescue:CONN_02X05-senseBeRx_rev1-senseBeRx_rev2-rescue-senseBeRx_rev3-rescue-senseBe_rev1-rescue P1
+L senseBe_rev2-rescue:CONN_02X05-senseBeRx_rev1-senseBeRx_rev2-rescue-senseBeRx_rev3-rescue-senseBe_rev1-rescue-senseBe_rev1-rescue P1
 U 1 1 5A86DAE8
 P 1625 6950
 F 0 "P1" H 1625 7250 50  0000 C CNN
@@ -334,7 +334,7 @@ F 3 "" H 1625 5750 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L senseBe_rev1-rescue:INDUCTOR_SMALL-senseBeRx_rev1-senseBeRx_rev2-rescue-senseBeRx_rev3-rescue-senseBe_rev1-rescue L2
+L senseBe_rev2-rescue:INDUCTOR_SMALL-senseBeRx_rev1-senseBeRx_rev2-rescue-senseBeRx_rev3-rescue-senseBe_rev1-rescue-senseBe_rev1-rescue L2
 U 1 1 5A8701FA
 P 2200 5075
 F 0 "L2" H 2200 5175 50  0000 C CNN
@@ -345,7 +345,7 @@ F 3 "" H 2200 5075 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L senseBe_rev1-rescue:GND-senseBeRx_rev1-senseBeRx_rev2-rescue-senseBeRx_rev3-rescue-senseBe_rev1-rescue #PWR02
+L senseBe_rev2-rescue:GND-senseBeRx_rev1-senseBeRx_rev2-rescue-senseBeRx_rev3-rescue-senseBe_rev1-rescue-senseBe_rev1-rescue #PWR02
 U 1 1 5A8704B4
 P 1050 3600
 F 0 "#PWR02" H 1050 3350 50  0001 C CNN
@@ -356,7 +356,7 @@ F 3 "" H 1050 3600 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L senseBe_rev1-rescue:GND-senseBeRx_rev1-senseBeRx_rev2-rescue-senseBeRx_rev3-rescue-senseBe_rev1-rescue #PWR08
+L senseBe_rev2-rescue:GND-senseBeRx_rev1-senseBeRx_rev2-rescue-senseBeRx_rev3-rescue-senseBe_rev1-rescue-senseBe_rev1-rescue #PWR08
 U 1 1 5A870D28
 P 3400 7525
 F 0 "#PWR08" H 3400 7275 50  0001 C CNN
@@ -367,7 +367,7 @@ F 3 "" H 3400 7525 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L senseBe_rev1-rescue:GND-senseBeRx_rev1-senseBeRx_rev2-rescue-senseBeRx_rev3-rescue-senseBe_rev1-rescue #PWR014
+L senseBe_rev2-rescue:GND-senseBeRx_rev1-senseBeRx_rev2-rescue-senseBeRx_rev3-rescue-senseBe_rev1-rescue-senseBe_rev1-rescue #PWR014
 U 1 1 5A870DA2
 P 4200 7525
 F 0 "#PWR014" H 4200 7275 50  0001 C CNN
@@ -378,7 +378,7 @@ F 3 "" H 4200 7525 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L senseBe_rev1-rescue:GND-senseBeRx_rev1-senseBeRx_rev2-rescue-senseBeRx_rev3-rescue-senseBe_rev1-rescue #PWR04
+L senseBe_rev2-rescue:GND-senseBeRx_rev1-senseBeRx_rev2-rescue-senseBeRx_rev3-rescue-senseBe_rev1-rescue-senseBe_rev1-rescue #PWR04
 U 1 1 5A870E1C
 P 1625 7525
 F 0 "#PWR04" H 1625 7275 50  0001 C CNN
@@ -389,7 +389,7 @@ F 3 "" H 1625 7525 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L senseBe_rev1-rescue:GND-senseBeRx_rev1-senseBeRx_rev2-rescue-senseBeRx_rev3-rescue-senseBe_rev1-rescue #PWR012
+L senseBe_rev2-rescue:GND-senseBeRx_rev1-senseBeRx_rev2-rescue-senseBeRx_rev3-rescue-senseBe_rev1-rescue-senseBe_rev1-rescue #PWR012
 U 1 1 5A86E920
 P 3800 5125
 F 0 "#PWR012" H 3800 4875 50  0001 C CNN
@@ -400,7 +400,7 @@ F 3 "" H 3800 5125 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L senseBe_rev1-rescue:GND-senseBeRx_rev1-senseBeRx_rev2-rescue-senseBeRx_rev3-rescue-senseBe_rev1-rescue #PWR013
+L senseBe_rev2-rescue:GND-senseBeRx_rev1-senseBeRx_rev2-rescue-senseBeRx_rev3-rescue-senseBe_rev1-rescue-senseBe_rev1-rescue #PWR013
 U 1 1 5A86EA6B
 P 4150 5125
 F 0 "#PWR013" H 4150 4875 50  0001 C CNN
@@ -411,7 +411,7 @@ F 3 "" H 4150 5125 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L senseBe_rev1-rescue:GND-senseBeRx_rev1-senseBeRx_rev2-rescue-senseBeRx_rev3-rescue-senseBe_rev1-rescue #PWR09
+L senseBe_rev2-rescue:GND-senseBeRx_rev1-senseBeRx_rev2-rescue-senseBeRx_rev3-rescue-senseBe_rev1-rescue-senseBe_rev1-rescue #PWR09
 U 1 1 5A8A6A27
 P 3525 3375
 F 0 "#PWR09" H 3525 3125 50  0001 C CNN
@@ -451,7 +451,7 @@ GPIO1
 Text Label 7550 3775 2    60   ~ 0
 GPIO2
 $Comp
-L senseBe_rev1-rescue:VDD-senseBeRx_rev1-senseBeRx_rev2-rescue-senseBeRx_rev3-rescue-senseBe_rev1-rescue #PWR011
+L senseBe_rev2-rescue:VDD-senseBeRx_rev1-senseBeRx_rev2-rescue-senseBeRx_rev3-rescue-senseBe_rev1-rescue-senseBe_rev1-rescue #PWR011
 U 1 1 5A8A9811
 P 3525 4375
 F 0 "#PWR011" H 3525 4225 50  0001 C CNN
@@ -485,7 +485,7 @@ RX
 Text Label 2175 6750 2    60   ~ 0
 TX
 $Comp
-L senseBe_rev1-rescue:C-senseBeRx_rev1-senseBeRx_rev2-rescue-senseBeRx_rev3-rescue-senseBe_rev1-rescue C7
+L senseBe_rev2-rescue:C-senseBeRx_rev1-senseBeRx_rev2-rescue-senseBeRx_rev3-rescue-senseBe_rev1-rescue-senseBe_rev1-rescue C7
 U 1 1 5A8BBEF5
 P 4200 7175
 F 0 "C7" H 4225 7275 50  0000 L CNN
@@ -496,7 +496,7 @@ F 3 "" H 4200 7175 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L senseBe_rev1-rescue:C-senseBeRx_rev1-senseBeRx_rev2-rescue-senseBeRx_rev3-rescue-senseBe_rev1-rescue C4
+L senseBe_rev2-rescue:C-senseBeRx_rev1-senseBeRx_rev2-rescue-senseBeRx_rev3-rescue-senseBe_rev1-rescue-senseBe_rev1-rescue C4
 U 1 1 5A8BC0B2
 P 3400 7175
 F 0 "C4" H 3425 7275 50  0000 L CNN
@@ -507,7 +507,7 @@ F 3 "" H 3400 7175 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L senseBe_rev1-rescue:C-senseBeRx_rev1-senseBeRx_rev2-rescue-senseBeRx_rev3-rescue-senseBe_rev1-rescue C5
+L senseBe_rev2-rescue:C-senseBeRx_rev1-senseBeRx_rev2-rescue-senseBeRx_rev3-rescue-senseBe_rev1-rescue-senseBe_rev1-rescue C5
 U 1 1 5A8BC1C2
 P 3800 4725
 F 0 "C5" H 3825 4825 50  0000 L CNN
@@ -518,7 +518,7 @@ F 3 "" H 3800 4725 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L senseBe_rev1-rescue:C-senseBeRx_rev1-senseBeRx_rev2-rescue-senseBeRx_rev3-rescue-senseBe_rev1-rescue C6
+L senseBe_rev2-rescue:C-senseBeRx_rev1-senseBeRx_rev2-rescue-senseBeRx_rev3-rescue-senseBe_rev1-rescue-senseBe_rev1-rescue C6
 U 1 1 5A8BC389
 P 4150 4725
 F 0 "C6" H 4175 4825 50  0000 L CNN
@@ -529,7 +529,7 @@ F 3 "" H 4150 4725 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L senseBe_rev1-rescue:C-senseBeRx_rev1-senseBeRx_rev2-rescue-senseBeRx_rev3-rescue-senseBe_rev1-rescue C1
+L senseBe_rev2-rescue:C-senseBeRx_rev1-senseBeRx_rev2-rescue-senseBeRx_rev3-rescue-senseBe_rev1-rescue-senseBe_rev1-rescue C1
 U 1 1 5A8BC51E
 P 1050 5375
 F 0 "C1" H 1075 5475 50  0000 L CNN
@@ -540,7 +540,7 @@ F 3 "" H 1050 5375 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L senseBe_rev1-rescue:INDUCTOR_SMALL-senseBeRx_rev1-senseBeRx_rev2-rescue-senseBeRx_rev3-rescue-senseBe_rev1-rescue L1
+L senseBe_rev2-rescue:INDUCTOR_SMALL-senseBeRx_rev1-senseBeRx_rev2-rescue-senseBeRx_rev3-rescue-senseBe_rev1-rescue-senseBe_rev1-rescue L1
 U 1 1 5A8BE5C8
 P 1650 5075
 F 0 "L1" H 1650 5175 50  0000 C CNN
@@ -562,7 +562,7 @@ F 3 "" H 1850 1075 60  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L senseBe_rev1-rescue:VDD-senseBeRx_rev1-senseBeRx_rev2-rescue-senseBeRx_rev3-rescue-senseBe_rev1-rescue #PWR010
+L senseBe_rev2-rescue:VDD-senseBeRx_rev1-senseBeRx_rev2-rescue-senseBeRx_rev3-rescue-senseBe_rev1-rescue-senseBe_rev1-rescue #PWR010
 U 1 1 5A8C68A3
 P 3525 4125
 F 0 "#PWR010" H 3525 3975 50  0001 C CNN
@@ -717,7 +717,7 @@ RX_OUT
 Text Label 5900 5925 1    50   ~ 0
 RX_EN
 $Comp
-L senseBe_rev1-rescue:R-senseBeRx_rev1-senseBeRx_rev2-rescue-senseBeRx_rev3-rescue-senseBe_rev1-rescue R7
+L senseBe_rev2-rescue:R-senseBeRx_rev1-senseBeRx_rev2-rescue-senseBeRx_rev3-rescue-senseBe_rev1-rescue-senseBe_rev1-rescue R7
 U 1 1 5BB1DDFB
 P 10850 2175
 F 0 "R7" H 10700 2175 50  0000 L CNN
@@ -732,7 +732,7 @@ Wire Wire Line
 Wire Wire Line
 	10850 2325 10850 2425
 $Comp
-L senseBe_rev1-rescue:GND-senseBeRx_rev1-senseBeRx_rev2-rescue-senseBeRx_rev3-rescue-senseBe_rev1-rescue #PWR025
+L senseBe_rev2-rescue:GND-senseBeRx_rev1-senseBeRx_rev2-rescue-senseBeRx_rev3-rescue-senseBe_rev1-rescue-senseBe_rev1-rescue #PWR025
 U 1 1 5BB25F91
 P 10850 2425
 F 0 "#PWR025" H 10850 2175 50  0001 C CNN
@@ -743,7 +743,7 @@ F 3 "" H 10850 2425 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L senseBe_rev1-rescue:R-senseBeRx_rev1-senseBeRx_rev2-rescue-senseBeRx_rev3-rescue-senseBe_rev1-rescue R1
+L senseBe_rev2-rescue:R-senseBeRx_rev1-senseBeRx_rev2-rescue-senseBeRx_rev3-rescue-senseBe_rev1-rescue-senseBe_rev1-rescue R1
 U 1 1 5BB2650D
 P 5200 1950
 F 0 "R1" H 5050 1875 50  0000 L CNN
@@ -756,7 +756,7 @@ $EndComp
 Wire Wire Line
 	5200 2100 5200 2175
 $Comp
-L senseBe_rev1-rescue:GND-senseBeRx_rev1-senseBeRx_rev2-rescue-senseBeRx_rev3-rescue-senseBe_rev1-rescue #PWR016
+L senseBe_rev2-rescue:GND-senseBeRx_rev1-senseBeRx_rev2-rescue-senseBeRx_rev3-rescue-senseBe_rev1-rescue-senseBe_rev1-rescue #PWR016
 U 1 1 5BB26515
 P 5200 2175
 F 0 "#PWR016" H 5200 1925 50  0001 C CNN
@@ -771,7 +771,7 @@ Wire Wire Line
 Wire Wire Line
 	5200 1700 5575 1700
 $Comp
-L senseBe_rev1-rescue:R-senseBeRx_rev1-senseBeRx_rev2-rescue-senseBeRx_rev3-rescue-senseBe_rev1-rescue R4
+L senseBe_rev2-rescue:R-senseBeRx_rev1-senseBeRx_rev2-rescue-senseBeRx_rev3-rescue-senseBe_rev1-rescue-senseBe_rev1-rescue R4
 U 1 1 5BB32D48
 P 6850 1950
 F 0 "R4" H 6700 1875 50  0000 L CNN
@@ -784,7 +784,7 @@ $EndComp
 Wire Wire Line
 	6850 2100 6850 2175
 $Comp
-L senseBe_rev1-rescue:GND-senseBeRx_rev1-senseBeRx_rev2-rescue-senseBeRx_rev3-rescue-senseBe_rev1-rescue #PWR020
+L senseBe_rev2-rescue:GND-senseBeRx_rev1-senseBeRx_rev2-rescue-senseBeRx_rev3-rescue-senseBe_rev1-rescue-senseBe_rev1-rescue #PWR020
 U 1 1 5BB32D50
 P 6850 2175
 F 0 "#PWR020" H 6850 1925 50  0001 C CNN
@@ -795,7 +795,7 @@ F 3 "" H 6850 2175 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L senseBe_rev1-rescue:C-senseBeRx_rev1-senseBeRx_rev2-rescue-senseBeRx_rev3-rescue-senseBe_rev1-rescue C2
+L senseBe_rev2-rescue:C-senseBeRx_rev1-senseBeRx_rev2-rescue-senseBeRx_rev3-rescue-senseBe_rev1-rescue-senseBe_rev1-rescue C2
 U 1 1 5BB68ABA
 P 2000 3625
 F 0 "C2" H 2025 3725 50  0000 L CNN
@@ -808,7 +808,7 @@ $EndComp
 Wire Wire Line
 	2000 3475 2000 3400
 $Comp
-L senseBe_rev1-rescue:GND-senseBeRx_rev1-senseBeRx_rev2-rescue-senseBeRx_rev3-rescue-senseBe_rev1-rescue #PWR05
+L senseBe_rev2-rescue:GND-senseBeRx_rev1-senseBeRx_rev2-rescue-senseBeRx_rev3-rescue-senseBe_rev1-rescue-senseBe_rev1-rescue #PWR05
 U 1 1 5BB6D282
 P 2000 3825
 F 0 "#PWR05" H 2000 3575 50  0001 C CNN
@@ -833,7 +833,7 @@ Wire Wire Line
 Wire Wire Line
 	6025 7050 6675 7050
 $Comp
-L senseBe_rev1-rescue:GND-senseBeRx_rev1-senseBeRx_rev2-rescue-senseBeRx_rev3-rescue-senseBe_rev1-rescue #PWR019
+L senseBe_rev2-rescue:GND-senseBeRx_rev1-senseBeRx_rev2-rescue-senseBeRx_rev3-rescue-senseBe_rev1-rescue-senseBe_rev1-rescue #PWR019
 U 1 1 5BAC12C8
 P 6675 7075
 F 0 "#PWR019" H 6675 6825 50  0001 C CNN
@@ -891,7 +891,7 @@ Wire Wire Line
 Wire Wire Line
 	9425 3350 9425 3225
 $Comp
-L senseBe_rev1-rescue:GND-senseBeRx_rev1-senseBeRx_rev2-rescue-senseBeRx_rev3-rescue-senseBe_rev1-rescue #PWR03
+L senseBe_rev2-rescue:GND-senseBeRx_rev1-senseBeRx_rev2-rescue-senseBeRx_rev3-rescue-senseBe_rev1-rescue-senseBe_rev1-rescue #PWR03
 U 1 1 5A8728A3
 P 1050 5625
 F 0 "#PWR03" H 1050 5375 50  0001 C CNN
@@ -906,7 +906,7 @@ Wire Wire Line
 Wire Wire Line
 	9425 4075 9425 4450
 $Comp
-L senseBe_rev1:senseBe_rev1_PJ-32434_3-5mmAudioJack J1
+L senseBe_rev2-rescue:senseBe_rev1_PJ-32434_3-5mmAudioJack-senseBe_rev1 J1
 U 1 1 5C2EAFA3
 P 5775 7200
 F 0 "J1" H 5791 7592 50  0000 C CNN
@@ -926,16 +926,16 @@ Wire Wire Line
 $Comp
 L Connector_Generic:Conn_01x02 SW2
 U 1 1 5C50A691
-P 1400 3200
-F 0 "SW2" V 1500 3150 50  0000 C CNN
-F 1 "SW_DPST" V 1125 3150 50  0000 C CNN
-F 2 "senseBe_rev2_fp:Molex_KK-6410-02_02x2.54mm_Straight" H 1400 3200 50  0001 C CNN
-F 3 "" H 1400 3200 50  0001 C CNN
-	1    1400 3200
-	0    -1   -1   0   
+P 1500 3200
+F 0 "SW2" V 1600 3150 50  0000 C CNN
+F 1 "SW_DPST" V 1225 3150 50  0000 C CNN
+F 2 "senseBe_rev2_fp:Molex_KK-6410-02_02x2.54mm_Straight" H 1500 3200 50  0001 C CNN
+F 3 "" H 1500 3200 50  0001 C CNN
+	1    1500 3200
+	0    1    -1   0   
 $EndComp
 $Comp
-L senseBe_rev1-rescue:Mounting_Hole-senseBeRx_rev1-senseBeRx_rev2-rescue-senseBeRx_rev3-rescue-senseBe_rev1-rescue MK2
+L senseBe_rev2-rescue:Mounting_Hole-senseBeRx_rev1-senseBeRx_rev2-rescue-senseBeRx_rev3-rescue-senseBe_rev1-rescue-senseBe_rev1-rescue MK2
 U 1 1 5C5D82FA
 P 10650 6250
 F 0 "MK2" H 10650 6450 50  0000 C CNN
@@ -956,15 +956,13 @@ Wire Wire Line
 Text Label 9975 3225 2    60   ~ 0
 LIGHT_SENSE_EN
 Wire Wire Line
-	1050 3400 1400 3400
-Wire Wire Line
 	1500 3400 2000 3400
 Text Label 1075 7050 0    60   ~ 0
 GPIO2
 Text Label 2175 6950 2    60   ~ 0
 GPIO1
 $Comp
-L senseBe_rev1-rescue:VDD-senseBeRx_rev1-senseBeTx_rev3-rescue-senseBe_rev1-rescue #PWR06
+L senseBe_rev2-rescue:VDD-senseBeRx_rev1-senseBeTx_rev3-rescue-senseBe_rev1-rescue-senseBe_rev1-rescue #PWR06
 U 1 1 5C5B41F2
 P 2300 6650
 F 0 "#PWR06" H 2300 6500 50  0001 C CNN
@@ -1078,7 +1076,7 @@ Wire Wire Line
 Wire Wire Line
 	5300 1350 5075 1350
 $Comp
-L q_dual_nmos_g1s2g2d2s1d1:Q_DUAL_NMOS_DMN2990UDJ-7 Q2
+L senseBe_rev2-rescue:Q_DUAL_NMOS_DMN2990UDJ-7-q_dual_nmos_g1s2g2d2s1d1 Q2
 U 1 1 5C6CED6D
 P 5775 1700
 F 0 "Q2" H 5575 1800 50  0000 L CNN
@@ -1089,7 +1087,7 @@ F 3 "~" H 5975 1700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L q_dual_nmos_g1s2g2d2s1d1:Q_DUAL_NMOS_DMN2990UDJ-7 Q2
+L senseBe_rev2-rescue:Q_DUAL_NMOS_DMN2990UDJ-7-q_dual_nmos_g1s2g2d2s1d1 Q2
 U 2 1 5C6CEE0C
 P 6200 1700
 F 0 "Q2" H 6025 1600 50  0000 L CNN
@@ -1100,7 +1098,7 @@ F 3 "~" H 6400 1700 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L q_dual_nmos_g1s2g2d2s1d1:Q_DUAL_NMOS_DMN2990UDJ-7 Q3
+L senseBe_rev2-rescue:Q_DUAL_NMOS_DMN2990UDJ-7-q_dual_nmos_g1s2g2d2s1d1 Q3
 U 1 1 5C6E2FF6
 P 10325 1900
 F 0 "Q3" H 10125 2000 50  0000 L CNN
@@ -1115,4 +1113,6 @@ Wire Wire Line
 Wire Wire Line
 	5400 5925 5400 5225
 NoConn ~ 4500 3975
+Wire Wire Line
+	1050 3400 1400 3400
 $EndSCHEMATC

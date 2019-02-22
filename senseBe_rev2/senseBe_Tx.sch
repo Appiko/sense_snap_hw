@@ -17,7 +17,7 @@ $EndDescr
 Text Notes 2875 2350 0    50   ~ 0
 Infra Red LED Tx
 $Comp
-L senseBe_rev1-rescue:AP3403-AP3403_LED_test-Ap3403_LED_test-rescue-senseBeTx_rev3-rescue-senseBe_rev1-rescue U?
+L senseBe_rev2-rescue:AP3403-AP3403_LED_test-Ap3403_LED_test-rescue-senseBeTx_rev3-rescue-senseBe_rev1-rescue-senseBe_rev1-rescue U?
 U 1 1 5C8021A4
 P 6825 2825
 AR Path="/5C8021A4" Ref="U?"  Part="1" 
@@ -30,7 +30,7 @@ F 3 "" H 6825 2675 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L senseBe_rev1-rescue:R-AP3403_LED_test-Ap3403_LED_test-rescue-senseBeTx_rev3-rescue-senseBe_rev1-rescue R?
+L senseBe_rev2-rescue:R-AP3403_LED_test-Ap3403_LED_test-rescue-senseBeTx_rev3-rescue-senseBe_rev1-rescue-senseBe_rev1-rescue R?
 U 1 1 5C8021AB
 P 8225 2750
 AR Path="/5C8021AB" Ref="R?"  Part="1" 
@@ -43,7 +43,7 @@ F 3 "~" H 8225 2750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L senseBe_rev1-rescue:C-AP3403_LED_test-Ap3403_LED_test-rescue-senseBeTx_rev3-rescue-senseBe_rev1-rescue C?
+L senseBe_rev2-rescue:C-AP3403_LED_test-Ap3403_LED_test-rescue-senseBeTx_rev3-rescue-senseBe_rev1-rescue-senseBe_rev1-rescue C?
 U 1 1 5C8021B2
 P 5550 2850
 AR Path="/5C8021B2" Ref="C?"  Part="1" 
@@ -56,7 +56,7 @@ F 3 "~" H 5550 2850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L senseBe_rev1-rescue:GND-AP3403_LED_test-Ap3403_LED_test-rescue-senseBeTx_rev3-rescue-senseBe_rev1-rescue #PWR?
+L senseBe_rev2-rescue:GND-AP3403_LED_test-Ap3403_LED_test-rescue-senseBeTx_rev3-rescue-senseBe_rev1-rescue-senseBe_rev1-rescue #PWR?
 U 1 1 5C8021B9
 P 7475 3150
 AR Path="/5C8021B9" Ref="#PWR?"  Part="1" 
@@ -69,7 +69,7 @@ F 3 "" H 7475 3150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L senseBe_rev1-rescue:LED-AP3403_LED_test-Ap3403_LED_test-rescue-senseBeTx_rev3-rescue-senseBe_rev1-rescue D?
+L senseBe_rev2-rescue:LED-AP3403_LED_test-Ap3403_LED_test-rescue-senseBeTx_rev3-rescue-senseBe_rev1-rescue-senseBe_rev1-rescue D?
 U 1 1 5C8021C6
 P 3250 2575
 AR Path="/5C8021C6" Ref="D?"  Part="1" 
@@ -82,7 +82,7 @@ F 3 "~" H 3250 2575 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L senseBe_rev1-rescue:GND-AP3403_LED_test-Ap3403_LED_test-rescue-senseBeTx_rev3-rescue-senseBe_rev1-rescue #PWR?
+L senseBe_rev2-rescue:GND-AP3403_LED_test-Ap3403_LED_test-rescue-senseBeTx_rev3-rescue-senseBe_rev1-rescue-senseBe_rev1-rescue #PWR?
 U 1 1 5C8021CD
 P 5550 3400
 AR Path="/5C8021CD" Ref="#PWR?"  Part="1" 
@@ -103,7 +103,7 @@ Wire Wire Line
 Wire Wire Line
 	7175 2975 7475 2975
 $Comp
-L senseBe_rev1-rescue:L-AP3403_LED_test-Ap3403_LED_test-rescue-senseBeTx_rev3-rescue-senseBe_rev1-rescue L?
+L senseBe_rev2-rescue:L-AP3403_LED_test-Ap3403_LED_test-rescue-senseBeTx_rev3-rescue-senseBe_rev1-rescue-senseBe_rev1-rescue L?
 U 1 1 5C8021D8
 P 7425 2575
 AR Path="/5C8021D8" Ref="L?"  Part="1" 
@@ -122,7 +122,7 @@ Wire Wire Line
 Wire Wire Line
 	7575 2575 8225 2575
 $Comp
-L senseBe_rev1-rescue:C-AP3403_LED_test-Ap3403_LED_test-rescue-senseBeTx_rev3-rescue-senseBe_rev1-rescue C?
+L senseBe_rev2-rescue:C-AP3403_LED_test-Ap3403_LED_test-rescue-senseBeTx_rev3-rescue-senseBe_rev1-rescue-senseBe_rev1-rescue C?
 U 1 1 5C8021E2
 P 8600 2750
 AR Path="/5C8021E2" Ref="C?"  Part="1" 
@@ -155,7 +155,7 @@ Wire Wire Line
 	8600 2975 8600 2900
 Connection ~ 8225 2975
 $Comp
-L senseBe_rev1-rescue:R-AP3403_LED_test-Ap3403_LED_test-rescue-senseBeTx_rev3-rescue-senseBe_rev1-rescue R?
+L senseBe_rev2-rescue:R-AP3403_LED_test-Ap3403_LED_test-rescue-senseBeTx_rev3-rescue-senseBe_rev1-rescue-senseBe_rev1-rescue R?
 U 1 1 5C8021F4
 P 8225 3425
 AR Path="/5C8021F4" Ref="R?"  Part="1" 
@@ -170,7 +170,7 @@ $EndComp
 Wire Wire Line
 	8225 3575 8225 3750
 $Comp
-L senseBe_rev1-rescue:GND-AP3403_LED_test-Ap3403_LED_test-rescue-senseBeTx_rev3-rescue-senseBe_rev1-rescue #PWR?
+L senseBe_rev2-rescue:GND-AP3403_LED_test-Ap3403_LED_test-rescue-senseBeTx_rev3-rescue-senseBe_rev1-rescue-senseBe_rev1-rescue #PWR?
 U 1 1 5C8021FC
 P 8225 3750
 AR Path="/5C8021FC" Ref="#PWR?"  Part="1" 
@@ -183,7 +183,7 @@ F 3 "" H 8225 3750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L senseBe_rev1-rescue:R-AP3403_LED_test-Ap3403_LED_test-rescue-senseBeTx_rev3-rescue-senseBe_rev1-rescue R?
+L senseBe_rev2-rescue:R-AP3403_LED_test-Ap3403_LED_test-rescue-senseBeTx_rev3-rescue-senseBe_rev1-rescue-senseBe_rev1-rescue R?
 U 1 1 5C802202
 P 8600 3425
 AR Path="/5C802202" Ref="R?"  Part="1" 
@@ -196,7 +196,7 @@ F 3 "~" H 8600 3425 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L senseBe_rev1-rescue:C-AP3403_LED_test-Ap3403_LED_test-rescue-senseBeTx_rev3-rescue-senseBe_rev1-rescue C?
+L senseBe_rev2-rescue:C-AP3403_LED_test-Ap3403_LED_test-rescue-senseBeTx_rev3-rescue-senseBe_rev1-rescue-senseBe_rev1-rescue C?
 U 1 1 5C802209
 P 3725 3025
 AR Path="/5C802209" Ref="C?"  Part="1" 
@@ -209,7 +209,7 @@ F 3 "~" H 3725 3025 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L senseBe_rev1-rescue:GND-AP3403_LED_test-Ap3403_LED_test-rescue-senseBeTx_rev3-rescue-senseBe_rev1-rescue #PWR?
+L senseBe_rev2-rescue:GND-AP3403_LED_test-Ap3403_LED_test-rescue-senseBeTx_rev3-rescue-senseBe_rev1-rescue-senseBe_rev1-rescue #PWR?
 U 1 1 5C802210
 P 3725 3350
 AR Path="/5C802210" Ref="#PWR?"  Part="1" 
@@ -222,7 +222,7 @@ F 3 "" H 3725 3350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L senseBe_rev1-rescue:R-AP3403_LED_test-Ap3403_LED_test-rescue-senseBeTx_rev3-rescue-senseBe_rev1-rescue R?
+L senseBe_rev2-rescue:R-AP3403_LED_test-Ap3403_LED_test-rescue-senseBeTx_rev3-rescue-senseBe_rev1-rescue-senseBe_rev1-rescue R?
 U 1 1 5C802216
 P 8950 3425
 AR Path="/5C802216" Ref="R?"  Part="1" 
@@ -235,7 +235,7 @@ F 3 "~" H 8950 3425 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L senseBe_rev1-rescue:GND-AP3403_LED_test-Ap3403_LED_test-rescue-senseBeTx_rev3-rescue-senseBe_rev1-rescue #PWR?
+L senseBe_rev2-rescue:GND-AP3403_LED_test-Ap3403_LED_test-rescue-senseBeTx_rev3-rescue-senseBe_rev1-rescue-senseBe_rev1-rescue #PWR?
 U 1 1 5C802224
 P 8150 4825
 AR Path="/5C802224" Ref="#PWR?"  Part="1" 
@@ -250,7 +250,7 @@ $EndComp
 Wire Wire Line
 	8150 4750 8150 4825
 $Comp
-L senseBe_rev1-rescue:GND-AP3403_LED_test-Ap3403_LED_test-rescue-senseBeTx_rev3-rescue-senseBe_rev1-rescue #PWR?
+L senseBe_rev2-rescue:GND-AP3403_LED_test-Ap3403_LED_test-rescue-senseBeTx_rev3-rescue-senseBe_rev1-rescue-senseBe_rev1-rescue #PWR?
 U 1 1 5C80222B
 P 9325 4825
 AR Path="/5C80222B" Ref="#PWR?"  Part="1" 
@@ -267,7 +267,7 @@ Wire Wire Line
 Wire Wire Line
 	8150 4275 8150 4350
 $Comp
-L senseBe_rev1-rescue:GND-AP3403_LED_test-Ap3403_LED_test-rescue-senseBeTx_rev3-rescue-senseBe_rev1-rescue #PWR?
+L senseBe_rev2-rescue:GND-AP3403_LED_test-Ap3403_LED_test-rescue-senseBeTx_rev3-rescue-senseBe_rev1-rescue-senseBe_rev1-rescue #PWR?
 U 1 1 5C80223C
 P 2750 3350
 AR Path="/5C80223C" Ref="#PWR?"  Part="1" 
@@ -288,7 +288,7 @@ Wire Wire Line
 Text Label 3950 2575 2    50   ~ 0
 VLED
 $Comp
-L senseBe_rev1-rescue:R-AP3403_LED_test-Ap3403_LED_test-rescue-senseBeTx_rev3-rescue-senseBe_rev1-rescue R?
+L senseBe_rev2-rescue:R-AP3403_LED_test-Ap3403_LED_test-rescue-senseBeTx_rev3-rescue-senseBe_rev1-rescue-senseBe_rev1-rescue R?
 U 1 1 5C802247
 P 6125 3250
 AR Path="/5C802247" Ref="R?"  Part="1" 
@@ -301,7 +301,7 @@ F 3 "~" H 6125 3250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L senseBe_rev1-rescue:GND-AP3403_LED_test-Ap3403_LED_test-rescue-senseBeTx_rev3-rescue-senseBe_rev1-rescue #PWR?
+L senseBe_rev2-rescue:GND-AP3403_LED_test-Ap3403_LED_test-rescue-senseBeTx_rev3-rescue-senseBe_rev1-rescue-senseBe_rev1-rescue #PWR?
 U 1 1 5C80224E
 P 6125 3425
 AR Path="/5C80224E" Ref="#PWR?"  Part="1" 
@@ -320,7 +320,7 @@ Wire Wire Line
 Wire Wire Line
 	6125 3075 6475 3075
 $Comp
-L senseBe_rev1-rescue:R-AP3403_LED_test-Ap3403_LED_test-rescue-senseBeTx_rev3-rescue-senseBe_rev1-rescue R?
+L senseBe_rev2-rescue:R-AP3403_LED_test-Ap3403_LED_test-rescue-senseBeTx_rev3-rescue-senseBe_rev1-rescue-senseBe_rev1-rescue R?
 U 1 1 5C802257
 P 7625 5050
 AR Path="/5C802257" Ref="R?"  Part="1" 
@@ -335,7 +335,7 @@ $EndComp
 Wire Wire Line
 	7625 5200 7625 5250
 $Comp
-L senseBe_rev1-rescue:GND-AP3403_LED_test-Ap3403_LED_test-rescue-senseBeTx_rev3-rescue-senseBe_rev1-rescue #PWR?
+L senseBe_rev2-rescue:GND-AP3403_LED_test-Ap3403_LED_test-rescue-senseBeTx_rev3-rescue-senseBe_rev1-rescue-senseBe_rev1-rescue #PWR?
 U 1 1 5C802260
 P 7625 5250
 AR Path="/5C802260" Ref="#PWR?"  Part="1" 
@@ -348,7 +348,7 @@ F 3 "" H 7625 5250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L senseBe_rev1-rescue:R-AP3403_LED_test-Ap3403_LED_test-rescue-senseBeTx_rev3-rescue-senseBe_rev1-rescue R?
+L senseBe_rev2-rescue:R-AP3403_LED_test-Ap3403_LED_test-rescue-senseBeTx_rev3-rescue-senseBe_rev1-rescue-senseBe_rev1-rescue R?
 U 1 1 5C802266
 P 8775 5050
 AR Path="/5C802266" Ref="R?"  Part="1" 
@@ -365,7 +365,7 @@ Wire Wire Line
 Wire Wire Line
 	8775 4550 9025 4550
 $Comp
-L senseBe_rev1-rescue:GND-AP3403_LED_test-Ap3403_LED_test-rescue-senseBeTx_rev3-rescue-senseBe_rev1-rescue #PWR?
+L senseBe_rev2-rescue:GND-AP3403_LED_test-Ap3403_LED_test-rescue-senseBeTx_rev3-rescue-senseBe_rev1-rescue-senseBe_rev1-rescue #PWR?
 U 1 1 5C80226F
 P 8775 5250
 AR Path="/5C80226F" Ref="#PWR?"  Part="1" 
@@ -378,7 +378,7 @@ F 3 "" H 8775 5250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L senseBe_rev1-rescue:R-AP3403_LED_test-Ap3403_LED_test-rescue-senseBeTx_rev3-rescue-senseBe_rev1-rescue R?
+L senseBe_rev2-rescue:R-AP3403_LED_test-Ap3403_LED_test-rescue-senseBeTx_rev3-rescue-senseBe_rev1-rescue-senseBe_rev1-rescue R?
 U 1 1 5C802275
 P 2150 3125
 AR Path="/5C802275" Ref="R?"  Part="1" 
@@ -395,7 +395,7 @@ Wire Wire Line
 Wire Wire Line
 	2150 2825 2450 2825
 $Comp
-L senseBe_rev1-rescue:GND-AP3403_LED_test-Ap3403_LED_test-rescue-senseBeTx_rev3-rescue-senseBe_rev1-rescue #PWR?
+L senseBe_rev2-rescue:GND-AP3403_LED_test-Ap3403_LED_test-rescue-senseBeTx_rev3-rescue-senseBe_rev1-rescue-senseBe_rev1-rescue #PWR?
 U 1 1 5C80227E
 P 2150 3350
 AR Path="/5C80227E" Ref="#PWR?"  Part="1" 
@@ -412,7 +412,7 @@ Wire Wire Line
 Wire Wire Line
 	7625 4550 7850 4550
 $Comp
-L senseBe_rev1-rescue:Test_Point-AP3403_LED_test-Ap3403_LED_test-rescue-senseBeTx_rev3-rescue-senseBe_rev1-rescue TP?
+L senseBe_rev2-rescue:Test_Point-AP3403_LED_test-Ap3403_LED_test-rescue-senseBeTx_rev3-rescue-senseBe_rev1-rescue-senseBe_rev1-rescue TP?
 U 1 1 5C802286
 P 7800 2900
 AR Path="/5C802286" Ref="TP?"  Part="1" 
@@ -430,7 +430,7 @@ Connection ~ 7800 2975
 Wire Wire Line
 	7800 2975 8225 2975
 $Comp
-L senseBe_rev1-rescue:VDD-senseBeRx_rev1-senseBeTx_rev3-rescue-senseBe_rev1-rescue #PWR?
+L senseBe_rev2-rescue:VDD-senseBeRx_rev1-senseBeTx_rev3-rescue-senseBe_rev1-rescue-senseBe_rev1-rescue #PWR?
 U 1 1 5C802290
 P 5350 2575
 AR Path="/5C802290" Ref="#PWR?"  Part="1" 
@@ -490,7 +490,7 @@ Wire Wire Line
 	8925 2575 8600 2575
 Connection ~ 8600 2575
 $Comp
-L senseBe_rev1-rescue:LOGO-senseBeRx_rev1-senseBeRx_rev2-rescue-senseBeRx_rev3-rescue-senseBe_rev1-rescue #G?
+L senseBe_rev2-rescue:LOGO-senseBeRx_rev1-senseBeRx_rev2-rescue-senseBeRx_rev3-rescue-senseBe_rev1-rescue-senseBe_rev1-rescue #G?
 U 1 1 5C815A89
 P 10850 6850
 AR Path="/5C815A89" Ref="#G?"  Part="1" 
@@ -528,7 +528,7 @@ Wire Wire Line
 Wire Wire Line
 	9325 4250 9325 4350
 $Comp
-L q_dual_nmos_g1s2g2d2s1d1:Q_DUAL_NMOS_DMN2990UDJ-7 Q?
+L senseBe_rev2-rescue:Q_DUAL_NMOS_DMN2990UDJ-7-q_dual_nmos_g1s2g2d2s1d1 Q?
 U 2 1 5C6E9E9B
 P 2650 2825
 AR Path="/5C6E9E9B" Ref="Q?"  Part="2" 
@@ -541,7 +541,7 @@ F 3 "~" H 2850 2825 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L q_dual_nmos_g1s2g2d2s1d1:Q_DUAL_NMOS_DMN2990UDJ-7 Q?
+L senseBe_rev2-rescue:Q_DUAL_NMOS_DMN2990UDJ-7-q_dual_nmos_g1s2g2d2s1d1 Q?
 U 2 1 5C6EB2FB
 P 9225 4550
 AR Path="/5C6EB2FB" Ref="Q?"  Part="2" 
@@ -554,7 +554,7 @@ F 3 "~" H 9425 4550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L q_dual_nmos_g1s2g2d2s1d1:Q_DUAL_NMOS_DMN2990UDJ-7 Q?
+L senseBe_rev2-rescue:Q_DUAL_NMOS_DMN2990UDJ-7-q_dual_nmos_g1s2g2d2s1d1 Q?
 U 1 1 5C6F3100
 P 8050 4550
 AR Path="/5C6F3100" Ref="Q?"  Part="1" 

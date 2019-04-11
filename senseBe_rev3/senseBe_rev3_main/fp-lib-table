@@ -1,3 +1,6 @@
 (fp_lib_table
   (lib (name senseBe_rev3)(type KiCad)(uri E:/Appiko/sense_snap_hw/senseBe_rev3/senseBe_rev3_main/senseBe_rev3_main_fp.pretty)(options "")(descr ""))
+  (lib (name Appiko_LOGO)(type KiCad)(uri /home/prithvi/KiCadProjects/sense_snap_hw/Appiko_Logo/Appiko_LOGO.pretty)(options "")(descr ""))
+  (lib (name Appiko_Logo)(type KiCad)(uri /home/prithvi/KiCadProjects/sense_snap_hw/Appiko_Logo)(options "")(descr ""))
+  (lib (name senseBe_rev3_main_fp)(type KiCad)(uri ${KIPRJMOD}/senseBe_rev3_main_fp.pretty)(options "")(descr ""))
 )

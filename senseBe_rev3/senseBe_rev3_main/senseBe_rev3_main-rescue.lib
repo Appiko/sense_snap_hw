@@ -432,6 +432,59 @@ X ~ 2 0 -150 50 U 60 60 1 1 P
 ENDDRAW
 ENDDEF
 #
+# SW_Push_Dual-senseBe_rev3_daughter-rescue-senseBe_rev3_daughter-rescue
+#
+DEF SW_Push_Dual-senseBe_rev3_daughter-rescue-senseBe_rev3_daughter-rescue SW 0 40 Y N 1 F N
+F0 "SW" 50 100 50 H V L CNN
+F1 "SW_Push_Dual-senseBe_rev3_daughter-rescue-senseBe_rev3_daughter-rescue" 0 -270 50 H V C CNN
+F2 "" 0 200 50 H I C CNN
+F3 "" 0 200 50 H I C CNN
+DRAW
+C -80 -200 20 0 1 0 N
+C -80 0 20 0 1 0 N
+C 80 -200 20 0 1 0 N
+C 80 0 20 0 1 0 N
+P 2 0 1 0 0 -120 0 -140 N
+P 2 0 1 0 0 -80 0 -100 N
+P 2 0 1 0 0 -60 0 -40 N
+P 2 0 1 0 0 -20 0 0 N
+P 2 0 1 0 0 20 0 40 N
+P 2 0 1 0 0 50 0 120 N
+P 2 0 1 0 100 -150 -100 -150 N
+P 2 0 1 0 100 50 -100 50 N
+X 1 1 -200 0 100 R 50 50 0 1 P
+X 2 2 -200 -200 100 R 50 50 0 1 P
+X 3 3 200 0 100 L 50 50 0 1 P
+X 4 4 200 -200 100 L 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+# StereoSocket_3-5mm_SMD-senseBe_rev3_daughter-rescue-senseBe_rev3_daughter-rescue
+#
+DEF StereoSocket_3-5mm_SMD-senseBe_rev3_daughter-rescue-senseBe_rev3_daughter-rescue J 0 40 Y Y 1 F N
+F0 "J" 0 350 50 H V C CNN
+F1 "StereoSocket_3-5mm_SMD-senseBe_rev3_daughter-rescue-senseBe_rev3_daughter-rescue" 0 450 50 H V C CNN
+F2 "" -40 15 50 H I C CNN
+F3 "" -40 15 50 H I C CNN
+DRAW
+S -185 55 -120 -250 0 1 0 N
+S -200 -250 -230 -150 1 1 0 F
+S 150 -275 -205 225 1 1 10 f
+P 2 0 1 0 105 50 -15 50 N
+P 2 0 1 0 105 50 150 50 N
+P 2 0 1 0 150 -150 -45 -150 N
+P 2 0 1 0 185 -50 65 -50 N
+P 3 0 1 0 -155 55 -155 150 150 150 N
+P 3 0 1 0 -45 -150 -70 -130 -95 -150 N
+P 3 0 1 0 -15 50 -40 25 -65 50 N
+P 3 0 1 0 65 -50 40 -25 15 -50 N
+X ~ 2 250 150 100 L 50 50 1 1 P
+X ~ 3 250 50 100 L 50 50 1 1 P
+X ~ 4 250 -50 100 L 50 50 1 1 P
+X ~ 5 250 -150 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # TSSP40xx-senseBeRx_rev1-senseBeRx_rev2-rescue-senseBeRx_rev3-rescue-senseBe_rev1-rescue-senseBe_rev1-rescue-senseBe_rev2-rescue
 #
 DEF TSSP40xx-senseBeRx_rev1-senseBeRx_rev2-rescue-senseBeRx_rev3-rescue-senseBe_rev1-rescue-senseBe_rev1-rescue-senseBe_rev2-rescue U 0 40 Y Y 1 F N

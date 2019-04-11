@@ -1,3 +1,4 @@
 (sym_lib_table
   (lib (name senseBe_rev3_daughter-rescue)(type Legacy)(uri E:/Appiko/sense_snap_hw/senseBe_rev3/senseBe_rev3_main/senseBe_rev3_main-rescue.lib)(options "")(descr ""))
+  (lib (name senseBe_rev3_main-rescue)(type Legacy)(uri E:/Appiko/sense_snap_hw/senseBe_rev3/senseBe_rev3_main/senseBe_rev3_main-rescue.lib)(options "")(descr ""))
 )

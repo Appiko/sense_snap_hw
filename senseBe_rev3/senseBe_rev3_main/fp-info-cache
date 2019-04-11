@@ -1,4 +1,4 @@
-15890521218726644
+15963573257542378
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -64896,336 +64896,665 @@ rotary encoder
 0
 5
 4
-senseBe_rev3
+senseBe_rev3_daughter_fp
 18-225_R6G6C-A01_3T
 
 
 0
 4
 4
-senseBe_rev3
-22uH_SMD_5mm_Inductor
-
-
-0
-2
-2
-senseBe_rev3
+senseBe_rev3_daughter_fp
 2462_BatteryHolder_AAx2
 
 
 0
 0
 0
-senseBe_rev3
+senseBe_rev3_daughter_fp
 AA_BAT_Holder
 
 
 0
 2
 2
-senseBe_rev3
+senseBe_rev3_daughter_fp
 AP3403_U-DFN1616-6(Type G)
 
 
 0
 7
 7
-senseBe_rev3
-AP3405_U-DFN2020-8
-
-
-0
-9
-8
-senseBe_rev3
+senseBe_rev3_daughter_fp
 Appiko_Logo_2
 
 
 0
 0
 0
-senseBe_rev3
+senseBe_rev3_daughter_fp
 Appiko_LOGO_img
 
 
 0
 0
 0
-senseBe_rev3
+senseBe_rev3_daughter_fp
 Audio_Jack_3.5mm_Horizontal_SMD
 Headphones with microphone connector, 3.5mm, 4 pins.
 3.5mm jack mic microphone phones headphones 4pins audio plug
 0
 4
 4
-senseBe_rev3
+senseBe_rev3_daughter_fp
 BT_Symbol
 
 
 0
 2
 2
-senseBe_rev3
+senseBe_rev3_daughter_fp
 Crystal_C38-LF_d3.0mm_l8.0mm_Horizontal
 Crystal THT C38-LF 8.0mm length 3.0mm diameter
 ['C38-LF']
 0
 2
 2
-senseBe_rev3
+senseBe_rev3_daughter_fp
 Crystal_C38-LF_d3.0mm_l8.0mm_Vertical
 Crystal THT C38-LF 8.0mm length 3.0mm diameter
 ['C38-LF']
 0
 2
 2
-senseBe_rev3
+senseBe_rev3_daughter_fp
 C_0603_HandSoldering
 Capacitor SMD 0603, hand soldering
 capacitor 0603
 0
 2
 2
-senseBe_rev3
+senseBe_rev3_daughter_fp
 C_0805
 Capacitor SMD 0805, reflow soldering, AVX (see smccp.pdf)
 capacitor 0805
 0
 2
 2
-senseBe_rev3
+senseBe_rev3_daughter_fp
 C_0805_HandSoldering
 Capacitor SMD 0805, hand soldering
 capacitor 0805
 0
 2
 2
-senseBe_rev3
+senseBe_rev3_daughter_fp
 DMN2990UDJ-7
 
 
 0
 6
 6
-senseBe_rev3
+senseBe_rev3_daughter_fp
 D_MiniMELF
 Diode Mini-MELF
 Diode Mini-MELF
 0
 2
 2
-senseBe_rev3
+senseBe_rev3_daughter_fp
 KiCad-Logo2_8mm_SilkScreen
 KiCad Logo
 Logo KiCad
 0
 0
 0
-senseBe_rev3
+senseBe_rev3_daughter_fp
 LED_APBD3224SURKCGKC-F01
 https://docs.broadcom.com/docs/AV02-4186EN
 LED Avago PLCC-4 ASMB-MTB0-0A3A2
 0
 4
 4
-senseBe_rev3
+senseBe_rev3_daughter_fp
 LED_Avago_PLCC4_3.2x2.8mm_CW
 https://docs.broadcom.com/docs/AV02-4186EN
 LED Avago PLCC-4 ASMB-MTB0-0A3A2
 0
 4
 4
-senseBe_rev3
+senseBe_rev3_daughter_fp
 LED_KPTBD-3216SURKCGKC
 https://docs.broadcom.com/docs/AV02-4186EN
 LED Avago PLCC-4 ASMB-MTB0-0A3A2
 0
 4
 4
-senseBe_rev3
+senseBe_rev3_daughter_fp
 LOGO
 
 
 0
 0
 0
-senseBe_rev3
+senseBe_rev3_daughter_fp
 L_0603_HandSoldering
 Resistor SMD 0603, hand soldering
 resistor 0603
 0
 2
 2
-senseBe_rev3
+senseBe_rev3_daughter_fp
 L_0805
 Resistor SMD 0805, reflow soldering, Vishay (see dcrcw.pdf)
 resistor 0805
 0
 2
 2
-senseBe_rev3
+senseBe_rev3_daughter_fp
 L_Radial_D12.0mm_P5.00mm_Fastron_11P
 Inductor, Radial series, Radial, pin pitch=5.00mm, , diameter=12.0mm, Fastron, 11P, http://cdn-reichelt.de/documents/datenblatt/B400/DS_11P.pdf
 Inductor Radial series Radial pin pitch 5.00mm  diameter 12.0mm Fastron 11P
 0
 2
 2
-senseBe_rev3
+senseBe_rev3_daughter_fp
 mdbt42Q
 
 
 0
 41
 41
-senseBe_rev3
+senseBe_rev3_daughter_fp
 Measurement_Point_Round-SMD-Pad_Small
 Mesurement Point, Round, SMD Pad, DM 1.5mm,
 Mesurement Point Round SMD Pad 1.5mm
 0
 1
 1
-senseBe_rev3
+senseBe_rev3_daughter_fp
 Molex_KK-6410-02_02x2.54mm_Straight
 Connector Headers with Friction Lock, 22-27-2021, http://www.molex.com/pdm_docs/sd/022272021_sd.pdf
 connector molex kk_6410 22-27-2021
 0
 2
 2
-senseBe_rev3
+senseBe_rev3_daughter_fp
 Molex_KK-6410-04_04x2.54mm_Straight
 Connector Headers with Friction Lock, 22-27-2041, http://www.molex.com/pdm_docs/sd/022272021_sd.pdf
 connector molex kk_6410 22-27-2041
 0
 4
 4
-senseBe_rev3
+senseBe_rev3_daughter_fp
 MountingHole_3.2mm_M3
 Mounting Hole 3.2mm, no annular, M3
 mounting hole 3.2mm no annular m3
 0
 0
 0
-senseBe_rev3
+senseBe_rev3_daughter_fp
 MountingHole_3mm
 Mounting Hole 3mm, no annular
 mounting hole 3mm no annular
 0
 0
 0
-senseBe_rev3
+senseBe_rev3_daughter_fp
 OSHW1
 
 
 0
 0
 0
-senseBe_rev3
+senseBe_rev3_daughter_fp
 PJ-32434-3_5mm-AudioJack
 
 
 0
 6
 4
-senseBe_rev3
+senseBe_rev3_daughter_fp
 prog_connect
 Tag-Connect programming header; http://www.tag-connect.com/Materials/TC2050-IDC-NL%20Datasheet.pdf
 tag connect programming header pogo pins
 0
 10
 10
-senseBe_rev3
+senseBe_rev3_daughter_fp
 prog_connect_2x3
 Tag-Connect programming header; http://www.tag-connect.com/Materials/TC2050-IDC-NL%20Datasheet.pdf
 tag connect programming header pogo pins
 0
 6
 6
-senseBe_rev3
+senseBe_rev3_daughter_fp
+RightAngle_Tactile_Push_Button
+
+
+0
+4
+4
+senseBe_rev3_daughter_fp
 R_0603_HandSoldering
 Resistor SMD 0603, hand soldering
 resistor 0603
 0
 2
 2
-senseBe_rev3
+senseBe_rev3_daughter_fp
 R_0805
 Resistor SMD 0805, reflow soldering, Vishay (see dcrcw.pdf)
 resistor 0805
 0
 2
 2
-senseBe_rev3
+senseBe_rev3_daughter_fp
 SJ2-35863B1-SMT
 
 
 0
 5
 5
-senseBe_rev3
+senseBe_rev3_daughter_fp
 SlideSwitch_1P2T_RightAngle
 
 
 0
 3
 3
-senseBe_rev3
+senseBe_rev3_daughter_fp
 SolderWirePad_2x_1-2mmDrill
 
 
 0
 2
 2
-senseBe_rev3
+senseBe_rev3_daughter_fp
 SolderWirePad_2x_1-5mmDrill
 
 
 0
 2
 1
-senseBe_rev3
+senseBe_rev3_daughter_fp
 SolderWirePad_4xInline_1-2mmDrill
 
 
 0
 4
 4
-senseBe_rev3
+senseBe_rev3_daughter_fp
 SOT-23
 SOT-23, Standard
 SOT-23
 0
 3
 3
-senseBe_rev3
+senseBe_rev3_daughter_fp
 SOT-23_Handsoldering
 SOT-23, Handsoldering
 SOT-23
 0
 3
 3
-senseBe_rev3
+senseBe_rev3_daughter_fp
 SSOP-8_2.95x2.8mm_Pitch0.65mm
 SSOP-8 2.9 x2.8mm Pitch 0.65mm
 SSOP-8 2.95x2.8mm Pitch 0.65mm
 0
 8
 8
-senseBe_rev3
+senseBe_rev3_daughter_fp
 SW_PUSH_6mm
 https://www.omron.com/ecb/products/pdf/en-b3f.pdf
 tact sw push 6mm
 0
 4
 2
-senseBe_rev3
+senseBe_rev3_daughter_fp
 TC-1101T-C-A-B_Switch
 
 
 0
 2
 2
-senseBe_rev3
+senseBe_rev3_daughter_fp
+Vishay_MINIMOLD-3Pin
+IR Receiver Vishay TSOP-xxxx, MINIMOLD package, see https://www.vishay.com/docs/82742/tsop331.pdf
+IR Receiver Vishay TSOP-xxxx MINIMOLD
+0
+3
+3
+senseBe_rev3_main_fp
+18-225_R6G6C-A01_3T
+
+
+0
+4
+4
+senseBe_rev3_main_fp
+22uH_SMD_5mm_Inductor
+
+
+0
+2
+2
+senseBe_rev3_main_fp
+2462_BatteryHolder_AAx2
+
+
+0
+0
+0
+senseBe_rev3_main_fp
+AA_BAT_Holder
+
+
+0
+2
+2
+senseBe_rev3_main_fp
+AP3403_U-DFN1616-6(Type G)
+
+
+0
+7
+7
+senseBe_rev3_main_fp
+AP3405_U-DFN2020-8
+
+
+0
+9
+8
+senseBe_rev3_main_fp
+Appiko_Logo_2
+
+
+0
+0
+0
+senseBe_rev3_main_fp
+Appiko_LOGO_img
+
+
+0
+0
+0
+senseBe_rev3_main_fp
+Audio_Jack_3.5mm_Horizontal_SMD
+Headphones with microphone connector, 3.5mm, 4 pins.
+3.5mm jack mic microphone phones headphones 4pins audio plug
+0
+4
+4
+senseBe_rev3_main_fp
+BT_Symbol
+
+
+0
+2
+2
+senseBe_rev3_main_fp
+Crystal_C38-LF_d3.0mm_l8.0mm_Horizontal
+Crystal THT C38-LF 8.0mm length 3.0mm diameter
+['C38-LF']
+0
+2
+2
+senseBe_rev3_main_fp
+Crystal_C38-LF_d3.0mm_l8.0mm_Vertical
+Crystal THT C38-LF 8.0mm length 3.0mm diameter
+['C38-LF']
+0
+2
+2
+senseBe_rev3_main_fp
+C_0603_HandSoldering
+Capacitor SMD 0603, hand soldering
+capacitor 0603
+0
+2
+2
+senseBe_rev3_main_fp
+C_0805
+Capacitor SMD 0805, reflow soldering, AVX (see smccp.pdf)
+capacitor 0805
+0
+2
+2
+senseBe_rev3_main_fp
+C_0805_HandSoldering
+Capacitor SMD 0805, hand soldering
+capacitor 0805
+0
+2
+2
+senseBe_rev3_main_fp
+DMN2990UDJ-7
+
+
+0
+6
+6
+senseBe_rev3_main_fp
+D_MiniMELF
+Diode Mini-MELF
+Diode Mini-MELF
+0
+2
+2
+senseBe_rev3_main_fp
+KiCad-Logo2_8mm_SilkScreen
+KiCad Logo
+Logo KiCad
+0
+0
+0
+senseBe_rev3_main_fp
+LED_APBD3224SURKCGKC-F01
+https://docs.broadcom.com/docs/AV02-4186EN
+LED Avago PLCC-4 ASMB-MTB0-0A3A2
+0
+4
+4
+senseBe_rev3_main_fp
+LED_Avago_PLCC4_3.2x2.8mm_CW
+https://docs.broadcom.com/docs/AV02-4186EN
+LED Avago PLCC-4 ASMB-MTB0-0A3A2
+0
+4
+4
+senseBe_rev3_main_fp
+LED_KPTBD-3216SURKCGKC
+https://docs.broadcom.com/docs/AV02-4186EN
+LED Avago PLCC-4 ASMB-MTB0-0A3A2
+0
+4
+4
+senseBe_rev3_main_fp
+LOGO
+
+
+0
+0
+0
+senseBe_rev3_main_fp
+L_0603_HandSoldering
+Resistor SMD 0603, hand soldering
+resistor 0603
+0
+2
+2
+senseBe_rev3_main_fp
+L_0805
+Resistor SMD 0805, reflow soldering, Vishay (see dcrcw.pdf)
+resistor 0805
+0
+2
+2
+senseBe_rev3_main_fp
+L_Radial_D12.0mm_P5.00mm_Fastron_11P
+Inductor, Radial series, Radial, pin pitch=5.00mm, , diameter=12.0mm, Fastron, 11P, http://cdn-reichelt.de/documents/datenblatt/B400/DS_11P.pdf
+Inductor Radial series Radial pin pitch 5.00mm  diameter 12.0mm Fastron 11P
+0
+2
+2
+senseBe_rev3_main_fp
+mdbt42Q
+
+
+0
+41
+41
+senseBe_rev3_main_fp
+Measurement_Point_Round-SMD-Pad_Small
+Mesurement Point, Round, SMD Pad, DM 1.5mm,
+Mesurement Point Round SMD Pad 1.5mm
+0
+1
+1
+senseBe_rev3_main_fp
+Molex_KK-6410-02_02x2.54mm_Straight
+Connector Headers with Friction Lock, 22-27-2021, http://www.molex.com/pdm_docs/sd/022272021_sd.pdf
+connector molex kk_6410 22-27-2021
+0
+2
+2
+senseBe_rev3_main_fp
+Molex_KK-6410-04_04x2.54mm_Straight
+Connector Headers with Friction Lock, 22-27-2041, http://www.molex.com/pdm_docs/sd/022272021_sd.pdf
+connector molex kk_6410 22-27-2041
+0
+4
+4
+senseBe_rev3_main_fp
+MountingHole_3.2mm_M3
+Mounting Hole 3.2mm, no annular, M3
+mounting hole 3.2mm no annular m3
+0
+0
+0
+senseBe_rev3_main_fp
+MountingHole_3mm
+Mounting Hole 3mm, no annular
+mounting hole 3mm no annular
+0
+0
+0
+senseBe_rev3_main_fp
+OSHW1
+
+
+0
+0
+0
+senseBe_rev3_main_fp
+PJ-32434-3_5mm-AudioJack
+
+
+0
+6
+4
+senseBe_rev3_main_fp
+prog_connect
+Tag-Connect programming header; http://www.tag-connect.com/Materials/TC2050-IDC-NL%20Datasheet.pdf
+tag connect programming header pogo pins
+0
+10
+10
+senseBe_rev3_main_fp
+prog_connect_2x3
+Tag-Connect programming header; http://www.tag-connect.com/Materials/TC2050-IDC-NL%20Datasheet.pdf
+tag connect programming header pogo pins
+0
+6
+6
+senseBe_rev3_main_fp
+R_0603_HandSoldering
+Resistor SMD 0603, hand soldering
+resistor 0603
+0
+2
+2
+senseBe_rev3_main_fp
+R_0805
+Resistor SMD 0805, reflow soldering, Vishay (see dcrcw.pdf)
+resistor 0805
+0
+2
+2
+senseBe_rev3_main_fp
+SJ2-35863B1-SMT
+
+
+0
+5
+5
+senseBe_rev3_main_fp
+SlideSwitch_1P2T_RightAngle
+
+
+0
+3
+3
+senseBe_rev3_main_fp
+SolderWirePad_2x_1-2mmDrill
+
+
+0
+2
+2
+senseBe_rev3_main_fp
+SolderWirePad_2x_1-5mmDrill
+
+
+0
+2
+1
+senseBe_rev3_main_fp
+SolderWirePad_4xInline_1-2mmDrill
+
+
+0
+4
+4
+senseBe_rev3_main_fp
+SOT-23
+SOT-23, Standard
+SOT-23
+0
+3
+3
+senseBe_rev3_main_fp
+SOT-23_Handsoldering
+SOT-23, Handsoldering
+SOT-23
+0
+3
+3
+senseBe_rev3_main_fp
+SSOP-8_2.95x2.8mm_Pitch0.65mm
+SSOP-8 2.9 x2.8mm Pitch 0.65mm
+SSOP-8 2.95x2.8mm Pitch 0.65mm
+0
+8
+8
+senseBe_rev3_main_fp
+SW_PUSH_6mm
+https://www.omron.com/ecb/products/pdf/en-b3f.pdf
+tact sw push 6mm
+0
+4
+2
+senseBe_rev3_main_fp
+TC-1101T-C-A-B_Switch
+
+
+0
+2
+2
+senseBe_rev3_main_fp
 Vishay_MINIMOLD-3Pin
 IR Receiver Vishay TSOP-xxxx, MINIMOLD package, see https://www.vishay.com/docs/82742/tsop331.pdf
 IR Receiver Vishay TSOP-xxxx MINIMOLD

@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name senseBe_rev3_daughter_fp)(type KiCad)(uri ${KIPRJMOD}/senseBe_rev3_daughter_fp.pretty)(options "")(descr ""))
+  (lib (name senseBe_rev3_main_fp)(type KiCad)(uri E:/Appiko/sense_snap_hw/senseBe_rev3/senseBe_rev3_main/senseBe_rev3_main_fp.pretty)(options "")(descr ""))
+)

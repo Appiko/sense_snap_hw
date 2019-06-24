@@ -1,0 +1,505 @@
+111940661398509
+sense
+18-225_R6G6C-A01_3T
+
+
+0
+4
+4
+sense
+22uH_SMD_5mm_Inductor
+
+
+0
+2
+2
+sense
+2462_BatteryHolder_AAx2
+
+
+0
+0
+0
+sense
+AAA_holder_2468
+
+
+0
+3
+2
+sense
+AA_590_596
+
+
+0
+6
+2
+sense
+AA_BAT_Holder
+
+
+0
+2
+2
+sense
+AA_keystone_206
+
+
+0
+4
+2
+sense
+ABS25-32.768
+
+
+0
+4
+3
+sense
+AP3403_U-DFN1616-6(Type G)
+
+
+0
+7
+7
+sense
+AP3405_U-DFN2020-8
+
+
+0
+9
+8
+sense
+Appiko_Logo_2
+
+
+0
+0
+0
+sense
+Appiko_LOGO_img
+
+
+0
+0
+0
+sense
+Audio_Jack_3.5mm_Horizontal_SMD
+Headphones with microphone connector, 3.5mm, 4 pins.
+3.5mm jack mic microphone phones headphones 4pins audio plug
+0
+4
+4
+sense
+Berg_5x2Conn
+
+
+0
+10
+10
+sense
+BSD840NH6327XTSA1_Dual_NMOS
+
+
+0
+6
+6
+sense
+BT_Symbol
+
+
+0
+2
+2
+sense
+Crystal_C38-LF_d3.0mm_l8.0mm_Horizontal
+Crystal THT C38-LF 8.0mm length 3.0mm diameter
+['C38-LF']
+0
+2
+2
+sense
+Crystal_C38-LF_d3.0mm_l8.0mm_Vertical
+Crystal THT C38-LF 8.0mm length 3.0mm diameter
+['C38-LF']
+0
+2
+2
+sense
+C_0603_HandSoldering
+Capacitor SMD 0603, hand soldering
+capacitor 0603
+0
+2
+2
+sense
+C_0805
+Capacitor SMD 0805, reflow soldering, AVX (see smccp.pdf)
+capacitor 0805
+0
+2
+2
+sense
+C_0805_HandSoldering
+Capacitor SMD 0805, hand soldering
+capacitor 0805
+0
+2
+2
+sense
+DMN2990UDJ-7
+
+
+0
+6
+6
+sense
+D_MicroMELF_Hadsoldering
+Diode, MicroMELF, hand-soldering, http://www.vishay.com/docs/85597/bzm55-se.pdf
+MicroMELF Diode
+0
+2
+2
+sense
+D_MiniMELF
+Diode Mini-MELF
+Diode Mini-MELF
+0
+2
+2
+sense
+hackable_footprint
+
+
+0
+32
+32
+sense
+hackable_footprint_half
+
+
+0
+11
+11
+sense
+HSMF-C15x
+
+
+0
+4
+4
+sense
+IR26-21C-L110
+
+
+0
+2
+2
+sense
+KiCad-Logo2_8mm_SilkScreen
+KiCad Logo
+Logo KiCad
+0
+0
+0
+sense
+LED_APBD3224SURKCGKC-F01
+https://docs.broadcom.com/docs/AV02-4186EN
+LED Avago PLCC-4 ASMB-MTB0-0A3A2
+0
+4
+4
+sense
+LED_Avago_PLCC4_3.2x2.8mm_CW
+https://docs.broadcom.com/docs/AV02-4186EN
+LED Avago PLCC-4 ASMB-MTB0-0A3A2
+0
+4
+4
+sense
+LED_KPTBD-3216SURKCGKC
+https://docs.broadcom.com/docs/AV02-4186EN
+LED Avago PLCC-4 ASMB-MTB0-0A3A2
+0
+4
+4
+sense
+LOGO
+
+
+0
+0
+0
+sense
+L_0603_HandSoldering
+Resistor SMD 0603, hand soldering
+resistor 0603
+0
+2
+2
+sense
+L_0805
+Resistor SMD 0805, reflow soldering, Vishay (see dcrcw.pdf)
+resistor 0805
+0
+2
+2
+sense
+L_Radial_D12.0mm_P5.00mm_Fastron_11P
+Inductor, Radial series, Radial, pin pitch=5.00mm, , diameter=12.0mm, Fastron, 11P, http://cdn-reichelt.de/documents/datenblatt/B400/DS_11P.pdf
+Inductor Radial series Radial pin pitch 5.00mm  diameter 12.0mm Fastron 11P
+0
+2
+2
+sense
+mdbt42Q
+
+
+0
+41
+41
+sense
+Measurement_Point_Round-SMD-Pad_Small
+Mesurement Point, Round, SMD Pad, DM 1.5mm,
+Mesurement Point Round SMD Pad 1.5mm
+0
+1
+1
+sense
+Molex_KK-6410-02_02x2.54mm_Straight
+Connector Headers with Friction Lock, 22-27-2021, http://www.molex.com/pdm_docs/sd/022272021_sd.pdf
+connector molex kk_6410 22-27-2021
+0
+2
+2
+sense
+Molex_KK-6410-04_04x2.54mm_Straight
+Connector Headers with Friction Lock, 22-27-2041, http://www.molex.com/pdm_docs/sd/022272021_sd.pdf
+connector molex kk_6410 22-27-2041
+0
+4
+4
+sense
+MountingHole_1.7mm_M1.6
+Mounting Hole 1.7mm, no annular, M1.6
+mounting hole 1.7mm no annular m1.6
+0
+0
+0
+sense
+MountingHole_3.2mm_M3
+Mounting Hole 3.2mm, no annular, M3
+mounting hole 3.2mm no annular m3
+0
+0
+0
+sense
+MountingHole_3mm
+Mounting Hole 3mm, no annular
+mounting hole 3mm no annular
+0
+0
+0
+sense
+OSHW1
+
+
+0
+0
+0
+sense
+Pin_Header_Straight_1x02_Pitch2.54mm
+Through hole straight pin header, 1x02, 2.54mm pitch, single row
+Through hole pin header THT 1x02 2.54mm single row
+0
+2
+2
+sense
+PIR_TO5
+
+
+0
+3
+3
+sense
+PJ-32434-3_5mm-AudioJack
+
+
+0
+6
+4
+sense
+PJ_611_5A_Audio Jack
+
+
+0
+9
+5
+sense
+prog_connect
+Tag-Connect programming header; http://www.tag-connect.com/Materials/TC2050-IDC-NL%20Datasheet.pdf
+tag connect programming header pogo pins
+0
+10
+10
+sense
+prog_connect_2x3
+Tag-Connect programming header; http://www.tag-connect.com/Materials/TC2050-IDC-NL%20Datasheet.pdf
+tag connect programming header pogo pins
+0
+6
+6
+sense
+PT12-21C TR8PhotoTransistor
+
+
+0
+2
+2
+sense
+Q13FC1350000400_SMD Crystals 32.768KHz
+
+
+0
+2
+2
+sense
+R_0603_HandSoldering
+Resistor SMD 0603, hand soldering
+resistor 0603
+0
+2
+2
+sense
+R_0805
+Resistor SMD 0805, reflow soldering, Vishay (see dcrcw.pdf)
+resistor 0805
+0
+2
+2
+sense
+SJ2-35863B1-SMT
+
+
+0
+5
+5
+sense
+SlideSwitch_1P2T_RightAngle
+
+
+0
+3
+3
+sense
+SlideSwitch_1P2T_Straight
+
+
+0
+3
+3
+sense
+SMD_tactile_button
+
+
+0
+4
+4
+sense
+SolderWirePad_2x_1-2mmDrill
+
+
+0
+2
+2
+sense
+SolderWirePad_2x_1-5mmDrill
+
+
+0
+2
+1
+sense
+SolderWirePad_4xInline_1-2mmDrill
+
+
+0
+4
+4
+sense
+SOT-23
+SOT-23, Standard
+SOT-23
+0
+3
+3
+sense
+SOT-23-6_Handsoldering
+6-pin SOT-23 package, Handsoldering
+SOT-23-6 Handsoldering
+0
+6
+6
+sense
+SOT-23_Handsoldering
+SOT-23, Handsoldering
+SOT-23
+0
+3
+3
+sense
+SSOP-8_2.95x2.8mm_Pitch0.65mm
+SSOP-8 2.9 x2.8mm Pitch 0.65mm
+SSOP-8 2.95x2.8mm Pitch 0.65mm
+0
+8
+8
+sense
+SSOP-8_2.95x2.8mm_Pitch0.65mm_Hand_Soldering
+SSOP-8 2.9 x2.8mm Pitch 0.65mm
+SSOP-8 2.95x2.8mm Pitch 0.65mm
+0
+8
+8
+sense
+SW_PUSH_6mm
+https://www.omron.com/ecb/products/pdf/en-b3f.pdf
+tact sw push 6mm
+0
+4
+2
+sense
+TACTILE SWITCH 3X4X2MM SMD 2-PIN
+
+
+0
+2
+2
+sense
+TC-1101T-C-A-B_Switch
+
+
+0
+2
+2
+sense
+TSM2301
+SOT-23, Standard
+SOT-23
+0
+3
+3
+sense
+Vishay_MINIMOLD-3Pin
+IR Receiver Vishay TSOP-xxxx, MINIMOLD package, see https://www.vishay.com/docs/82742/tsop331.pdf
+IR Receiver Vishay TSOP-xxxx MINIMOLD
+0
+3
+3
+sense
+XZMDKVG45S(V4-X)
+
+
+0
+4
+4

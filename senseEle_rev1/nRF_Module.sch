@@ -1,0 +1,355 @@
+EESchema Schematic File Version 4
+LIBS:senseEle_rev1-cache
+EELAYER 29 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 4 5
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L sense:MDBT42Q U?
+U 1 1 5D211929
+P 5750 2250
+F 0 "U?" H 5750 3337 60  0000 C CNN
+F 1 "MDBT42Q" H 5750 3231 60  0000 C CNN
+F 2 "" H 5550 3350 60  0000 C CNN
+F 3 "" H 5550 3350 60  0000 C CNN
+	1    5750 2250
+	1    0    0    -1  
+$EndComp
+$Comp
+L sense:GND #PWR?
+U 1 1 5D215D47
+P 825 1225
+F 0 "#PWR?" H 825 975 50  0001 C CNN
+F 1 "GND" H 830 1052 50  0001 C CNN
+F 2 "" H 825 1225 50  0001 C CNN
+F 3 "" H 825 1225 50  0001 C CNN
+	1    825  1225
+	1    0    0    -1  
+$EndComp
+$Comp
+L sense:Crystal Y?
+U 1 1 5D216424
+P 2250 5250
+F 0 "Y?" H 2250 5518 50  0000 C CNN
+F 1 "Crystal" H 2250 5427 50  0000 C CNN
+F 2 "" H 2250 5250 50  0000 C CNN
+F 3 "" H 2250 5250 50  0000 C CNN
+	1    2250 5250
+	1    0    0    -1  
+$EndComp
+$Comp
+L sense:3V3A PWR?
+U 1 1 5D2165F9
+P 825 825
+F 0 "PWR?" H 825 1090 50  0001 C CNN
+F 1 "3V3A" H 871 886 50  0000 L CNN
+F 2 "" H 825 825 50  0001 C CNN
+F 3 "" H 825 825 50  0001 C CNN
+	1    825  825 
+	1    0    0    -1  
+$EndComp
+$Comp
+L sense:VDD_CC112x PWR?
+U 1 1 5D217481
+P 825 1100
+F 0 "PWR?" H 825 1280 50  0001 C CNN
+F 1 "VDD_CC112x" H 873 1165 50  0000 L CNN
+F 2 "" H 825 1100 50  0001 C CNN
+F 3 "" H 825 1100 50  0001 C CNN
+	1    825  1100
+	1    0    0    -1  
+$EndComp
+$Comp
+L sense:C C?
+U 1 1 5D21B997
+P 4125 3375
+F 0 "C?" H 4240 3421 50  0000 L CNN
+F 1 "C" H 4240 3330 50  0000 L CNN
+F 2 "" H 4163 3225 50  0001 C CNN
+F 3 "" H 4125 3375 50  0001 C CNN
+	1    4125 3375
+	1    0    0    -1  
+$EndComp
+$Comp
+L sense:C C?
+U 1 1 5D21C90C
+P 3750 3375
+F 0 "C?" H 3865 3421 50  0000 L CNN
+F 1 "C" H 3865 3330 50  0000 L CNN
+F 2 "" H 3788 3225 50  0001 C CNN
+F 3 "" H 3750 3375 50  0001 C CNN
+	1    3750 3375
+	1    0    0    -1  
+$EndComp
+$Comp
+L sense:GND #PWR?
+U 1 1 5D21CCD8
+P 3750 3750
+F 0 "#PWR?" H 3750 3500 50  0001 C CNN
+F 1 "GND" H 3755 3577 50  0001 C CNN
+F 2 "" H 3750 3750 50  0001 C CNN
+F 3 "" H 3750 3750 50  0001 C CNN
+	1    3750 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L sense:GND #PWR?
+U 1 1 5D21D61E
+P 4125 3750
+F 0 "#PWR?" H 4125 3500 50  0001 C CNN
+F 1 "GND" H 4130 3577 50  0001 C CNN
+F 2 "" H 4125 3750 50  0001 C CNN
+F 3 "" H 4125 3750 50  0001 C CNN
+	1    4125 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L sense:VDD #PWR?
+U 1 1 5D21DC42
+P 675 825
+F 0 "#PWR?" H 675 675 50  0001 C CNN
+F 1 "VDD" H 692 998 50  0000 C CNN
+F 2 "" H 675 825 60  0000 C CNN
+F 3 "" H 675 825 60  0000 C CNN
+	1    675  825 
+	1    0    0    -1  
+$EndComp
+$Comp
+L sense:VDD #PWR?
+U 1 1 5D21EA8F
+P 3500 2950
+F 0 "#PWR?" H 3500 2800 50  0001 C CNN
+F 1 "VDD" H 3517 3123 50  0000 C CNN
+F 2 "" H 3500 2950 60  0000 C CNN
+F 3 "" H 3500 2950 60  0000 C CNN
+	1    3500 2950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3500 2950 3500 3050
+Wire Wire Line
+	3500 3050 3750 3050
+Wire Wire Line
+	3750 3750 3750 3525
+Wire Wire Line
+	4125 3750 4125 3525
+Wire Wire Line
+	3750 3225 3750 3050
+Connection ~ 3750 3050
+Wire Wire Line
+	3750 3050 4125 3050
+Wire Wire Line
+	4125 3225 4125 3050
+Connection ~ 4125 3050
+Wire Wire Line
+	4125 3050 4550 3050
+Text Label 4125 2950 0    50   ~ 0
+DCC
+Text Label 4125 2850 0    50   ~ 0
+DEC4
+Wire Wire Line
+	4125 2850 4550 2850
+Wire Wire Line
+	4550 2950 4125 2950
+$Comp
+L sense:L L?
+U 1 1 5D2209A6
+P 1875 2950
+F 0 "L?" V 2065 2950 50  0000 C CNN
+F 1 "L" V 1974 2950 50  0000 C CNN
+F 2 "" H 1875 2950 50  0001 C CNN
+F 3 "" H 1875 2950 50  0001 C CNN
+	1    1875 2950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L sense:L L?
+U 1 1 5D2222A4
+P 1250 2950
+F 0 "L?" V 1440 2950 50  0000 C CNN
+F 1 "L" V 1349 2950 50  0000 C CNN
+F 2 "" H 1250 2950 50  0001 C CNN
+F 3 "" H 1250 2950 50  0001 C CNN
+	1    1250 2950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L sense:C C?
+U 1 1 5D2227CA
+P 875 3250
+F 0 "C?" H 990 3296 50  0000 L CNN
+F 1 "C" H 990 3205 50  0000 L CNN
+F 2 "" H 913 3100 50  0001 C CNN
+F 3 "" H 875 3250 50  0001 C CNN
+	1    875  3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L sense:GND #PWR?
+U 1 1 5D22303B
+P 875 3625
+F 0 "#PWR?" H 875 3375 50  0001 C CNN
+F 1 "GND" H 880 3452 50  0001 C CNN
+F 2 "" H 875 3625 50  0001 C CNN
+F 3 "" H 875 3625 50  0001 C CNN
+	1    875  3625
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	875  3625 875  3400
+Wire Wire Line
+	875  3100 875  2950
+Wire Wire Line
+	875  2950 1100 2950
+Wire Wire Line
+	1400 2950 1725 2950
+Wire Wire Line
+	2025 2950 2375 2950
+Wire Wire Line
+	875  2950 875  2625
+Wire Wire Line
+	875  2625 2375 2625
+Connection ~ 875  2950
+Text Label 2375 2625 2    50   ~ 0
+DEC4
+Text Label 2375 2950 2    50   ~ 0
+DCC
+$Comp
+L sense:C C?
+U 1 1 5D2263C0
+P 2000 5625
+F 0 "C?" H 2115 5671 50  0000 L CNN
+F 1 "C" H 2115 5580 50  0000 L CNN
+F 2 "" H 2038 5475 50  0001 C CNN
+F 3 "" H 2000 5625 50  0001 C CNN
+	1    2000 5625
+	1    0    0    -1  
+$EndComp
+$Comp
+L sense:C C?
+U 1 1 5D22711B
+P 2500 5625
+F 0 "C?" H 2615 5671 50  0000 L CNN
+F 1 "C" H 2615 5580 50  0000 L CNN
+F 2 "" H 2538 5475 50  0001 C CNN
+F 3 "" H 2500 5625 50  0001 C CNN
+	1    2500 5625
+	1    0    0    -1  
+$EndComp
+$Comp
+L sense:GND #PWR?
+U 1 1 5D22743D
+P 2000 6000
+F 0 "#PWR?" H 2000 5750 50  0001 C CNN
+F 1 "GND" H 2005 5827 50  0001 C CNN
+F 2 "" H 2000 6000 50  0001 C CNN
+F 3 "" H 2000 6000 50  0001 C CNN
+	1    2000 6000
+	1    0    0    -1  
+$EndComp
+$Comp
+L sense:GND #PWR?
+U 1 1 5D227B2F
+P 2500 6000
+F 0 "#PWR?" H 2500 5750 50  0001 C CNN
+F 1 "GND" H 2505 5827 50  0001 C CNN
+F 2 "" H 2500 6000 50  0001 C CNN
+F 3 "" H 2500 6000 50  0001 C CNN
+	1    2500 6000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2500 6000 2500 5775
+Wire Wire Line
+	2000 5775 2000 6000
+Wire Wire Line
+	2000 5475 2000 5250
+Wire Wire Line
+	2500 5475 2500 5250
+Wire Wire Line
+	2100 5250 2000 5250
+Connection ~ 2000 5250
+Wire Wire Line
+	2000 5250 2000 4750
+Wire Wire Line
+	2400 5250 2500 5250
+Connection ~ 2500 5250
+Wire Wire Line
+	2500 5250 2500 4750
+Text HLabel 8250 1550 2    50   BiDi ~ 0
+GPIO0
+Text HLabel 8250 1650 2    50   BiDi ~ 0
+GPIO2
+Text HLabel 8250 1850 2    50   BiDi ~ 0
+CSN
+Text HLabel 8250 1950 2    50   BiDi ~ 0
+SCLK
+Text HLabel 8250 2150 2    50   BiDi ~ 0
+MOSI
+Text HLabel 8250 2250 2    50   BiDi ~ 0
+MISO
+$Comp
+L sense:GND #PWR?
+U 1 1 5D22E4D9
+P 4125 1000
+F 0 "#PWR?" H 4125 750 50  0001 C CNN
+F 1 "GND" H 4130 827 50  0001 C CNN
+F 2 "" H 4125 1000 50  0001 C CNN
+F 3 "" H 4125 1000 50  0001 C CNN
+	1    4125 1000
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4125 1000 4125 1600
+Wire Wire Line
+	4125 1900 4550 1900
+Wire Wire Line
+	4550 1800 4125 1800
+Connection ~ 4125 1800
+Wire Wire Line
+	4125 1800 4125 1900
+Wire Wire Line
+	4550 1700 4125 1700
+Connection ~ 4125 1700
+Wire Wire Line
+	4125 1700 4125 1800
+Wire Wire Line
+	4550 1600 4125 1600
+Connection ~ 4125 1600
+Wire Wire Line
+	4125 1600 4125 1700
+Text Label 5250 4250 1    50   ~ 0
+XL1
+Text Label 5350 4250 1    50   ~ 0
+XL2
+Wire Wire Line
+	5350 4250 5350 3800
+Wire Wire Line
+	5250 3800 5250 4250
+Text Label 2000 4750 3    50   ~ 0
+XL1
+Text Label 2500 4750 3    50   ~ 0
+XL2
+Wire Wire Line
+	8250 1550 6950 1550
+Wire Wire Line
+	6950 1650 8250 1650
+Wire Wire Line
+	8250 1850 6950 1850
+Wire Wire Line
+	6950 1950 8250 1950
+Wire Wire Line
+	8250 2150 6950 2150
+Wire Wire Line
+	6950 2250 8250 2250
+$EndSCHEMATC

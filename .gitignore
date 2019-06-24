@@ -18,3 +18,7 @@ _autosave-*
 # Exported BOM files
 *.xml
 sense_rev3/Datasheets/gainta_enclosures.pdf
+
+#Cache and rescue lib files
+*cache.lib
+*rescue.lib

@@ -1,6 +1,5 @@
 EESchema Schematic File Version 4
 LIBS:senseBe_rev4_main-cache
-LIBS:senseBe_rev3_daughter-cache
 EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
@@ -15,7 +14,7 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text Notes 2565 3435 0    50   ~ 0
+Text Notes 2870 885  0    50   ~ 0
 Infra Red LED Tx
 $Comp
 L sense:R R?
@@ -46,14 +45,14 @@ $EndComp
 $Comp
 L LED:SFH4546 D?
 U 1 1 5CB2938B
-P 2990 3660
+P 3295 1110
 AR Path="/5CB2938B" Ref="D?"  Part="1" 
 AR Path="/5C63BFE8/5CB2938B" Ref="D3"  Part="1" 
-F 0 "D3" H 2850 3765 50  0000 R CNN
-F 1 "SFH4545" H 3145 3525 50  0000 R CNN
-F 2 "LED_THT:LED_D5.0mm" H 2990 3660 50  0001 C CNN
-F 3 "~" H 2990 3660 50  0001 C CNN
-	1    2990 3660
+F 0 "D3" H 3155 1215 50  0000 R CNN
+F 1 "SFH4545" H 3450 975 50  0000 R CNN
+F 2 "LED_THT:LED_D5.0mm" H 3295 1110 50  0001 C CNN
+F 3 "~" H 3295 1110 50  0001 C CNN
+	1    3295 1110
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -167,27 +166,27 @@ $EndComp
 $Comp
 L sense:C C?
 U 1 1 5CB293C8
-P 3415 4110
+P 3720 1560
 AR Path="/5CB293C8" Ref="C?"  Part="1" 
 AR Path="/5C63BFE8/5CB293C8" Ref="C8"  Part="1" 
-F 0 "C8" H 3530 4156 50  0000 L CNN
-F 1 "10u" H 3530 4065 50  0000 L CNN
-F 2 "sense:C_0603_HandSoldering" H 3453 3960 50  0001 C CNN
-F 3 "~" H 3415 4110 50  0001 C CNN
-	1    3415 4110
+F 0 "C8" H 3835 1606 50  0000 L CNN
+F 1 "10u" H 3835 1515 50  0000 L CNN
+F 2 "sense:C_0603_HandSoldering" H 3758 1410 50  0001 C CNN
+F 3 "~" H 3720 1560 50  0001 C CNN
+	1    3720 1560
 	1    0    0    -1  
 $EndComp
 $Comp
 L sense:GND #PWR?
 U 1 1 5CB293CE
-P 3415 4435
+P 3720 1885
 AR Path="/5CB293CE" Ref="#PWR?"  Part="1" 
 AR Path="/5C63BFE8/5CB293CE" Ref="#PWR028"  Part="1" 
-F 0 "#PWR028" H 3415 4185 50  0001 C CNN
-F 1 "GND" H 3420 4262 50  0000 C CNN
-F 2 "" H 3415 4435 50  0001 C CNN
-F 3 "" H 3415 4435 50  0001 C CNN
-	1    3415 4435
+F 0 "#PWR028" H 3720 1635 50  0001 C CNN
+F 1 "GND" H 3725 1712 50  0000 C CNN
+F 2 "" H 3720 1885 50  0001 C CNN
+F 3 "" H 3720 1885 50  0001 C CNN
+	1    3720 1885
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -238,23 +237,23 @@ Wire Wire Line
 $Comp
 L sense:GND #PWR?
 U 1 1 5CB293E9
-P 2440 4435
+P 2745 1885
 AR Path="/5CB293E9" Ref="#PWR?"  Part="1" 
 AR Path="/5C63BFE8/5CB293E9" Ref="#PWR025"  Part="1" 
-F 0 "#PWR025" H 2440 4185 50  0001 C CNN
-F 1 "GND" H 2445 4262 50  0000 C CNN
-F 2 "" H 2440 4435 50  0001 C CNN
-F 3 "" H 2440 4435 50  0001 C CNN
-	1    2440 4435
+F 0 "#PWR025" H 2745 1635 50  0001 C CNN
+F 1 "GND" H 2750 1712 50  0000 C CNN
+F 2 "" H 2745 1885 50  0001 C CNN
+F 3 "" H 2745 1885 50  0001 C CNN
+	1    2745 1885
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2440 4110 2440 4435
+	2745 1560 2745 1885
 Wire Wire Line
-	3415 4260 3415 4435
+	3720 1710 3720 1885
 Wire Wire Line
-	3415 3960 3415 3660
-Text Label 3640 3660 2    50   ~ 0
+	3720 1410 3720 1110
+Text Label 3945 1110 2    50   ~ 0
 VLED
 $Comp
 L sense:GND #PWR?
@@ -330,35 +329,35 @@ $EndComp
 $Comp
 L sense:R R?
 U 1 1 5CB2941D
-P 1840 4210
+P 2145 1660
 AR Path="/5CB2941D" Ref="R?"  Part="1" 
 AR Path="/5C63BFE8/5CB2941D" Ref="R10"  Part="1" 
-F 0 "R10" H 1910 4256 50  0000 L CNN
-F 1 "470k" H 1910 4165 50  0000 L CNN
-F 2 "sense:R_0603_HandSoldering" V 1770 4210 50  0001 C CNN
-F 3 "~" H 1840 4210 50  0001 C CNN
-	1    1840 4210
+F 0 "R10" H 2215 1706 50  0000 L CNN
+F 1 "470k" H 2215 1615 50  0000 L CNN
+F 2 "sense:R_0603_HandSoldering" V 2075 1660 50  0001 C CNN
+F 3 "~" H 2145 1660 50  0001 C CNN
+	1    2145 1660
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1840 4060 1840 3910
+	2145 1510 2145 1360
 Wire Wire Line
-	1840 3910 2140 3910
+	2145 1360 2445 1360
 $Comp
 L sense:GND #PWR?
 U 1 1 5CB29425
-P 1840 4435
+P 2145 1885
 AR Path="/5CB29425" Ref="#PWR?"  Part="1" 
 AR Path="/5C63BFE8/5CB29425" Ref="#PWR023"  Part="1" 
-F 0 "#PWR023" H 1840 4185 50  0001 C CNN
-F 1 "GND" H 1845 4262 50  0000 C CNN
-F 2 "" H 1840 4435 50  0001 C CNN
-F 3 "" H 1840 4435 50  0001 C CNN
-	1    1840 4435
+F 0 "#PWR023" H 2145 1635 50  0001 C CNN
+F 1 "GND" H 2150 1712 50  0000 C CNN
+F 2 "" H 2145 1885 50  0001 C CNN
+F 3 "" H 2145 1885 50  0001 C CNN
+	1    2145 1885
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1840 4360 1840 4435
+	2145 1810 2145 1885
 Wire Wire Line
 	9315 3085 9540 3085
 $Comp
@@ -393,11 +392,11 @@ F 3 "" H 7040 1110 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3090 3660 3415 3660
+	3395 1110 3720 1110
 Wire Wire Line
-	2440 3710 2440 3660
+	2745 1160 2745 1110
 Wire Wire Line
-	2440 3660 2790 3660
+	2745 1110 3095 1110
 Wire Wire Line
 	10465 3735 10465 3785
 Wire Wire Line
@@ -431,11 +430,11 @@ Wire Wire Line
 Text Notes 7980 820  0    50   ~ 0
 Buck Regulator for IR LED\ninput Voltage/Current control.
 Wire Wire Line
-	3640 3660 3415 3660
-Connection ~ 3415 3660
+	3945 1110 3720 1110
+Connection ~ 3720 1110
 Wire Wire Line
-	1590 3910 1840 3910
-Connection ~ 1840 3910
+	1895 1360 2145 1360
+Connection ~ 2145 1360
 Connection ~ 10290 1110
 Wire Wire Line
 	9190 3085 9315 3085
@@ -457,19 +456,19 @@ Text HLabel 9190 3085 0    50   Input ~ 0
 PWR1
 Text HLabel 7745 1510 0    50   Input ~ 0
 REG_EN
-Text HLabel 1590 3910 0    50   Input ~ 0
+Text HLabel 1895 1360 0    50   Input ~ 0
 IR_LED_EN
 $Comp
 L Transistor_FET:2N7002 Q?
 U 1 1 5CAF0419
-P 2340 3910
+P 2645 1360
 AR Path="/5CAF0419" Ref="Q?"  Part="1" 
 AR Path="/5C63BFE8/5CAF0419" Ref="Q4"  Part="1" 
-F 0 "Q4" H 2205 4045 50  0000 L CNN
-F 1 "SI2302" H 2110 3700 50  0000 L CNN
-F 2 "sense:SOT-23" H 2540 3835 50  0001 L CIN
-F 3 "https://www.fairchildsemi.com/datasheets/2N/2N7002.pdf" H 2340 3910 50  0001 L CNN
-	1    2340 3910
+F 0 "Q4" H 2510 1495 50  0000 L CNN
+F 1 "SI2302" H 2415 1150 50  0000 L CNN
+F 2 "sense:SOT-23" H 2845 1285 50  0001 L CIN
+F 3 "https://www.fairchildsemi.com/datasheets/2N/2N7002.pdf" H 2645 1360 50  0001 L CNN
+	1    2645 1360
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -539,198 +538,19 @@ Text HLabel 10665 1110 2    50   Input ~ 0
 VLED
 Wire Wire Line
 	10290 1110 10665 1110
-$Comp
-L Device:Battery_Cell BT1
-U 1 1 5A868475
-P 1170 1485
-F 0 "BT1" H 1270 1535 50  0000 L CNN
-F 1 "Battery" H 1270 1435 50  0000 L CNN
-F 2 "sense:Molex_KK-6410-02_02x2.54mm_Straight" H 1170 1525 60  0001 C CNN
-F 3 "" V 1170 1525 60  0000 C CNN
-	1    1170 1485
-	1    0    0    -1  
-$EndComp
-$Comp
-L senseBe_rev3_daughter-rescue:LOGO-senseBeRx_rev1-senseBeRx_rev2-rescue-senseBeRx_rev3-rescue-senseBe_rev1-rescue-senseBe_rev1-rescue-senseBe_rev2-rescue #G2
-U 1 1 5A868666
-P 10960 6860
-F 0 "#G2" H 10960 6662 60  0001 C CNN
-F 1 "LOGO" H 10960 7058 60  0001 C CNN
-F 2 "sense_rev3_fp:LOGO" H 10960 6860 60  0001 C CNN
-F 3 "" H 10960 6860 60  0001 C CNN
-	1    10960 6860
-	1    0    0    -1  
-$EndComp
-$Comp
-L senseBe_rev3_daughter-rescue:C-senseBeRx_rev1-senseBeRx_rev2-rescue-senseBeRx_rev3-rescue-senseBe_rev1-rescue-senseBe_rev1-rescue-senseBe_rev2-rescue C9
-U 1 1 5A8689DA
-P 4210 1345
-F 0 "C9" H 4235 1445 50  0000 L CNN
-F 1 "10uF" H 4235 1245 50  0000 L CNN
-F 2 "sense:C_0603_HandSoldering" H 4248 1195 30  0001 C CNN
-F 3 "" H 4210 1345 60  0000 C CNN
-	1    4210 1345
-	1    0    0    -1  
-$EndComp
-$Comp
-L senseBe_rev3_daughter-rescue:GND-senseBeRx_rev1-senseBeRx_rev2-rescue-senseBeRx_rev3-rescue-senseBe_rev1-rescue-senseBe_rev1-rescue-senseBe_rev2-rescue #PWR026
-U 1 1 5A86D9CE
-P 2615 1990
-F 0 "#PWR026" H 2615 1740 50  0001 C CNN
-F 1 "GND" H 2615 1840 50  0000 C CNN
-F 2 "" H 2615 1990 60  0000 C CNN
-F 3 "" H 2615 1990 60  0000 C CNN
-	1    2615 1990
-	1    0    0    -1  
-$EndComp
-$Comp
-L senseBe_rev3_daughter-rescue:VDD-senseBeRx_rev1-senseBeRx_rev2-rescue-senseBeRx_rev3-rescue-senseBe_rev1-rescue-senseBe_rev1-rescue-senseBe_rev2-rescue #PWR029
-U 1 1 5A86DA3A
-P 4210 890
-F 0 "#PWR029" H 4210 740 50  0001 C CNN
-F 1 "VDD" H 4210 1040 50  0000 C CNN
-F 2 "" H 4210 890 60  0000 C CNN
-F 3 "" H 4210 890 60  0000 C CNN
-	1    4210 890 
-	1    0    0    -1  
-$EndComp
-$Comp
-L senseBe_rev3_daughter-rescue:GND-senseBeRx_rev1-senseBeRx_rev2-rescue-senseBeRx_rev3-rescue-senseBe_rev1-rescue-senseBe_rev1-rescue-senseBe_rev2-rescue #PWR024
-U 1 1 5A8704B4
-P 1905 6540
-F 0 "#PWR024" H 1905 6290 50  0001 C CNN
-F 1 "GND" H 1905 6390 50  0000 C CNN
-F 2 "" H 1905 6540 60  0000 C CNN
-F 3 "" H 1905 6540 60  0000 C CNN
-	1    1905 6540
-	1    0    0    -1  
-$EndComp
-Text Label 3255 6115 2    60   ~ 0
+Text Label 6585 5195 2    60   ~ 0
 BUTTON
-Text Notes 490  1425 0    60   ~ 0
-Two 1.2V \nAA Batteries
-Text Notes 2475 730  0    60   ~ 0
-Reverse polarity protection
-Text Notes 1940 5775 0    60   ~ 0
+Text Notes 5270 4855 0    60   ~ 0
 A momentary push button \nwith debouncing cap to \nswitch to config. mode
-$Comp
-L senseBe_rev3_daughter-rescue:C-senseBeRx_rev1-senseBeRx_rev2-rescue-senseBeRx_rev3-rescue-senseBe_rev1-rescue-senseBe_rev1-rescue-senseBe_rev2-rescue C7
-U 1 1 5BB68ABA
-P 2855 6340
-F 0 "C7" H 2880 6440 50  0000 L CNN
-F 1 "100nF" H 2880 6240 50  0000 L CNN
-F 2 "sense:C_0603_HandSoldering" H 2893 6190 30  0001 C CNN
-F 3 "" H 2855 6340 60  0000 C CNN
-	1    2855 6340
-	-1   0    0    1   
-$EndComp
 Wire Wire Line
-	2855 6190 2855 6115
-$Comp
-L senseBe_rev3_daughter-rescue:GND-senseBeRx_rev1-senseBeRx_rev2-rescue-senseBeRx_rev3-rescue-senseBe_rev1-rescue-senseBe_rev1-rescue-senseBe_rev2-rescue #PWR027
-U 1 1 5BB6D282
-P 2855 6540
-F 0 "#PWR027" H 2855 6290 50  0001 C CNN
-F 1 "GND" H 2855 6390 50  0000 C CNN
-F 2 "" H 2855 6540 60  0000 C CNN
-F 3 "" H 2855 6540 60  0000 C CNN
-	1    2855 6540
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	2855 6490 2855 6540
-Text Label 5405 6060 2    50   ~ 0
-TRIGGER
-Text Label 5405 6465 2    50   ~ 0
-FOCUS
-Text Notes 4390 5705 0    60   ~ 0
+	6185 5270 6185 5195
+Text Notes 5305 2885 0    60   ~ 0
 3.5mm Audio Jack\nPort to trigger the camera
 Wire Wire Line
-	2855 6115 3255 6115
+	6185 5195 6585 5195
 Wire Wire Line
-	1170 1845 2105 1845
-Wire Wire Line
-	4210 1845 4210 1495
-Wire Wire Line
-	1170 1285 1170 1045
-Wire Wire Line
-	3315 945  4210 945 
-Wire Wire Line
-	4210 945  4210 1195
-Wire Wire Line
-	4210 890  4210 945 
-Connection ~ 4210 945 
-Wire Wire Line
-	2090 6115 2060 6115
-Wire Wire Line
-	1905 6115 1905 6540
-Wire Wire Line
-	2490 6115 2525 6115
-Connection ~ 2855 6115
-Text Label 5405 6145 2    50   ~ 0
-CAM_JACK
-$Comp
-L power:GND #PWR030
-U 1 1 5CB3B5D7
-P 5405 6580
-F 0 "#PWR030" H 5405 6330 50  0001 C CNN
-F 1 "GND" H 5410 6407 50  0000 C CNN
-F 2 "" H 5405 6580 50  0001 C CNN
-F 3 "" H 5405 6580 50  0001 C CNN
-	1    5405 6580
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	3115 1245 3115 1845
-Wire Wire Line
-	3115 1845 4210 1845
-$Comp
-L senseBe_rev3_daughter-rescue:SW_Push_Dual-senseBe_rev3_daughter-rescue-senseBe_rev3_daughter-rescue SW2
-U 1 1 5CB459CC
-P 2290 6115
-F 0 "SW2" H 2290 6400 50  0000 C CNN
-F 1 "SW_Push_Dual" H 2290 6309 50  0000 C CNN
-F 2 "sense:SW_PUSH_6mm" H 2290 6315 50  0001 C CNN
-F 3 "~" H 2290 6315 50  0001 C CNN
-	1    2290 6115
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	2090 6315 2060 6315
-Wire Wire Line
-	2060 6315 2060 6115
-Connection ~ 2060 6115
-Wire Wire Line
-	2060 6115 1905 6115
-Wire Wire Line
-	2490 6315 2525 6315
-Wire Wire Line
-	2525 6315 2525 6115
-Connection ~ 2525 6115
-Wire Wire Line
-	2525 6115 2855 6115
-$Comp
-L senseBe_rev3_daughter-rescue:Mounting_Hole-senseBeRx_rev1-senseBeRx_rev2-rescue-senseBeRx_rev3-rescue-senseBe_rev1-rescue-senseBe_rev1-rescue-senseBe_rev2-rescue MK3
-U 1 1 5CB04803
-P 6230 7360
-F 0 "MK3" H 6330 7406 50  0000 L CNN
-F 1 "Mounting_Hole" H 6330 7315 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2.7mm_M2.5" H 6230 7360 50  0001 C CNN
-F 3 "" H 6230 7360 50  0001 C CNN
-	1    6230 7360
-	1    0    0    -1  
-$EndComp
-$Comp
-L senseBe_rev3_daughter-rescue:Mounting_Hole-senseBeRx_rev1-senseBeRx_rev2-rescue-senseBeRx_rev3-rescue-senseBe_rev1-rescue-senseBe_rev1-rescue-senseBe_rev2-rescue MK4
-U 1 1 5CB04F65
-P 6230 7590
-F 0 "MK4" H 6330 7636 50  0000 L CNN
-F 1 "Mounting_Hole" H 6330 7545 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2.7mm_M2.5" H 6230 7590 50  0001 C CNN
-F 3 "" H 6230 7590 50  0001 C CNN
-	1    6230 7590
-	1    0    0    -1  
-$EndComp
+	5235 5195 5235 5620
+Connection ~ 6185 5195
 $Comp
 L sense:C C?
 U 1 1 5CB2937F
@@ -746,91 +566,268 @@ F 3 "~" H 7240 1385 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	7240 1685 7240 1535
-$Comp
-L Transistor_FET:2N7002 Q5
-U 1 1 5A8BFDEB
-P 3115 1045
-F 0 "Q5" V 3365 1095 50  0000 R CNN
-F 1 "TSM2301" V 3040 945 50  0000 R CNN
-F 2 "sense:SOT-23" H 3315 1145 29  0001 C CNN
-F 3 "" H 3115 1045 60  0000 C CNN
-	1    3115 1045
-	0    -1   -1   0   
-$EndComp
 Wire Wire Line
 	7815 1935 7815 1990
 $Comp
-L Switch:SW_Push_SPDT SW1
-U 1 1 5CAF2A95
-P 1905 1045
-F 0 "SW1" H 1905 815 50  0000 C CNN
-F 1 "SW_Push_SPDT" H 1905 885 50  0000 C CNN
-F 2 "sense:SlideSwitch_1P2T_Straight" H 1905 1045 50  0001 C CNN
-F 3 "~" H 1905 1045 50  0001 C CNN
-	1    1905 1045
-	1    0    0    1   
-$EndComp
-Wire Wire Line
-	2105 945  2915 945 
-Wire Wire Line
-	2105 1145 2105 1845
-Wire Wire Line
-	1705 1045 1170 1045
-Wire Wire Line
-	1170 1585 1170 1845
-$Comp
-L senseBe_rev3_daughter-rescue:Mounting_Hole-senseBeRx_rev1-senseBeRx_rev2-rescue-senseBeRx_rev3-rescue-senseBe_rev1-rescue-senseBe_rev1-rescue-senseBe_rev2-rescue MK1
-U 1 1 5D06AABA
-P 5470 7360
-F 0 "MK1" H 5570 7406 50  0000 L CNN
-F 1 "Mounting_Hole" H 5570 7315 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2.7mm_M2.5" H 5470 7360 50  0001 C CNN
-F 3 "" H 5470 7360 50  0001 C CNN
-	1    5470 7360
-	1    0    0    -1  
-$EndComp
-$Comp
-L senseBe_rev3_daughter-rescue:Mounting_Hole-senseBeRx_rev1-senseBeRx_rev2-rescue-senseBeRx_rev3-rescue-senseBe_rev1-rescue-senseBe_rev1-rescue-senseBe_rev2-rescue MK2
-U 1 1 5D06BA48
-P 5470 7590
-F 0 "MK2" H 5570 7636 50  0000 L CNN
-F 1 "Mounting_Hole" H 5570 7545 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2.7mm_M2.5" H 5470 7590 50  0001 C CNN
-F 3 "" H 5470 7590 50  0001 C CNN
-	1    5470 7590
-	1    0    0    -1  
-$EndComp
-$Comp
 L sense:PJ-611-5A_AudioJack J1
 U 1 1 5D09320C
-P 4685 6305
-F 0 "J1" H 4743 6775 50  0000 C CNN
-F 1 "PJ-611-5A_AudioJack" H 4743 6684 50  0000 C CNN
-F 2 "sense:PJ_611_5A_Audio Jack" H 4685 6685 50  0001 C CNN
-F 3 "" H 4685 6685 50  0001 C CNN
-	1    4685 6305
+P 5600 3485
+F 0 "J1" H 5658 3955 50  0000 C CNN
+F 1 "PJ-611-5A_AudioJack" H 5658 3864 50  0000 C CNN
+F 2 "sense:PJ_611_5A_Audio Jack" H 5600 3865 50  0001 C CNN
+F 3 "" H 5600 3865 50  0001 C CNN
+	1    5600 3485
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5405 6580 5405 6545
+	6015 3645 5900 3645
 Wire Wire Line
-	5405 6545 4985 6545
+	5900 3485 5900 3645
+Connection ~ 5900 3645
 Wire Wire Line
-	5405 6465 4985 6465
+	6015 3325 5900 3325
 Wire Wire Line
-	4985 6305 4985 6465
-Connection ~ 4985 6465
+	5900 3240 6015 3240
+$Comp
+L sense:C C?
+U 1 1 5D298B6A
+P 6185 5420
+AR Path="/5D298B6A" Ref="C?"  Part="1" 
+AR Path="/5C63BFE8/5D298B6A" Ref="C7"  Part="1" 
+F 0 "C7" H 6300 5466 50  0000 L CNN
+F 1 "100nF" H 6300 5375 50  0000 L CNN
+F 2 "sense:C_0603_HandSoldering" H 6223 5270 50  0001 C CNN
+F 3 "~" H 6185 5420 50  0001 C CNN
+	1    6185 5420
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR024
+U 1 1 5D2995F6
+P 5235 5620
+F 0 "#PWR024" H 5235 5370 50  0001 C CNN
+F 1 "GND" H 5240 5447 50  0000 C CNN
+F 2 "" H 5235 5620 50  0001 C CNN
+F 3 "" H 5235 5620 50  0001 C CNN
+	1    5235 5620
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR027
+U 1 1 5D29A08D
+P 6185 5620
+F 0 "#PWR027" H 6185 5370 50  0001 C CNN
+F 1 "GND" H 6190 5447 50  0000 C CNN
+F 2 "" H 6185 5620 50  0001 C CNN
+F 3 "" H 6185 5620 50  0001 C CNN
+	1    6185 5620
+	1    0    0    -1  
+$EndComp
 Wire Wire Line
-	5405 6145 4985 6145
+	6185 5570 6185 5620
+Text HLabel 6015 3240 2    50   Input ~ 0
+TRIGGER
+Text HLabel 6015 3325 2    50   Input ~ 0
+CAM_JACK
+Text HLabel 6015 3645 2    50   Input ~ 0
+FOCUS
+$Comp
+L power:GND #PWR030
+U 1 1 5CB3B5D7
+P 6015 3760
+F 0 "#PWR030" H 6015 3510 50  0001 C CNN
+F 1 "GND" H 6020 3587 50  0000 C CNN
+F 2 "" H 6015 3760 50  0001 C CNN
+F 3 "" H 6015 3760 50  0001 C CNN
+	1    6015 3760
+	1    0    0    -1  
+$EndComp
 Wire Wire Line
-	4985 6060 5405 6060
-Connection ~ 2105 1845
-Connection ~ 3115 1845
+	6015 3760 6015 3725
 Wire Wire Line
-	2615 1990 2615 1845
+	6015 3725 5900 3725
 Wire Wire Line
-	2105 1845 2615 1845
-Connection ~ 2615 1845
+	5235 5195 5420 5195
 Wire Wire Line
-	2615 1845 3115 1845
+	5820 5195 6185 5195
+$Comp
+L sense:SW_SPST SW2
+U 1 1 5D355B44
+P 5620 5195
+F 0 "SW2" H 5620 5430 50  0000 C CNN
+F 1 "SW_SPST" H 5620 5339 50  0000 C CNN
+F 2 "" H 5620 5195 50  0001 C CNN
+F 3 "" H 5620 5195 50  0001 C CNN
+	1    5620 5195
+	1    0    0    -1  
+$EndComp
+$Comp
+L sense:TSSP40xx U?
+U 1 1 5D3760F6
+P 1695 5620
+AR Path="/5D3760F6" Ref="U?"  Part="1" 
+AR Path="/5C63BFE8/5D3760F6" Ref="U2"  Part="1" 
+F 0 "U2" H 1670 5945 50  0000 C CNN
+F 1 "TSSP4056" H 1670 5295 50  0000 C CNN
+F 2 "sense:Vishay_MINIMOLD-3Pin" H 1645 5245 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/82462/tsop581.pdf" H 2345 5920 50  0001 C CNN
+	1    1695 5620
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2495 5420 2495 5020
+$Comp
+L sense:VDD #PWR?
+U 1 1 5D3760FD
+P 2495 4920
+AR Path="/5D3760FD" Ref="#PWR?"  Part="1" 
+AR Path="/5C63BFE8/5D3760FD" Ref="#PWR019"  Part="1" 
+F 0 "#PWR019" H 2495 4770 50  0001 C CNN
+F 1 "VDD" H 2512 5093 50  0000 C CNN
+F 2 "" H 2495 4920 60  0000 C CNN
+F 3 "" H 2495 4920 60  0000 C CNN
+	1    2495 4920
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2495 5820 2495 5895
+$Comp
+L sense:R R?
+U 1 1 5D376104
+P 2495 6045
+AR Path="/5D376104" Ref="R?"  Part="1" 
+AR Path="/5C63BFE8/5D376104" Ref="R8"  Part="1" 
+F 0 "R8" H 2345 6045 50  0000 L CNN
+F 1 "3.9M" H 2270 6120 50  0000 L CNN
+F 2 "sense:R_0603_HandSoldering" V 2425 6045 30  0001 C CNN
+F 3 "" H 2495 6045 30  0000 C CNN
+	1    2495 6045
+	1    0    0    -1  
+$EndComp
+$Comp
+L sense:GND #PWR?
+U 1 1 5D37610A
+P 2495 6395
+AR Path="/5D37610A" Ref="#PWR?"  Part="1" 
+AR Path="/5C63BFE8/5D37610A" Ref="#PWR022"  Part="1" 
+F 0 "#PWR022" H 2495 6145 50  0001 C CNN
+F 1 "GND" H 2495 6245 50  0000 C CNN
+F 2 "" H 2495 6395 60  0000 C CNN
+F 3 "" H 2495 6395 60  0000 C CNN
+	1    2495 6395
+	1    0    0    -1  
+$EndComp
+$Comp
+L sense:C C?
+U 1 1 5D376110
+P 2670 5195
+AR Path="/5D376110" Ref="C?"  Part="1" 
+AR Path="/5C63BFE8/5D376110" Ref="C9"  Part="1" 
+F 0 "C9" H 2785 5241 50  0000 L CNN
+F 1 "100nF" H 2785 5150 50  0000 L CNN
+F 2 "sense:C_0603_HandSoldering" H 2708 5045 30  0001 C CNN
+F 3 "" H 2670 5195 60  0000 C CNN
+	1    2670 5195
+	1    0    0    -1  
+$EndComp
+$Comp
+L sense:GND #PWR?
+U 1 1 5D376116
+P 2670 5395
+AR Path="/5D376116" Ref="#PWR?"  Part="1" 
+AR Path="/5C63BFE8/5D376116" Ref="#PWR026"  Part="1" 
+F 0 "#PWR026" H 2670 5145 50  0001 C CNN
+F 1 "GND" H 2670 5245 50  0000 C CNN
+F 2 "" H 2670 5395 60  0000 C CNN
+F 3 "" H 2670 5395 60  0000 C CNN
+	1    2670 5395
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2670 5345 2670 5395
+Wire Wire Line
+	2495 5020 2670 5020
+Wire Wire Line
+	2670 5020 2670 5045
+Connection ~ 2495 5020
+Wire Wire Line
+	2495 5020 2495 4920
+Wire Wire Line
+	2770 6295 2770 6270
+Wire Wire Line
+	2495 6295 2770 6295
+Wire Wire Line
+	2770 5820 2770 5870
+Wire Wire Line
+	2495 5820 2770 5820
+Wire Wire Line
+	2495 6195 2495 6295
+Text Notes 1190 5115 0    60   ~ 0
+IR pattern receiver \nwith an enable switch\n
+$Comp
+L sense:GND #PWR?
+U 1 1 5D376129
+P 3395 6650
+AR Path="/5D376129" Ref="#PWR?"  Part="1" 
+AR Path="/5C63BFE8/5D376129" Ref="#PWR029"  Part="1" 
+F 0 "#PWR029" H 3395 6400 50  0001 C CNN
+F 1 "GND" H 3395 6475 50  0000 C CNN
+F 2 "" H 3395 6650 60  0000 C CNN
+F 3 "" H 3395 6650 60  0000 C CNN
+	1    3395 6650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Transistor_FET:2N7002 Q?
+U 1 1 5D37612F
+P 2870 6070
+AR Path="/5D37612F" Ref="Q?"  Part="1" 
+AR Path="/5C63BFE8/5D37612F" Ref="Q5"  Part="1" 
+F 0 "Q5" H 2735 6205 50  0000 L CNN
+F 1 "SI2302" H 2640 5860 50  0000 L CNN
+F 2 "sense:SOT-23" H 3070 5995 50  0001 L CIN
+F 3 "https://www.fairchildsemi.com/datasheets/2N/2N7002.pdf" H 2870 6070 50  0001 L CNN
+	1    2870 6070
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	2495 6395 2495 6295
+Connection ~ 2495 6295
+$Comp
+L sense:R R?
+U 1 1 5D376137
+P 3395 6390
+AR Path="/5D376137" Ref="R?"  Part="1" 
+AR Path="/5C63BFE8/5D376137" Ref="R9"  Part="1" 
+F 0 "R9" H 3245 6390 50  0000 L CNN
+F 1 "470k" H 3145 6465 50  0000 L CNN
+F 2 "sense:R_0603_HandSoldering" V 3325 6390 30  0001 C CNN
+F 3 "" H 3395 6390 30  0000 C CNN
+	1    3395 6390
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3395 6540 3395 6650
+Wire Wire Line
+	3070 6070 3395 6070
+Wire Wire Line
+	3395 6240 3395 6070
+Connection ~ 3395 6070
+Wire Wire Line
+	3395 6070 3670 6070
+Wire Wire Line
+	2095 5820 2495 5820
+Connection ~ 2495 5820
+Wire Wire Line
+	2095 5620 2495 5620
+Wire Wire Line
+	2095 5420 2495 5420
+Text GLabel 2440 5020 0    50   Input ~ 0
+VDD
+Wire Wire Line
+	2440 5020 2495 5020
+Text HLabel 3670 6070 2    50   Input ~ 0
+RX_EN
+Text HLabel 2495 5620 2    50   Input ~ 0
+RX_OUT
 $EndSCHEMATC

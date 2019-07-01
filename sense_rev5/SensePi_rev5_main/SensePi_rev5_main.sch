@@ -431,14 +431,10 @@ Text Label 6715 3250 2    60   ~ 0
 SWDCLK
 Text Label 6715 3350 2    60   ~ 0
 RESET
-Text Label 6715 3750 2    60   ~ 0
+Text Label 6715 3550 2    60   ~ 0
 RX
 Text Label 6715 3450 2    60   ~ 0
 TX
-Text Label 6715 3550 2    60   ~ 0
-GPIO1
-Text Label 6715 3650 2    60   ~ 0
-GPIO2
 $Comp
 L sense:VDD #PWR09
 U 1 1 5A8A9811
@@ -483,9 +479,9 @@ Text Label 4020 1710 0    60   ~ 0
 LED_RED
 Text Label 6450 1710 2    60   ~ 0
 LED_GREEN
-Text Label 1755 7135 2    60   ~ 0
-SWDIO
 Text Label 1755 7035 2    60   ~ 0
+SWDIO
+Text Label 1755 7135 2    60   ~ 0
 SWDCLK
 Text Label 1755 7335 2    60   ~ 0
 RX
@@ -1011,10 +1007,6 @@ Wire Wire Line
 	6715 3350 6065 3350
 Wire Wire Line
 	6715 3550 6065 3550
-Wire Wire Line
-	6065 3650 6715 3650
-Wire Wire Line
-	6715 3750 6065 3750
 Wire Wire Line
 	6665 4150 6065 4150
 Wire Wire Line
@@ -1604,4 +1596,6 @@ Wire Wire Line
 	6435 6565 5745 6565
 Wire Wire Line
 	5745 6480 6435 6480
+NoConn ~ 6065 3750
+NoConn ~ 6065 3650
 $EndSCHEMATC

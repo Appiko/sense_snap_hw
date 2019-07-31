@@ -1,0 +1,51 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <title>KiCad BOM Example 5</title>
+    </head>
+    <body>
+    <h1>/home/shubham/Appiko/sense_snap_hw/senseBe_rev2/senseBe_rev2.sch</h1>
+    <p>Thu Feb 28 14:25:27 2019</p>
+    <p>Eeschema 5.0.2-bee76a0~70~ubuntu16.04.1</p>
+    <p><b>Component Count:</b>47</p>
+    <table>
+    <tr><th style='width:640px'>Ref</th><th>Qnty</th><th>Value</th><th>Part</th><th>Footprint</th><th>Description</th><th>Vendor</th></tr>
+    <tr><td>BT1</td><td>1</td><td>Battery</td><td>Device:Battery_Cell</td><td>senseBe_rev2_fp:Molex_KK-6410-02_02x2.54mm_Straight</td><td>Single-cell battery</td><td></td></tr>
+    <tr><td>C1, C5</td><td>2</td><td>1uF</td><td>senseBe_rev2-rescue:C-senseBeRx_rev1-senseBeRx_rev2-rescue-senseBeRx_rev3-rescue-senseBe_rev1-rescue-senseBe_rev1-rescue</td><td>senseBe_rev2_fp:C_0603_HandSoldering</td><td></td><td></td></tr>
+    <tr><td>C2, C6, C8</td><td>3</td><td>100nF</td><td>senseBe_rev2-rescue:C-senseBeRx_rev1-senseBeRx_rev2-rescue-senseBeRx_rev3-rescue-senseBe_rev1-rescue-senseBe_rev1-rescue</td><td>senseBe_rev2_fp:C_0603_HandSoldering</td><td></td><td></td></tr>
+    <tr><td>C3</td><td>1</td><td>10uF</td><td>senseBe_rev2-rescue:C-senseBeRx_rev1-senseBeRx_rev2-rescue-senseBeRx_rev3-rescue-senseBe_rev1-rescue-senseBe_rev1-rescue</td><td>senseBe_rev2_fp:C_0805_HandSoldering</td><td></td><td></td></tr>
+    <tr><td>C4, C7</td><td>2</td><td>8pF</td><td>senseBe_rev2-rescue:C-senseBeRx_rev1-senseBeRx_rev2-rescue-senseBeRx_rev3-rescue-senseBe_rev1-rescue-senseBe_rev1-rescue</td><td>senseBe_rev2_fp:C_0603_HandSoldering</td><td></td><td></td></tr>
+    <tr><td>C9</td><td>1</td><td>10u</td><td>senseBe_rev2-rescue:C-AP3403_LED_test-Ap3403_LED_test-rescue-senseBeTx_rev3-rescue-senseBe_rev1-rescue-senseBe_rev1-rescue</td><td>senseBe_rev2_fp:C_0603_HandSoldering</td><td></td><td></td></tr>
+    <tr><td>C10</td><td>1</td><td>22u</td><td>senseBe_rev2-rescue:C-AP3403_LED_test-Ap3403_LED_test-rescue-senseBeTx_rev3-rescue-senseBe_rev1-rescue-senseBe_rev1-rescue</td><td>senseBe_rev2_fp:C_0805_HandSoldering</td><td></td><td></td></tr>
+    <tr><td>C11</td><td>1</td><td>8p</td><td>senseBe_rev2-rescue:C-AP3403_LED_test-Ap3403_LED_test-rescue-senseBeTx_rev3-rescue-senseBe_rev1-rescue-senseBe_rev1-rescue</td><td>senseBe_rev2_fp:C_0805_HandSoldering</td><td></td><td></td></tr>
+    <tr><td>D1</td><td>1</td><td>18-225/R6G6C-A01/3T</td><td>senseBe_rev2-rescue:LED_Dual_ACAC-senseBeRx_rev1-senseBeRx_rev2-rescue-senseBeRx_rev3-rescue-senseBe_rev1-rescue-senseBe_rev1-rescue</td><td>senseBe_rev2_fp:18-225_R6G6C-A01_3T</td><td></td><td></td></tr>
+    <tr><td>D2</td><td>1</td><td>D_Photo</td><td>senseBe_rev2-rescue:D_Photo-senseBeRx_rev1-senseBeRx_rev2-rescue-senseBeRx_rev3-rescue-senseBe_rev1-rescue-senseBe_rev1-rescue</td><td>LED_THT:LED_D5.0mm</td><td></td><td></td></tr>
+    <tr><td>D3</td><td>1</td><td>SFH4545</td><td>senseBe_rev2-rescue:LED-AP3403_LED_test-Ap3403_LED_test-rescue-senseBeTx_rev3-rescue-senseBe_rev1-rescue-senseBe_rev1-rescue</td><td>LED_THT:LED_D5.0mm</td><td></td><td></td></tr>
+    <tr><td>J1</td><td>1</td><td>PJ-32434_3-5mmAudioJack</td><td>senseBe_rev2-rescue:senseBe_rev1_PJ-32434_3-5mmAudioJack-senseBe_rev1</td><td>senseBe_rev2_fp:PJ-32434-3_5mm-AudioJack</td><td></td><td></td></tr>
+    <tr><td>L1</td><td>1</td><td>15nH</td><td>senseBe_rev2-rescue:INDUCTOR_SMALL-senseBeRx_rev1-senseBeRx_rev2-rescue-senseBeRx_rev3-rescue-senseBe_rev1-rescue-senseBe_rev1-rescue</td><td>senseBe_rev2_fp:L_0805</td><td></td><td></td></tr>
+    <tr><td>L2</td><td>1</td><td>10nH</td><td>senseBe_rev2-rescue:INDUCTOR_SMALL-senseBeRx_rev1-senseBeRx_rev2-rescue-senseBeRx_rev3-rescue-senseBe_rev1-rescue-senseBe_rev1-rescue</td><td>senseBe_rev2_fp:L_0805</td><td></td><td></td></tr>
+    <tr><td>L3</td><td>1</td><td>22u</td><td>senseBe_rev2-rescue:L-AP3403_LED_test-Ap3403_LED_test-rescue-senseBeTx_rev3-rescue-senseBe_rev1-rescue-senseBe_rev1-rescue</td><td>senseBe_rev2_fp:L_Radial_D12.0mm_P5.00mm_Fastron_11P</td><td></td><td></td></tr>
+    <tr><td>MK1, MK2</td><td>2</td><td>Mounting_Hole</td><td>senseBe_rev2-rescue:Mounting_Hole-senseBeRx_rev1-senseBeRx_rev2-rescue-senseBeRx_rev3-rescue-senseBe_rev1-rescue-senseBe_rev1-rescue</td><td>senseBe_rev2_fp:MountingHole_3mm</td><td></td><td></td></tr>
+    <tr><td>P1</td><td>1</td><td>CONN_02X05</td><td>senseBe_rev2-rescue:CONN_02X05-senseBeRx_rev1-senseBeRx_rev2-rescue-senseBeRx_rev3-rescue-senseBe_rev1-rescue-senseBe_rev1-rescue</td><td>senseBe_rev2_fp:prog_connect</td><td></td><td></td></tr>
+    <tr><td>Q1</td><td>1</td><td>TSM2301</td><td>Transistor_FET:2N7002</td><td>Package_TO_SOT_SMD:SOT-23</td><td>0.115A Id, 60V Vds, N-channel MOSFET, SOT-23</td><td></td></tr>
+    <tr><td>Q2, Q3, Q4</td><td>3</td><td>Q_DUAL_NMOS_DMN2990UDJ-7</td><td>senseBe_rev2-rescue:Q_DUAL_NMOS_DMN2990UDJ-7-q_dual_nmos_g1s2g2d2s1d1</td><td>senseBe_rev2_fp:DMN2990UDJ-7</td><td></td><td></td></tr>
+    <tr><td>R1, R4, R7</td><td>3</td><td>470k</td><td>senseBe_rev2-rescue:R-senseBeRx_rev1-senseBeRx_rev2-rescue-senseBeRx_rev3-rescue-senseBe_rev1-rescue-senseBe_rev1-rescue</td><td>senseBe_rev2_fp:R_0603_HandSoldering</td><td></td><td></td></tr>
+    <tr><td>R2</td><td>1</td><td>33</td><td>senseBe_rev2-rescue:R-senseBeRx_rev1-senseBeRx_rev2-rescue-senseBeRx_rev3-rescue-senseBe_rev1-rescue-senseBe_rev1-rescue</td><td>senseBe_rev2_fp:R_0603_HandSoldering</td><td></td><td></td></tr>
+    <tr><td>R3</td><td>1</td><td>24</td><td>senseBe_rev2-rescue:R-senseBeRx_rev1-senseBeRx_rev2-rescue-senseBeRx_rev3-rescue-senseBe_rev1-rescue-senseBe_rev1-rescue</td><td>senseBe_rev2_fp:R_0603_HandSoldering</td><td></td><td></td></tr>
+    <tr><td>R5</td><td>1</td><td>100k</td><td>senseBe_rev2-rescue:R-senseBeRx_rev1-senseBeRx_rev2-rescue-senseBeRx_rev3-rescue-senseBe_rev1-rescue-senseBe_rev1-rescue</td><td>senseBe_rev2_fp:R_0603_HandSoldering</td><td></td><td></td></tr>
+    <tr><td>R6</td><td>1</td><td>3.9M</td><td>senseBe_rev2-rescue:R-senseBeRx_rev1-senseBeRx_rev2-rescue-senseBeRx_rev3-rescue-senseBe_rev1-rescue-senseBe_rev1-rescue</td><td>senseBe_rev2_fp:R_0603_HandSoldering</td><td></td><td></td></tr>
+    <tr><td>R8, R9, R10, R11, R12, R14</td><td>6</td><td>470k</td><td>senseBe_rev2-rescue:R-AP3403_LED_test-Ap3403_LED_test-rescue-senseBeTx_rev3-rescue-senseBe_rev1-rescue-senseBe_rev1-rescue</td><td>senseBe_rev2_fp:R_0603_HandSoldering</td><td></td><td></td></tr>
+    <tr><td>R13</td><td>1</td><td>3.9M</td><td>senseBe_rev2-rescue:R-AP3403_LED_test-Ap3403_LED_test-rescue-senseBeTx_rev3-rescue-senseBe_rev1-rescue-senseBe_rev1-rescue</td><td>senseBe_rev2_fp:R_0603_HandSoldering</td><td></td><td></td></tr>
+    <tr><td>R15</td><td>1</td><td>1.2M</td><td>senseBe_rev2-rescue:R-AP3403_LED_test-Ap3403_LED_test-rescue-senseBeTx_rev3-rescue-senseBe_rev1-rescue-senseBe_rev1-rescue</td><td>senseBe_rev2_fp:R_0603_HandSoldering</td><td></td><td></td></tr>
+    <tr><td>SW2</td><td>1</td><td>SW_DPST</td><td>Connector_Generic:Conn_01x02</td><td>senseBe_rev2_fp:Molex_KK-6410-02_02x2.54mm_Straight</td><td>Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</td><td></td></tr>
+    <tr><td>U1</td><td>1</td><td>MDBT42Q</td><td>senseBe_rev2-rescue:MDBT42Q-senseBeRx_rev1-senseBeRx_rev2-rescue-senseBeRx_rev3-rescue-senseBe_rev1-rescue-senseBe_rev1-rescue</td><td>senseBe_rev2_fp:mdbt42Q</td><td></td><td></td></tr>
+    <tr><td>U2</td><td>1</td><td>TSSP4056</td><td>senseBe_rev2-rescue:TSSP40xx-senseBeRx_rev1-senseBeRx_rev2-rescue-senseBeRx_rev3-rescue-senseBe_rev1-rescue-senseBe_rev1-rescue</td><td>senseBe_rev2_fp:Vishay_MINIMOLD-3Pin</td><td></td><td></td></tr>
+    <tr><td>U3</td><td>1</td><td>AP3403</td><td>senseBe_rev2-rescue:AP3403-AP3403_LED_test-Ap3403_LED_test-rescue-senseBeTx_rev3-rescue-senseBe_rev1-rescue-senseBe_rev1-rescue</td><td>senseBe_rev2_fp:AP3403_U-DFN1616-6(Type G)</td><td></td><td></td></tr>
+    <tr><td>Y1</td><td>1</td><td>T38 Mercury</td><td>senseBe_rev2-rescue:Crystal-senseBeRx_rev1-senseBeRx_rev2-rescue-senseBeRx_rev3-rescue-senseBe_rev1-rescue-senseBe_rev1-rescue</td><td>Crystal:Crystal_C38-LF_D3.0mm_L8.0mm_Vertical</td><td></td><td></td></tr><!--TABLEROW-->
+    </table>
+    </body>
+</html>
+    

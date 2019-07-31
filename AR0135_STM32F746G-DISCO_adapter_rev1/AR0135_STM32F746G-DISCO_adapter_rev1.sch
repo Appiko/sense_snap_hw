@@ -1,5 +1,5 @@
 EESchema Schematic File Version 4
-EELAYER 29 0
+EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -16,314 +16,302 @@ $EndDescr
 $Comp
 L Connector_Generic:Conn_01x30 J1
 U 1 1 5D41AA2B
-P 3495 4005
-F 0 "J1" H 3413 5622 50  0000 C CNN
-F 1 "Conn_01x30" H 3413 5531 50  0000 C CNN
-F 2 "Connector_FFC-FPC:Hirose_FH12-30S-0.5SH_1x30-1MP_P0.50mm_Horizontal" H 3495 4005 50  0001 C CNN
-F 3 "~" H 3495 4005 50  0001 C CNN
-	1    3495 4005
+P 1470 2755
+F 0 "J1" H 1388 4372 50  0000 C CNN
+F 1 "Conn_01x30" H 1388 4281 50  0000 C CNN
+F 2 "sense_fp:ArduCam_FPC_30pin_P0.50mm_Horizontal" H 1470 2755 50  0001 C CNN
+F 3 "~" H 1470 2755 50  0001 C CNN
+	1    1470 2755
 	-1   0    0    -1  
 $EndComp
 $Comp
 L Connector_Generic:Conn_01x30 J2
 U 1 1 5D41CC6F
-P 8490 4000
-F 0 "J2" H 8445 5610 50  0000 L CNN
-F 1 "Conn_01x30" H 8255 5520 50  0000 L CNN
-F 2 "Connector_FFC-FPC:Hirose_FH12-30S-0.5SH_1x30-1MP_P0.50mm_Horizontal" H 8490 4000 50  0001 C CNN
-F 3 "~" H 8490 4000 50  0001 C CNN
-	1    8490 4000
+P 6465 2750
+F 0 "J2" H 6420 4360 50  0000 L CNN
+F 1 "Conn_01x30" H 6230 4270 50  0000 L CNN
+F 2 "Connector_FFC-FPC:Hirose_FH12-30S-0.5SH_1x30-1MP_P0.50mm_Horizontal" H 6465 2750 50  0001 C CNN
+F 3 "~" H 6465 2750 50  0001 C CNN
+	1    6465 2750
 	1    0    0    -1  
 $EndComp
-Text Label 4500 2605 2    50   ~ 0
+Text Label 2475 1355 2    50   ~ 0
 GND
-Text Label 4500 2705 2    50   ~ 0
+Text Label 2475 1455 2    50   ~ 0
 FLASH
-Text Label 4500 2805 2    50   ~ 0
+Text Label 2475 1555 2    50   ~ 0
 TRIGGER
-Text Label 4500 2905 2    50   ~ 0
+Text Label 2475 1655 2    50   ~ 0
 VSYNC
-Text Label 4500 3005 2    50   ~ 0
+Text Label 2475 1755 2    50   ~ 0
 HREF
-Text Label 4500 3105 2    50   ~ 0
+Text Label 2475 1855 2    50   ~ 0
 D11
-Text Label 4500 3205 2    50   ~ 0
+Text Label 2475 1955 2    50   ~ 0
 D10
-Text Label 4500 3305 2    50   ~ 0
+Text Label 2475 2055 2    50   ~ 0
 D9
-Text Label 4500 3405 2    50   ~ 0
+Text Label 2475 2155 2    50   ~ 0
 D8
-Text Label 4500 3505 2    50   ~ 0
+Text Label 2475 2255 2    50   ~ 0
 D7
-Text Label 4500 3605 2    50   ~ 0
+Text Label 2475 2355 2    50   ~ 0
 D6
-Text Label 4500 3705 2    50   ~ 0
+Text Label 2475 2455 2    50   ~ 0
 D5
-Text Label 4500 3805 2    50   ~ 0
+Text Label 2475 2555 2    50   ~ 0
 GND
-Text Label 4500 3905 2    50   ~ 0
+Text Label 2475 2655 2    50   ~ 0
 D4
-Text Label 4500 4005 2    50   ~ 0
+Text Label 2475 2755 2    50   ~ 0
 D3
-Text Label 4500 4105 2    50   ~ 0
+Text Label 2475 2855 2    50   ~ 0
 D2
-Text Label 4500 4205 2    50   ~ 0
+Text Label 2475 2955 2    50   ~ 0
 D1
-Text Label 4500 4305 2    50   ~ 0
+Text Label 2475 3055 2    50   ~ 0
 D0
-Text Label 4500 4405 2    50   ~ 0
+Text Label 2475 3155 2    50   ~ 0
 XCLK
-Text Label 4500 4505 2    50   ~ 0
+Text Label 2475 3255 2    50   ~ 0
 PCLK
-Text Label 4500 4605 2    50   ~ 0
+Text Label 2475 3355 2    50   ~ 0
 SCL
-Text Label 4500 4705 2    50   ~ 0
+Text Label 2475 3455 2    50   ~ 0
 SDATA
-Text Label 4500 4805 2    50   ~ 0
+Text Label 2475 3555 2    50   ~ 0
 RST
-Text Label 4500 4905 2    50   ~ 0
+Text Label 2475 3655 2    50   ~ 0
 GND
-Text Label 4500 5005 2    50   ~ 0
+Text Label 2475 3755 2    50   ~ 0
 GND
-Text Label 4500 5105 2    50   ~ 0
+Text Label 2475 3855 2    50   ~ 0
 STANDBY
-Text Label 4500 5205 2    50   ~ 0
+Text Label 2475 3955 2    50   ~ 0
 VCC
 Wire Wire Line
-	4500 2605 3695 2605
+	2475 1355 1670 1355
 Wire Wire Line
-	3695 2705 4500 2705
+	1670 1455 2475 1455
 Wire Wire Line
-	4500 2805 3695 2805
+	2475 1555 1670 1555
 Wire Wire Line
-	4500 3805 3695 3805
+	2475 2555 1670 2555
 Wire Wire Line
-	4500 4905 3695 4905
+	2475 3655 1670 3655
 Wire Wire Line
-	3695 5005 4500 5005
+	1670 3755 2475 3755
 Wire Wire Line
-	3695 5205 4000 5205
+	1670 3955 1975 3955
 Wire Wire Line
-	3695 5505 4000 5505
+	1670 4255 1975 4255
 Wire Wire Line
-	4000 5505 4000 5405
-Connection ~ 4000 5205
+	1975 4255 1975 4155
+Connection ~ 1975 3955
 Wire Wire Line
-	3695 5405 4000 5405
-Connection ~ 4000 5405
+	1670 4155 1975 4155
+Connection ~ 1975 4155
 Wire Wire Line
-	4000 5405 4000 5305
+	1975 4155 1975 4055
 Wire Wire Line
-	3695 5305 4000 5305
-Connection ~ 4000 5305
+	1670 4055 1975 4055
+Connection ~ 1975 4055
 Wire Wire Line
-	4000 5305 4000 5205
-Text Label 7500 2600 0    50   ~ 0
+	1975 4055 1975 3955
+Text Label 5475 1350 0    50   ~ 0
 GND
-Text Label 7500 2900 0    50   ~ 0
+Text Label 5475 1650 0    50   ~ 0
 DCMI_D0
-Text Label 7500 3000 0    50   ~ 0
+Text Label 5475 1750 0    50   ~ 0
 DCMI_D1
-Text Label 7500 3100 0    50   ~ 0
+Text Label 5475 1850 0    50   ~ 0
 DCMI_D2
-Text Label 7500 3200 0    50   ~ 0
+Text Label 5475 1950 0    50   ~ 0
 DCMI_D3
-Text Label 7500 3300 0    50   ~ 0
+Text Label 5475 2050 0    50   ~ 0
 DCMI_D4
-Text Label 7500 3400 0    50   ~ 0
+Text Label 5475 2150 0    50   ~ 0
 DCMI_D5
-Text Label 7500 3600 0    50   ~ 0
+Text Label 5475 2350 0    50   ~ 0
 DCMI_D7
-Text Label 7500 3900 0    50   ~ 0
+Text Label 5475 2650 0    50   ~ 0
 GND
-Text Label 7500 3500 0    50   ~ 0
+Text Label 5475 2250 0    50   ~ 0
 DCMI_D6
-Text Label 7500 4000 0    50   ~ 0
+Text Label 5475 2750 0    50   ~ 0
 DCMI_PIXCK
-Text Label 7500 4100 0    50   ~ 0
+Text Label 5475 2850 0    50   ~ 0
 GND
-Text Label 7500 4200 0    50   ~ 0
+Text Label 5475 2950 0    50   ~ 0
 DCMI_HSYNC
-Text Label 7500 4400 0    50   ~ 0
+Text Label 5475 3150 0    50   ~ 0
 DCMI_VSYNC
-Text Label 7500 4500 0    50   ~ 0
+Text Label 5475 3250 0    50   ~ 0
 3V3
-Text Label 7500 4600 0    50   ~ 0
+Text Label 5475 3350 0    50   ~ 0
 Camera_CLK
-Text Label 7500 4800 0    50   ~ 0
+Text Label 5475 3550 0    50   ~ 0
 GND
-Text Label 7500 5000 0    50   ~ 0
+Text Label 5475 3750 0    50   ~ 0
 DCMI_PWR_EN
-Text Label 7500 5100 0    50   ~ 0
+Text Label 5475 3850 0    50   ~ 0
 DCMI_NRST
-Text Label 7500 5200 0    50   ~ 0
+Text Label 5475 3950 0    50   ~ 0
 DCMI_SDA
-Text Label 7500 5300 0    50   ~ 0
+Text Label 5475 4050 0    50   ~ 0
 DCMI_SCL
-Text Label 7500 5400 0    50   ~ 0
+Text Label 5475 4150 0    50   ~ 0
 GND
-Text Label 7500 5500 0    50   ~ 0
+Text Label 5475 4250 0    50   ~ 0
 3V3
 Wire Wire Line
-	7500 2600 8290 2600
-NoConn ~ 8290 2700
-NoConn ~ 8290 2800
-NoConn ~ 8290 3700
-NoConn ~ 8290 3800
-NoConn ~ 8290 4300
-NoConn ~ 8290 4700
-NoConn ~ 8290 4900
+	5475 1350 6265 1350
+NoConn ~ 6265 1450
+NoConn ~ 6265 1550
+NoConn ~ 6265 2450
+NoConn ~ 6265 2550
+NoConn ~ 6265 3050
+NoConn ~ 6265 3450
+NoConn ~ 6265 3650
 Wire Wire Line
-	8290 5500 7500 5500
+	6265 4250 5475 4250
 Wire Wire Line
-	7500 5400 8290 5400
+	5475 4150 6265 4150
 Wire Wire Line
-	8290 5300 7500 5300
+	6265 4050 5475 4050
 Wire Wire Line
-	7500 5200 8290 5200
+	5475 3950 6265 3950
 Wire Wire Line
-	8290 5100 7500 5100
+	6265 3850 5475 3850
 Wire Wire Line
-	7500 5000 8290 5000
+	5475 3750 6265 3750
 Wire Wire Line
-	8290 4800 7500 4800
+	6265 3550 5475 3550
 Wire Wire Line
-	7500 4600 8290 4600
+	5475 3350 6265 3350
 Wire Wire Line
-	8290 4500 7500 4500
+	6265 3250 5475 3250
 Wire Wire Line
-	7500 4400 8290 4400
+	5475 3150 6265 3150
 Wire Wire Line
-	8290 4200 7500 4200
+	6265 2950 5475 2950
 Wire Wire Line
-	7500 4100 8290 4100
+	5475 2850 6265 2850
 Wire Wire Line
-	8290 4000 7500 4000
+	6265 2750 5475 2750
 Wire Wire Line
-	7500 3900 8290 3900
+	5475 2650 6265 2650
 Wire Wire Line
-	8290 3600 7500 3600
+	6265 2350 5475 2350
 Wire Wire Line
-	7500 3500 8290 3500
+	5475 2250 6265 2250
 Wire Wire Line
-	8290 3400 7500 3400
+	6265 2150 5475 2150
 Wire Wire Line
-	7500 3300 8290 3300
+	5475 2050 6265 2050
 Wire Wire Line
-	8290 3200 7500 3200
+	6265 1950 5475 1950
 Wire Wire Line
-	7500 3100 8290 3100
+	5475 1850 6265 1850
 Wire Wire Line
-	8290 3000 7500 3000
+	6265 1750 5475 1750
 Wire Wire Line
-	7500 2900 8290 2900
-Text Label 5100 5205 2    50   ~ 0
+	5475 1650 6265 1650
+Text Label 3075 3955 2    50   ~ 0
 3V3
-Text Label 5100 4605 2    50   ~ 0
+Text Label 3075 3355 2    50   ~ 0
 DCMI_SCL
-Text Label 5100 4705 2    50   ~ 0
+Text Label 3075 3455 2    50   ~ 0
 DCMI_SDA
-Text Label 5100 4805 2    50   ~ 0
+Text Label 3075 3555 2    50   ~ 0
 DCMI_NRST
-Text Label 5100 5105 2    50   ~ 0
+Text Label 3075 3855 2    50   ~ 0
 DCMI_PWR_EN
-Text Label 5100 4405 2    50   ~ 0
+Text Label 3075 3155 2    50   ~ 0
 Camera_CLK
-Text Label 5100 2905 2    50   ~ 0
+Text Label 3075 1655 2    50   ~ 0
 DCMI_VSYNC
-Text Label 5100 3005 2    50   ~ 0
+Text Label 3075 1755 2    50   ~ 0
 DCMI_HSYNC
-Text Label 5100 4505 2    50   ~ 0
+Text Label 3075 3255 2    50   ~ 0
 DCMI_PIXCK
 Wire Wire Line
-	4000 5205 5100 5205
+	1975 3955 3075 3955
 Wire Wire Line
-	3695 5105 5100 5105
+	1670 3855 3075 3855
 Wire Wire Line
-	3695 4805 5100 4805
+	1670 3555 3075 3555
 Wire Wire Line
-	3695 4705 5100 4705
+	1670 3455 3075 3455
 Wire Wire Line
-	3695 4605 5100 4605
+	1670 3355 3075 3355
 Wire Wire Line
-	3695 4505 5100 4505
+	1670 3255 3075 3255
 Wire Wire Line
-	3695 4405 5100 4405
+	1670 3155 3075 3155
 Wire Wire Line
-	3695 3005 5100 3005
+	1670 1755 3075 1755
 Wire Wire Line
-	3695 2905 5100 2905
-Text Label 5100 3105 2    50   ~ 0
+	1670 1655 3075 1655
+Text Label 3075 1855 2    50   ~ 0
 DCMI_D7
-Text Label 5100 3205 2    50   ~ 0
+Text Label 3075 1955 2    50   ~ 0
 DCMI_D6
-Text Label 5100 3305 2    50   ~ 0
+Text Label 3075 2055 2    50   ~ 0
 DCMI_D5
-Text Label 5100 3405 2    50   ~ 0
+Text Label 3075 2155 2    50   ~ 0
 DCMI_D4
-Text Label 5100 3505 2    50   ~ 0
+Text Label 3075 2255 2    50   ~ 0
 DCMI_D3
-Text Label 5100 3605 2    50   ~ 0
+Text Label 3075 2355 2    50   ~ 0
 DCMI_D2
-Text Label 5100 3705 2    50   ~ 0
+Text Label 3075 2455 2    50   ~ 0
 DCMI_D1
-Text Label 5100 3905 2    50   ~ 0
+Text Label 3075 2655 2    50   ~ 0
 DCMI_D0
-NoConn ~ 5100 4005
-NoConn ~ 5100 4105
-NoConn ~ 5100 4205
-NoConn ~ 5100 4305
 Wire Wire Line
-	3695 4305 5100 4305
+	1670 2655 3075 2655
 Wire Wire Line
-	3695 4205 5100 4205
+	1670 2455 3075 2455
 Wire Wire Line
-	3695 4105 5100 4105
+	1670 2355 3075 2355
 Wire Wire Line
-	3695 4005 5100 4005
+	1670 2255 3075 2255
 Wire Wire Line
-	3695 3905 5100 3905
+	1670 2155 3075 2155
 Wire Wire Line
-	3695 3705 5100 3705
+	1670 2055 3075 2055
 Wire Wire Line
-	3695 3605 5100 3605
+	1670 1955 3075 1955
 Wire Wire Line
-	3695 3505 5100 3505
-Wire Wire Line
-	3695 3405 5100 3405
-Wire Wire Line
-	3695 3305 5100 3305
-Wire Wire Line
-	3695 3205 5100 3205
-Wire Wire Line
-	3695 3105 5100 3105
+	1670 1855 3075 1855
 $Comp
-L Connector_Generic:Conn_01x04 J3
+L Connector_Generic:Conn_01x10 J3
 U 1 1 5D48BC11
-P 8490 5850
-F 0 "J3" H 8570 5842 50  0000 L CNN
-F 1 "Conn_01x04" H 8570 5751 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 8490 5850 50  0001 C CNN
-F 3 "~" H 8490 5850 50  0001 C CNN
-	1    8490 5850
+P 9890 1750
+F 0 "J3" H 9970 1742 50  0000 L CNN
+F 1 "Conn_01x10" H 9970 1651 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x10_P2.54mm_Vertical" H 9890 1750 50  0001 C CNN
+F 3 "~" H 9890 1750 50  0001 C CNN
+	1    9890 1750
 	1    0    0    -1  
 $EndComp
-Text Label 7500 5750 0    50   ~ 0
+Text Label 8900 1350 0    50   ~ 0
 FLASH
-Text Label 7500 5850 0    50   ~ 0
+Text Label 8900 1450 0    50   ~ 0
 TRIGGER
-Text Label 7500 6050 0    50   ~ 0
+Text Label 8900 4050 0    50   ~ 0
 GND
-Text Label 7500 5950 0    50   ~ 0
+Text Label 8900 4250 0    50   ~ 0
 VCC
 Wire Wire Line
-	7500 5750 8290 5750
+	8900 1350 9690 1350
 Wire Wire Line
-	8290 5850 7500 5850
+	9690 1450 8900 1450
 Wire Wire Line
-	7500 6050 8290 6050
+	8900 1650 9690 1650
 Wire Wire Line
-	8290 5950 7500 5950
+	9690 1550 8900 1550
 $Comp
 L Mechanical:MountingHole H1
 U 1 1 5D49BDF7
@@ -368,4 +356,87 @@ F 3 "~" H 6000 7500 50  0001 C CNN
 	1    6000 7500
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	1670 3055 2475 3055
+Wire Wire Line
+	1670 2955 2475 2955
+Wire Wire Line
+	2475 2855 1670 2855
+Wire Wire Line
+	1670 2755 2475 2755
+Text Label 8900 1550 0    50   ~ 0
+DCMI_VSYNC
+Text Label 8900 1650 0    50   ~ 0
+DCMI_HSYNC
+Text Label 8900 1750 0    50   ~ 0
+DCMI_D7
+Text Label 8900 1850 0    50   ~ 0
+DCMI_D6
+Text Label 8900 1950 0    50   ~ 0
+DCMI_D5
+Text Label 8900 2050 0    50   ~ 0
+DCMI_D4
+Text Label 8900 2150 0    50   ~ 0
+DCMI_D3
+Text Label 8900 2250 0    50   ~ 0
+DCMI_D2
+Text Label 8900 3350 0    50   ~ 0
+DCMI_D1
+Text Label 8900 3450 0    50   ~ 0
+DCMI_D0
+Text Label 8900 3550 0    50   ~ 0
+Camera_CLK
+Text Label 8900 3650 0    50   ~ 0
+DCMI_PIXCK
+Text Label 8900 3750 0    50   ~ 0
+DCMI_SCL
+Text Label 8900 3850 0    50   ~ 0
+DCMI_SDA
+Text Label 8900 3950 0    50   ~ 0
+DCMI_NRST
+Text Label 8900 4150 0    50   ~ 0
+DCMI_PWR_EN
+$Comp
+L Connector_Generic:Conn_01x10 J4
+U 1 1 5D44B9BC
+P 9890 3750
+F 0 "J4" H 9970 3742 50  0000 L CNN
+F 1 "Conn_01x10" H 9970 3651 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x10_P2.54mm_Vertical" H 9890 3750 50  0001 C CNN
+F 3 "~" H 9890 3750 50  0001 C CNN
+	1    9890 3750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8900 1750 9690 1750
+Wire Wire Line
+	8900 2250 9690 2250
+Wire Wire Line
+	9690 2150 8900 2150
+Wire Wire Line
+	8900 2050 9690 2050
+Wire Wire Line
+	9690 1950 8900 1950
+Wire Wire Line
+	8900 1850 9690 1850
+Wire Wire Line
+	8900 3350 9690 3350
+Wire Wire Line
+	9690 3450 8900 3450
+Wire Wire Line
+	8900 3550 9690 3550
+Wire Wire Line
+	9690 3650 8900 3650
+Wire Wire Line
+	8900 3750 9690 3750
+Wire Wire Line
+	9690 3850 8900 3850
+Wire Wire Line
+	9690 3950 8900 3950
+Wire Wire Line
+	8900 4050 9690 4050
+Wire Wire Line
+	9690 4150 8900 4150
+Wire Wire Line
+	8900 4250 9690 4250
 $EndSCHEMATC

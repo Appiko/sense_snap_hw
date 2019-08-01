@@ -1,5 +1,6 @@
 EESchema Schematic File Version 4
-EELAYER 26 0
+LIBS:AR0135_STM32F746G-DISCO_adapter_rev1-cache
+EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -30,7 +31,7 @@ U 1 1 5D41CC6F
 P 6465 2750
 F 0 "J2" H 6420 4360 50  0000 L CNN
 F 1 "Conn_01x30" H 6230 4270 50  0000 L CNN
-F 2 "Connector_FFC-FPC:Hirose_FH12-30S-0.5SH_1x30-1MP_P0.50mm_Horizontal" H 6465 2750 50  0001 C CNN
+F 2 "sense:ArduCam_FPC_30pin_P0.50mm_Horizontal" H 6465 2750 50  0001 C CNN
 F 3 "~" H 6465 2750 50  0001 C CNN
 	1    6465 2750
 	1    0    0    -1  

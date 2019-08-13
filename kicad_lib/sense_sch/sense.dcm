@@ -1,8 +1,44 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP CP1
+D Polarized capacitor, US symbol
+K cap capacitor
+F ~
+$ENDCMP
+#
+$CMP Conn_01x02
+D Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)
+K connector
+F ~
+$ENDCMP
+#
+$CMP Conn_01x04
+D Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)
+K connector
+F ~
+$ENDCMP
+#
+$CMP D
+D Diode
+K diode
+F ~
+$ENDCMP
+#
+$CMP Q_PMOS_GDS
+D P-MOSFET transistor, gate/drain/source
+K transistor PMOS P-MOS P-MOSFET
+F ~
+$ENDCMP
+#
 $CMP Screw_Terminal_01x02
 D Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)
 K screw terminal
+F ~
+$ENDCMP
+#
+$CMP SolderJumper_2_Open
+D Solder Jumper, 2-pole, open
+K solder jumper SPST
 F ~
 $ENDCMP
 #

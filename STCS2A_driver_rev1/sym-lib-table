@@ -1,0 +1,8 @@
+(sym_lib_table
+  (lib (name sense)(type Legacy)(uri /home/prithvi/KiCadProjects/sense_snap_hw/kicad_lib/sense_sch/sense.lib)(options "")(descr ""))
+  (lib (name Diode)(type Legacy)(uri /home/prithvi/KiCadProjects/kicad-symbols/Diode.lib)(options "")(descr ""))
+  (lib (name Device)(type Legacy)(uri /home/prithvi/KiCadProjects/kicad-symbols/Device.lib)(options "")(descr ""))
+  (lib (name Connector)(type Legacy)(uri /home/prithvi/KiCadProjects/kicad-symbols/Connector.lib)(options "")(descr ""))
+  (lib (name Connector_Generic)(type Legacy)(uri /home/prithvi/KiCadProjects/kicad-symbols/Connector_Generic.lib)(options "")(descr ""))
+  (lib (name Jumper)(type Legacy)(uri /home/prithvi/KiCadProjects/kicad-symbols/Jumper.lib)(options "")(descr ""))
+)

@@ -1,0 +1,5 @@
+(sym_lib_table
+  (lib (name sense)(type Legacy)(uri /home/prithvi/KiCadProjects/sense_snap_hw/kicad_lib/sense_sch/sense.lib)(options "")(descr ""))
+  (lib (name LED)(type Legacy)(uri /home/prithvi/KiCadProjects/kicad-symbols/LED.lib)(options "")(descr ""))
+  (lib (name Connector)(type Legacy)(uri /home/prithvi/KiCadProjects/kicad-symbols/Connector.lib)(options "")(descr ""))
+)

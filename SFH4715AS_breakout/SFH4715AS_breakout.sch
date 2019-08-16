@@ -1,0 +1,155 @@
+EESchema Schematic File Version 4
+LIBS:SFH4715AS_breakout-cache
+EELAYER 29 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L sense:Screw_Terminal_01x02 J1
+U 1 1 5D569892
+P 5490 2325
+F 0 "J1" V 5454 2137 50  0000 R CNN
+F 1 "Screw_Terminal_01x02" V 5363 2137 50  0000 R CNN
+F 2 "sense:TerminalBlock_bornier-2_P5.08mm" H 5490 2325 50  0001 C CNN
+F 3 "~" H 5490 2325 50  0001 C CNN
+	1    5490 2325
+	0    -1   -1   0   
+$EndComp
+$Comp
+L sense:SFH4715AS D2
+U 1 1 5D56B31D
+P 5285 3830
+F 0 "D2" H 5285 4145 50  0000 C CNN
+F 1 "SFH4715AS" H 5285 4054 50  0000 C CNN
+F 2 "sense:SFH4715AS" H 5310 4080 50  0001 C CNN
+F 3 "" H 5310 4080 50  0001 C CNN
+	1    5285 3830
+	-1   0    0    1   
+$EndComp
+$Comp
+L sense:Screw_Terminal_01x02 J2
+U 1 1 5D56D45B
+P 5585 4580
+F 0 "J2" V 5457 4660 50  0000 L CNN
+F 1 "Screw_Terminal_01x02" V 5548 4660 50  0000 L CNN
+F 2 "sense:TerminalBlock_bornier-2_P5.08mm" H 5585 4580 50  0001 C CNN
+F 3 "~" H 5585 4580 50  0001 C CNN
+	1    5585 4580
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5485 4380 5030 4380
+Wire Wire Line
+	5030 4380 5030 3830
+Wire Wire Line
+	6035 3830 6035 4380
+Wire Wire Line
+	6035 4380 5585 4380
+$Comp
+L sense:Mounting_Hole MK1
+U 1 1 5D570235
+P 10345 5875
+F 0 "MK1" H 10445 5921 50  0000 L CNN
+F 1 "Mounting_Hole" H 10445 5830 50  0000 L CNN
+F 2 "sense:MountingHole_2.7mm_M2.5" H 10345 5875 50  0001 C CNN
+F 3 "" H 10345 5875 50  0001 C CNN
+	1    10345 5875
+	1    0    0    -1  
+$EndComp
+$Comp
+L sense:Mounting_Hole MK2
+U 1 1 5D570BFB
+P 10345 6125
+F 0 "MK2" H 10445 6171 50  0000 L CNN
+F 1 "Mounting_Hole" H 10445 6080 50  0000 L CNN
+F 2 "sense:MountingHole_2.7mm_M2.5" H 10345 6125 50  0001 C CNN
+F 3 "" H 10345 6125 50  0001 C CNN
+	1    10345 6125
+	1    0    0    -1  
+$EndComp
+$Comp
+L sense:LOGO #G1
+U 1 1 5D571281
+P 10795 6835
+F 0 "#G1" H 10795 6637 60  0001 C CNN
+F 1 "LOGO" H 10795 7033 60  0001 C CNN
+F 2 "" H 10795 6835 60  0001 C CNN
+F 3 "" H 10795 6835 60  0001 C CNN
+	1    10795 6835
+	1    0    0    -1  
+$EndComp
+$Comp
+L Graphic:Logo_Open_Hardware_Small #LOGO1
+U 1 1 5D571FCF
+P 10250 6800
+F 0 "#LOGO1" H 10250 7075 50  0001 C CNN
+F 1 "Logo_Open_Hardware_Small" H 10250 6575 50  0001 C CNN
+F 2 "" H 10250 6800 50  0001 C CNN
+F 3 "~" H 10250 6800 50  0001 C CNN
+	1    10250 6800
+	1    0    0    -1  
+$EndComp
+$Comp
+L sense:SFH4715AS D3
+U 1 1 5D569F77
+P 5270 3000
+F 0 "D3" H 5270 3315 50  0000 C CNN
+F 1 "SFH4715AS" H 5270 3224 50  0000 C CNN
+F 2 "sense:SFH4715AS" H 5295 3250 50  0001 C CNN
+F 3 "" H 5295 3250 50  0001 C CNN
+	1    5270 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L sense:SFH4715AS D4
+U 1 1 5D56A55D
+P 5760 3830
+F 0 "D4" H 5760 4145 50  0000 C CNN
+F 1 "SFH4715AS" H 5760 4054 50  0000 C CNN
+F 2 "sense:SFH4715AS" H 5785 4080 50  0001 C CNN
+F 3 "" H 5785 4080 50  0001 C CNN
+	1    5760 3830
+	-1   0    0    1   
+$EndComp
+$Comp
+L sense:SFH4715AS D1
+U 1 1 5D569A55
+P 5765 3000
+F 0 "D1" H 5765 3315 50  0000 C CNN
+F 1 "SFH4715AS" H 5765 3224 50  0000 C CNN
+F 2 "sense:SFH4715AS" H 5790 3250 50  0001 C CNN
+F 3 "" H 5790 3250 50  0001 C CNN
+	1    5765 3000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5470 3000 5565 3000
+Wire Wire Line
+	4995 2525 4995 3000
+Wire Wire Line
+	4995 3000 5070 3000
+Wire Wire Line
+	4995 2525 5490 2525
+Wire Wire Line
+	5965 3000 6050 3000
+Wire Wire Line
+	6050 3000 6050 2525
+Wire Wire Line
+	5590 2525 6050 2525
+Wire Wire Line
+	5485 3830 5560 3830
+Wire Wire Line
+	5960 3830 6035 3830
+Wire Wire Line
+	5085 3830 5030 3830
+$EndSCHEMATC

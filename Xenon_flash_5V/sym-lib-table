@@ -1,0 +1,8 @@
+(sym_lib_table
+  (lib (name sense)(type Legacy)(uri /home/prithvi/KiCadProjects/sense_snap_hw/kicad_lib/sense_sch/sense.lib)(options "")(descr ""))
+  (lib (name Device)(type Legacy)(uri /home/prithvi/KiCadProjects/kicad-symbols/Device.lib)(options "")(descr ""))
+  (lib (name Triac_Thyristor)(type Legacy)(uri /home/prithvi/KiCadProjects/kicad-symbols/Triac_Thyristor.lib)(options "")(descr ""))
+  (lib (name Switch)(type Legacy)(uri /home/prithvi/KiCadProjects/kicad-symbols/Switch.lib)(options "")(descr ""))
+  (lib (name Sensor_Optical)(type Legacy)(uri /home/prithvi/KiCadProjects/kicad-symbols/Sensor_Optical.lib)(options "")(descr ""))
+  (lib (name Isolator)(type Legacy)(uri /home/prithvi/KiCadProjects/kicad-symbols/Isolator.lib)(options "")(descr ""))
+)

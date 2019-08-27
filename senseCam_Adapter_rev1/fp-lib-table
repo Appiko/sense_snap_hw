@@ -1,0 +1,6 @@
+(fp_lib_table
+  (lib (name sense)(type KiCad)(uri /home/prithvi/KiCadProjects/sense_snap_hw/kicad_lib/sense_fp.pretty)(options "")(descr ""))
+  (lib (name TerminalBlock)(type KiCad)(uri /home/prithvi/KiCadProjects/kicad-footprints/TerminalBlock.pretty)(options "")(descr ""))
+  (lib (name Capacitor_SMD)(type KiCad)(uri /home/prithvi/KiCadProjects/kicad-footprints/Capacitor_SMD.pretty)(options "")(descr ""))
+  (lib (name Resistor_SMD)(type KiCad)(uri /home/prithvi/KiCadProjects/kicad-footprints/Resistor_SMD.pretty)(options "")(descr ""))
+)

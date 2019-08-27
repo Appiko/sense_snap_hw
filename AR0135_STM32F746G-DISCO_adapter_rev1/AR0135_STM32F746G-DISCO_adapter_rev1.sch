@@ -1,6 +1,5 @@
 EESchema Schematic File Version 4
-LIBS:AR0135_STM32F746G-DISCO_adapter_rev1-cache
-EELAYER 29 0
+EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -15,7 +14,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Connector_Generic:Conn_01x30 J1
+L sense:Conn_01x30 J1
 U 1 1 5D41AA2B
 P 1470 2755
 F 0 "J1" H 1388 4372 50  0000 C CNN
@@ -26,7 +25,7 @@ F 3 "~" H 1470 2755 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x30 J2
+L sense:Conn_01x30 J2
 U 1 1 5D41CC6F
 P 6465 2750
 F 0 "J2" H 6420 4360 50  0000 L CNN
@@ -287,7 +286,7 @@ Wire Wire Line
 Wire Wire Line
 	1670 1855 3075 1855
 $Comp
-L Connector_Generic:Conn_01x10 J3
+L sense:Conn_01x10 J3
 U 1 1 5D48BC11
 P 9890 1750
 F 0 "J3" H 9970 1742 50  0000 L CNN
@@ -314,7 +313,7 @@ Wire Wire Line
 Wire Wire Line
 	9690 1550 8900 1550
 $Comp
-L Mechanical:MountingHole H1
+L sense:Mounting_Hole H1
 U 1 1 5D49BDF7
 P 6000 6750
 F 0 "H1" H 6100 6796 50  0000 L CNN
@@ -325,7 +324,7 @@ F 3 "~" H 6000 6750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:MountingHole H2
+L sense:Mounting_Hole H2
 U 1 1 5D49CFAA
 P 6000 7000
 F 0 "H2" H 6100 7046 50  0000 L CNN
@@ -336,7 +335,7 @@ F 3 "~" H 6000 7000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:MountingHole H3
+L sense:Mounting_Hole H3
 U 1 1 5D49D4A6
 P 6000 7250
 F 0 "H3" H 6100 7296 50  0000 L CNN
@@ -347,7 +346,7 @@ F 3 "~" H 6000 7250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:MountingHole H4
+L sense:Mounting_Hole H4
 U 1 1 5D49D8E3
 P 6000 7500
 F 0 "H4" H 6100 7546 50  0000 L CNN
@@ -398,7 +397,7 @@ DCMI_NRST
 Text Label 8900 4150 0    50   ~ 0
 DCMI_PWR_EN
 $Comp
-L Connector_Generic:Conn_01x10 J4
+L sense:Conn_01x10 J4
 U 1 1 5D44B9BC
 P 9890 3750
 F 0 "J4" H 9970 3742 50  0000 L CNN

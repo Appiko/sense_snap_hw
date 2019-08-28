@@ -220,7 +220,7 @@ F 3 "~" H 1150 4900 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 Text Notes 900  3985 0    50   ~ 0
-ArduCam
+ArduCam AR0135
 NoConn ~ 1350 4600
 Wire Wire Line
 	1350 4900 1650 4900
@@ -290,8 +290,8 @@ NoConn ~ 4400 2000
 NoConn ~ 4400 2500
 NoConn ~ 4400 2900
 NoConn ~ 4400 3100
-Text Notes 3650 3980 0    50   ~ 0
-STM-DISCOVERY Board
+Text Notes 3650 3900 0    50   ~ 0
+STM32 F746DISCO Board
 Wire Wire Line
 	3200 850  3200 800 
 Wire Wire Line
@@ -1443,4 +1443,16 @@ Text Label 1950 6150 2    50   ~ 0
 FOCUS
 Text Label 1950 5950 2    50   ~ 0
 CAM_TRIGGER
+Text Notes 4200 650  2    50   ~ 0
+Connections from ArduCam camera connector to F746 Disco's
+Text Notes 1900 5550 2    50   ~ 0
+Left Arduino based connector
+Text Notes 4500 6550 2    50   ~ 0
+To check light intensity for triggering flash
+Text Notes 5000 4550 2    50   ~ 0
+LiPo battery input, reverse polarity protection and buffer cap
+Text Notes 6000 5900 2    50   ~ 0
+UART pin in Arduino connector
+Text Notes 7250 2900 0    60   ~ 0
+STCS2A based XHP70.2\nLED driver with two ICs\nfor one LED chip, each\ndriver one of the two units
 $EndSCHEMATC

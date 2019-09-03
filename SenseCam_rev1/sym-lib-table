@@ -1,0 +1,7 @@
+(sym_lib_table
+  (lib (name STM32H750VB)(type Legacy)(uri /home/prithvi/Desktop/STM32H750VB.lib)(options "")(descr ""))
+  (lib (name MCU_ST_STM32H7)(type Legacy)(uri /home/prithvi/KiCadProjects/kicad-symbols/MCU_ST_STM32H7.lib)(options "")(descr ""))
+  (lib (name Regulator_Switching)(type Legacy)(uri /home/prithvi/KiCadProjects/kicad-symbols/Regulator_Switching.lib)(options "")(descr ""))
+  (lib (name Device)(type Legacy)(uri /home/prithvi/KiCadProjects/kicad-symbols/Device.lib)(options "")(descr ""))
+  (lib (name power)(type Legacy)(uri /home/prithvi/KiCadProjects/kicad-symbols/power.lib)(options "")(descr ""))
+)

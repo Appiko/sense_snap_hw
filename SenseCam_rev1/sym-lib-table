@@ -4,4 +4,8 @@
   (lib (name Regulator_Switching)(type Legacy)(uri /home/prithvi/KiCadProjects/kicad-symbols/Regulator_Switching.lib)(options "")(descr ""))
   (lib (name Device)(type Legacy)(uri /home/prithvi/KiCadProjects/kicad-symbols/Device.lib)(options "")(descr ""))
   (lib (name power)(type Legacy)(uri /home/prithvi/KiCadProjects/kicad-symbols/power.lib)(options "")(descr ""))
+  (lib (name Connector_Generic)(type Legacy)(uri /home/prithvi/KiCadProjects/kicad-symbols/Connector_Generic.lib)(options "")(descr ""))
+  (lib (name Connector)(type Legacy)(uri /home/prithvi/KiCadProjects/kicad-symbols/Connector.lib)(options "")(descr ""))
+  (lib (name Memory_Flash)(type Legacy)(uri /home/prithvi/KiCadProjects/kicad-symbols/Memory_Flash.lib)(options "")(descr ""))
+  (lib (name Jumper)(type Legacy)(uri /home/prithvi/KiCadProjects/kicad-symbols/Jumper.lib)(options "")(descr ""))
 )

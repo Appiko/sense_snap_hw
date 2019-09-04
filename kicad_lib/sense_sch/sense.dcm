@@ -74,6 +74,30 @@ K diode
 F ~
 $ENDCMP
 #
+$CMP IS25WP256D-xJ
+D 256-Mbit, 1.8V SPI Serial Flash Memory with Dual-I/O and Quad-I/O Support, WSON8
+K SPI DSPI QSPI NOR 256Mbit 1.8V
+F http://www.issi.com/WW/pdf/IS25LP(WP)256D.pdf
+$ENDCMP
+#
+$CMP LSF0108
+D LSF0108 Channel Auto-Bidirectional Multi-Voltage Level Translator for Open-Drainand Push-Pull Applications
+K Voltage Translator, Bidirectional, LSF010x, LSF0108
+F http://www.ti.com/lit/ds/symlink/lsf0102.pdf
+$ENDCMP
+#
+$CMP Micro_SD_Card_Det
+D Micro SD Card Socket with card detection pins
+K connector SD microsd
+F https://www.hirose.com/product/en/download_file/key_name/DM3/category/Catalog/doc_file_id/49662/?file_category_id=4&item_id=195&is_series=1
+$ENDCMP
+#
+$CMP Micro_SD_Card_Det_Hirose_DM3AT
+D Micro SD Card Socket with card detection pins
+K connector SD microsd
+F https://www.hirose.com/product/en/download_file/key_name/DM3/category/Catalog/doc_file_id/49662/?file_category_id=4&item_id=195&is_series=1
+$ENDCMP
+#
 $CMP PNPN_Thyristor
 D PNPN Thyristor
 K thyristor
@@ -96,6 +120,12 @@ K transistor PMOS P-MOS P-MOSFET
 F ~
 $ENDCMP
 #
+$CMP SD_Card
+D SD Card Reader
+K connector SD
+F http://portal.fciconnect.com/Comergent//fci/drawing/10067847.pdf
+$ENDCMP
+#
 $CMP STM32H750VB
 D ARM Cortex-M7 MCU, 2048KB flash, 864KB RAM, 480MHz, 1.7-3.6V, 82 GPIO, LQFP-100
 K ARM Cortex-M7 STM32H7 STM32H750
@@ -114,6 +144,12 @@ K solder jumper SPST
 F ~
 $ENDCMP
 #
+$CMP SolderJumper_3_Open
+D Solder Jumper, 3-pole, open
+K Solder Jumper SPDT
+F ~
+$ENDCMP
+#
 $CMP TPS62840
 D TPS62840 1.8V to 6.5V, 750-mA,60-nA Iq Step-Down Converter
 K buck step-down TPS62840 TPS62841
@@ -124,6 +160,12 @@ $CMP TPS62841
 D TPS62841 1.8V to 6.5V, 750-mA,60-nA Iq Step-Down Converter
 K buck step-down TPS62840 TPS62841
 F http://www.ti.com/lit/ds/symlink/tps62840.pdf
+$ENDCMP
+#
+$CMP TXB0304RUT
+D TXB0304 4-Bit Bidirectional Level-Shifter/VoltageTranslator with Automatic Direction Sensing
+K Voltage Translator, Bidirectional, TXB0304
+F http://www.ti.com/lit/ds/symlink/txb0304.pdf
 $ENDCMP
 #
 #End Doc Library

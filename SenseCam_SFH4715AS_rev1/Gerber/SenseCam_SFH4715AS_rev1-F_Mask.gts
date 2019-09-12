@@ -1,12 +1,12 @@
-G04 #@! TF.GenerationSoftware,KiCad,Pcbnew,(5.1.0)-1*
-G04 #@! TF.CreationDate,2019-09-12T18:25:11+05:30*
+G04 #@! TF.GenerationSoftware,KiCad,Pcbnew,5.1.4-e60b266~84~ubuntu18.04.1*
+G04 #@! TF.CreationDate,2019-09-12T19:10:06+05:30*
 G04 #@! TF.ProjectId,SenseCam_SFH4715AS_rev1,53656e73-6543-4616-9d5f-534648343731,rev?*
 G04 #@! TF.SameCoordinates,Original*
 G04 #@! TF.FileFunction,Soldermask,Top*
 G04 #@! TF.FilePolarity,Negative*
 %FSLAX46Y46*%
 G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
-G04 Created by KiCad (PCBNEW (5.1.0)-1) date 2019-09-12 18:25:11*
+G04 Created by KiCad (PCBNEW 5.1.4-e60b266~84~ubuntu18.04.1) date 2019-09-12 19:10:06*
 %MOMM*%
 %LPD*%
 G04 APERTURE LIST*

@@ -14,60 +14,8 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-$Comp
-L sense:VDD #PWR010
-U 1 1 5BA556BC
-P 5235 685
-F 0 "#PWR010" H 5235 535 50  0001 C CNN
-F 1 "VDD" H 5252 858 50  0000 C CNN
-F 2 "" H 5235 685 60  0000 C CNN
-F 3 "" H 5235 685 60  0000 C CNN
-	1    5235 685 
-	1    0    0    -1  
-$EndComp
-$Comp
-L sense:LED_Dual_ACAC D2
-U 1 1 5BA559EF
-P 5685 1235
-F 0 "D2" H 5685 1510 50  0000 C CNN
-F 1 "18-225/R6G6C-A01/3T" H 5660 985 50  0000 C CNN
-F 2 "sense:18-225_R6G6C-A01_3T" H 5715 1235 50  0001 C CNN
-F 3 "~" H 5715 1235 50  0001 C CNN
-	1    5685 1235
-	1    0    0    -1  
-$EndComp
-$Comp
-L sense:R R3
-U 1 1 5BA55B89
-P 6360 1135
-F 0 "R3" V 6260 1185 50  0000 L CNN
-F 1 "33" V 6360 1085 50  0000 L CNN
-F 2 "sense:R_0603_HandSoldering" V 6290 1135 30  0001 C CNN
-F 3 "" H 6360 1135 30  0000 C CNN
-	1    6360 1135
-	0    1    1    0   
-$EndComp
-$Comp
-L sense:R R4
-U 1 1 5BA55CAF
-P 6360 1335
-F 0 "R4" V 6460 1360 50  0000 L CNN
-F 1 "24" V 6360 1285 50  0000 L CNN
-F 2 "sense:R_0603_HandSoldering" V 6290 1335 30  0001 C CNN
-F 3 "" H 6360 1335 30  0000 C CNN
-	1    6360 1335
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	6510 1135 7010 1135
-Wire Wire Line
-	6510 1335 6785 1335
-Wire Wire Line
-	6785 1335 6785 1485
-Text Label 5760 1685 0    50   ~ 0
+Text Label 5760 1685 0    50   ~ 6
 LED_RED
-Wire Wire Line
-	7010 1135 7010 1485
 $Comp
 L sense:GND #PWR012
 U 1 1 5BA5FEE1
@@ -79,21 +27,8 @@ F 3 "" H 6785 1985 60  0000 C CNN
 	1    6785 1985
 	1    0    0    -1  
 $EndComp
-$Comp
-L sense:GND #PWR013
-U 1 1 5BA5FF06
-P 7010 1985
-F 0 "#PWR013" H 7010 1735 50  0001 C CNN
-F 1 "GND" H 7010 1835 50  0000 C CNN
-F 2 "" H 7010 1985 60  0000 C CNN
-F 3 "" H 7010 1985 60  0000 C CNN
-	1    7010 1985
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	6785 1885 6785 1985
-Wire Wire Line
-	7010 1885 7010 1985
 $Comp
 L sense:D_Photo D1
 U 1 1 5BA62392
@@ -111,7 +46,7 @@ U 1 1 5BA626E5
 P 10000 1065
 F 0 "R1" H 9850 1065 50  0000 L CNN
 F 1 "100k" V 10000 965 50  0000 L CNN
-F 2 "sense:R_0603_HandSoldering" V 9930 1065 30  0001 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 9930 1065 30  0001 C CNN
 F 3 "" H 10000 1065 30  0000 C CNN
 	1    10000 1065
 	1    0    0    -1  
@@ -127,7 +62,7 @@ F 3 "" H 10000 2015 60  0000 C CNN
 	1    10000 2015
 	1    0    0    -1  
 $EndComp
-Text Label 10525 1265 2    50   ~ 0
+Text Label 10525 1265 2    50   ~ 6
 LIGHT_SENSE
 $Comp
 L sense:LOGO #G1
@@ -184,37 +119,35 @@ F 3 "" H 3530 3400 60  0000 C CNN
 	1    3530 3400
 	1    0    0    -1  
 $EndComp
-Text Label 7550 3770 2    60   ~ 0
+Text Label 3745 3770 0    60   ~ 6
 BUTTON
-Text Label 6100 5920 1    60   ~ 0
+Text Label 5605 5920 1    60   ~ 6
 LED_RED
-Text Label 6200 5920 1    60   ~ 0
-LED_GREEN
-Text Label 4050 4270 0    50   ~ 0
+Text Label 4050 4270 0    50   ~ 6
 DEC4
-Text Label 4050 4370 0    50   ~ 0
+Text Label 4050 4370 0    50   ~ 6
 DCC
-Text Label 7560 3270 2    60   ~ 0
+Text Label 7560 3270 2    60   ~ 6
 SWDIO
-Text Label 7560 3370 2    60   ~ 0
+Text Label 7560 3370 2    60   ~ 6
 SWDCLK
-Text Label 7560 3670 2    60   ~ 0
+Text Label 7560 3670 2    60   ~ 6
 RX
-Text Label 7560 3570 2    60   ~ 0
+Text Label 7560 3570 2    60   ~ 6
 TX
-Text Label 2470 6765 2    60   ~ 0
+Text Label 2470 6765 2    60   ~ 6
 DEC4
-Text Label 2470 6965 2    60   ~ 0
+Text Label 2470 6965 2    60   ~ 6
 DCC
-Text Label 5200 5920 1    60   ~ 0
+Text Label 5200 5920 1    60   ~ 6
 LFCLK_XL1
-Text Label 5300 5920 1    60   ~ 0
+Text Label 5300 5920 1    60   ~ 6
 LFCLK_XL2
-Text Label 9480 2885 0    60   ~ 0
+Text Label 9480 2885 0    60   ~ 6
 SWDIO
-Text Label 9480 3185 0    60   ~ 0
+Text Label 9480 3185 0    60   ~ 6
 RX
-Text Label 9480 3085 0    60   ~ 0
+Text Label 9480 3085 0    60   ~ 6
 TX
 $Comp
 L sense:C C5
@@ -222,7 +155,7 @@ U 1 1 5A8BC389
 P 4200 4730
 F 0 "C5" H 4225 4830 50  0000 L CNN
 F 1 "100nF" H 4225 4630 50  0000 L CNN
-F 2 "sense:C_0603_HandSoldering" H 4238 4580 30  0001 C CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 4238 4580 30  0001 C CNN
 F 3 "" H 4200 4730 60  0000 C CNN
 	1    4200 4730
 	-1   0    0    1   
@@ -233,7 +166,7 @@ U 1 1 5A8BC51E
 P 870 7235
 F 0 "C1" H 895 7335 50  0000 L CNN
 F 1 "1uF" H 895 7135 50  0000 L CNN
-F 2 "sense:C_0603_HandSoldering" H 908 7085 30  0001 C CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 908 7085 30  0001 C CNN
 F 3 "" H 870 7235 60  0000 C CNN
 	1    870  7235
 	-1   0    0    1   
@@ -244,7 +177,7 @@ U 1 1 5A8BE5C8
 P 1320 6965
 F 0 "L1" H 1320 7065 50  0000 C CNN
 F 1 "15nH" H 1320 6915 50  0000 C CNN
-F 2 "sense:L_0805" H 1320 6965 60  0001 C CNN
+F 2 "Inductor_SMD:L_0603_1608Metric" H 1320 6965 60  0001 C CNN
 F 3 "" H 1320 6965 60  0000 C CNN
 	1    1320 6965
 	1    0    0    -1  
@@ -260,19 +193,19 @@ F 3 "" H 3530 4120 60  0000 C CNN
 	1    3530 4120
 	1    0    0    -1  
 $EndComp
-Text Notes 5635 585  0    60   ~ 0
+Text Notes 5635 585  0    60   ~ 6
 Two Color (Green/Red) LED
-Text Notes 870  6565 0    60   ~ 0
+Text Notes 870  6565 0    60   ~ 6
 To use the Internal \nDC/DC Converter \nwe need an LC Filter
-Text Notes 9640 2650 0    60   ~ 0
+Text Notes 9640 2650 0    60   ~ 6
 For programming \nand debugging \nthe nRF controller
-Text Notes 9800 615  0    60   ~ 0
+Text Notes 9800 615  0    60   ~ 6
 Ambient light sensing
-Text Label 3750 3870 0    50   ~ 0
+Text Label 3750 3870 0    50   ~ 6
 LIGHT_SENSE
-Text Label 6000 5920 1    50   ~ 0
+Text Label 6200 5920 1    50   ~ 6
 RX_OUT
-Text Label 5900 5920 1    50   ~ 0
+Text Label 6100 5920 1    50   ~ 6
 RX_EN
 $Comp
 L sense:R R2
@@ -280,7 +213,7 @@ U 1 1 5BB2650D
 P 6110 1935
 F 0 "R2" H 5960 1860 50  0000 L CNN
 F 1 "470k" H 5885 1960 50  0000 L CNN
-F 2 "sense:R_0603_HandSoldering" V 6040 1935 30  0001 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 6040 1935 30  0001 C CNN
 F 3 "" H 6110 1935 30  0000 C CNN
 	1    6110 1935
 	1    0    0    -1  
@@ -302,42 +235,12 @@ Wire Wire Line
 	6110 1785 6110 1685
 Wire Wire Line
 	6110 1685 6485 1685
-$Comp
-L sense:R R5
-U 1 1 5BB32D48
-P 7760 1935
-F 0 "R5" H 7610 1860 50  0000 L CNN
-F 1 "470k" H 7535 1960 50  0000 L CNN
-F 2 "sense:R_0603_HandSoldering" V 7690 1935 30  0001 C CNN
-F 3 "" H 7760 1935 30  0000 C CNN
-	1    7760 1935
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	7760 2085 7760 2160
-$Comp
-L sense:GND #PWR014
-U 1 1 5BB32D50
-P 7760 2160
-F 0 "#PWR014" H 7760 1910 50  0001 C CNN
-F 1 "GND" H 7635 2110 50  0000 C CNN
-F 2 "" H 7760 2160 60  0000 C CNN
-F 3 "" H 7760 2160 60  0000 C CNN
-	1    7760 2160
-	1    0    0    -1  
-$EndComp
-Text Label 7560 4170 2    60   ~ 0
+Text Label 7560 4170 2    60   ~ 6
 TRIGGER
-Text Label 7560 4270 2    60   ~ 0
+Text Label 7560 4270 2    60   ~ 6
 FOCUS
-Text Label 7560 4370 2    60   ~ 0
+Text Label 7560 4370 2    60   ~ 6
 CAM_JACK
-Text Label 8210 1685 2    50   ~ 0
-LED_GREEN
-Wire Wire Line
-	7310 1685 7760 1685
-Wire Wire Line
-	7760 1685 7760 1785
 Wire Wire Line
 	10000 1215 10000 1265
 Connection ~ 10000 1265
@@ -358,9 +261,9 @@ F 3 "" H 870 7565 60  0000 C CNN
 $EndComp
 Wire Wire Line
 	10000 1640 10000 2015
-Text Label 9480 2985 0    60   ~ 0
+Text Label 9480 2985 0    60   ~ 6
 SWDCLK
-Text Label 10550 790  2    60   ~ 0
+Text Label 10550 790  2    60   ~ 6
 LIGHT_SENSE_EN
 $Comp
 L sense:VDD #PWR020
@@ -373,74 +276,36 @@ F 3 "" H 9330 3235 60  0000 C CNN
 	1    9330 3235
 	1    0    0    -1  
 $EndComp
-Text Label 5700 5920 1    50   ~ 0
+Text Label 5900 5920 1    50   ~ 6
 PWR1
-Text Label 5800 5920 1    50   ~ 0
+Text Label 5800 5920 1    50   ~ 6
 PWR2
-Text Label 3750 4070 0    50   ~ 0
+Text Label 6000 5920 1    50   ~ 6
 IR_LED_EN
 Wire Wire Line
 	10000 790  10550 790 
 Wire Wire Line
 	10000 1265 10525 1265
 Wire Wire Line
-	8210 1685 7760 1685
-Connection ~ 7760 1685
-Wire Wire Line
 	5760 1685 6110 1685
 Connection ~ 6110 1685
-Text Label 3750 3770 0    50   ~ 0
+Text Label 3750 3670 0    50   ~ 6
 REG_EN
-Text Label 3750 3970 0    50   ~ 0
+Text Label 3750 3570 0    50   ~ 6
 LIGHT_SENSE_EN
-Wire Wire Line
-	5235 685  5235 1135
-Wire Wire Line
-	5235 1335 5385 1335
-Wire Wire Line
-	5385 1135 5235 1135
-Connection ~ 5235 1135
-Wire Wire Line
-	5235 1135 5235 1335
-Wire Wire Line
-	5985 1135 6210 1135
-Wire Wire Line
-	6210 1335 5985 1335
-Text Label 1955 3305 0    50   ~ 0
+Text Label 1955 3305 0    50   ~ 6
 IR_LED_EN
-Text Label 1955 3105 0    50   ~ 0
+Text Label 1955 3105 0    50   ~ 6
 REG_EN
-Text Label 1955 2905 0    50   ~ 0
+Text Label 1955 2905 0    50   ~ 6
 PWR2
-Text Label 1955 2705 0    50   ~ 0
+Text Label 1955 2705 0    50   ~ 6
 PWR1
-$Comp
-L Transistor_FET:2N7002 Q1
-U 1 1 5CADD275
-P 6685 1685
-F 0 "Q1" H 6550 1820 50  0000 L CNN
-F 1 "SI2302" H 6455 1475 50  0000 L CNN
-F 2 "sense:SOT-23" H 6885 1610 50  0001 L CIN
-F 3 "https://www.fairchildsemi.com/datasheets/2N/2N7002.pdf" H 6685 1685 50  0001 L CNN
-	1    6685 1685
-	1    0    0    -1  
-$EndComp
-$Comp
-L Transistor_FET:2N7002 Q2
-U 1 1 5CAE2BB9
-P 7110 1685
-F 0 "Q2" H 6975 1820 50  0000 L CNN
-F 1 "SI2302" H 6880 1475 50  0000 L CNN
-F 2 "sense:SOT-23" H 7310 1610 50  0001 L CIN
-F 3 "https://www.fairchildsemi.com/datasheets/2N/2N7002.pdf" H 7110 1685 50  0001 L CNN
-	1    7110 1685
-	-1   0    0    -1  
-$EndComp
-Text Label 1955 3905 0    60   ~ 0
+Text Label 1955 3905 0    60   ~ 6
 FOCUS
-Text Label 1955 3705 0    60   ~ 0
+Text Label 1955 3705 0    60   ~ 6
 TRIGGER
-Text Label 1950 4300 0    60   ~ 0
+Text Label 1950 4300 0    60   ~ 6
 BUTTON
 $Comp
 L sense:INDUCTOR_SMALL L2
@@ -448,14 +313,14 @@ U 1 1 5A8701FA
 P 2020 6965
 F 0 "L2" H 2020 7065 50  0000 C CNN
 F 1 "10nH" H 2020 6915 50  0000 C CNN
-F 2 "sense:L_0805" H 2020 6965 60  0001 C CNN
+F 2 "Inductor_SMD:L_0603_1608Metric" H 2020 6965 60  0001 C CNN
 F 3 "" H 2020 6965 60  0000 C CNN
 	1    2020 6965
 	1    0    0    -1  
 $EndComp
-Text Label 7560 3870 2    50   ~ 0
+Text Label 7560 3870 2    50   ~ 6
 GPIO1
-Text Label 7560 3970 2    50   ~ 0
+Text Label 7560 3970 2    50   ~ 6
 GPIO2
 $Comp
 L Connector:TestPoint TP2
@@ -479,9 +344,9 @@ F 3 "~" H 10130 4085 50  0001 C CNN
 	1    9930 4085
 	1    0    0    -1  
 $EndComp
-Text Label 9630 4685 0    50   ~ 0
+Text Label 9630 4685 0    50   ~ 6
 GPIO2
-Text Label 9630 4185 0    50   ~ 0
+Text Label 9630 4185 0    50   ~ 6
 GPIO1
 Wire Wire Line
 	9630 4185 9930 4185
@@ -491,7 +356,7 @@ Wire Wire Line
 	9630 4685 9930 4685
 Wire Wire Line
 	9930 4685 9930 4585
-Text Notes 3800 6430 0    60   ~ 0
+Text Notes 3800 6430 0    60   ~ 6
 Low freq. \nCrystal\n32.768 kHz\n
 $Comp
 L sense:C C2
@@ -499,7 +364,7 @@ U 1 1 5A8BC0B2
 P 3800 7330
 F 0 "C2" H 3900 7320 50  0000 L CNN
 F 1 "8pF" H 3825 7230 50  0000 L CNN
-F 2 "sense:C_0603_HandSoldering" H 3838 7180 30  0001 C CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 3838 7180 30  0001 C CNN
 F 3 "" H 3800 7330 60  0000 C CNN
 	1    3800 7330
 	-1   0    0    1   
@@ -510,14 +375,14 @@ U 1 1 5A8BBEF5
 P 4200 7330
 F 0 "C3" H 4000 7330 50  0000 L CNN
 F 1 "8pF" H 4010 7220 50  0000 L CNN
-F 2 "sense:C_0603_HandSoldering" H 4238 7180 30  0001 C CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 4238 7180 30  0001 C CNN
 F 3 "" H 4200 7330 60  0000 C CNN
 	1    4200 7330
 	-1   0    0    1   
 $EndComp
-Text Label 3800 6880 1    60   ~ 0
+Text Label 3800 6880 1    60   ~ 6
 LFCLK_XL2
-Text Label 4200 6880 1    60   ~ 0
+Text Label 4200 6880 1    60   ~ 6
 LFCLK_XL1
 $Comp
 L sense:GND #PWR03
@@ -556,7 +421,7 @@ Wire Wire Line
 	1570 6965 1770 6965
 Wire Wire Line
 	2270 6965 2470 6965
-Text Label 1955 4100 0    60   ~ 0
+Text Label 1955 4100 0    60   ~ 6
 CAM_JACK
 Wire Wire Line
 	4050 4270 4505 4270
@@ -566,7 +431,7 @@ U 1 1 5A8BC1C2
 P 3800 4730
 F 0 "C4" H 3825 4830 50  0000 L CNN
 F 1 "1uF" H 3825 4630 50  0000 L CNN
-F 2 "sense:C_0603_HandSoldering" H 3838 4580 30  0001 C CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 3838 4580 30  0001 C CNN
 F 3 "" H 3800 4730 60  0000 C CNN
 	1    3800 4730
 	-1   0    0    1   
@@ -656,21 +521,15 @@ Connection ~ 3530 3320
 Wire Wire Line
 	3530 3320 3530 3400
 Wire Wire Line
-	4505 3770 3750 3770
-Wire Wire Line
 	4505 3870 3750 3870
-Wire Wire Line
-	4505 3970 3750 3970
 NoConn ~ 5405 5220
 Wire Wire Line
-	4505 4070 3750 4070
-Wire Wire Line
 	6200 5920 6205 5220
-Text Label 7560 4470 2    50   ~ 0
+Text Label 7560 4470 2    50   ~ 6
 RX_TX_S
 Wire Wire Line
 	7560 3670 6905 3670
-Text Label 9320 5285 2    50   ~ 0
+Text Label 9320 5285 2    50   ~ 6
 RX_TX_S
 $Comp
 L sense:R R6
@@ -678,7 +537,7 @@ U 1 1 5CB4B8BB
 P 9150 5645
 F 0 "R6" H 8955 5650 50  0000 L CNN
 F 1 "470k" H 8900 5730 50  0000 L CNN
-F 2 "sense:R_0603_HandSoldering" V 9080 5645 30  0001 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 9080 5645 30  0001 C CNN
 F 3 "" H 9150 5645 30  0000 C CNN
 	1    9150 5645
 	1    0    0    -1  
@@ -689,7 +548,7 @@ U 1 1 5CB4C9D7
 P 9500 5645
 F 0 "R7" H 9310 5650 50  0000 L CNN
 F 1 "470k" H 9265 5725 50  0000 L CNN
-F 2 "sense:R_0603_HandSoldering" V 9430 5645 30  0001 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 9430 5645 30  0001 C CNN
 F 3 "" H 9500 5645 30  0000 C CNN
 	1    9500 5645
 	1    0    0    -1  
@@ -731,7 +590,7 @@ Wire Wire Line
 	9320 5405 9500 5405
 Wire Wire Line
 	9150 5405 9150 5495
-Text Notes 9650 5745 0    50   ~ 0
+Text Notes 9650 5745 0    50   ~ 6
 For selection of RX or TX board,\nIf R to GND connected, then its RX\nIf R to VDD connected, then its TX.
 Wire Wire Line
 	6905 3770 7550 3770
@@ -739,8 +598,6 @@ Wire Wire Line
 	3800 7480 3800 7550
 Wire Wire Line
 	4200 7550 4200 7480
-NoConn ~ 4505 3570
-NoConn ~ 4505 3670
 Wire Wire Line
 	5705 5220 5700 5920
 Wire Wire Line
@@ -748,7 +605,7 @@ Wire Wire Line
 Wire Wire Line
 	6905 3870 7560 3870
 NoConn ~ 6905 3470
-Text Label 5605 5920 1    50   ~ 0
+Text Label 5700 5920 1    50   ~ 6
 VLED
 $Comp
 L sense:MDBT42Q U1
@@ -763,8 +620,7 @@ F 3 "" H 5505 4770 60  0000 C CNN
 $EndComp
 Wire Wire Line
 	5605 5220 5605 5920
-NoConn ~ 5505 5220
-Text Label 1955 3520 0    50   ~ 0
+Text Label 1955 3520 0    50   ~ 6
 VLED
 $Sheet
 S 1190 2590 560  2410
@@ -789,7 +645,7 @@ U 1 1 5CFEA27A
 P 4010 6995
 F 0 "Y1" H 4010 7263 50  0000 C CNN
 F 1 "Crystal" H 4010 7172 50  0000 C CNN
-F 2 "sense:Crystal_C38-LF_d3.0mm_l8.0mm_Vertical" H 4010 6995 50  0001 C CNN
+F 2 "sense:Q13FC1350000400_SMD Crystals 32.768KHz" H 4010 6995 50  0001 C CNN
 F 3 "" H 4010 6995 50  0000 C CNN
 	1    4010 6995
 	1    0    0    -1  
@@ -832,7 +688,7 @@ U 1 1 5D2F34E6
 P 10035 3085
 F 0 "J2" H 10115 3077 50  0000 L CNN
 F 1 "Conn_01x06" H 10115 2986 50  0000 L CNN
-F 2 "" H 10035 3085 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical" H 10035 3085 50  0001 C CNN
 F 3 "~" H 10035 3085 50  0001 C CNN
 	1    10035 3085
 	1    0    0    -1  
@@ -861,14 +717,14 @@ AR Path="/5C63BFE8/5D3649C1" Ref="BT?"  Part="1"
 AR Path="/5D3649C1" Ref="BT1"  Part="1" 
 F 0 "BT1" H 1255 1440 50  0000 L CNN
 F 1 "Battery" H 1255 1340 50  0000 L CNN
-F 2 "sense:Molex_KK-6410-02_02x2.54mm_Straight" H 1155 1430 60  0001 C CNN
+F 2 "Connector_JST:JST_EH_S2B-EH_1x02_P2.50mm_Horizontal" H 1155 1430 60  0001 C CNN
 F 3 "" V 1155 1430 60  0000 C CNN
 	1    1155 1390
 	1    0    0    -1  
 $EndComp
-Text Notes 505  1445 0    60   ~ 0
+Text Notes 505  1445 0    60   ~ 6
 Two 1.2V \nAA Batteries
-Text Notes 1675 675  0    60   ~ 0
+Text Notes 1675 675  0    60   ~ 6
 Reverse polarity protection
 Wire Wire Line
 	3410 1790 3410 1440
@@ -943,18 +799,18 @@ AR Path="/5D3649F4" Ref="C6"  Part="1"
 AR Path="/5C63BFE8/5D3649F4" Ref="C?"  Part="1" 
 F 0 "C6" H 3525 1336 50  0000 L CNN
 F 1 "10Uf" H 3525 1245 50  0000 L CNN
-F 2 "sense:C_0805_HandSoldering" H 3448 1140 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 3448 1140 50  0001 C CNN
 F 3 "~" H 3410 1290 50  0001 C CNN
 	1    3410 1290
 	1    0    0    -1  
 $EndComp
-Text GLabel 3505 890  2    50   Input ~ 0
+Text GLabel 3505 890  2    50   Input ~ 6
 VDD
 Wire Wire Line
 	3505 890  3410 890 
-Text Label 1950 4500 0    50   ~ 0
+Text Label 1950 4500 0    50   ~ 6
 RX_EN
-Text Label 1950 4700 0    50   ~ 0
+Text Label 1950 4700 0    50   ~ 6
 RX_OUT
 Wire Wire Line
 	1950 4500 1750 4500
@@ -983,4 +839,69 @@ Wire Wire Line
 Connection ~ 1955 1790
 Wire Wire Line
 	1955 1790 2315 1790
+Wire Wire Line
+	3750 3670 4505 3670
+Wire Wire Line
+	4505 3570 3750 3570
+NoConn ~ 4505 3970
+NoConn ~ 4505 4070
+Wire Wire Line
+	4505 3770 3745 3770
+$Comp
+L sense:LED D2
+U 1 1 5D95D0C5
+P 6155 1250
+F 0 "D2" H 6148 995 50  0000 C CNN
+F 1 "LED" H 6148 1086 50  0000 C CNN
+F 2 "LED_THT:LED_D5.0mm" H 6155 1250 50  0001 C CNN
+F 3 "" H 6155 1250 50  0001 C CNN
+	1    6155 1250
+	-1   0    0    1   
+$EndComp
+NoConn ~ 5505 5220
+$Comp
+L sense:2N7002 Q1
+U 1 1 5D986C20
+P 6685 1685
+F 0 "Q1" H 6891 1731 50  0000 L CNN
+F 1 "2N7002" H 6891 1640 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 6885 1610 50  0001 L CIN
+F 3 "" H 6685 1685 50  0001 L CNN
+	1    6685 1685
+	1    0    0    -1  
+$EndComp
+$Comp
+L sense:R R3
+U 1 1 5BA55B89
+P 6520 1250
+F 0 "R3" V 6420 1300 50  0000 L CNN
+F 1 "33" V 6520 1200 50  0000 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 6450 1250 30  0001 C CNN
+F 3 "" H 6520 1250 30  0000 C CNN
+	1    6520 1250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6670 1250 6785 1250
+Wire Wire Line
+	6785 1250 6785 1485
+Wire Wire Line
+	6305 1250 6370 1250
+$Comp
+L sense:VDD #PWR010
+U 1 1 5D996D11
+P 5700 875
+AR Path="/5D996D11" Ref="#PWR010"  Part="1" 
+AR Path="/5C63BFE8/5D996D11" Ref="#PWR?"  Part="1" 
+F 0 "#PWR010" H 5700 725 50  0001 C CNN
+F 1 "VDD" H 5717 1048 50  0000 C CNN
+F 2 "" H 5700 875 60  0000 C CNN
+F 3 "" H 5700 875 60  0000 C CNN
+	1    5700 875 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5700 875  5700 1250
+Wire Wire Line
+	5700 1250 6005 1250
 $EndSCHEMATC

@@ -14,7 +14,7 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text Notes 2870 885  0    50   ~ 0
+Text Notes 2870 885  0    50   ~ 6
 Infra Red LED Tx
 $Comp
 L sense:R R?
@@ -24,7 +24,7 @@ AR Path="/5CB29379" Ref="R?"  Part="1"
 AR Path="/5C63BFE8/5CB29379" Ref="R13"  Part="1" 
 F 0 "R13" H 9985 1331 50  0000 L CNN
 F 1 "470k" H 9985 1240 50  0000 L CNN
-F 2 "sense:R_0603_HandSoldering" V 9845 1285 50  0001 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 9845 1285 50  0001 C CNN
 F 3 "~" H 9915 1285 50  0001 C CNN
 	1    9915 1285
 	1    0    0    -1  
@@ -101,7 +101,7 @@ AR Path="/5CB293A4" Ref="C?"  Part="1"
 AR Path="/5C63BFE8/5CB293A4" Ref="C11"  Part="1" 
 F 0 "C11" H 10405 1331 50  0000 L CNN
 F 1 "8p" H 10405 1240 50  0000 L CNN
-F 2 "sense:C_0805_HandSoldering" H 10328 1135 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 10328 1135 50  0001 C CNN
 F 3 "~" H 10290 1285 50  0001 C CNN
 	1    10290 1285
 	1    0    0    -1  
@@ -111,7 +111,7 @@ Wire Wire Line
 Wire Wire Line
 	10290 1110 10290 1135
 Connection ~ 9915 1110
-Text Label 10615 1110 2    50   ~ 0
+Text Label 10615 1110 2    50   ~ 6
 VLED
 Wire Wire Line
 	9365 1510 9490 1510
@@ -130,7 +130,7 @@ AR Path="/5CB293B5" Ref="R?"  Part="1"
 AR Path="/5C63BFE8/5CB293B5" Ref="R14"  Part="1" 
 F 0 "R14" H 9985 2006 50  0000 L CNN
 F 1 "470k" H 9985 1915 50  0000 L CNN
-F 2 "sense:R_0603_HandSoldering" V 9845 1960 50  0001 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 9845 1960 50  0001 C CNN
 F 3 "~" H 9915 1960 50  0001 C CNN
 	1    9915 1960
 	1    0    0    -1  
@@ -158,7 +158,7 @@ AR Path="/5CB293C2" Ref="R?"  Part="1"
 AR Path="/5C63BFE8/5CB293C2" Ref="R15"  Part="1" 
 F 0 "R15" H 10360 2006 50  0000 L CNN
 F 1 "3.9M" H 10360 1915 50  0000 L CNN
-F 2 "sense:R_0603_HandSoldering" V 10220 1960 50  0001 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 10220 1960 50  0001 C CNN
 F 3 "~" H 10290 1960 50  0001 C CNN
 	1    10290 1960
 	1    0    0    -1  
@@ -171,7 +171,7 @@ AR Path="/5CB293C8" Ref="C?"  Part="1"
 AR Path="/5C63BFE8/5CB293C8" Ref="C8"  Part="1" 
 F 0 "C8" H 3835 1606 50  0000 L CNN
 F 1 "10u" H 3835 1515 50  0000 L CNN
-F 2 "sense:C_0603_HandSoldering" H 3758 1410 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 3758 1410 50  0001 C CNN
 F 3 "~" H 3720 1560 50  0001 C CNN
 	1    3720 1560
 	1    0    0    -1  
@@ -197,7 +197,7 @@ AR Path="/5CB293D4" Ref="R?"  Part="1"
 AR Path="/5C63BFE8/5CB293D4" Ref="R17"  Part="1" 
 F 0 "R17" H 10710 2006 50  0000 L CNN
 F 1 "1.2M" H 10710 1915 50  0000 L CNN
-F 2 "sense:R_0603_HandSoldering" V 10570 1960 50  0001 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 10570 1960 50  0001 C CNN
 F 3 "~" H 10640 1960 50  0001 C CNN
 	1    10640 1960
 	1    0    0    -1  
@@ -253,7 +253,7 @@ Wire Wire Line
 	3720 1710 3720 1885
 Wire Wire Line
 	3720 1410 3720 1110
-Text Label 3945 1110 2    50   ~ 0
+Text Label 3945 1110 2    50   ~ 6
 VLED
 $Comp
 L sense:GND #PWR?
@@ -276,7 +276,7 @@ AR Path="/5CB29402" Ref="R?"  Part="1"
 AR Path="/5C63BFE8/5CB29402" Ref="R12"  Part="1" 
 F 0 "R12" H 9385 3631 50  0000 L CNN
 F 1 "470k" H 9385 3540 50  0000 L CNN
-F 2 "sense:R_0603_HandSoldering" V 9245 3585 50  0001 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 9245 3585 50  0001 C CNN
 F 3 "~" H 9315 3585 50  0001 C CNN
 	1    9315 3585
 	1    0    0    -1  
@@ -304,7 +304,7 @@ AR Path="/5CB2940F" Ref="R?"  Part="1"
 AR Path="/5C63BFE8/5CB2940F" Ref="R16"  Part="1" 
 F 0 "R16" H 10535 3631 50  0000 L CNN
 F 1 "470k" H 10535 3540 50  0000 L CNN
-F 2 "sense:R_0603_HandSoldering" V 10395 3585 50  0001 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 10395 3585 50  0001 C CNN
 F 3 "~" H 10465 3585 50  0001 C CNN
 	1    10465 3585
 	1    0    0    -1  
@@ -334,7 +334,7 @@ AR Path="/5CB2941D" Ref="R?"  Part="1"
 AR Path="/5C63BFE8/5CB2941D" Ref="R10"  Part="1" 
 F 0 "R10" H 2215 1706 50  0000 L CNN
 F 1 "470k" H 2215 1615 50  0000 L CNN
-F 2 "sense:R_0603_HandSoldering" V 2075 1660 50  0001 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 2075 1660 50  0001 C CNN
 F 3 "~" H 2145 1660 50  0001 C CNN
 	1    2145 1660
 	1    0    0    -1  
@@ -427,7 +427,7 @@ Wire Wire Line
 Connection ~ 10290 1685
 Wire Wire Line
 	10290 1685 9915 1685
-Text Notes 7980 820  0    50   ~ 0
+Text Notes 7980 820  0    50   ~ 6
 Buck Regulator for IR LED\ninput Voltage/Current control.
 Wire Wire Line
 	3945 1110 3720 1110
@@ -450,13 +450,13 @@ Wire Wire Line
 	10640 2110 10640 2785
 Wire Wire Line
 	11015 2785 11015 2885
-Text HLabel 10365 3085 0    50   Input ~ 0
+Text HLabel 10365 3085 0    50   Input ~ 6
 PWR2
-Text HLabel 9190 3085 0    50   Input ~ 0
+Text HLabel 9190 3085 0    50   Input ~ 6
 PWR1
-Text HLabel 7745 1510 0    50   Input ~ 0
+Text HLabel 7745 1510 0    50   Input ~ 6
 REG_EN
-Text HLabel 1895 1360 0    50   Input ~ 0
+Text HLabel 1895 1360 0    50   Input ~ 6
 IR_LED_EN
 $Comp
 L Transistor_FET:2N7002 Q?
@@ -522,7 +522,7 @@ AR Path="/5CB293F3" Ref="R?"  Part="1"
 AR Path="/5C63BFE8/5CB293F3" Ref="R11"  Part="1" 
 F 0 "R11" H 7885 1831 50  0000 L CNN
 F 1 "470k" H 7885 1740 50  0000 L CNN
-F 2 "sense:R_0603_HandSoldering" V 7745 1785 50  0001 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 7745 1785 50  0001 C CNN
 F 3 "~" H 7815 1785 50  0001 C CNN
 	1    7815 1785
 	1    0    0    -1  
@@ -534,17 +534,15 @@ Wire Wire Line
 Connection ~ 7815 1510
 Wire Wire Line
 	7815 1510 8165 1510
-Text HLabel 10665 1110 2    50   Input ~ 0
+Text HLabel 10665 1110 2    50   Input ~ 6
 VLED
 Wire Wire Line
 	10290 1110 10665 1110
-Text Label 6585 5195 2    60   ~ 0
-BUTTON
-Text Notes 5270 4855 0    60   ~ 0
+Text Notes 5270 4855 0    60   ~ 6
 A momentary push button \nwith debouncing cap to \nswitch to config. mode
 Wire Wire Line
 	6185 5270 6185 5195
-Text Notes 5305 2885 0    60   ~ 0
+Text Notes 5305 2885 0    60   ~ 6
 3.5mm Audio Jack\nPort to trigger the camera
 Wire Wire Line
 	6185 5195 6585 5195
@@ -559,7 +557,7 @@ AR Path="/5CB2937F" Ref="C?"  Part="1"
 AR Path="/5C63BFE8/5CB2937F" Ref="C10"  Part="1" 
 F 0 "C10" H 7355 1431 50  0000 L CNN
 F 1 "22u" H 7355 1340 50  0000 L CNN
-F 2 "sense:C_0805_HandSoldering" H 7278 1235 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 7278 1235 50  0001 C CNN
 F 3 "~" H 7240 1385 50  0001 C CNN
 	1    7240 1385
 	1    0    0    -1  
@@ -596,7 +594,7 @@ AR Path="/5D298B6A" Ref="C?"  Part="1"
 AR Path="/5C63BFE8/5D298B6A" Ref="C7"  Part="1" 
 F 0 "C7" H 6300 5466 50  0000 L CNN
 F 1 "100nF" H 6300 5375 50  0000 L CNN
-F 2 "sense:C_0603_HandSoldering" H 6223 5270 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 6223 5270 50  0001 C CNN
 F 3 "~" H 6185 5420 50  0001 C CNN
 	1    6185 5420
 	1    0    0    -1  
@@ -625,11 +623,11 @@ F 3 "" H 6185 5620 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	6185 5570 6185 5620
-Text HLabel 6015 3240 2    50   Input ~ 0
+Text HLabel 6015 3240 2    50   Input ~ 6
 TRIGGER
-Text HLabel 6015 3325 2    50   Input ~ 0
+Text HLabel 6015 3325 2    50   Input ~ 6
 CAM_JACK
-Text HLabel 6015 3645 2    50   Input ~ 0
+Text HLabel 6015 3645 2    50   Input ~ 6
 FOCUS
 $Comp
 L power:GND #PWR030
@@ -656,7 +654,7 @@ U 1 1 5D355B44
 P 5620 5195
 F 0 "SW2" H 5620 5430 50  0000 C CNN
 F 1 "SW_SPST" H 5620 5339 50  0000 C CNN
-F 2 "" H 5620 5195 50  0001 C CNN
+F 2 "sense:SW_PUSH_6mm" H 5620 5195 50  0001 C CNN
 F 3 "" H 5620 5195 50  0001 C CNN
 	1    5620 5195
 	1    0    0    -1  
@@ -699,7 +697,7 @@ AR Path="/5D376104" Ref="R?"  Part="1"
 AR Path="/5C63BFE8/5D376104" Ref="R8"  Part="1" 
 F 0 "R8" H 2345 6045 50  0000 L CNN
 F 1 "3.9M" H 2270 6120 50  0000 L CNN
-F 2 "sense:R_0603_HandSoldering" V 2425 6045 30  0001 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 2425 6045 30  0001 C CNN
 F 3 "" H 2495 6045 30  0000 C CNN
 	1    2495 6045
 	1    0    0    -1  
@@ -725,7 +723,7 @@ AR Path="/5D376110" Ref="C?"  Part="1"
 AR Path="/5C63BFE8/5D376110" Ref="C9"  Part="1" 
 F 0 "C9" H 2785 5241 50  0000 L CNN
 F 1 "100nF" H 2785 5150 50  0000 L CNN
-F 2 "sense:C_0603_HandSoldering" H 2708 5045 30  0001 C CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 2708 5045 30  0001 C CNN
 F 3 "" H 2670 5195 60  0000 C CNN
 	1    2670 5195
 	1    0    0    -1  
@@ -762,7 +760,7 @@ Wire Wire Line
 	2495 5820 2770 5820
 Wire Wire Line
 	2495 6195 2495 6295
-Text Notes 1190 5115 0    60   ~ 0
+Text Notes 1190 5115 0    60   ~ 6
 IR pattern receiver \nwith an enable switch\n
 $Comp
 L sense:GND #PWR?
@@ -801,7 +799,7 @@ AR Path="/5D376137" Ref="R?"  Part="1"
 AR Path="/5C63BFE8/5D376137" Ref="R9"  Part="1" 
 F 0 "R9" H 3245 6390 50  0000 L CNN
 F 1 "470k" H 3145 6465 50  0000 L CNN
-F 2 "sense:R_0603_HandSoldering" V 3325 6390 30  0001 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 3325 6390 30  0001 C CNN
 F 3 "" H 3395 6390 30  0000 C CNN
 	1    3395 6390
 	1    0    0    -1  
@@ -822,12 +820,58 @@ Wire Wire Line
 	2095 5620 2495 5620
 Wire Wire Line
 	2095 5420 2495 5420
-Text GLabel 2440 5020 0    50   Input ~ 0
+Text GLabel 2440 5020 0    50   Input ~ 6
 VDD
 Wire Wire Line
 	2440 5020 2495 5020
-Text HLabel 3670 6070 2    50   Input ~ 0
+Text HLabel 3670 6070 2    50   Input ~ 6
 RX_EN
-Text HLabel 2495 5620 2    50   Input ~ 0
+Text HLabel 2495 5620 2    50   Input ~ 6
 RX_OUT
+Text HLabel 6585 5195 2    50   Input ~ 6
+BUTTON
+$Comp
+L sense:Mounting_Hole MK1
+U 1 1 5D9ED540
+P 5000 7000
+F 0 "MK1" H 5100 7046 50  0000 L CNN
+F 1 "Mounting_Hole" H 5100 6955 50  0000 L CNN
+F 2 "sense:MountingHole_2.7mm_M2.5" H 5000 7000 50  0001 C CNN
+F 3 "" H 5000 7000 50  0001 C CNN
+	1    5000 7000
+	1    0    0    -1  
+$EndComp
+$Comp
+L sense:Mounting_Hole MK2
+U 1 1 5D9EE34E
+P 5000 7305
+F 0 "MK2" H 5100 7351 50  0000 L CNN
+F 1 "Mounting_Hole" H 5100 7260 50  0000 L CNN
+F 2 "sense:MountingHole_2.7mm_M2.5" H 5000 7305 50  0001 C CNN
+F 3 "" H 5000 7305 50  0001 C CNN
+	1    5000 7305
+	1    0    0    -1  
+$EndComp
+$Comp
+L sense:Mounting_Hole MK3
+U 1 1 5D9EE875
+P 6000 7000
+F 0 "MK3" H 6100 7046 50  0000 L CNN
+F 1 "Mounting_Hole" H 6100 6955 50  0000 L CNN
+F 2 "sense:MountingHole_2.7mm_M2.5" H 6000 7000 50  0001 C CNN
+F 3 "" H 6000 7000 50  0001 C CNN
+	1    6000 7000
+	1    0    0    -1  
+$EndComp
+$Comp
+L sense:Mounting_Hole MK4
+U 1 1 5D9EEC51
+P 6000 7310
+F 0 "MK4" H 6100 7356 50  0000 L CNN
+F 1 "Mounting_Hole" H 6100 7265 50  0000 L CNN
+F 2 "sense:MountingHole_2.7mm_M2.5" H 6000 7310 50  0001 C CNN
+F 3 "" H 6000 7310 50  0001 C CNN
+	1    6000 7310
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

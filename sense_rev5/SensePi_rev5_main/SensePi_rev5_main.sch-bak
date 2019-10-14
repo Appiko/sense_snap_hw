@@ -398,7 +398,7 @@ Text Label 3215 4150 0    60   ~ 0
 DEC4
 Text Label 3215 4250 0    60   ~ 0
 DCC
-Text Label 6665 4050 2    60   ~ 0
+Text Label 6665 4150 2    60   ~ 0
 FOCUS
 Text Label 6715 3150 2    60   ~ 0
 SWDIO
@@ -1643,11 +1643,11 @@ Wire Wire Line
 	6065 4150 6665 4150
 Wire Wire Line
 	6665 4250 6065 4250
-Text Label 6665 3950 2    60   ~ 0
-AUDIO_JACK_IO
-Text Label 6665 4150 2    60   ~ 0
-TRIGGER
 Text Label 6665 4250 2    60   ~ 0
+AUDIO_JACK_IO
+Text Label 6665 4050 2    60   ~ 0
+TRIGGER
+Text Label 6665 3950 2    60   ~ 0
 BUTTON
 Wire Wire Line
 	6065 4350 6660 4350

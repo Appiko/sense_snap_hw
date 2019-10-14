@@ -20,6 +20,12 @@ D Power symbol creates a global label with name "+3V3"
 K power-flag
 $ENDCMP
 #
+$CMP AM0805
+D Low power RTC
+K RTC
+F https://www.ambiqmicro.com/static/rtc/files/AM08X5_Data_Sheet_DS0002V1p3.pdf
+$ENDCMP
+#
 $CMP CP1
 D Polarized capacitor, US symbol
 K cap capacitor
@@ -74,6 +80,12 @@ K connector
 F ~
 $ENDCMP
 #
+$CMP Conn_02x03_Odd_Even
+D Generic connector, double row, 02x03, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)
+K connector
+F ~
+$ENDCMP
+#
 $CMP D
 D Diode
 K diode
@@ -104,6 +116,12 @@ K connector SD microsd
 F https://www.hirose.com/product/en/download_file/key_name/DM3/category/Catalog/doc_file_id/49662/?file_category_id=4&item_id=195&is_series=1
 $ENDCMP
 #
+$CMP PCF8563T
+D Realtime Clock/Calendar I2C Interface, SOIC-8
+K I2C RTC Clock Calendar
+F https://assets.nexperia.com/documents/data-sheet/PCF8563.pdf
+$ENDCMP
+#
 $CMP PNPN_Thyristor
 D PNPN Thyristor
 K thyristor
@@ -123,6 +141,12 @@ $ENDCMP
 $CMP Q_PMOS_GDS
 D P-MOSFET transistor, gate/drain/source
 K transistor PMOS P-MOS P-MOSFET
+F ~
+$ENDCMP
+#
+$CMP R_PHOTO
+D Photoresistor
+K resistor variable light sensitive opto LDR
 F ~
 $ENDCMP
 #

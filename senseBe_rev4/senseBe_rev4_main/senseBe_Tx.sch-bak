@@ -401,6 +401,17 @@ F 3 "~" H 7200 1400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
+L sense:PJ-611-5A_AudioJack J1
+U 1 1 5D09320C
+P 5500 3450
+F 0 "J1" H 5558 3920 50  0000 C CNN
+F 1 "PJ-611-5A_AudioJack" H 5558 3829 50  0000 C CNN
+F 2 "sense_fp:PJ_611_5A_Audio Jack" H 5500 3830 50  0001 C CNN
+F 3 "" H 5500 3830 50  0001 C CNN
+	1    5500 3450
+	1    0    0    -1  
+$EndComp
+$Comp
 L sense:C C?
 U 1 1 5D298B6A
 P 6100 5400
@@ -778,6 +789,8 @@ Wire Wire Line
 Wire Wire Line
 	10650 2600 10650 2100
 Wire Wire Line
+	5850 3200 6050 3200
+Wire Wire Line
 	6050 3300 5850 3300
 Wire Wire Line
 	5850 3450 5950 3450
@@ -862,19 +875,4 @@ Wire Wire Line
 Connection ~ 3450 6100
 Wire Wire Line
 	3450 6100 3700 6100
-Wire Wire Line
-	5850 3200 6050 3200
-$Comp
-L sense:PJ-611-5A_AudioJack J1
-U 1 1 5D09320C
-P 5500 3450
-AR Path="/5D09320C" Ref="J1"  Part="1" 
-AR Path="/5C63BFE8/5D09320C" Ref="J1"  Part="1" 
-F 0 "J1" H 5558 3920 50  0000 C CNN
-F 1 "PJ-611-5A_AudioJack" H 5558 3829 50  0000 C CNN
-F 2 "sense_fp:PJ_611_5A_Audio Jack" H 5500 3830 50  0001 C CNN
-F 3 "" H 5500 3830 50  0001 C CNN
-	1    5500 3450
-	1    0    0    -1  
-$EndComp
 $EndSCHEMATC

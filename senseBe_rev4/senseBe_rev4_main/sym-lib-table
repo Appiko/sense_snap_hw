@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name senseBe_rev4_main-rescue)(type Legacy)(uri ${KIPRJMOD}/senseBe_rev4_main-rescue.lib)(options "")(descr ""))
+)

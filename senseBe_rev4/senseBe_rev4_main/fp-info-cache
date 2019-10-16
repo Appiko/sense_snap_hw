@@ -1,4 +1,4 @@
-15988980613787781
+16006262196212894
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -64988,6 +64988,13 @@ Headphones with microphone connector, 3.5mm, 4 pins.
 4
 4
 sense
+BatteryHolder_Keystone_3009_1x2450
+http://www.keyelco.com/product-pdf.cfm?p=787
+Keystone type 3009 coin cell retainer
+0
+3
+2
+sense
 Berg_5x2Conn
 
 
@@ -65065,6 +65072,13 @@ capacitor
 2
 2
 sense
+C_0603_1608Metric
+Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator
+capacitor
+0
+2
+2
+sense
 C_0603_HandSoldering
 Capacitor SMD 0603, hand soldering
 capacitor 0603
@@ -65093,6 +65107,13 @@ capacitor
 2
 2
 sense
+DEANS
+
+
+0
+2
+2
+sense
 DF12(3.5)-36DP-0.5V(86)
 
 
@@ -65117,6 +65138,13 @@ sense
 D_MiniMELF
 Diode Mini-MELF
 Diode Mini-MELF
+0
+2
+2
+sense
+D_SOD-323
+SOD-323
+SOD-323
 0
 2
 2
@@ -65156,6 +65184,13 @@ IR26-21C-L110
 2
 2
 sense
+JST_EH_S2B-EH_1x02_P2.50mm_Horizontal
+JST EH series connector, S2B-EH (http://www.jst-mfg.com/product/pdf/eng/eEH.pdf), generated with kicad-footprint-generator
+connector JST EH horizontal
+0
+2
+2
+sense
 KiCad-Logo2_8mm_SilkScreen
 KiCad Logo
 Logo KiCad
@@ -65183,6 +65218,13 @@ LED Cree XHP70
 0
 13
 5
+sense
+LED_D5.0mm
+LED, diameter 5.0mm, 2 pins, http://cdn-reichelt.de/documents/datenblatt/A500/LL-504BC2E-009.pdf
+LED diameter 5.0mm 2 pins
+0
+2
+2
 sense
 LED_KPTBD-3216SURKCGKC
 https://docs.broadcom.com/docs/AV02-4186EN
@@ -65352,6 +65394,13 @@ Through hole pin header THT 1x08 2.54mm single row
 8
 8
 sense
+PinHeader_2x03_P2.54mm_Vertical
+Through hole straight pin header, 2x03, 2.54mm pitch, double rows
+Through hole pin header THT 2x03 2.54mm double row
+0
+6
+6
+sense
 Pin_Header_Straight_1x02_Pitch2.54mm
 Through hole straight pin header, 1x02, 2.54mm pitch, single row
 Through hole pin header THT 1x02 2.54mm single row
@@ -65379,6 +65428,13 @@ PJ_611_5A_Audio Jack
 0
 9
 5
+sense
+PowerPAK-1212-8
+
+
+0
+9
+3
 sense
 prog_connect
 Tag-Connect programming header; http://www.tag-connect.com/Materials/TC2050-IDC-NL%20Datasheet.pdf
@@ -65463,6 +65519,13 @@ SMD_tactile_button
 0
 4
 4
+sense
+SOIC-8_3.9x4.9mm_P1.27mm
+SOIC, 8 Pin (JEDEC MS-012AA, https://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/soic_narrow-r/r_8.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py
+SOIC SO
+0
+8
+8
 sense
 SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm
 SMD Solder Jumper, 1x1.5mm, rounded Pads, 0.3mm gap, open
@@ -65562,6 +65625,13 @@ STCS2A_PowerSO-10
 32
 11
 sense
+SW_Push_1P1T_NO_6x6mm_H9.5mm
+tactile push button, 6x6mm e.g. PTS645xx series, height=9.5mm
+tact sw push 6mm smd
+0
+4
+2
+sense
 SW_Push_1P1T_NO_CK_KSC7xxJ
 CK components KSC7 tactile switch https://www.ckswitches.com/media/1973/ksc7.pdf
 tactile switch ksc7
@@ -65571,6 +65641,13 @@ tactile switch ksc7
 sense
 SW_PUSH_6mm
 https://www.omron.com/ecb/products/pdf/en-b3f.pdf
+tact sw push 6mm
+0
+4
+2
+sense
+SW_PUSH_6mm_H9.5mm
+tactile push button, 6x6mm e.g. PHAP33xx series, height=9.5mm
 tact sw push 6mm
 0
 4

@@ -383,9 +383,9 @@ F 3 "~" H 7900 1800 50  0001 C CNN
 $EndComp
 Text HLabel 10650 1150 2    50   Input ~ 10
 VLED
-Text Notes 5000 4800 0    60   ~ 12
+Text Notes 5000 4800 0    60   ~ 0
 A momentary push button \nwith debouncing cap to \nswitch to config. mode
-Text Notes 5000 2850 0    60   ~ 12
+Text Notes 5000 2850 0    60   ~ 0
 3.5mm Audio Jack\nPort to trigger the camera
 $Comp
 L sense:C C?
@@ -530,7 +530,7 @@ F 3 "" H 2650 5450 60  0000 C CNN
 	1    2650 5450
 	1    0    0    -1  
 $EndComp
-Text Notes 1200 4900 0    60   ~ 12
+Text Notes 1200 4900 0    60   ~ 0
 IR pattern receiver \nwith an enable switch\n
 $Comp
 L sense:GND #PWR?

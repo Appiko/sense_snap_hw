@@ -14,7 +14,7 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text Label 4300 1850 0    50   ~ 10
+Text Label 4300 1850 0    50   ~ 0
 LED_RED
 $Comp
 L sense:GND #PWR012
@@ -104,31 +104,31 @@ F 3 "" H 3650 3300 60  0000 C CNN
 	1    3650 3300
 	1    0    0    -1  
 $EndComp
-Text Label 3850 3500 0    60   ~ 12
+Text Label 3850 3500 0    50   ~ 10
 LED_RED
 Text Label 4150 4200 0    50   ~ 10
 DEC4
 Text Label 4150 4300 0    50   ~ 10
 DCC
-Text Label 7650 3200 2    60   ~ 12
+Text Label 7650 3200 2    50   ~ 10
 SWDIO
-Text Label 7650 3300 2    60   ~ 12
+Text Label 7650 3300 2    50   ~ 10
 SWDCLK
-Text Label 7650 3600 2    60   ~ 12
+Text Label 7650 3600 2    50   ~ 10
 RX
-Text Label 7650 3500 2    60   ~ 12
+Text Label 7650 3500 2    50   ~ 10
 TX
-Text Label 2450 6750 2    60   ~ 12
+Text Label 2450 6750 2    50   ~ 10
 DEC4
-Text Label 2450 6950 2    60   ~ 12
+Text Label 2450 6950 2    50   ~ 10
 DCC
-Text Label 5300 5900 1    60   ~ 12
+Text Label 5300 5900 1    50   ~ 10
 LFCLK_XL1
-Text Label 5400 5900 1    60   ~ 12
+Text Label 5400 5900 1    50   ~ 10
 LFCLK_XL2
-Text Label 10600 3100 2    60   ~ 12
+Text Label 10600 3100 2    50   ~ 10
 RX
-Text Label 9400 3300 0    60   ~ 12
+Text Label 9400 3300 0    50   ~ 10
 TX
 $Comp
 L sense:C C5
@@ -174,13 +174,13 @@ F 3 "" H 3650 4000 60  0000 C CNN
 	1    3650 4000
 	1    0    0    -1  
 $EndComp
-Text Notes 4200 750  0    60   ~ 12
+Text Notes 4200 750  0    60   ~ 0
 Two Color (Green/Red) LED
-Text Notes 850  6550 0    60   ~ 12
+Text Notes 850  6550 0    60   ~ 0
 To use the Internal \nDC/DC Converter \nwe need an LC Filter
-Text Notes 9700 2700 0    60   ~ 12
+Text Notes 9700 2700 0    60   ~ 0
 For programming \nand debugging \nthe nRF controller
-Text Notes 9800 600  0    60   ~ 12
+Text Notes 9800 600  0    60   ~ 0
 Ambient light sensing
 Text Label 6300 5900 1    50   ~ 10
 RX_OUT
@@ -208,11 +208,11 @@ F 3 "" H 4700 2350 60  0000 C CNN
 	1    4700 2350
 	1    0    0    -1  
 $EndComp
-Text Label 7650 4400 2    60   ~ 12
+Text Label 7650 4400 2    50   ~ 10
 TRIGGER
-Text Label 7650 4200 2    60   ~ 12
-FOCUS
-Text Label 7650 4300 2    60   ~ 12
+Text Label 7650 4200 2    50   ~ 10
+FOCU
+Text Label 7650 4300 2    50   ~ 10
 CAM_JACK
 $Comp
 L sense:GND #PWR02
@@ -225,7 +225,7 @@ F 3 "" H 850 7600 60  0000 C CNN
 	1    850  7600
 	1    0    0    -1  
 $EndComp
-Text Label 10550 800  2    60   ~ 12
+Text Label 10550 800  2    50   ~ 10
 LIGHT_SENSE_EN
 $Comp
 L sense:VDD #PWR020
@@ -256,11 +256,11 @@ Text Label 2000 2900 0    50   ~ 10
 PWR2
 Text Label 2000 2700 0    50   ~ 10
 PWR1
-Text Label 2000 3900 0    60   ~ 12
+Text Label 2000 3900 0    50   ~ 10
 FOCUS
-Text Label 2000 3700 0    60   ~ 12
+Text Label 2000 3700 0    50   ~ 10
 TRIGGER
-Text Label 2000 4300 0    60   ~ 12
+Text Label 2000 4300 0    50   ~ 10
 BUTTON
 $Comp
 L sense:INDUCTOR_SMALL L2
@@ -303,7 +303,7 @@ Text Label 9600 4650 0    50   ~ 10
 GPIO2
 Text Label 9600 4150 0    50   ~ 10
 GPIO1
-Text Notes 3700 6350 0    60   ~ 12
+Text Notes 3700 6350 0    60   ~ 0
 Low freq. \nCrystal\n32.768 kHz\n
 $Comp
 L sense:C C3
@@ -316,9 +316,9 @@ F 3 "" H 4200 7350 60  0000 C CNN
 	1    4200 7350
 	-1   0    0    1   
 $EndComp
-Text Label 3800 6850 1    60   ~ 12
+Text Label 3800 6850 1    50   ~ 10
 LFCLK_XL2
-Text Label 4200 6850 1    60   ~ 12
+Text Label 4200 6850 1    50   ~ 10
 LFCLK_XL1
 $Comp
 L sense:GND #PWR03
@@ -342,7 +342,7 @@ F 3 "" H 4200 7600 60  0000 C CNN
 	1    4200 7600
 	1    0    0    -1  
 $EndComp
-Text Label 2000 4100 0    60   ~ 12
+Text Label 2000 4100 0    50   ~ 10
 CAM_JACK
 $Comp
 L sense:C C4
@@ -448,9 +448,9 @@ F 3 "" V 1150 1340 60  0000 C CNN
 	1    1150 1300
 	1    0    0    -1  
 $EndComp
-Text Notes 500  1400 0    60   ~ 12
+Text Notes 500  1400 0    60   ~ 0
 Two 1.2V \nAA Batteries
-Text Notes 1700 600  0    60   ~ 12
+Text Notes 1700 600  0    60   ~ 0
 Reverse polarity protection
 $Comp
 L sense:Slider_Switch_SW_2_State SW?
@@ -491,7 +491,7 @@ F 3 "~" H 3400 1300 50  0001 C CNN
 	1    3400 1300
 	1    0    0    -1  
 $EndComp
-Text GLabel 3550 900  2    50   Input ~ 10
+Text GLabel 3550 900  2    50   Input ~ 0
 VDD
 Text Label 2000 4500 0    50   ~ 10
 RX_EN
@@ -545,11 +545,11 @@ F 3 "" H 4250 1000 60  0000 C CNN
 $EndComp
 Wire Wire Line
 	4250 1400 4555 1400
-Text Label 9400 3100 0    60   ~ 12
+Text Label 9400 3100 0    50   ~ 10
 SWDIO
-Text Label 9400 3200 0    60   ~ 12
+Text Label 9400 3200 0    50   ~ 10
 SWDCLK
-Text Label 7650 4000 2    60   ~ 12
+Text Label 7650 4000 2    50   ~ 10
 BUTTON
 Text Label 3850 3700 0    50   ~ 10
 LIGHT_SENSE
@@ -965,11 +965,11 @@ F 3 "" H 8550 1400 60  0000 C CNN
 	1    8550 1400
 	1    0    0    -1  
 $EndComp
-Text Label 8650 1750 2    50   ~ 0
+Text Label 8650 1750 2    50   ~ 10
 SCL
-Text Label 8650 1850 2    50   ~ 0
+Text Label 8650 1850 2    50   ~ 10
 SDA
-Text Label 8650 2050 2    50   ~ 0
+Text Label 8650 2050 2    50   ~ 10
 RTC_CLK
 Wire Wire Line
 	7200 1750 7300 1750
@@ -1027,7 +1027,7 @@ Wire Wire Line
 Connection ~ 7700 1300
 Text Notes 7300 1050 0    60   ~ 0
 RTC powered by a coin cell\nto count the time when the AA\nbatteries are disconnected.
-NoConn ~ 9190 2390
+NoConn ~ 7700 2400
 Wire Wire Line
 	5500 5150 5500 5900
 Wire Wire Line

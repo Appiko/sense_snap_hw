@@ -1,6 +1,6 @@
 EESchema Schematic File Version 4
-LIBS:SensePi_rev5_main-cache
-EELAYER 30 0
+LIBS:senseBe_rev4_main-cache
+EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8

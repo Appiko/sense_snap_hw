@@ -1,6 +1,6 @@
 EESchema Schematic File Version 4
-LIBS:SensePi_rev5_main-cache
-EELAYER 30 0
+LIBS:senseBe_rev4_main-cache
+EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -661,7 +661,7 @@ Connection ~ 2100 1300
 Wire Wire Line
 	2100 1300 2450 1300
 Wire Wire Line
-	7200 1050 7200 1250
+	7200 1050 7200 1150
 Wire Wire Line
 	7200 1550 7200 2050
 Wire Wire Line
@@ -877,4 +877,9 @@ F 3 "" H 5500 3830 50  0001 C CNN
 	1    5500 3450
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	8150 1150 7200 1150
+Connection ~ 7200 1150
+Wire Wire Line
+	7200 1150 7200 1250
 $EndSCHEMATC

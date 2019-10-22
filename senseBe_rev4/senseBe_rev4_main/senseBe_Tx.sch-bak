@@ -1,6 +1,6 @@
 EESchema Schematic File Version 4
-LIBS:SensePi_rev5_main-cache
-EELAYER 30 0
+LIBS:senseBe_rev4_main-cache
+EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -383,9 +383,9 @@ F 3 "~" H 7900 1800 50  0001 C CNN
 $EndComp
 Text HLabel 10650 1150 2    50   Input ~ 10
 VLED
-Text Notes 5000 4800 0    60   ~ 12
+Text Notes 5000 4800 0    60   ~ 0
 A momentary push button \nwith debouncing cap to \nswitch to config. mode
-Text Notes 5000 2850 0    60   ~ 12
+Text Notes 5000 2850 0    60   ~ 0
 3.5mm Audio Jack\nPort to trigger the camera
 $Comp
 L sense:C C?
@@ -398,17 +398,6 @@ F 1 "22uF" H 7315 1355 50  0000 L CNN
 F 2 "sense_fp:C_1206_3216Metric" H 7238 1250 50  0001 C CNN
 F 3 "~" H 7200 1400 50  0001 C CNN
 	1    7200 1400
-	1    0    0    -1  
-$EndComp
-$Comp
-L sense:PJ-611-5A_AudioJack J1
-U 1 1 5D09320C
-P 5500 3450
-F 0 "J1" H 5558 3920 50  0000 C CNN
-F 1 "PJ-611-5A_AudioJack" H 5558 3829 50  0000 C CNN
-F 2 "sense_fp:PJ_611_5A_Audio Jack" H 5500 3830 50  0001 C CNN
-F 3 "" H 5500 3830 50  0001 C CNN
-	1    5500 3450
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -541,7 +530,7 @@ F 3 "" H 2650 5450 60  0000 C CNN
 	1    2650 5450
 	1    0    0    -1  
 $EndComp
-Text Notes 1200 4900 0    60   ~ 12
+Text Notes 1200 4900 0    60   ~ 0
 IR pattern receiver \nwith an enable switch\n
 $Comp
 L sense:GND #PWR?
@@ -672,7 +661,7 @@ Connection ~ 2100 1300
 Wire Wire Line
 	2100 1300 2450 1300
 Wire Wire Line
-	7200 1050 7200 1250
+	7200 1050 7200 1150
 Wire Wire Line
 	7200 1550 7200 2050
 Wire Wire Line
@@ -789,8 +778,6 @@ Wire Wire Line
 Wire Wire Line
 	10650 2600 10650 2100
 Wire Wire Line
-	5850 3200 6050 3200
-Wire Wire Line
 	6050 3300 5850 3300
 Wire Wire Line
 	5850 3450 5950 3450
@@ -875,4 +862,24 @@ Wire Wire Line
 Connection ~ 3450 6100
 Wire Wire Line
 	3450 6100 3700 6100
+Wire Wire Line
+	5850 3200 6050 3200
+$Comp
+L sense:PJ-611-5A_AudioJack J1
+U 1 1 5D09320C
+P 5500 3450
+AR Path="/5D09320C" Ref="J1"  Part="1" 
+AR Path="/5C63BFE8/5D09320C" Ref="J1"  Part="1" 
+F 0 "J1" H 5558 3920 50  0000 C CNN
+F 1 "PJ-611-5A_AudioJack" H 5558 3829 50  0000 C CNN
+F 2 "sense_fp:PJ_611_5A_Audio Jack" H 5500 3830 50  0001 C CNN
+F 3 "" H 5500 3830 50  0001 C CNN
+	1    5500 3450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8150 1150 7200 1150
+Connection ~ 7200 1150
+Wire Wire Line
+	7200 1150 7200 1250
 $EndSCHEMATC

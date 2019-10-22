@@ -1,6 +1,6 @@
 EESchema Schematic File Version 4
 LIBS:senseBe_rev4_main-cache
-EELAYER 29 0
+EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -225,7 +225,7 @@ F 3 "" H 850 7600 60  0000 C CNN
 	1    850  7600
 	1    0    0    -1  
 $EndComp
-Text Label 10550 800  2    50   ~ 10
+Text Label 10550 800  2    50   ~ 0
 LIGHT_SENSE_EN
 $Comp
 L sense:VDD #PWR020
@@ -738,7 +738,7 @@ Wire Wire Line
 	4855 1400 4950 1400
 Wire Wire Line
 	4250 1000 4250 1400
-Text Label 10550 1250 2    50   ~ 10
+Text Label 10550 1250 2    50   ~ 0
 LIGHT_SENSE
 $Comp
 L sense:R R1
@@ -965,11 +965,11 @@ F 3 "" H 8550 1400 60  0000 C CNN
 	1    8550 1400
 	1    0    0    -1  
 $EndComp
-Text Label 8650 1750 2    50   ~ 10
+Text Label 8650 1750 2    50   ~ 0
 SCL
-Text Label 8650 1850 2    50   ~ 10
+Text Label 8650 1850 2    50   ~ 0
 SDA
-Text Label 8650 2050 2    50   ~ 10
+Text Label 8650 2050 2    50   ~ 0
 RTC_CLK
 Wire Wire Line
 	7200 1750 7300 1750

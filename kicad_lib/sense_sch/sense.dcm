@@ -26,6 +26,13 @@ K RTC
 F https://www.ambiqmicro.com/static/rtc/files/AM08X5_Data_Sheet_DS0002V1p3.pdf
 $ENDCMP
 #
+$CMP BALF-112X-01D3
+D 50 ohm nominal input / conjugate match balun CC1120, CC1125
+(868-928 MHz), with integrated harmonic filter
+K Balun, filter, CC112X
+F https://www.st.com/resource/en/datasheet/balf-112x-01d3.pdf
+$ENDCMP
+#
 $CMP CP1
 D Polarized capacitor, US symbol
 K cap capacitor
@@ -86,6 +93,12 @@ K connector
 F ~
 $ENDCMP
 #
+$CMP Conn_Coaxial
+D coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, ...)
+K BNC SMA SMB SMC coaxial connector CINCH RCA
+F  ~
+$ENDCMP
+#
 $CMP D
 D Diode
 K diode
@@ -98,10 +111,52 @@ K SPI DSPI QSPI NOR 256Mbit 1.8V
 F http://www.issi.com/WW/pdf/IS25LP(WP)256D.pdf
 $ENDCMP
 #
+$CMP KX003-1077
+D 3-Axis Accelerometer, 2/4/8g/16g range, I2C interface, LGA-12
+K 3-axis accelerometer i2c mems
+F http://kionixfs.kionix.com/en/datasheet/KX003-1077-Specifications-Rev-2.0.pdf
+$ENDCMP
+#
 $CMP LSF0108
 D LSF0108 Channel Auto-Bidirectional Multi-Voltage Level Translator for Open-Drainand Push-Pull Applications
 K Voltage Translator, Bidirectional, LSF010x, LSF0108
 F http://www.ti.com/lit/ds/symlink/lsf0102.pdf
+$ENDCMP
+#
+$CMP MIC5501-3.0YM5
+D 300mA Low-dropout Voltage Regulator, Vout 3.0V, Vin up to 5.5V, SOT-23
+K Micrel LDO voltage regulator
+F http://ww1.microchip.com/downloads/en/DeviceDoc/MIC550X.pdf
+$ENDCMP
+#
+$CMP MIC5504-1.2YM5
+D 300mA Low-dropout Voltage Regulator, Vout 1.2V, Vin up to 5.5V, SOT-23
+K Micrel LDO voltage regulator
+F http://ww1.microchip.com/downloads/en/DeviceDoc/MIC550X.pdf
+$ENDCMP
+#
+$CMP MIC5504-1.8YM5
+D 300mA Low-dropout Voltage Regulator, Vout 1.8V, Vin up to 5.5V, SOT-23
+K Micrel LDO voltage regulator
+F http://ww1.microchip.com/downloads/en/DeviceDoc/MIC550X.pdf
+$ENDCMP
+#
+$CMP MIC5504-2.5YM5
+D 300mA Low-dropout Voltage Regulator, Vout 2.5V, Vin up to 5.5V, SOT-23
+K Micrel LDO voltage regulator
+F http://ww1.microchip.com/downloads/en/DeviceDoc/MIC550X.pdf
+$ENDCMP
+#
+$CMP MIC5504-2.8YM5
+D 300mA Low-dropout Voltage Regulator, Vout 2.8V, Vin up to 5.5V, SOT-23
+K Micrel LDO voltage regulator
+F http://ww1.microchip.com/downloads/en/DeviceDoc/MIC550X.pdf
+$ENDCMP
+#
+$CMP MIC5504-3.3YM5
+D 300mA Low-dropout Voltage Regulator, Vout 3.3V, Vin up to 5.5V, SOT-23
+K Micrel LDO voltage regulator
+F http://ww1.microchip.com/downloads/en/DeviceDoc/MIC550X.pdf
 $ENDCMP
 #
 $CMP Micro_SD_Card_Det

@@ -1,0 +1,5 @@
+(sym_lib_table
+  (lib (name Regulator_Linear)(type Legacy)(uri /home/prithvi/KiCadProjects/kicad-symbols/Regulator_Linear.lib)(options "")(descr ""))
+  (lib (name Connector)(type Legacy)(uri /home/prithvi/KiCadProjects/kicad-symbols/Connector.lib)(options "")(descr ""))
+  (lib (name Sensor_Motion)(type Legacy)(uri /home/prithvi/KiCadProjects/kicad-symbols/Sensor_Motion.lib)(options "")(descr ""))
+)

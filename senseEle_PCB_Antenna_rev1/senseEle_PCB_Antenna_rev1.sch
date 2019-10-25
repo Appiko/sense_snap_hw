@@ -1,5 +1,5 @@
 EESchema Schematic File Version 4
-LIBS:senseEle_rev1-cache
+LIBS:senseEle_PCB_Antenna_rev1-cache
 EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268

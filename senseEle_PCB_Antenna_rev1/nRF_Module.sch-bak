@@ -1,5 +1,5 @@
 EESchema Schematic File Version 4
-LIBS:senseEle_rev1-cache
+LIBS:senseEle_PCB_Antenna_rev1-cache
 EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
@@ -238,18 +238,8 @@ Wire Wire Line
 Connection ~ 4150 6200
 Wire Wire Line
 	4150 6200 4150 5700
-Text HLabel 7250 4100 2    50   BiDi ~ 0
+Text HLabel 5500 5150 3    50   BiDi ~ 0
 GPIO0
-Text HLabel 6200 5150 3    50   BiDi ~ 0
-GPIO2
-Text HLabel 6100 5150 3    50   Output ~ 0
-CSN
-Text HLabel 6000 5150 3    50   Output ~ 0
-SCLK
-Text HLabel 5900 5150 3    50   Output ~ 0
-MOSI
-Text HLabel 5800 5150 3    50   Input ~ 0
-MISO
 Text Label 5200 5300 1    50   ~ 0
 XL1
 Text Label 5300 5300 1    50   ~ 0
@@ -312,29 +302,19 @@ Wire Wire Line
 	850  5000 850  5350
 Connection ~ 850  5350
 Wire Wire Line
-	5800 4850 5800 5150
-Wire Wire Line
-	5900 4850 5900 5150
-Wire Wire Line
-	6000 4850 6000 5150
-Wire Wire Line
-	6100 4850 6100 5150
-Wire Wire Line
-	6200 4850 6200 5150
-Wire Wire Line
-	6900 4100 7250 4100
-Text HLabel 7250 4000 2    50   BiDi ~ 0
+	6900 4100 7300 4100
+Text HLabel 6000 5150 3    50   BiDi ~ 0
 GPIO3
 Wire Wire Line
-	6900 4000 7250 4000
-Text HLabel 7250 3900 2    50   Output ~ 0
+	6900 4000 7300 4000
+Text HLabel 6100 5150 3    50   Output ~ 0
 RESET_N
 Wire Wire Line
-	6900 3900 7250 3900
-Text HLabel 7250 3800 2    50   Output ~ 0
+	6900 3900 7300 3900
+Text HLabel 7300 3600 2    50   Output ~ 0
 TCXO_EN
 Wire Wire Line
-	6900 3800 7250 3800
+	6900 3800 7300 3800
 $Comp
 L sense:KX003-1077 U1
 U 1 1 5DF2D601
@@ -552,17 +532,11 @@ Text Label 8850 2450 0    50   ~ 0
 SDA
 Text Label 10350 2500 2    50   ~ 0
 INT
-Wire Wire Line
-	4250 3200 4500 3200
-Text Label 4250 3200 0    50   ~ 0
+Text Label 7300 3800 2    50   ~ 0
 INT
-Wire Wire Line
-	4250 3300 4500 3300
-Text Label 4250 3300 0    50   ~ 0
+Text Label 7300 3900 2    50   ~ 0
 SCL
-Wire Wire Line
-	4250 3400 4500 3400
-Text Label 4250 3400 0    50   ~ 0
+Text Label 7300 4000 2    50   ~ 0
 SDA
 $Comp
 L sense:VDD #PWR01
@@ -581,9 +555,6 @@ Connection ~ 2100 2025
 Wire Wire Line
 	2100 1450 2100 2025
 Wire Wire Line
-	3100 2025 3100 2150
-Connection ~ 3100 2025
-Wire Wire Line
 	850  2025 2100 2025
 Wire Wire Line
 	850  1800 850  2025
@@ -591,9 +562,6 @@ Wire Wire Line
 	850  1150 1900 1150
 Wire Wire Line
 	850  1500 850  1150
-Wire Wire Line
-	3100 1150 3100 2025
-Connection ~ 3100 1150
 Wire Wire Line
 	2300 1150 3100 1150
 Wire Wire Line
@@ -659,10 +627,6 @@ F 3 "" H 850 3150 60  0000 C CNN
 	1    850  3150
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	850  3150 850  3500
-Wire Wire Line
-	850  3500 1100 3500
 $Comp
 L sense:GND #PWR041
 U 1 1 5DB55B76
@@ -676,10 +640,8 @@ F 3 "" H 1500 4000 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	1500 4000 1500 3800
-Text Label 5700 5300 1    50   ~ 0
+Text Label 7300 4100 2    50   ~ 0
 HallEffect
-Wire Wire Line
-	5700 5300 5700 4850
 Text Label 2300 3500 2    50   ~ 0
 HallEffect
 Wire Wire Line
@@ -687,17 +649,16 @@ Wire Wire Line
 NoConn ~ 4500 3500
 NoConn ~ 4500 3600
 NoConn ~ 4500 3700
-NoConn ~ 5400 4850
-NoConn ~ 5500 4850
-NoConn ~ 5600 4850
+NoConn ~ 6900 3700
+NoConn ~ 6900 3500
 NoConn ~ 6900 2600
 NoConn ~ 6900 2700
 NoConn ~ 6900 2800
 NoConn ~ 6900 3100
 NoConn ~ 6900 3400
-NoConn ~ 6900 3500
-NoConn ~ 6900 3600
-NoConn ~ 6900 3700
+NoConn ~ 4500 3200
+NoConn ~ 4500 3300
+NoConn ~ 4500 3400
 Text Label 7300 2900 2    50   ~ 0
 SWDIO
 Text Label 7300 3000 2    50   ~ 0
@@ -771,4 +732,83 @@ Wire Wire Line
 	9300 4650 8950 4650
 Wire Wire Line
 	8950 4750 9300 4750
+$Comp
+L sense:C C8
+U 1 1 5DB727EB
+P 850 3750
+F 0 "C8" H 965 3796 50  0000 L CNN
+F 1 "100nF" H 965 3705 50  0000 L CNN
+F 2 "sense:C_0402_1005Metric" H 888 3600 50  0001 C CNN
+F 3 "" H 850 3750 50  0001 C CNN
+	1    850  3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L sense:GND #PWR037
+U 1 1 5DB761A8
+P 850 4000
+F 0 "#PWR037" H 850 3750 50  0001 C CNN
+F 1 "GND" H 855 3827 50  0001 C CNN
+F 2 "" H 850 4000 50  0001 C CNN
+F 3 "" H 850 4000 50  0001 C CNN
+	1    850  4000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	850  4000 850  3900
+Wire Wire Line
+	850  3150 850  3500
+Wire Wire Line
+	1100 3500 850  3500
+Connection ~ 850  3500
+Wire Wire Line
+	850  3500 850  3600
+$Comp
+L sense:C C9
+U 1 1 5DB84A5D
+P 3100 1650
+F 0 "C9" H 3215 1696 50  0000 L CNN
+F 1 "22uF" H 3215 1605 50  0000 L CNN
+F 2 "sense:C_0603_1608Metric" H 3138 1500 50  0001 C CNN
+F 3 "" H 3100 1650 50  0001 C CNN
+	1    3100 1650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3100 1800 3100 2025
+Connection ~ 3100 2025
+Wire Wire Line
+	3100 2025 3100 2150
+Wire Wire Line
+	3100 1500 3100 1150
+Connection ~ 3100 1150
+Wire Wire Line
+	7300 3600 6900 3600
+Wire Wire Line
+	5700 5150 5700 4850
+Wire Wire Line
+	6100 4850 6100 5150
+Wire Wire Line
+	6000 4850 6000 5150
+Wire Wire Line
+	5900 4850 5900 5150
+Wire Wire Line
+	5800 4850 5800 5150
+Text HLabel 5600 5150 3    50   Input ~ 0
+MISO
+Text HLabel 5800 5150 3    50   Output ~ 0
+MOSI
+Text HLabel 5700 5150 3    50   Output ~ 0
+SCLK
+Text HLabel 5400 5150 3    50   Output ~ 0
+CSN
+Text HLabel 5900 5150 3    50   BiDi ~ 0
+GPIO2
+Wire Wire Line
+	5400 4850 5400 5150
+Wire Wire Line
+	5500 5150 5500 4850
+Wire Wire Line
+	5600 4850 5600 5150
+NoConn ~ 6200 4850
 $EndSCHEMATC

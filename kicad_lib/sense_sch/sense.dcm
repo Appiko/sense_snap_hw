@@ -26,6 +26,12 @@ K RTC
 F https://www.ambiqmicro.com/static/rtc/files/AM08X5_Data_Sheet_DS0002V1p3.pdf
 $ENDCMP
 #
+$CMP Antenna
+D Antenna
+K antenna
+F ~
+$ENDCMP
+#
 $CMP BALF-112X-01D3
 D 50 ohm nominal input / conjugate match balun CC1120, CC1125
 $ENDCMP

@@ -104,7 +104,7 @@ F 3 "" H 3650 3300 60  0000 C CNN
 	1    3650 3300
 	1    0    0    -1  
 $EndComp
-Text Label 3850 3500 0    50   ~ 10
+Text Label 3850 3700 0    50   ~ 10
 LED_RED
 Text Label 4150 4200 0    50   ~ 10
 DEC4
@@ -147,7 +147,7 @@ U 1 1 5A8BC51E
 P 850 7200
 F 0 "C1" H 875 7300 50  0000 L CNN
 F 1 "1uF" H 875 7100 50  0000 L CNN
-F 2 "sense_fp:C_0402_1005Metric" H 888 7050 30  0001 C CNN
+F 2 "sense_fp:C_0603_1608Metric" H 888 7050 30  0001 C CNN
 F 3 "" H 850 7200 60  0000 C CNN
 	1    850  7200
 	-1   0    0    1   
@@ -157,8 +157,8 @@ L sense:INDUCTOR_SMALL L1
 U 1 1 5A8BE5C8
 P 1300 6950
 F 0 "L1" H 1300 7050 50  0000 C CNN
-F 1 "15nH" H 1300 6900 50  0000 C CNN
-F 2 "sense_fp:L_0603_HandSoldering" H 1300 6950 60  0001 C CNN
+F 1 "18nH" H 1300 6900 50  0000 C CNN
+F 2 "sense_fp:C_0603_1608Metric" H 1300 6950 60  0001 C CNN
 F 3 "" H 1300 6950 60  0000 C CNN
 	1    1300 6950
 	1    0    0    -1  
@@ -182,9 +182,9 @@ Text Notes 9700 2700 0    60   ~ 0
 For programming \nand debugging \nthe nRF controller
 Text Notes 9800 600  0    60   ~ 0
 Ambient light sensing
-Text Label 6300 5900 1    50   ~ 10
+Text Label 7750 4100 2    50   ~ 10
 RX_OUT
-Text Label 6200 5900 1    50   ~ 10
+Text Label 7750 4000 2    50   ~ 10
 RX_EN
 $Comp
 L sense:R R2
@@ -208,11 +208,11 @@ F 3 "" H 4700 2350 60  0000 C CNN
 	1    4700 2350
 	1    0    0    -1  
 $EndComp
-Text Label 7650 4400 2    50   ~ 10
+Text Label 5500 5800 1    50   ~ 10
 TRIGGER
-Text Label 7650 4200 2    50   ~ 10
-FOCU
-Text Label 7650 4300 2    50   ~ 10
+Text Label 5600 5800 1    50   ~ 10
+FOCUS
+Text Label 5700 5800 1    50   ~ 10
 CAM_JACK
 $Comp
 L sense:GND #PWR02
@@ -238,15 +238,13 @@ F 3 "" H 10750 3150 60  0000 C CNN
 	1    10750 3150
 	1    0    0    -1  
 $EndComp
-Text Label 5600 5900 1    50   ~ 10
+Text Label 7750 4200 2    50   ~ 10
 PWR1
-Text Label 5500 5900 1    50   ~ 10
-PWR2
-Text Label 6100 5900 1    50   ~ 10
+Text Label 6300 5900 1    50   ~ 10
 IR_LED_EN
-Text Label 5700 5900 1    50   ~ 10
+Text Label 7750 4400 2    50   ~ 10
 REG_EN
-Text Label 3850 3600 0    50   ~ 10
+Text Label 3850 3800 0    50   ~ 10
 LIGHT_SENSE_EN
 Text Label 2000 3300 0    50   ~ 10
 IR_LED_EN
@@ -267,15 +265,15 @@ L sense:INDUCTOR_SMALL L2
 U 1 1 5DAA5573
 P 1950 6950
 F 0 "L2" H 1950 7050 50  0000 C CNN
-F 1 "10nH" H 1950 6900 50  0000 C CNN
-F 2 "sense_fp:L_0603_HandSoldering" H 1950 6950 60  0001 C CNN
+F 1 "10uH" H 1950 6900 50  0000 C CNN
+F 2 "sense_fp:C_0805" H 1950 6950 60  0001 C CNN
 F 3 "" H 1950 6950 60  0000 C CNN
 	1    1950 6950
 	1    0    0    -1  
 $EndComp
-Text Label 7650 3700 2    50   ~ 10
+Text Label 3950 3600 0    50   ~ 10
 GPIO1
-Text Label 7650 3800 2    50   ~ 10
+Text Label 3950 3500 0    50   ~ 10
 GPIO2
 $Comp
 L sense:Test_Point TP2
@@ -350,7 +348,7 @@ U 1 1 5A8BC1C2
 P 3900 4700
 F 0 "C4" H 3925 4800 50  0000 L CNN
 F 1 "1uF" H 3925 4600 50  0000 L CNN
-F 2 "sense_fp:C_0402_1005Metric" H 3938 4550 30  0001 C CNN
+F 2 "sense_fp:C_0603_1608Metric" H 3938 4550 30  0001 C CNN
 F 3 "" H 3900 4700 60  0000 C CNN
 	1    3900 4700
 	-1   0    0    1   
@@ -369,7 +367,7 @@ $EndComp
 NoConn ~ 7000 2900
 NoConn ~ 7000 3000
 NoConn ~ 7000 3100
-Text Label 7650 4100 2    50   ~ 10
+Text Label 7650 3800 2    50   ~ 10
 RX_TX_S
 Text Label 9350 5250 2    50   ~ 10
 RX_TX_S
@@ -406,7 +404,7 @@ F 3 "" H 9550 5900 60  0000 C CNN
 	1    9550 5900
 	-1   0    0    1   
 $EndComp
-Text Notes 9650 5750 0    50   ~ 10
+Text Notes 9650 5750 0    50   ~ 0
 For selection of RX or TX board,\nIf R to GND connected, then its RX\nIf R to VDD connected, then its TX.
 NoConn ~ 7000 3400
 Text Label 5800 5900 1    50   ~ 10
@@ -509,7 +507,7 @@ F 3 "" H 4705 1400 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L sense:2N7002 Q1
+L sense:Q_NMOS_GSD Q1
 U 1 1 5D986C20
 P 5250 1850
 F 0 "Q1" H 5456 1896 50  0000 L CNN
@@ -549,18 +547,16 @@ Text Label 9400 3100 0    50   ~ 10
 SWDIO
 Text Label 9400 3200 0    50   ~ 10
 SWDCLK
-Text Label 7650 4000 2    50   ~ 10
+Text Label 7650 3900 2    50   ~ 10
 BUTTON
-Text Label 3850 3700 0    50   ~ 10
+Text Label 3850 3900 0    50   ~ 10
 LIGHT_SENSE
-NoConn ~ 4600 3800
-NoConn ~ 7000 3900
 $Comp
 L sense:Q_PMOS_GDS Q2
 U 1 1 5DA85BAD
 P 2350 1000
 F 0 "Q2" V 2693 1000 50  0000 C CNN
-F 1 "Q_PMOS_GDS" V 2602 1000 50  0000 C CNN
+F 1 "IRLML6401" V 2602 1000 50  0000 C CNN
 F 2 "sense_fp:SOT-23" H 2550 1100 50  0001 C CNN
 F 3 "~" H 2350 1000 50  0001 C CNN
 	1    2350 1000
@@ -596,10 +592,6 @@ Wire Wire Line
 Wire Wire Line
 	2350 1800 2000 1800
 Connection ~ 2000 1800
-Wire Wire Line
-	2000 1800 2000 1100
-Wire Wire Line
-	2000 1100 1850 1100
 Wire Wire Line
 	2550 900  3400 900 
 Wire Wire Line
@@ -680,19 +672,19 @@ Connection ~ 4300 4400
 Wire Wire Line
 	4300 4400 4600 4400
 Wire Wire Line
+	7750 4100 7000 4100
+Wire Wire Line
+	7000 4000 7750 4000
+Wire Wire Line
 	6300 5900 6300 5150
 Wire Wire Line
-	6200 5150 6200 5900
+	6100 5150 6100 5900
 Wire Wire Line
-	6100 5900 6100 5150
-Wire Wire Line
-	6000 5150 6000 5900
-Wire Wire Line
-	5900 5900 5900 5150
+	6000 5900 6000 5150
 Wire Wire Line
 	5800 5150 5800 5900
 Wire Wire Line
-	5700 5900 5700 5150
+	7750 4400 7000 4400
 Wire Wire Line
 	5400 5150 5400 5900
 Wire Wire Line
@@ -706,19 +698,19 @@ Wire Wire Line
 Wire Wire Line
 	7650 3600 7000 3600
 Wire Wire Line
-	7650 3700 7000 3700
+	3950 3600 4600 3600
+Wire Wire Line
+	4600 3500 3950 3500
+Wire Wire Line
+	7650 3900 7000 3900
 Wire Wire Line
 	7000 3800 7650 3800
 Wire Wire Line
-	7650 4000 7000 4000
+	5700 5800 5700 5150
 Wire Wire Line
-	7000 4100 7650 4100
+	5600 5150 5600 5800
 Wire Wire Line
-	7650 4200 7000 4200
-Wire Wire Line
-	7000 4300 7650 4300
-Wire Wire Line
-	7650 4400 7000 4400
+	5500 5800 5500 5150
 Wire Wire Line
 	4300 1850 4700 1850
 Wire Wire Line
@@ -870,11 +862,11 @@ Wire Wire Line
 Wire Wire Line
 	2200 6950 2450 6950
 Wire Wire Line
-	3850 3500 4600 3500
-Wire Wire Line
-	4600 3600 3850 3600
-Wire Wire Line
 	3850 3700 4600 3700
+Wire Wire Line
+	4600 3800 3850 3800
+Wire Wire Line
+	3850 3900 4600 3900
 Wire Wire Line
 	3650 3300 3650 3250
 Wire Wire Line
@@ -1027,21 +1019,36 @@ Wire Wire Line
 Connection ~ 7700 1300
 Text Notes 7300 1050 0    60   ~ 0
 RTC powered by a coin cell\nto count the time when the AA\nbatteries are disconnected.
-NoConn ~ 7700 2400
 Wire Wire Line
-	5500 5150 5500 5900
+	7000 4200 7750 4200
 Wire Wire Line
-	5600 5150 5600 5900
-Wire Wire Line
-	4600 4000 3850 4000
-Text Label 6000 5900 1    50   ~ 10
+	5900 5150 5900 5900
+Text Label 6100 5900 1    50   ~ 10
 SDA
-Text Label 5900 5900 1    50   ~ 10
+Text Label 6000 5900 1    50   ~ 10
 SCL
 Wire Wire Line
-	3850 3900 4600 3900
-Text Label 3850 4000 0    50   ~ 0
+	6200 5900 6200 5150
+Text Label 5900 5900 1    50   ~ 0
 RTC_CLK
-Text Label 3850 3900 0    50   ~ 0
+Text Label 6200 5900 1    50   ~ 0
 RTC_INT
+NoConn ~ 1850 1100
+NoConn ~ 4600 4000
+Text Label 7750 4300 2    50   ~ 10
+PWR2
+Wire Wire Line
+	7000 4300 7750 4300
+NoConn ~ 7000 3700
+$Comp
+L sense:GND #PWR0101
+U 1 1 5DC963CE
+P 7700 2400
+F 0 "#PWR0101" H 7700 2150 50  0001 C CNN
+F 1 "GND" H 7700 2250 50  0000 C CNN
+F 2 "" H 7700 2400 60  0000 C CNN
+F 3 "" H 7700 2400 60  0000 C CNN
+	1    7700 2400
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

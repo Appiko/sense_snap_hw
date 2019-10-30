@@ -14,8 +14,8 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text Notes 2850 850  0    50   ~ 10
-Infra Red LED Tx
+Text Notes 2600 850  0    50   ~ 0
+Narrow angle InfraRed LED Tx
 $Comp
 L sense:R R?
 U 1 1 5CB29379
@@ -76,8 +76,8 @@ AR Path="/5CB2939B" Ref="L?"  Part="1"
 AR Path="/5C63BFE8/5CB2939B" Ref="L3"  Part="1" 
 F 0 "L3" V 9050 1150 50  0000 C CNN
 F 1 "22uH" V 9199 1150 50  0000 C CNN
-F 2 "sense_fp:L_5mm_SMD_copy" H 9100 1150 50  0001 C CNN
-F 3 "~" H 9100 1150 50  0001 C CNN
+F 2 "sense_fp:L_2.4mm_SMD" H 9100 1150 50  0001 C CNN
+F 3 "http://www.farnell.com/datasheets/2603094.pdf" H 9100 1150 50  0001 C CNN
 	1    9100 1150
 	0    -1   -1   0   
 $EndComp
@@ -319,7 +319,7 @@ F 3 "" H 7200 1050 60  0000 C CNN
 	1    7200 1050
 	1    0    0    -1  
 $EndComp
-Text Notes 8000 850  0    50   ~ 10
+Text Notes 8000 850  0    50   ~ 0
 Buck Regulator for IR LED\ninput Voltage/Current control.
 Text HLabel 10350 3050 0    50   Input ~ 10
 PWR2
@@ -330,7 +330,7 @@ REG_EN
 Text HLabel 1850 1300 0    50   Input ~ 10
 IR_LED_EN
 $Comp
-L sense:2N7002 Q?
+L sense:Q_NMOS_GSD Q?
 U 1 1 5CAF4404
 P 9800 3050
 AR Path="/5CAF4404" Ref="Q?"  Part="1" 
@@ -343,7 +343,7 @@ F 3 "https://www.fairchildsemi.com/datasheets/2N/2N7002.pdf" H 9800 3050 50  000
 	1    0    0    -1  
 $EndComp
 $Comp
-L sense:2N7002 Q?
+L sense:Q_NMOS_GSD Q?
 U 1 1 5CAF8415
 P 10850 3050
 AR Path="/5CAF8415" Ref="Q?"  Part="1" 
@@ -437,7 +437,7 @@ F 3 "" H 6100 5650 50  0001 C CNN
 $EndComp
 Text HLabel 6050 3200 2    50   Input ~ 10
 TRIGGER
-Text HLabel 6050 3300 2    50   Input ~ 10
+Text HLabel 7200 3300 2    50   Input ~ 10
 CAM_JACK
 Text HLabel 6050 3600 2    50   Input ~ 10
 FOCUS
@@ -546,7 +546,7 @@ F 3 "" H 3450 6650 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L sense:2N7002 Q?
+L sense:Q_NMOS_GSD Q?
 U 1 1 5D37612F
 P 2950 6100
 AR Path="/5D37612F" Ref="Q?"  Part="1" 
@@ -624,7 +624,7 @@ F 3 "" H 6000 7310 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L sense:2N7002 Q?
+L sense:Q_NMOS_GSD Q?
 U 1 1 5CAF0419
 P 2650 1300
 AR Path="/5CAF0419" Ref="Q?"  Part="1" 
@@ -778,8 +778,6 @@ Wire Wire Line
 Wire Wire Line
 	10650 2600 10650 2100
 Wire Wire Line
-	6050 3300 5850 3300
-Wire Wire Line
 	5850 3450 5950 3450
 Wire Wire Line
 	5950 3450 5950 3600
@@ -882,4 +880,54 @@ Wire Wire Line
 Connection ~ 7200 1150
 Wire Wire Line
 	7200 1150 7200 1250
+$Comp
+L sense:R R?
+U 1 1 5DB56220
+P 6950 3600
+AR Path="/5DB56220" Ref="R?"  Part="1" 
+AR Path="/5C63BFE8/5DB56220" Ref="R5"  Part="1" 
+F 0 "R5" H 7020 3646 50  0000 L CNN
+F 1 "1.2k" H 7020 3555 50  0000 L CNN
+F 2 "sense_fp:C_0402_1005Metric" V 6880 3600 50  0001 C CNN
+F 3 "~" H 6950 3600 50  0001 C CNN
+	1    6950 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L sense:R R?
+U 1 1 5DB56DA0
+P 6650 3300
+AR Path="/5DB56DA0" Ref="R?"  Part="1" 
+AR Path="/5C63BFE8/5DB56DA0" Ref="R4"  Part="1" 
+F 0 "R4" V 6750 3250 50  0000 L CNN
+F 1 "470E" V 6650 3200 50  0000 L CNN
+F 2 "sense_fp:C_0402_1005Metric" V 6580 3300 50  0001 C CNN
+F 3 "~" H 6650 3300 50  0001 C CNN
+	1    6650 3300
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5850 3300 6500 3300
+Wire Wire Line
+	6800 3300 6950 3300
+Wire Wire Line
+	6950 3450 6950 3300
+Connection ~ 6950 3300
+Wire Wire Line
+	6950 3300 7200 3300
+$Comp
+L sense:GND #PWR?
+U 1 1 5DB5EDCA
+P 6950 3800
+AR Path="/5DB5EDCA" Ref="#PWR?"  Part="1" 
+AR Path="/5C63BFE8/5DB5EDCA" Ref="#PWR041"  Part="1" 
+F 0 "#PWR041" H 6950 3550 50  0001 C CNN
+F 1 "GND" H 6955 3627 50  0000 C CNN
+F 2 "" H 6950 3800 50  0001 C CNN
+F 3 "" H 6950 3800 50  0001 C CNN
+	1    6950 3800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6950 3800 6950 3750
 $EndSCHEMATC

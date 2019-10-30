@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name Device)(type Legacy)(uri /home/prithvi/KiCadProjects/kicad-symbols/Device.lib)(options "")(descr ""))
+  (lib (name Connector)(type Legacy)(uri /home/prithvi/KiCadProjects/kicad-symbols/Connector.lib)(options "")(descr ""))
+)

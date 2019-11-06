@@ -68,7 +68,7 @@ U 1 1 5DB71FB5
 P 6250 6500
 F 0 "MK1" H 6350 6546 50  0000 L CNN
 F 1 "Mounting_Hole" H 6350 6455 50  0000 L CNN
-F 2 "sense:MountingHole_2.7mm_M2.5" H 6250 6500 50  0001 C CNN
+F 2 "sense_fp:MountingHole_2.7mm_M2.5" H 6250 6500 50  0001 C CNN
 F 3 "" H 6250 6500 50  0001 C CNN
 	1    6250 6500
 	1    0    0    -1  
@@ -79,7 +79,7 @@ U 1 1 5DB725E0
 P 6250 6750
 F 0 "MK2" H 6350 6796 50  0000 L CNN
 F 1 "Mounting_Hole" H 6350 6705 50  0000 L CNN
-F 2 "sense:MountingHole_2.7mm_M2.5" H 6250 6750 50  0001 C CNN
+F 2 "sense_fp:MountingHole_2.7mm_M2.5" H 6250 6750 50  0001 C CNN
 F 3 "" H 6250 6750 50  0001 C CNN
 	1    6250 6750
 	1    0    0    -1  
@@ -90,7 +90,7 @@ U 1 1 5DB72819
 P 6250 7000
 F 0 "MK3" H 6350 7046 50  0000 L CNN
 F 1 "Mounting_Hole" H 6350 6955 50  0000 L CNN
-F 2 "sense:MountingHole_2.7mm_M2.5" H 6250 7000 50  0001 C CNN
+F 2 "sense_fp:MountingHole_2.7mm_M2.5" H 6250 7000 50  0001 C CNN
 F 3 "" H 6250 7000 50  0001 C CNN
 	1    6250 7000
 	1    0    0    -1  
@@ -101,7 +101,7 @@ U 1 1 5DB72E2B
 P 6250 7250
 F 0 "MK4" H 6350 7296 50  0000 L CNN
 F 1 "Mounting_Hole" H 6350 7205 50  0000 L CNN
-F 2 "sense:MountingHole_2.7mm_M2.5" H 6250 7250 50  0001 C CNN
+F 2 "sense_fp:MountingHole_2.7mm_M2.5" H 6250 7250 50  0001 C CNN
 F 3 "" H 6250 7250 50  0001 C CNN
 	1    6250 7250
 	1    0    0    -1  

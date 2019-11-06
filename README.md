@@ -1,3 +1,3 @@
- This repository contains all the KiCad based PCB design and related documentation for the wireless camera triggering device. 
+This repository contains all the KiCad based PCB design and related documentation for all the circuit boards developed at Appiko. 
 
-All the design files are licensed using Attribution 4.0 International (CC BY 4.0). Essentially similar to a BSD clause 3 license.
+All the design files are licensed using [CERN Open Hardware Licence v1.2](https://ohwr.org/project/licenses/wikis/cern-ohl-v1.2).

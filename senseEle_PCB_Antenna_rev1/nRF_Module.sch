@@ -311,7 +311,7 @@ Text HLabel 6100 5150 3    50   Output ~ 0
 RESET_N
 Wire Wire Line
 	6900 3900 7300 3900
-Text HLabel 7300 3600 2    50   Output ~ 0
+Text HLabel 7300 3800 2    50   Output ~ 0
 TCXO_EN
 Wire Wire Line
 	6900 3800 7300 3800
@@ -532,11 +532,11 @@ Text Label 8850 2450 0    50   ~ 0
 SDA
 Text Label 10350 2500 2    50   ~ 0
 INT
-Text Label 7300 3800 2    50   ~ 0
-INT
 Text Label 7300 3900 2    50   ~ 0
-SCL
+INT
 Text Label 7300 4000 2    50   ~ 0
+SCL
+Text Label 7300 4100 2    50   ~ 0
 SDA
 $Comp
 L sense:VDD #PWR01
@@ -640,7 +640,7 @@ F 3 "" H 1500 4000 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	1500 4000 1500 3800
-Text Label 7300 4100 2    50   ~ 0
+Text Label 7300 3600 2    50   ~ 0
 HallEffect
 Text Label 2300 3500 2    50   ~ 0
 HallEffect
@@ -653,7 +653,7 @@ NoConn ~ 6900 3700
 NoConn ~ 6900 3500
 NoConn ~ 6900 2600
 NoConn ~ 6900 2700
-NoConn ~ 6900 2800
+NoConn ~ 6900 3300
 NoConn ~ 6900 3100
 NoConn ~ 6900 3400
 NoConn ~ 4500 3200
@@ -665,10 +665,10 @@ Text Label 7300 3000 2    50   ~ 0
 SWDCLK
 Text Label 7300 3200 2    50   ~ 0
 TX
-Text Label 7300 3300 2    50   ~ 0
+Text Label 7300 2800 2    50   ~ 0
 RX
 Wire Wire Line
-	7300 3300 6900 3300
+	7300 2800 6900 2800
 Wire Wire Line
 	6900 3200 7300 3200
 Wire Wire Line

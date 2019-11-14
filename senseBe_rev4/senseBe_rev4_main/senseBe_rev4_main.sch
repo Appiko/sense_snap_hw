@@ -104,31 +104,31 @@ F 3 "" H 3650 3300 60  0000 C CNN
 	1    3650 3300
 	1    0    0    -1  
 $EndComp
-Text Label 3850 3700 0    50   ~ 10
+Text Label 3850 3700 0    50   ~ 0
 LED_RED
-Text Label 4150 4200 0    50   ~ 10
+Text Label 4150 4200 0    50   ~ 0
 DEC4
-Text Label 4150 4300 0    50   ~ 10
+Text Label 4150 4300 0    50   ~ 0
 DCC
-Text Label 7650 3200 2    50   ~ 10
+Text Label 7650 3200 2    50   ~ 0
 SWDIO
-Text Label 7650 3300 2    50   ~ 10
+Text Label 7650 3300 2    50   ~ 0
 SWDCLK
-Text Label 7650 3600 2    50   ~ 10
+Text Label 7650 3600 2    50   ~ 0
 RX
-Text Label 7650 3500 2    50   ~ 10
+Text Label 7650 3500 2    50   ~ 0
 TX
-Text Label 2450 6750 2    50   ~ 10
+Text Label 2450 6750 2    50   ~ 0
 DEC4
-Text Label 2450 6950 2    50   ~ 10
+Text Label 2450 6950 2    50   ~ 0
 DCC
-Text Label 5300 5900 1    50   ~ 10
+Text Label 5300 5900 1    50   ~ 0
 LFCLK_XL1
-Text Label 5400 5900 1    50   ~ 10
+Text Label 5400 5900 1    50   ~ 0
 LFCLK_XL2
-Text Label 10600 3100 2    50   ~ 10
+Text Label 10600 3100 2    50   ~ 0
 RX
-Text Label 9400 3300 0    50   ~ 10
+Text Label 9400 3300 0    50   ~ 0
 TX
 $Comp
 L sense:C C5
@@ -182,9 +182,9 @@ Text Notes 9700 2700 0    60   ~ 0
 For programming \nand debugging \nthe nRF controller
 Text Notes 9800 600  0    60   ~ 0
 Ambient light sensing
-Text Label 7750 4100 2    50   ~ 10
+Text Label 7750 4100 2    50   ~ 0
 RX_OUT
-Text Label 7750 4000 2    50   ~ 10
+Text Label 7750 4000 2    50   ~ 0
 RX_EN
 $Comp
 L sense:R R2
@@ -208,11 +208,11 @@ F 3 "" H 4700 2350 60  0000 C CNN
 	1    4700 2350
 	1    0    0    -1  
 $EndComp
-Text Label 5500 5800 1    50   ~ 10
+Text Label 5500 5800 1    50   ~ 0
 TRIGGER
-Text Label 5600 5800 1    50   ~ 10
+Text Label 5600 5800 1    50   ~ 0
 FOCUS
-Text Label 5700 5800 1    50   ~ 10
+Text Label 5700 5800 1    50   ~ 0
 CAM_JACK
 $Comp
 L sense:GND #PWR02
@@ -238,27 +238,27 @@ F 3 "" H 10750 3150 60  0000 C CNN
 	1    10750 3150
 	1    0    0    -1  
 $EndComp
-Text Label 7750 4200 2    50   ~ 10
+Text Label 7750 4200 2    50   ~ 0
 PWR1
-Text Label 6300 5900 1    50   ~ 10
+Text Label 6300 5900 1    50   ~ 0
 IR_LED_EN
-Text Label 7750 4400 2    50   ~ 10
+Text Label 7750 4400 2    50   ~ 0
 REG_EN
-Text Label 3850 3800 0    50   ~ 10
+Text Label 3850 3800 0    50   ~ 0
 LIGHT_SENSE_EN
-Text Label 2000 3300 0    50   ~ 10
+Text Label 2000 3300 0    50   ~ 0
 IR_LED_EN
-Text Label 2000 3100 0    50   ~ 10
+Text Label 2000 3100 0    50   ~ 0
 REG_EN
-Text Label 2000 2900 0    50   ~ 10
+Text Label 2000 2900 0    50   ~ 0
 PWR2
-Text Label 2000 2700 0    50   ~ 10
+Text Label 2000 2700 0    50   ~ 0
 PWR1
-Text Label 2000 3900 0    50   ~ 10
+Text Label 2000 3900 0    50   ~ 0
 FOCUS
-Text Label 2000 3700 0    50   ~ 10
+Text Label 2000 3700 0    50   ~ 0
 TRIGGER
-Text Label 2000 4300 0    50   ~ 10
+Text Label 2000 4300 0    50   ~ 0
 BUTTON
 $Comp
 L sense:INDUCTOR_SMALL L2
@@ -271,9 +271,9 @@ F 3 "" H 1950 6950 60  0000 C CNN
 	1    1950 6950
 	1    0    0    -1  
 $EndComp
-Text Label 3950 3600 0    50   ~ 10
+Text Label 3950 3600 0    50   ~ 0
 GPIO1
-Text Label 3950 3500 0    50   ~ 10
+Text Label 3950 3500 0    50   ~ 0
 GPIO2
 $Comp
 L sense:Test_Point TP2
@@ -297,9 +297,9 @@ F 3 "~" H 10150 4050 50  0001 C CNN
 	1    9950 4050
 	1    0    0    -1  
 $EndComp
-Text Label 9600 4650 0    50   ~ 10
+Text Label 9600 4650 0    50   ~ 0
 GPIO2
-Text Label 9600 4150 0    50   ~ 10
+Text Label 9600 4150 0    50   ~ 0
 GPIO1
 Text Notes 3700 6350 0    60   ~ 0
 Low freq. \nCrystal\n32.768 kHz\n
@@ -314,9 +314,9 @@ F 3 "" H 4200 7350 60  0000 C CNN
 	1    4200 7350
 	-1   0    0    1   
 $EndComp
-Text Label 3800 6850 1    50   ~ 10
+Text Label 3800 6850 1    50   ~ 0
 LFCLK_XL2
-Text Label 4200 6850 1    50   ~ 10
+Text Label 4200 6850 1    50   ~ 0
 LFCLK_XL1
 $Comp
 L sense:GND #PWR03
@@ -340,7 +340,7 @@ F 3 "" H 4200 7600 60  0000 C CNN
 	1    4200 7600
 	1    0    0    -1  
 $EndComp
-Text Label 2000 4100 0    50   ~ 10
+Text Label 2000 4100 0    50   ~ 0
 CAM_JACK
 $Comp
 L sense:C C4
@@ -367,9 +367,9 @@ $EndComp
 NoConn ~ 7000 2900
 NoConn ~ 7000 3000
 NoConn ~ 7000 3100
-Text Label 7650 3800 2    50   ~ 10
+Text Label 7650 3800 2    50   ~ 0
 RX_TX_S
-Text Label 9350 5250 2    50   ~ 10
+Text Label 9350 5250 2    50   ~ 0
 RX_TX_S
 $Comp
 L sense:R R7
@@ -407,7 +407,7 @@ $EndComp
 Text Notes 9650 5750 0    50   ~ 0
 For selection of RX or TX board,\nIf R to GND connected, then its RX\nIf R to VDD connected, then its TX.
 NoConn ~ 7000 3400
-Text Label 5800 5900 1    50   ~ 10
+Text Label 5800 5900 1    50   ~ 0
 VLED
 $Comp
 L sense:MDBT42Q U1
@@ -420,7 +420,7 @@ F 3 "" H 5600 4700 60  0000 C CNN
 	1    5800 3600
 	1    0    0    -1  
 $EndComp
-Text Label 2000 3500 0    50   ~ 10
+Text Label 2000 3500 0    50   ~ 0
 VLED
 $Comp
 L sense:Crystal Y1
@@ -491,9 +491,9 @@ F 3 "~" H 3400 1300 50  0001 C CNN
 $EndComp
 Text GLabel 3550 900  2    50   Input ~ 0
 VDD
-Text Label 2000 4500 0    50   ~ 10
+Text Label 2000 4500 0    50   ~ 0
 RX_EN
-Text Label 2000 4700 0    50   ~ 10
+Text Label 2000 4700 0    50   ~ 0
 RX_OUT
 $Comp
 L sense:LED D2
@@ -543,13 +543,13 @@ F 3 "" H 4250 1000 60  0000 C CNN
 $EndComp
 Wire Wire Line
 	4250 1400 4555 1400
-Text Label 9400 3100 0    50   ~ 10
+Text Label 9400 3100 0    50   ~ 0
 SWDIO
-Text Label 9400 3200 0    50   ~ 10
+Text Label 9400 3200 0    50   ~ 0
 SWDCLK
-Text Label 7650 3900 2    50   ~ 10
+Text Label 7650 3900 2    50   ~ 0
 BUTTON
-Text Label 3850 3900 0    50   ~ 10
+Text Label 3850 3900 0    50   ~ 0
 LIGHT_SENSE
 $Comp
 L sense:Q_PMOS_GDS Q2
@@ -1023,9 +1023,9 @@ Wire Wire Line
 	7000 4200 7750 4200
 Wire Wire Line
 	5900 5150 5900 5900
-Text Label 6100 5900 1    50   ~ 10
+Text Label 6100 5900 1    50   ~ 0
 SDA
-Text Label 6000 5900 1    50   ~ 10
+Text Label 6000 5900 1    50   ~ 0
 SCL
 Wire Wire Line
 	6200 5900 6200 5150
@@ -1035,7 +1035,7 @@ Text Label 6200 5900 1    50   ~ 0
 RTC_INT
 NoConn ~ 1850 1100
 NoConn ~ 4600 4000
-Text Label 7750 4300 2    50   ~ 10
+Text Label 7750 4300 2    50   ~ 0
 PWR2
 Wire Wire Line
 	7000 4300 7750 4300

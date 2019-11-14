@@ -1,4 +1,4 @@
-190960631471851
+200396209173851
 sense_fp
 18-225_R6G6C-A01_3T
 
@@ -91,6 +91,13 @@ Headphones with microphone connector, 3.5mm, 4 pins.
 4
 4
 sense_fp
+BALF-112X-01D3
+
+
+0
+8
+8
+sense_fp
 BSD840NH6327XTSA1_Dual_NMOS
 
 
@@ -125,6 +132,13 @@ CA16372_HB-SQ-WWW
 0
 0
 0
+sense_fp
+CC1120
+
+
+0
+33
+33
 sense_fp
 CP_Elec_8x10.5
 SMD capacitor, aluminum electrolytic, Vishay 0810, 8.0x10.5mm, http://www.vishay.com/docs/28395/150crz.pdf
@@ -230,6 +244,13 @@ DMN2990UDJ-7
 0
 6
 6
+sense_fp
+DN024_taper
+
+
+0
+10
+1
 sense_fp
 D_MicroMELF_Hadsoldering
 Diode, MicroMELF, hand-soldering, http://www.vishay.com/docs/85597/bzm55-se.pdf
@@ -560,6 +581,13 @@ SJ2-35863B1-SMT
 5
 5
 sense_fp
+SMA_Amphenol_132134_Vertical
+https://www.amphenolrf.com/downloads/dl/file/id/2187/product/2843/132134_customer_drawing.pdf
+SMA THT Female Jack Vertical ExtendedLegs
+0
+5
+2
+sense_fp
 SMD_tactile_button
 
 
@@ -749,6 +777,13 @@ TXB0304_12UQFN
 13
 12
 sense_fp
+TXKTPCSANF-32
+
+
+0
+4
+4
+sense_fp
 TerminalBlock_Altech_AK300-2_P5.00mm
 Altech AK300 terminal block, pitch 5.0mm, 45 degree angled, see http://www.mouser.com/ds/2/16/PCBMETRC-24178.pdf
 Altech AK300 terminal block pitch 5.0mm
@@ -797,6 +832,13 @@ XZMDKVG45S(V4-X)
 0
 4
 4
+sense_fp
+dn024_pa_match
+
+
+0
+8
+1
 sense_fp
 hackable_footprint
 

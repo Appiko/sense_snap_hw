@@ -28,15 +28,15 @@ F 3 "" H 5350 2350 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L sense:D_Photo D1
+L sense:R_PHOTO D1
 U 1 1 5BA62392
-P 10000 1550
-F 0 "D1" V 9904 1707 50  0000 L CNN
-F 1 "D_Photo" V 9995 1707 50  0000 L CNN
-F 2 "sense_fp:LED_D5.0mm" H 9950 1550 50  0001 C CNN
-F 3 "~" H 9950 1550 50  0001 C CNN
-	1    10000 1550
-	0    1    1    0   
+P 10000 1500
+F 0 "D1" H 10100 1450 50  0000 L CNN
+F 1 "LDR" H 10050 1550 50  0000 L CNN
+F 2 "sense_fp:LED_D5.0mm" H 9950 1500 50  0001 C CNN
+F 3 "~" H 9950 1500 50  0001 C CNN
+	1    10000 1500
+	1    0    0    -1  
 $EndComp
 $Comp
 L sense:GND #PWR01

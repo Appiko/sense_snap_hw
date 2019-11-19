@@ -1,7 +1,2 @@
 (sym_lib_table
-  (lib (name Device)(type Legacy)(uri /home/prithvi/KiCadProjects/kicad-symbols/Device.lib)(options "")(descr ""))
-  (lib (name Connector)(type Legacy)(uri /home/prithvi/KiCadProjects/kicad-symbols/Connector.lib)(options "")(descr ""))
-  (lib (name Connector_Generic)(type Legacy)(uri /home/prithvi/KiCadProjects/kicad-symbols/Connector_Generic.lib)(options "")(descr ""))
-  (lib (name Timer_RTC)(type Legacy)(uri /home/prithvi/KiCadProjects/kicad-symbols/Timer_RTC.lib)(options "")(descr ""))
-  (lib (name SensePi_rev5_main-rescue)(type Legacy)(uri ${KIPRJMOD}/SensePi_rev5_main-rescue.lib)(options "")(descr ""))
 )

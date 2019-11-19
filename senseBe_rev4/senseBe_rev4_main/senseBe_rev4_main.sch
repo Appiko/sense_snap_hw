@@ -458,7 +458,7 @@ AR Path="/5C63BFE8/5D3649D8" Ref="SW?"  Part="1"
 AR Path="/5D3649D8" Ref="SW1"  Part="1" 
 F 0 "SW1" H 1650 770 50  0000 C CNN
 F 1 "SW_Push_SPDT" H 1650 840 50  0000 C CNN
-F 2 "sense_fp:SlideSwitch_1P2T_Straight" H 1650 1000 50  0001 C CNN
+F 2 "sense:SlideSwitch_1P2T_Straight" H 1650 1000 50  0001 C CNN
 F 3 "~" H 1650 1000 50  0001 C CNN
 	1    1650 1000
 	1    0    0    1   

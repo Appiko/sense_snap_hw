@@ -653,7 +653,7 @@ NoConn ~ 6900 3700
 NoConn ~ 6900 3500
 NoConn ~ 6900 2600
 NoConn ~ 6900 2700
-NoConn ~ 6900 2800
+NoConn ~ 6900 3300
 NoConn ~ 6900 3100
 NoConn ~ 6900 3400
 NoConn ~ 4500 3200
@@ -665,10 +665,10 @@ Text Label 7300 3000 2    50   ~ 0
 SWDCLK
 Text Label 7300 3200 2    50   ~ 0
 TX
-Text Label 7300 3300 2    50   ~ 0
+Text Label 7300 2800 2    50   ~ 0
 RX
 Wire Wire Line
-	7300 3300 6900 3300
+	7300 2800 6900 2800
 Wire Wire Line
 	6900 3200 7300 3200
 Wire Wire Line

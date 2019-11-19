@@ -1,12 +1,12 @@
-G04 #@! TF.GenerationSoftware,KiCad,Pcbnew,(5.1.4)-1*
-G04 #@! TF.CreationDate,2019-11-19T12:29:16+05:30*
+G04 #@! TF.GenerationSoftware,KiCad,Pcbnew,5.1.4-e60b266~84~ubuntu18.04.1*
+G04 #@! TF.CreationDate,2019-11-19T15:13:30+05:30*
 G04 #@! TF.ProjectId,senseBe_rev4_main,73656e73-6542-4655-9f72-6576345f6d61,rev?*
 G04 #@! TF.SameCoordinates,Original*
 G04 #@! TF.FileFunction,Soldermask,Top*
 G04 #@! TF.FilePolarity,Negative*
 %FSLAX46Y46*%
 G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
-G04 Created by KiCad (PCBNEW (5.1.4)-1) date 2019-11-19 12:29:16*
+G04 Created by KiCad (PCBNEW 5.1.4-e60b266~84~ubuntu18.04.1) date 2019-11-19 15:13:30*
 %MOMM*%
 %LPD*%
 G04 APERTURE LIST*

@@ -1,0 +1,911 @@
+202972687245264
+sense
+18-225_R6G6C-A01_3T
+
+
+0
+4
+4
+sense
+2462_BatteryHolder_AAx2
+
+
+0
+0
+0
+sense
+AAA_holder_2468
+
+
+0
+3
+2
+sense
+AA_590_596
+
+
+0
+6
+2
+sense
+AA_BAT_Holder
+
+
+0
+2
+2
+sense
+AA_keystone_206
+
+
+0
+4
+2
+sense
+ABS25-32.768
+
+
+0
+4
+3
+sense
+AP3403_U-DFN1616-6(Type G)
+
+
+0
+7
+7
+sense
+AP3405_U-DFN2020-8
+
+
+0
+9
+8
+sense
+Appiko_LOGO_img
+
+
+0
+0
+0
+sense
+Appiko_Logo_2
+
+
+0
+0
+0
+sense
+ArduCam_FPC_30pin_P0.50mm_Horizontal
+Molex FH12, FFC/FPC connector, FH12-30S-0.5SH, 30 Pins per row (https://www.hirose.com/product/en/products/FH12/FH12-24S-0.5SH(55)/), generated with kicad-footprint-generator
+connector Hirose  top entry
+0
+32
+31
+sense
+Audio_Jack_3.5mm_Horizontal_SMD
+Headphones with microphone connector, 3.5mm, 4 pins.
+3.5mm jack mic microphone phones headphones 4pins audio plug
+0
+4
+4
+sense
+BALF-112X-01D3
+
+
+0
+8
+8
+sense
+BSD840NH6327XTSA1_Dual_NMOS
+
+
+0
+6
+6
+sense
+BT_Symbol
+
+
+0
+2
+2
+sense
+BatteryHolder_Keystone_3009_1x2450
+http://www.keyelco.com/product-pdf.cfm?p=787
+Keystone type 3009 coin cell retainer
+0
+3
+2
+sense
+Berg_5x2Conn
+
+
+0
+10
+10
+sense
+CA16372_HB-SQ-WWW
+
+
+0
+0
+0
+sense
+CC1120
+
+
+0
+33
+33
+sense
+CP_Elec_8x10.5
+SMD capacitor, aluminum electrolytic, Vishay 0810, 8.0x10.5mm, http://www.vishay.com/docs/28395/150crz.pdf
+capacitor electrolytic
+0
+2
+2
+sense
+CP_Radial_D8.0mm_P5.00mm
+CP, Radial series, Radial, pin pitch=5.00mm, , diameter=8mm, Electrolytic Capacitor
+CP Radial series Radial pin pitch 5.00mm  diameter 8mm Electrolytic Capacitor
+0
+2
+2
+sense
+C_0402_1005Metric
+Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator
+capacitor
+0
+2
+2
+sense
+C_0603_1608Metric
+Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator
+capacitor
+0
+2
+2
+sense
+C_0603_HandSoldering
+Capacitor SMD 0603, hand soldering
+capacitor 0603
+0
+2
+2
+sense
+C_0805
+Capacitor SMD 0805, reflow soldering, AVX (see smccp.pdf)
+capacitor 0805
+0
+2
+2
+sense
+C_0805_HandSoldering
+Capacitor SMD 0805, hand soldering
+capacitor 0805
+0
+2
+2
+sense
+C_1206_3216Metric
+Capacitor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator
+capacitor
+0
+2
+2
+sense
+Crystal_C38-LF_d3.0mm_l8.0mm_Horizontal
+Crystal THT C38-LF 8.0mm length 3.0mm diameter
+['C38-LF']
+0
+2
+2
+sense
+Crystal_C38-LF_d3.0mm_l8.0mm_Vertical
+Crystal THT C38-LF 8.0mm length 3.0mm diameter
+['C38-LF']
+0
+2
+2
+sense
+Crystal_SMD_4Pin_2.5x2.0mm
+crystal MultiComp
+SMD SMT crystal
+0
+4
+2
+sense
+Crystal_SMD_3215-2Pin_3.2x1.5mm
+SMD Crystal FC-135 https://support.epson.biz/td/api/doc_check.php?dl=brief_FC-135R_en.pdf
+SMD SMT Crystal
+0
+2
+2
+sense
+DEANS
+
+
+0
+2
+2
+sense
+DF12(3.5)-36DP-0.5V(86)
+
+
+0
+38
+36
+sense
+DMN2990UDJ-7
+
+
+0
+6
+6
+sense
+DN024_taper
+
+
+0
+10
+1
+sense
+D_MicroMELF_Hadsoldering
+Diode, MicroMELF, hand-soldering, http://www.vishay.com/docs/85597/bzm55-se.pdf
+MicroMELF Diode
+0
+2
+2
+sense
+D_MiniMELF
+Diode Mini-MELF
+Diode Mini-MELF
+0
+2
+2
+sense
+D_SOD-323
+SOD-323
+SOD-323
+0
+2
+2
+sense
+HSMF-C15x
+
+
+0
+4
+4
+sense
+Hirose_FH12-30S-0.5SH_1x30-1MP_P0.50mm_Horizontal
+Hirose FH12, FFC/FPC connector, FH12-30S-0.5SH, 30 Pins per row (https://www.hirose.com/product/en/products/FH12/FH12-24S-0.5SH(55)/), generated with kicad-footprint-generator
+connector Hirose FH12 horizontal
+0
+32
+31
+sense
+IR26-21C-L110
+
+
+0
+2
+2
+sense
+JST_EH_S2B-EH_1x02_P2.50mm_Horizontal
+JST EH series connector, S2B-EH (http://www.jst-mfg.com/product/pdf/eng/eEH.pdf), generated with kicad-footprint-generator
+connector JST EH horizontal
+0
+2
+2
+sense
+KiCad-Logo2_8mm_SilkScreen
+KiCad Logo
+Logo KiCad
+0
+0
+0
+sense
+LED_APBD3224SURKCGKC-F01
+https://docs.broadcom.com/docs/AV02-4186EN
+LED Avago PLCC-4 ASMB-MTB0-0A3A2
+0
+4
+4
+sense
+LED_Avago_PLCC4_3.2x2.8mm_CW
+https://docs.broadcom.com/docs/AV02-4186EN
+LED Avago PLCC-4 ASMB-MTB0-0A3A2
+0
+4
+4
+sense
+LED_Cree-XHP70
+Cree XHP70 LED, 12V version, http://www.cree.com/~/media/Files/Cree/LED%20Components%20and%20Modules/XLamp/Data%20and%20Binning/ds%20XHP70.pdf
+LED Cree XHP70
+0
+13
+5
+sense
+LED_D5.0mm
+LED, diameter 5.0mm, 2 pins, http://cdn-reichelt.de/documents/datenblatt/A500/LL-504BC2E-009.pdf
+LED diameter 5.0mm 2 pins
+0
+2
+2
+sense
+LED_KPTBD-3216SURKCGKC
+https://docs.broadcom.com/docs/AV02-4186EN
+LED Avago PLCC-4 ASMB-MTB0-0A3A2
+0
+4
+4
+sense
+LOGO
+
+
+0
+0
+0
+sense
+LQFP-100_14x14mm_P0.5mm
+LQFP, 100 Pin (https://www.nxp.com/docs/en/package-information/SOT407-1.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py
+LQFP QFP
+0
+100
+100
+sense
+L_2.4mm_SMD
+TAIYO YUDEN SMD Power Inductors (NR series H type)
+NRH2412T2R2MNGH
+0
+2
+2
+sense
+L_5mm_SMD_copy
+
+
+0
+2
+2
+sense
+L_0603_HandSoldering
+Resistor SMD 0603, hand soldering
+resistor 0603
+0
+2
+2
+sense
+L_0805
+Resistor SMD 0805, reflow soldering, Vishay (see dcrcw.pdf)
+resistor 0805
+0
+2
+2
+sense
+L_Radial_D12.0mm_P5.00mm_Fastron_11P
+Inductor, Radial series, Radial, pin pitch=5.00mm, , diameter=12.0mm, Fastron, 11P, http://cdn-reichelt.de/documents/datenblatt/B400/DS_11P.pdf
+Inductor Radial series Radial pin pitch 5.00mm  diameter 12.0mm Fastron 11P
+0
+2
+2
+sense
+Measurement_Point_Round-SMD-Pad_Small
+Mesurement Point, Round, SMD Pad, DM 1.5mm,
+Mesurement Point Round SMD Pad 1.5mm
+0
+1
+1
+sense
+Molex_KK-6410-02_02x2.54mm_Straight
+Connector Headers with Friction Lock, 22-27-2021, http://www.molex.com/pdm_docs/sd/022272021_sd.pdf
+connector molex kk_6410 22-27-2021
+0
+2
+2
+sense
+Molex_KK-6410-04_04x2.54mm_Straight
+Connector Headers with Friction Lock, 22-27-2041, http://www.molex.com/pdm_docs/sd/022272021_sd.pdf
+connector molex kk_6410 22-27-2041
+0
+4
+4
+sense
+MountingHole_1.7mm_M1.6
+Mounting Hole 1.7mm, no annular, M1.6
+mounting hole 1.7mm no annular m1.6
+0
+0
+0
+sense
+MountingHole_2.7mm_M2.5
+Mounting Hole 2.7mm, no annular, M2.5
+mounting hole 2.7mm no annular m2.5
+0
+0
+0
+sense
+MountingHole_3.2mm_M3
+Mounting Hole 3.2mm, no annular, M3
+mounting hole 3.2mm no annular m3
+0
+0
+0
+sense
+MountingHole_3mm
+Mounting Hole 3mm, no annular
+mounting hole 3mm no annular
+0
+0
+0
+sense
+OSHW1
+
+
+0
+0
+0
+sense
+PIR_TO5
+
+
+0
+3
+3
+sense
+PJ-32434-3_5mm-AudioJack
+
+
+0
+6
+4
+sense
+PJ_611_5A_Audio Jack
+
+
+0
+9
+5
+sense
+PT12-21C TR8PhotoTransistor
+
+
+0
+2
+2
+sense
+PinHeader_1x02_P2.54mm_Vertical
+Through hole straight pin header, 1x02, 2.54mm pitch, single row
+Through hole pin header THT 1x02 2.54mm single row
+0
+2
+2
+sense
+PinHeader_1x03_P2.54mm_Vertical
+Through hole straight pin header, 1x03, 2.54mm pitch, single row
+Through hole pin header THT 1x03 2.54mm single row
+0
+3
+3
+sense
+PinHeader_1x04_P2.54mm_Vertical
+Through hole straight pin header, 1x04, 2.54mm pitch, single row
+Through hole pin header THT 1x04 2.54mm single row
+0
+4
+4
+sense
+PinHeader_1x05_P2.54mm_Vertical
+Through hole straight pin header, 1x05, 2.54mm pitch, single row
+Through hole pin header THT 1x05 2.54mm single row
+0
+5
+5
+sense
+PinHeader_1x06_P2.54mm_Vertical
+Through hole straight pin header, 1x06, 2.54mm pitch, single row
+Through hole pin header THT 1x06 2.54mm single row
+0
+6
+6
+sense
+PinHeader_1x08_P2.54mm_Vertical
+Through hole straight pin header, 1x08, 2.54mm pitch, single row
+Through hole pin header THT 1x08 2.54mm single row
+0
+8
+8
+sense
+PinHeader_2x03_P2.54mm_Vertical
+Through hole straight pin header, 2x03, 2.54mm pitch, double rows
+Through hole pin header THT 2x03 2.54mm double row
+0
+6
+6
+sense
+PinHeader_2x03_P2.54mm_Vertical_pogo_connector
+Through hole straight pin header, 2x03, 2.54mm pitch, double rows
+Through hole pin header THT 2x03 2.54mm double row
+0
+6
+6
+sense
+Pin_Header_Straight_1x02_Pitch2.54mm
+Through hole straight pin header, 1x02, 2.54mm pitch, single row
+Through hole pin header THT 1x02 2.54mm single row
+0
+2
+2
+sense
+PowerPAK-1212-8
+
+
+0
+9
+3
+sense
+Q13FC1350000400_SMD Crystals 32.768KHz
+
+
+0
+2
+2
+sense
+R_0603_HandSoldering
+Resistor SMD 0603, hand soldering
+resistor 0603
+0
+2
+2
+sense
+R_0805
+Resistor SMD 0805, reflow soldering, Vishay (see dcrcw.pdf)
+resistor 0805
+0
+2
+2
+sense
+R_2512_6332Metric_Pad1.52x3.35mm_HandSolder
+Resistor SMD 2512 (6332 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator
+resistor handsolder
+0
+2
+2
+sense
+SFH4715AS
+
+
+0
+4
+2
+sense
+SJ2-35863B1-SMT
+
+
+0
+5
+5
+sense
+SMA_Amphenol_132134_Vertical
+https://www.amphenolrf.com/downloads/dl/file/id/2187/product/2843/132134_customer_drawing.pdf
+SMA THT Female Jack Vertical ExtendedLegs
+0
+5
+2
+sense
+SMD_tactile_button
+
+
+0
+4
+4
+sense
+SOIC-8_3.9x4.9mm_P1.27mm
+SOIC, 8 Pin (JEDEC MS-012AA, https://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/soic_narrow-r/r_8.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py
+SOIC SO
+0
+8
+8
+sense
+SOT-23
+SOT-23, Standard
+SOT-23
+0
+3
+3
+sense
+SOT-23-6
+6-pin SOT-23 package
+SOT-23-6
+0
+6
+6
+sense
+SOT-23-6_Handsoldering
+6-pin SOT-23 package, Handsoldering
+SOT-23-6 Handsoldering
+0
+6
+6
+sense
+SOT-23_Handsoldering
+SOT-23, Handsoldering
+SOT-23
+0
+3
+3
+sense
+SOT-723
+http://toshiba.semicon-storage.com/info/docget.jsp?did=5879&prodName=RN1104MFV
+sot 723
+0
+3
+3
+sense
+SQA403EJ-SC70-6
+
+
+0
+7
+3
+sense
+SSOP-8_2.95x2.8mm_Pitch0.65mm
+SSOP-8 2.9 x2.8mm Pitch 0.65mm
+SSOP-8 2.95x2.8mm Pitch 0.65mm
+0
+8
+8
+sense
+SSOP-8_2.95x2.8mm_Pitch0.65mm_Hand_Soldering
+SSOP-8 2.9 x2.8mm Pitch 0.65mm
+SSOP-8 2.95x2.8mm Pitch 0.65mm
+0
+8
+8
+sense
+STCS2A_PowerSO-10
+
+
+0
+32
+11
+sense
+SW_PUSH_6mm
+https://www.omron.com/ecb/products/pdf/en-b3f.pdf
+tact sw push 6mm
+0
+4
+2
+sense
+SW_PUSH_6mm_H9.5mm
+tactile push button, 6x6mm e.g. PHAP33xx series, height=9.5mm
+tact sw push 6mm
+0
+4
+2
+sense
+SW_Push_1P1T_NO_6x6mm_H9.5mm
+tactile push button, 6x6mm e.g. PTS645xx series, height=9.5mm
+tact sw push 6mm smd
+0
+4
+2
+sense
+SW_Push_1P1T_NO_CK_KSC7xxJ
+CK components KSC7 tactile switch https://www.ckswitches.com/media/1973/ksc7.pdf
+tactile switch ksc7
+0
+4
+2
+sense
+SlideSwitch_1P2T_RightAngle
+
+
+0
+3
+3
+sense
+SlideSwitch_1P2T_Straight
+
+
+0
+3
+3
+sense
+SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm
+SMD Solder Jumper, 1x1.5mm, rounded Pads, 0.3mm gap, open
+solder jumper open
+0
+2
+2
+sense
+SolderJumper-3_P2.0mm_Open_TrianglePad1.0x1.5mm
+SMD Solder Jumper, 1x1.5mm Triangular Pads, 0.3mm gap, open
+solder jumper open
+0
+5
+3
+sense
+SolderWirePad_2x_1-2mmDrill
+
+
+0
+2
+2
+sense
+SolderWirePad_2x_1-5mmDrill
+
+
+0
+2
+1
+sense
+SolderWirePad_4xInline_1-2mmDrill
+
+
+0
+4
+4
+sense
+TACTILE SWITCH 3X4X2MM SMD 2-PIN
+
+
+0
+2
+2
+sense
+TC-1101T-C-A-B_Switch
+
+
+0
+2
+2
+sense
+TO-220-3_Vertical
+TO-220-3, Vertical, RM 2.54mm, see https://www.vishay.com/docs/66542/to-220-1.pdf
+TO-220-3 Vertical RM 2.54mm
+0
+3
+3
+sense
+TSM2301
+SOT-23, Standard
+SOT-23
+0
+3
+3
+sense
+TXB0304_12UQFN
+
+
+0
+13
+12
+sense
+TXKTPCSANF-32
+
+
+0
+4
+4
+sense
+TerminalBlock_Altech_AK300-2_P5.00mm
+Altech AK300 terminal block, pitch 5.0mm, 45 degree angled, see http://www.mouser.com/ds/2/16/PCBMETRC-24178.pdf
+Altech AK300 terminal block pitch 5.0mm
+0
+2
+2
+sense
+TerminalBlock_bornier-2_P5.08mm
+simple 2-pin terminal block, pitch 5.08mm, revamped version of bornier2
+terminal block bornier2
+0
+2
+2
+sense
+TerminalBlock_bornier-3_P5.08mm
+simple 3-pin terminal block, pitch 5.08mm, revamped version of bornier3
+terminal block bornier3
+0
+3
+3
+sense
+VSSOP-10_3x3mm_P0.5mm
+VSSOP, 10 Pin (http://www.ti.com/lit/ds/symlink/ads1115.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py
+VSSOP SO
+0
+10
+10
+sense
+Vishay_MINIMOLD-3Pin
+IR Receiver Vishay TSOP-xxxx, MINIMOLD package, see https://www.vishay.com/docs/82742/tsop331.pdf
+IR Receiver Vishay TSOP-xxxx MINIMOLD
+0
+3
+3
+sense
+WSON-8-TPS62840
+8-Lead Plastic WSON, 2x1.5mm Body, 0.5mm Pitch, WSON-8, http://www.ti.com/lit/ds/symlink/tps62840.pdf
+WSON 8 1EP
+0
+8
+8
+sense
+XZMDKVG45S(V4-X)
+
+
+0
+4
+4
+sense
+dn024_pa_match
+
+
+0
+8
+1
+sense
+hackable_footprint
+
+
+0
+32
+32
+sense
+hackable_footprint_half
+
+
+0
+11
+11
+sense
+mdbt42Q
+
+
+0
+41
+41
+sense
+microSD_HC_Hirose_DM3AT-SF-PEJM5
+Micro SD, SMD, right-angle, push-pull (https://www.hirose.com/product/en/download_file/key_name/DM3AT-SF-PEJM5/category/Drawing%20(2D)/doc_file_id/44099/?file_category_id=6&item_id=06090031000&is_series=)
+Micro SD
+0
+14
+11
+sense
+pogo_BLT1
+
+
+0
+6
+6
+sense
+prog_connect
+Tag-Connect programming header; http://www.tag-connect.com/Materials/TC2050-IDC-NL%20Datasheet.pdf
+tag connect programming header pogo pins
+0
+10
+10
+sense
+prog_connect_2x3
+Tag-Connect programming header; http://www.tag-connect.com/Materials/TC2050-IDC-NL%20Datasheet.pdf
+tag connect programming header pogo pins
+0
+6
+6
+sense
+testpoint_micro
+
+
+0
+1
+1
+sense
+via_grid_3x3_1mm
+
+
+0
+9
+1

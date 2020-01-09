@@ -36,4 +36,10 @@ $CMP BALF-112X-01D3
 D 50 ohm nominal input / conjugate match balun CC1120, CC1125
 $ENDCMP
 #
+$CMP Conn_02x10_Odd_Even
+D Generic connector, double row, 02x10, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)
+K connector
+F ~
+$ENDCMP
+#
 #End Doc Library

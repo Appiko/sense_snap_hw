@@ -304,24 +304,20 @@ Wire Wire Line
 	6200 4850 6200 5250
 Text HLabel 6000 5150 3    50   BiDi ~ 0
 GPIO3
-Wire Wire Line
-	6900 4100 7300 4100
 Text HLabel 6100 5150 3    50   Output ~ 0
 RESET_N
-Wire Wire Line
-	6900 4000 7300 4000
 Text HLabel 7300 3800 2    50   Output ~ 0
 TCXO_EN
 Wire Wire Line
 	6900 3900 7300 3900
 $Comp
-L sense:KX003-1077 U1
+L sense:KXTJ3-1057 U1
 U 1 1 5DF2D601
 P 9550 2600
-F 0 "U1" H 10044 2646 50  0000 L CNN
-F 1 "KX003-1077" H 10044 2555 50  0000 L CNN
+F 0 "U1" H 9500 2600 50  0000 L CNN
+F 1 "KXTJ3-1057" H 9850 2150 50  0000 L CNN
 F 2 "Package_LGA:LGA-12_2x2mm_P0.5mm" H 9650 3150 50  0001 L CNN
-F 3 "http://kionixfs.kionix.com/en/datasheet/KX003-1077-Specifications-Rev-2.0.pdf" H 9150 2600 50  0001 C CNN
+F 3 "https://d10bqar0tuhard.cloudfront.net/en/datasheet/e-Specifications-Rev-4.0.pdf" H 9150 2600 50  0001 C CNN
 	1    9550 2600
 	1    0    0    -1  
 $EndComp
@@ -419,9 +415,9 @@ Wire Wire Line
 Wire Wire Line
 	9100 1600 9500 1600
 Wire Wire Line
-	9500 1600 9500 2100
+	9500 1600 9500 1950
 Wire Wire Line
-	9600 2100 9600 1600
+	9600 2100 9600 1950
 Wire Wire Line
 	9600 1600 9950 1600
 Wire Wire Line
@@ -457,18 +453,7 @@ $EndComp
 Wire Wire Line
 	9100 2750 8800 2750
 Wire Wire Line
-	8800 2750 8800 2900
-$Comp
-L sense:GND #PWR04
-U 1 1 5DF55840
-P 8800 2900
-F 0 "#PWR04" H 8800 2650 50  0001 C CNN
-F 1 "GND" H 8805 2727 50  0001 C CNN
-F 2 "" H 8800 2900 50  0001 C CNN
-F 3 "" H 8800 2900 50  0001 C CNN
-	1    8800 2900
-	1    0    0    -1  
-$EndComp
+	8800 2750 8800 2700
 $Comp
 L sense:R R2
 U 1 1 5DF56EA9
@@ -523,14 +508,10 @@ F 3 "" H 8700 2000 60  0000 C CNN
 	1    8700 2000
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	10000 2500 10350 2500
 Text Label 8850 2550 0    50   ~ 0
 SCL
 Text Label 8850 2450 0    50   ~ 0
 SDA
-Text Label 10350 2500 2    50   ~ 0
-INT
 Text Label 7300 3900 2    50   ~ 0
 INT
 Text Label 7300 4000 2    50   ~ 0
@@ -552,8 +533,6 @@ Wire Wire Line
 	2100 2025 3100 2025
 Wire Wire Line
 	2100 1450 2100 2025
-Wire Wire Line
-	850  1150 1900 1150
 Wire Wire Line
 	2300 1150 3100 1150
 Wire Wire Line
@@ -795,35 +774,7 @@ F 3 "" V 850 1810 50  0001 C CNN
 	1    850  1550
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	850  1950 850  2000
-Wire Wire Line
-	850  1450 850  1650
-$Comp
-L sense:GND #PWR?
-U 1 1 5E17E06D
-P 850 2000
-AR Path="/5D0389BE/5E17E06D" Ref="#PWR?"  Part="1" 
-AR Path="/5D1F6B8A/5E17E06D" Ref="#PWR0101"  Part="1" 
-F 0 "#PWR0101" H 850 1750 50  0001 C CNN
-F 1 "GND" H 855 1827 50  0000 C CNN
-F 2 "" H 850 2000 50  0001 C CNN
-F 3 "" H 850 2000 50  0001 C CNN
-	1    850  2000
-	1    0    0    -1  
-$EndComp
 NoConn ~ 6900 2800
-$Comp
-L sense:Conn_01x02 J1
-U 1 1 5E1C2002
-P 7500 4000
-F 0 "J1" H 7580 3992 50  0000 L CNN
-F 1 "Conn_01x02" H 7580 3901 50  0000 L CNN
-F 2 "sense_fp:PinHeader_1x02_P2.54mm_Vertical" H 7500 4000 50  0001 C CNN
-F 3 "" H 7500 4000 50  0001 C CNN
-	1    7500 4000
-	1    0    0    -1  
-$EndComp
 NoConn ~ 6900 3600
 $Comp
 L sense:Conn_01x04 J3
@@ -844,4 +795,110 @@ Wire Wire Line
 	4400 3400 4500 3400
 Wire Wire Line
 	4500 3500 4400 3500
+$Comp
+L sense:GND #PWR?
+U 1 1 5E17E06D
+P 850 2000
+AR Path="/5D0389BE/5E17E06D" Ref="#PWR?"  Part="1" 
+AR Path="/5D1F6B8A/5E17E06D" Ref="#PWR0101"  Part="1" 
+F 0 "#PWR0101" H 850 1750 50  0001 C CNN
+F 1 "GND" H 855 1827 50  0000 C CNN
+F 2 "" H 850 2000 50  0001 C CNN
+F 3 "" H 850 2000 50  0001 C CNN
+	1    850  2000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	850  1950 850  2000
+Wire Wire Line
+	850  1150 1900 1150
+Wire Wire Line
+	850  1450 850  1650
+Wire Wire Line
+	7650 4200 7650 4300
+$Comp
+L sense:Conn_01x04 J1
+U 1 1 5E1C2002
+P 8000 4100
+F 0 "J1" H 8080 4092 50  0000 L CNN
+F 1 "Conn_01x02" H 8080 4001 50  0000 L CNN
+F 2 "sense_fp:PinHeader_1x04_P2.54mm_Vertical" H 8000 4100 50  0001 C CNN
+F 3 "" H 8000 4100 50  0001 C CNN
+	1    8000 4100
+	1    0    0    -1  
+$EndComp
+Connection ~ 7650 4300
+Wire Wire Line
+	7650 4300 7650 4500
+$Comp
+L sense:GND #PWR0102
+U 1 1 5E1A55A3
+P 7650 4500
+F 0 "#PWR0102" H 7650 4250 50  0001 C CNN
+F 1 "GND" H 7655 4327 50  0001 C CNN
+F 2 "" H 7650 4500 50  0001 C CNN
+F 3 "" H 7650 4500 50  0001 C CNN
+	1    7650 4500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7800 4300 7650 4300
+Wire Wire Line
+	7800 4200 7650 4200
+Wire Wire Line
+	6900 4000 7300 4000
+Wire Wire Line
+	6900 4100 7300 4100
+Wire Wire Line
+	7600 4000 7800 4000
+Wire Wire Line
+	7800 4100 7600 4100
+Text Label 7600 4000 0    50   ~ 0
+SDA
+Text Label 7600 4100 0    50   ~ 0
+SCL
+Wire Wire Line
+	9400 2100 9400 1950
+Wire Wire Line
+	9400 1950 9500 1950
+Connection ~ 9500 1950
+Wire Wire Line
+	9500 1950 9500 2100
+Wire Wire Line
+	9700 2100 9700 1950
+Wire Wire Line
+	9700 1950 9600 1950
+Connection ~ 9600 1950
+Wire Wire Line
+	9600 1950 9600 1600
+Text Label 10350 2700 2    50   ~ 0
+INT
+Wire Wire Line
+	10000 2700 10350 2700
+Wire Wire Line
+	10000 2550 10100 2550
+Wire Wire Line
+	10100 2550 10100 2400
+$Comp
+L sense:VDD #PWR0103
+U 1 1 5E20F650
+P 10100 2400
+F 0 "#PWR0103" H 10100 2250 50  0001 C CNN
+F 1 "VDD" H 10150 2550 50  0000 C CNN
+F 2 "" H 10100 2400 60  0000 C CNN
+F 3 "" H 10100 2400 60  0000 C CNN
+	1    10100 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L sense:VDD #PWR?
+U 1 1 5E2197C4
+P 8800 2700
+F 0 "#PWR?" H 8800 2550 50  0001 C CNN
+F 1 "VDD" H 8700 2750 50  0000 C CNN
+F 2 "" H 8800 2700 60  0000 C CNN
+F 3 "" H 8800 2700 60  0000 C CNN
+	1    8800 2700
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

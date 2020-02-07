@@ -514,7 +514,7 @@ Wire Wire Line
 	1050 1650 2150 1650
 NoConn ~ 1685 1150
 $Comp
-L Connector_Generic:Conn_02x10_Odd_Even J5
+L sense:Conn_02x10_Odd_Even J5
 U 1 1 5E05DE4E
 P 9640 3290
 F 0 "J5" H 9690 3907 50  0000 C CNN
@@ -525,7 +525,7 @@ F 3 "~" H 9640 3290 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_02x10_Odd_Even J4
+L sense:Conn_02x10_Odd_Even J4
 U 1 1 5E05E7C8
 P 9600 4710
 F 0 "J4" H 9650 5327 50  0000 C CNN

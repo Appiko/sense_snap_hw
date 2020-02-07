@@ -514,7 +514,7 @@ Wire Wire Line
 	1050 1650 2150 1650
 NoConn ~ 1685 1150
 $Comp
-L Connector_Generic:Conn_02x10_Odd_Even J5
+L sense:Conn_02x10_Odd_Even J5
 U 1 1 5E05DE4E
 P 9640 3290
 F 0 "J5" H 9690 3907 50  0000 C CNN
@@ -525,7 +525,7 @@ F 3 "~" H 9640 3290 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_02x10_Odd_Even J4
+L sense:Conn_02x10_Odd_Even J4
 U 1 1 5E05E7C8
 P 9600 4710
 F 0 "J4" H 9650 5327 50  0000 C CNN
@@ -542,7 +542,7 @@ P9 in TI board
 Text Label 9000 4710 0    50   ~ 0
 GPIO0
 Text Label 9000 4810 0    50   ~ 0
-GPIO1
+GPIO2
 Text Label 9000 4910 0    50   ~ 0
 CSN
 Text Label 9000 5010 0    50   ~ 0
@@ -588,12 +588,6 @@ F 3 "" H 7400 700 60  0000 C CNN
 	1    7400 700 
 	1    0    0    -1  
 $EndComp
-Text Label 10300 4410 2    50   ~ 0
-P0.02
-Text Label 10300 4610 2    50   ~ 0
-P0.03
-Text Label 10300 4710 2    50   ~ 0
-P0.04
 NoConn ~ 9400 4510
 NoConn ~ 9400 4310
 NoConn ~ 9400 4410
@@ -809,8 +803,6 @@ Text Label 7600 4000 2    50   ~ 0
 GPIO3
 Text Label 5820 5500 1    50   ~ 0
 GPIO0
-Text Label 5920 5500 1    50   ~ 0
-GPIO1
 Text Label 6020 5500 1    50   ~ 0
 CSN
 Text Label 6120 5500 1    50   ~ 0
@@ -822,11 +814,11 @@ MISO
 Wire Wire Line
 	5520 4850 5520 5500
 Text Label 5720 5500 1    50   ~ 0
-P0.04
+HGM
 Text Label 5620 5500 1    50   ~ 0
-P0.03
+LNA_EN
 Text Label 5520 5500 1    50   ~ 0
-P0.02
+PA_EN
 Text Label 7600 3500 2    50   ~ 0
 LED1\P0.17
 Text Label 7600 3600 2    50   ~ 0
@@ -1070,4 +1062,12 @@ Wire Wire Line
 Connection ~ 4860 1040
 Wire Wire Line
 	4860 1040 5500 1040
+Text Label 10300 4710 2    50   ~ 0
+HGM
+Text Label 10300 4610 2    50   ~ 0
+LNA_EN
+Text Label 5920 5500 1    50   ~ 0
+GPIO2
+Text Label 10300 4410 2    50   ~ 0
+PA_EN
 $EndSCHEMATC

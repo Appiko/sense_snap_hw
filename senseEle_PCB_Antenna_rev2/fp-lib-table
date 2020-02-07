@@ -1,4 +1,5 @@
 (fp_lib_table
   (lib (name sense_fp)(type KiCad)(uri /home/prithvi/KiCadProjects/sense_snap_hw/kicad_lib/sense_fp.pretty)(options "")(descr ""))
   (lib (name Inductor_SMD)(type KiCad)(uri /home/prithvi/KiCadProjects/kicad-footprints/Inductor_SMD.pretty)(options "")(descr ""))
+  (lib (name Package_DFN_QFN)(type KiCad)(uri /home/prithvi/KiCadProjects/kicad-footprints/Package_DFN_QFN.pretty)(options "")(descr ""))
 )

@@ -1,4 +1,5 @@
-(module sense_rev3_fp:mdbt42Q locked (layer F.Cu) (tedit 59B2F639)
+(module mdbt42Q locked (layer F.Cu) (tedit 5E282F5E)
+  (attr smd)
   (fp_text reference U1 (at 0 8.5 -270) (layer F.SilkS)
     (effects (font (size 0.75 0.75) (thickness 0.15)))
   )

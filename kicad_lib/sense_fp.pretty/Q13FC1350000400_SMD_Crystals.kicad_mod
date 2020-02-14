@@ -1,4 +1,5 @@
-(module "Q13FC1350000400_SMD Crystals 32.768KHz" (layer F.Cu) (tedit 5CE403CD)
+(module Q13FC1350000400_SMD_Crystals (layer F.Cu) (tedit 5E282614)
+  (attr smd)
   (fp_text reference REF** (at 0 -1.8) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )

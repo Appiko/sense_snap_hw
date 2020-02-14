@@ -1,0 +1,168 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L sense:VDD #PWR0101
+U 1 1 5E46481A
+P 4750 3300
+F 0 "#PWR0101" H 4750 3150 50  0001 C CNN
+F 1 "VDD" H 4767 3473 50  0000 C CNN
+F 2 "" H 4750 3300 60  0000 C CNN
+F 3 "" H 4750 3300 60  0000 C CNN
+	1    4750 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L sense:Conn_01x04 J3
+U 1 1 5E464A7F
+P 6700 3550
+F 0 "J3" H 6650 3800 50  0000 L CNN
+F 1 "NEO 6M module" H 6400 3200 50  0000 L CNN
+F 2 "sense_fp:PinHeader_1x04_P2.54mm_Vertical" H 6700 3550 50  0001 C CNN
+F 3 "" H 6700 3550 50  0001 C CNN
+	1    6700 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L sense:Q_PMOS_DGS Q1
+U 1 1 5E4697A5
+P 5400 3550
+F 0 "Q1" V 5728 3550 50  0000 C CNN
+F 1 "IRLML6401" V 5637 3550 50  0000 C CNN
+F 2 "sense_fp:SOT-23_Handsoldering" H 5600 3650 29  0001 C CNN
+F 3 "" H 5400 3550 60  0000 C CNN
+	1    5400 3550
+	0    1    -1   0   
+$EndComp
+Wire Wire Line
+	6500 3550 6100 3550
+Wire Wire Line
+	6500 3650 6100 3650
+Wire Wire Line
+	6500 3750 6100 3750
+Text Label 6100 3550 0    50   ~ 0
+RX_GPS
+Text Label 6100 3650 0    50   ~ 0
+TX_GPS
+$Comp
+L sense:GND #PWR0102
+U 1 1 5E46AA89
+P 6100 3850
+F 0 "#PWR0102" H 6100 3600 50  0001 C CNN
+F 1 "GND" H 6105 3677 50  0000 C CNN
+F 2 "" H 6100 3850 50  0001 C CNN
+F 3 "" H 6100 3850 50  0001 C CNN
+	1    6100 3850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6100 3750 6100 3850
+Wire Wire Line
+	4750 3300 4750 3450
+Wire Wire Line
+	4750 3450 5000 3450
+$Comp
+L sense:R R1
+U 1 1 5E46BBC9
+P 5000 3650
+F 0 "R1" H 5070 3696 50  0000 L CNN
+F 1 "33k" H 5070 3605 50  0000 L CNN
+F 2 "sense_fp:C_0603_HandSoldering" V 4930 3650 50  0001 C CNN
+F 3 "" H 5000 3650 50  0001 C CNN
+	1    5000 3650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5400 3900 5000 3900
+Wire Wire Line
+	5400 3750 5400 3900
+Wire Wire Line
+	5000 3450 5000 3500
+Connection ~ 5000 3450
+Wire Wire Line
+	5000 3450 5200 3450
+Wire Wire Line
+	5000 3800 5000 3900
+Connection ~ 5000 3900
+Text Label 4350 3900 0    50   ~ 0
+~PWR_EN_GPS
+$Comp
+L sense:Conn_01x04 J2
+U 1 1 5E479B22
+P 3950 3900
+F 0 "J2" H 4050 3900 50  0000 L CNN
+F 1 "SenseEle GPIO" H 3700 4100 50  0000 L CNN
+F 2 "sense_fp:PinHeader_1x04_P2.54mm_Vertical" H 3950 3900 50  0001 C CNN
+F 3 "" H 3950 3900 50  0001 C CNN
+	1    3950 3900
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4150 3900 5000 3900
+Wire Wire Line
+	4150 3700 4650 3700
+Wire Wire Line
+	4150 3800 4650 3800
+Text Label 4650 3800 2    50   ~ 0
+RX_GPS
+Text Label 4650 3700 2    50   ~ 0
+TX_GPS
+NoConn ~ 4150 4000
+$Comp
+L sense:Conn_01x02 J1
+U 1 1 5E47DC33
+P 3950 3250
+F 0 "J1" H 3868 2925 50  0000 C CNN
+F 1 "SenseEle Power" H 3868 3016 50  0000 C CNN
+F 2 "sense_fp:PinHeader_1x02_P2.54mm_Vertical" H 3950 3250 50  0001 C CNN
+F 3 "" H 3950 3250 50  0001 C CNN
+	1    3950 3250
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4150 3150 4400 3150
+Wire Wire Line
+	4400 3150 4400 3050
+$Comp
+L sense:VDD #PWR0103
+U 1 1 5E47EC34
+P 4400 3050
+F 0 "#PWR0103" H 4400 2900 50  0001 C CNN
+F 1 "VDD" H 4417 3223 50  0000 C CNN
+F 2 "" H 4400 3050 60  0000 C CNN
+F 3 "" H 4400 3050 60  0000 C CNN
+	1    4400 3050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4150 3250 4250 3250
+Wire Wire Line
+	4250 3250 4250 3300
+$Comp
+L sense:GND #PWR0104
+U 1 1 5E47F243
+P 4250 3300
+F 0 "#PWR0104" H 4250 3050 50  0001 C CNN
+F 1 "GND" H 4255 3127 50  0000 C CNN
+F 2 "" H 4250 3300 50  0001 C CNN
+F 3 "" H 4250 3300 50  0001 C CNN
+	1    4250 3300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5600 3450 6500 3450
+Text Label 6100 3450 0    50   ~ 0
+VCC_GPS
+$EndSCHEMATC

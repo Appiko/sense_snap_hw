@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name sense_fp)(type KiCad)(uri /home/prithvi/KiCadProjects/sense_snap_hw/kicad_lib/sense_fp.pretty)(options "")(descr ""))
+)

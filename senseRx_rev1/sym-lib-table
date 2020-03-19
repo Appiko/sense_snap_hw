@@ -1,0 +1,6 @@
+(sym_lib_table
+  (lib (name Connector_Generic)(type Legacy)(uri /home/prithvi/KiCadProjects/kicad-symbols/Connector_Generic.lib)(options "")(descr "")(disabled))
+  (lib (name Regulator_Linear)(type Legacy)(uri /home/prithvi/KiCadProjects/kicad-symbols/Regulator_Linear.lib)(options "")(descr ""))
+  (lib (name sim800l)(type Legacy)(uri /home/prithvi/Desktop/sim800l.lib)(options "")(descr ""))
+  (lib (name teensy)(type Legacy)(uri /home/prithvi/Desktop/teensy.lib)(options "")(descr ""))
+)

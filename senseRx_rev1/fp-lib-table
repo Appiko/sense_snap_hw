@@ -1,0 +1,5 @@
+(fp_lib_table
+  (lib (name sense_fp)(type KiCad)(uri /home/prithvi/KiCadProjects/sense_snap_hw/kicad_lib/sense_fp.pretty)(options "")(descr ""))
+  (lib (name Package_TO_SOT_SMD)(type KiCad)(uri /home/prithvi/KiCadProjects/kicad-footprints/Package_TO_SOT_SMD.pretty)(options "")(descr ""))
+  (lib (name Connector_JST)(type KiCad)(uri /home/prithvi/KiCadProjects/kicad-footprints/Connector_JST.pretty)(options "")(descr ""))
+)

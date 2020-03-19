@@ -1,0 +1,255 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 2 2
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L sense:SIM800L GSM_Module1
+U 1 1 5E933598
+P 8000 3350
+F 0 "GSM_Module1" H 8025 4237 60  0000 C CNN
+F 1 "SIM800L" H 8025 4131 60  0000 C CNN
+F 2 "sense_fp:Sim800L_module" H 8000 3350 60  0001 C CNN
+F 3 "" H 8000 3350 60  0001 C CNN
+	1    8000 3350
+	1    0    0    -1  
+$EndComp
+Text HLabel 5500 4550 2    50   Input ~ 0
+VBAT
+Wire Wire Line
+	5100 4550 5500 4550
+Text HLabel 6400 3200 0    50   Input ~ 0
+VBAT
+Wire Wire Line
+	6400 3200 6850 3200
+$Comp
+L sense:GND #PWR0116
+U 1 1 5E9358E1
+P 6750 3750
+F 0 "#PWR0116" H 6750 3500 50  0001 C CNN
+F 1 "GND" H 6755 3577 50  0000 C CNN
+F 2 "" H 6750 3750 50  0001 C CNN
+F 3 "" H 6750 3750 50  0001 C CNN
+	1    6750 3750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6750 3750 6750 3600
+Wire Wire Line
+	6750 3600 6850 3600
+$Comp
+L sense:GND #PWR0117
+U 1 1 5E936263
+P 5550 4750
+F 0 "#PWR0117" H 5550 4500 50  0001 C CNN
+F 1 "GND" H 5555 4577 50  0000 C CNN
+F 2 "" H 5550 4750 50  0001 C CNN
+F 3 "" H 5550 4750 50  0001 C CNN
+	1    5550 4750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5550 4750 5550 4650
+Wire Wire Line
+	5550 4650 5100 4650
+$Comp
+L sense:GND #PWR0118
+U 1 1 5E937A90
+P 2700 3950
+F 0 "#PWR0118" H 2700 3700 50  0001 C CNN
+F 1 "GND" H 2705 3777 50  0000 C CNN
+F 2 "" H 2700 3950 50  0001 C CNN
+F 3 "" H 2700 3950 50  0001 C CNN
+	1    2700 3950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2700 3950 2700 3850
+Wire Wire Line
+	2700 3850 3100 3850
+$Comp
+L sense:GND #PWR0119
+U 1 1 5E9390C1
+P 1950 2250
+F 0 "#PWR0119" H 1950 2000 50  0001 C CNN
+F 1 "GND" H 1955 2077 50  0000 C CNN
+F 2 "" H 1950 2250 50  0001 C CNN
+F 3 "" H 1950 2250 50  0001 C CNN
+	1    1950 2250
+	1    0    0    -1  
+$EndComp
+Text HLabel 2650 3350 0    50   Input ~ 0
+nRF_TX
+Text HLabel 1550 3450 0    50   Output ~ 0
+nRF_RX
+Wire Wire Line
+	2650 3350 2750 3350
+Wire Wire Line
+	2750 3350 2750 3250
+Wire Wire Line
+	2750 3250 3100 3250
+$Comp
+L sense:Conn_01x02 J8
+U 1 1 5E71EC78
+P 2350 3250
+F 0 "J8" H 2500 3150 50  0000 C CNN
+F 1 "Conn_01x02" H 2650 3250 50  0000 C CNN
+F 2 "sense_fp:PinHeader_1x02_P2.54mm_Vertical" H 2350 3250 50  0001 C CNN
+F 3 "" H 2350 3250 50  0001 C CNN
+	1    2350 3250
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	2550 3150 3100 3150
+Wire Wire Line
+	2750 3250 2550 3250
+Connection ~ 2750 3250
+Wire Wire Line
+	3100 3050 1600 3050
+$Comp
+L sense:Conn_01x02 J7
+U 1 1 5E72735E
+P 1400 3150
+F 0 "J7" H 1550 3050 50  0000 C CNN
+F 1 "Conn_01x02" H 1700 3150 50  0000 C CNN
+F 2 "sense_fp:PinHeader_1x02_P2.54mm_Vertical" H 1400 3150 50  0001 C CNN
+F 3 "" H 1400 3150 50  0001 C CNN
+	1    1400 3150
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	1600 3150 1650 3150
+Wire Wire Line
+	1650 3150 1650 3450
+Wire Wire Line
+	1650 3450 2950 3450
+Wire Wire Line
+	2950 3450 2950 3350
+Wire Wire Line
+	2950 3350 3100 3350
+Wire Wire Line
+	1550 3450 1650 3450
+Connection ~ 1650 3450
+Text Label 2650 3150 0    50   ~ 0
+SIM800_RX
+Text Label 2650 3050 0    50   ~ 0
+SIM800_TX
+Wire Wire Line
+	6850 3300 6400 3300
+Text HLabel 6400 3300 0    50   Input ~ 0
+SIM800_RST
+Wire Wire Line
+	6850 3400 6400 3400
+Wire Wire Line
+	6850 3500 6400 3500
+Text Label 6400 3400 0    50   ~ 0
+SIM800_RX
+Text Label 6400 3500 0    50   ~ 0
+SIM800_TX
+NoConn ~ 9200 3300
+NoConn ~ 9200 3400
+NoConn ~ 6850 3100
+NoConn ~ 9200 3500
+NoConn ~ 9200 3600
+NoConn ~ 9200 3700
+NoConn ~ 9200 3800
+NoConn ~ 3100 2550
+NoConn ~ 3100 2650
+NoConn ~ 3100 2750
+NoConn ~ 3100 2850
+NoConn ~ 3100 2950
+NoConn ~ 3100 3450
+NoConn ~ 3100 3550
+NoConn ~ 3100 3650
+NoConn ~ 3100 3750
+NoConn ~ 3100 3950
+NoConn ~ 3100 4050
+NoConn ~ 3100 4150
+NoConn ~ 3100 4450
+NoConn ~ 3100 4550
+NoConn ~ 3100 4650
+NoConn ~ 3100 4750
+NoConn ~ 3100 4850
+NoConn ~ 3100 4950
+NoConn ~ 5100 4950
+NoConn ~ 5100 4850
+NoConn ~ 5100 4750
+NoConn ~ 5100 4450
+NoConn ~ 5100 4350
+NoConn ~ 5100 2250
+NoConn ~ 5100 2350
+NoConn ~ 5100 2450
+NoConn ~ 5100 2550
+NoConn ~ 5100 2650
+NoConn ~ 5100 2750
+NoConn ~ 5100 2850
+NoConn ~ 5100 2950
+NoConn ~ 5100 3050
+NoConn ~ 5100 3150
+NoConn ~ 5100 3250
+NoConn ~ 5100 3350
+NoConn ~ 5100 3450
+NoConn ~ 5100 3550
+NoConn ~ 5100 3650
+NoConn ~ 5100 3750
+NoConn ~ 5100 3850
+$Comp
+L sense:Conn_01x03 J9
+U 1 1 5E73CE61
+P 2400 2350
+F 0 "J9" H 2300 2650 50  0000 C CNN
+F 1 "Conn_01x03" H 2400 2550 50  0000 C CNN
+F 2 "sense_fp:PinHeader_1x03_P2.54mm_Vertical" H 2400 2350 50  0001 C CNN
+F 3 "" H 2400 2350 50  0001 C CNN
+	1    2400 2350
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	2600 2250 2800 2250
+Wire Wire Line
+	2600 2350 3100 2350
+$Comp
+L sense:Teensy3.2 U4
+U 1 1 5E93323C
+P 4100 3600
+F 0 "U4" H 4100 5237 60  0000 C CNN
+F 1 "Teensy3.2" H 4100 5131 60  0000 C CNN
+F 2 "sense_fp:Teensy30_31_32_LC" H 4100 2850 60  0001 C CNN
+F 3 "" H 4100 2850 60  0000 C CNN
+	1    4100 3600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3100 2450 2600 2450
+Wire Wire Line
+	2800 2250 2800 2100
+Wire Wire Line
+	2800 2100 1950 2100
+Wire Wire Line
+	1950 2100 1950 2250
+Connection ~ 2800 2250
+Wire Wire Line
+	2800 2250 3100 2250
+Text Label 2700 2350 0    50   ~ 0
+TSY_RX
+Text Label 2700 2450 0    50   ~ 0
+TSY_TX
+Wire Wire Line
+	3100 4250 2700 4250
+Wire Wire Line
+	3100 4350 2700 4350
+Text HLabel 2700 4250 0    50   Input ~ 0
+VBAT_ADC
+Text HLabel 2700 4350 0    50   Input ~ 0
+VUSB_ADC
+$EndSCHEMATC

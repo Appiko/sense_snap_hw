@@ -1,0 +1,377 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L sense:SX1308 U1
+U 1 1 5E788A68
+P 4700 3200
+F 0 "U1" H 4700 3565 50  0000 C CNN
+F 1 "SX1308" H 4700 3474 50  0000 C CNN
+F 2 "sense_fp:SOT-23-6" H 4700 3200 50  0001 C CNN
+F 3 "http://www.nmj.sumomo.ne.jp/suz-avr/PMIC/SX1308-Suosemi.pdf" H 4700 3200 50  0001 C CNN
+	1    4700 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L sense:L80_module U2
+U 1 1 5E78BC5B
+P 8700 3500
+F 0 "U2" H 8300 2900 50  0000 L CNN
+F 1 "L80_module" H 8000 4150 50  0000 L CNN
+F 2 "sense_fp:L80_module" H 8700 3800 50  0001 C CNN
+F 3 "" H 8700 3800 50  0001 C CNN
+	1    8700 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L sense:Conn_01x06 J1
+U 1 1 5E78CCFB
+P 1950 3200
+F 0 "J1" H 1950 2700 50  0000 C CNN
+F 1 "Conn_01x06" H 1900 2750 50  0000 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_2x03_P2.54mm_Vertical_SMD" H 1950 3200 50  0001 C CNN
+F 3 "" H 1950 3200 50  0001 C CNN
+	1    1950 3200
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	2150 3400 2300 3400
+Wire Wire Line
+	2300 3400 2300 3650
+$Comp
+L sense:GND #PWR0101
+U 1 1 5E78D5EB
+P 2300 3650
+F 0 "#PWR0101" H 2300 3400 50  0001 C CNN
+F 1 "GND" H 2305 3477 50  0000 C CNN
+F 2 "" H 2300 3650 50  0001 C CNN
+F 3 "" H 2300 3650 50  0001 C CNN
+	1    2300 3650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2150 3300 2550 3300
+Text Label 2550 3300 2    50   ~ 0
+VIN
+Wire Wire Line
+	2150 3200 2550 3200
+Text Label 2550 3200 2    50   ~ 0
+nRF_RXD
+Wire Wire Line
+	2150 3100 2550 3100
+Text Label 2550 3100 2    50   ~ 0
+nRF_TXD
+Wire Wire Line
+	2150 3000 2550 3000
+Text Label 2550 3000 2    50   ~ 0
+L80_EN
+Text Label 4050 3300 0    50   ~ 0
+L80_EN
+Wire Wire Line
+	4050 3300 4400 3300
+$Comp
+L sense:C C1
+U 1 1 5E79022A
+P 3800 3350
+F 0 "C1" H 3600 3450 50  0000 L CNN
+F 1 "10uF" H 3600 3250 50  0000 L CNN
+F 2 "sense_fp:C_0805" H 3838 3200 50  0001 C CNN
+F 3 "" H 3800 3350 50  0001 C CNN
+	1    3800 3350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3800 3100 4200 3100
+Wire Wire Line
+	3800 3200 3800 3100
+Wire Wire Line
+	3800 3500 3800 3650
+$Comp
+L sense:GND #PWR0102
+U 1 1 5E792147
+P 3800 3650
+F 0 "#PWR0102" H 3800 3400 50  0001 C CNN
+F 1 "GND" H 3805 3477 50  0000 C CNN
+F 2 "" H 3800 3650 50  0001 C CNN
+F 3 "" H 3800 3650 50  0001 C CNN
+	1    3800 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L sense:GND #PWR0103
+U 1 1 5E79347A
+P 4700 3650
+F 0 "#PWR0103" H 4700 3400 50  0001 C CNN
+F 1 "GND" H 4705 3477 50  0000 C CNN
+F 2 "" H 4700 3650 50  0001 C CNN
+F 3 "" H 4700 3650 50  0001 C CNN
+	1    4700 3650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4700 3600 4700 3650
+Text Label 3850 3100 0    50   ~ 0
+VIN
+Wire Wire Line
+	4200 3100 4200 2650
+Wire Wire Line
+	4200 2650 4450 2650
+Connection ~ 4200 3100
+Wire Wire Line
+	4200 3100 4400 3100
+$Comp
+L sense:L L1
+U 1 1 5E795060
+P 4600 2650
+F 0 "L1" V 4790 2650 50  0000 C CNN
+F 1 "10uH" V 4699 2650 50  0000 C CNN
+F 2 "sense_fp:L_3mm_SMD" H 4600 2650 50  0001 C CNN
+F 3 "" H 4600 2650 50  0001 C CNN
+	1    4600 2650
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4750 2650 5200 2650
+Wire Wire Line
+	5200 2650 5200 3100
+Wire Wire Line
+	5200 3100 5000 3100
+$Comp
+L sense:R R1
+U 1 1 5E79590E
+P 5750 3350
+F 0 "R1" H 5820 3396 50  0000 L CNN
+F 1 "68k" H 5820 3305 50  0000 L CNN
+F 2 "sense_fp:C_0805" V 5680 3350 50  0001 C CNN
+F 3 "" H 5750 3350 50  0001 C CNN
+	1    5750 3350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5000 3300 5050 3300
+Wire Wire Line
+	5050 3300 5050 3600
+Wire Wire Line
+	5750 3600 5750 3500
+Wire Wire Line
+	5750 3200 5750 3100
+$Comp
+L sense:R R2
+U 1 1 5E796A26
+P 5750 3800
+F 0 "R2" H 5820 3846 50  0000 L CNN
+F 1 "15k" H 5820 3755 50  0000 L CNN
+F 2 "sense_fp:C_0805" V 5680 3800 50  0001 C CNN
+F 3 "" H 5750 3800 50  0001 C CNN
+	1    5750 3800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5750 3650 5750 3600
+Connection ~ 5750 3600
+Wire Wire Line
+	5750 3950 5750 4050
+$Comp
+L sense:GND #PWR0104
+U 1 1 5E797433
+P 5750 4050
+F 0 "#PWR0104" H 5750 3800 50  0001 C CNN
+F 1 "GND" H 5755 3877 50  0000 C CNN
+F 2 "" H 5750 4050 50  0001 C CNN
+F 3 "" H 5750 4050 50  0001 C CNN
+	1    5750 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L sense:D_Schottky D1
+U 1 1 5E79AABB
+P 5450 3100
+F 0 "D1" H 5450 2884 50  0000 C CNN
+F 1 "SD103AWS" H 5450 2975 50  0000 C CNN
+F 2 "sense_fp:D_SOD-323" H 5450 3100 50  0001 C CNN
+F 3 "~" H 5450 3100 50  0001 C CNN
+	1    5450 3100
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5300 3100 5200 3100
+Connection ~ 5200 3100
+Wire Wire Line
+	5600 3100 5750 3100
+Connection ~ 5750 3100
+$Comp
+L sense:C C2
+U 1 1 5E79F3C6
+P 6300 3750
+F 0 "C2" H 6100 3850 50  0000 L CNN
+F 1 "10uF" H 6100 3650 50  0000 L CNN
+F 2 "sense_fp:C_0805" H 6338 3600 50  0001 C CNN
+F 3 "" H 6300 3750 50  0001 C CNN
+	1    6300 3750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6300 3900 6300 4050
+$Comp
+L sense:GND #PWR0105
+U 1 1 5E79F3CD
+P 6300 4050
+F 0 "#PWR0105" H 6300 3800 50  0001 C CNN
+F 1 "GND" H 6305 3877 50  0000 C CNN
+F 2 "" H 6300 4050 50  0001 C CNN
+F 3 "" H 6300 4050 50  0001 C CNN
+	1    6300 4050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6300 3600 6300 3100
+Wire Wire Line
+	5750 3100 6300 3100
+Wire Wire Line
+	5050 3600 5750 3600
+Text Label 6300 3100 2    50   ~ 0
+3V3
+Wire Wire Line
+	8600 2800 8600 2600
+Wire Wire Line
+	8600 2600 8200 2600
+Wire Wire Line
+	8800 2800 8800 2600
+Wire Wire Line
+	8800 2600 9100 2600
+$Comp
+L sense:C C3
+U 1 1 5E7A54AA
+P 6700 3750
+F 0 "C3" H 6500 3850 50  0000 L CNN
+F 1 "100nF" H 6450 3650 50  0000 L CNN
+F 2 "sense_fp:C_0603_1608Metric" H 6738 3600 50  0001 C CNN
+F 3 "" H 6700 3750 50  0001 C CNN
+	1    6700 3750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6700 3600 6700 3100
+Wire Wire Line
+	6700 3100 6300 3100
+Connection ~ 6300 3100
+Wire Wire Line
+	6700 3900 6700 4050
+$Comp
+L sense:GND #PWR0106
+U 1 1 5E7A69DE
+P 6700 4050
+F 0 "#PWR0106" H 6700 3800 50  0001 C CNN
+F 1 "GND" H 6705 3877 50  0000 C CNN
+F 2 "" H 6700 4050 50  0001 C CNN
+F 3 "" H 6700 4050 50  0001 C CNN
+	1    6700 4050
+	1    0    0    -1  
+$EndComp
+Text Label 8200 2600 0    50   ~ 0
+3V3
+Text Label 9100 2600 2    50   ~ 0
+VIN
+Text Label 7700 3300 0    50   ~ 0
+nRF_RXD
+Wire Wire Line
+	7700 3300 8100 3300
+Wire Wire Line
+	7700 3200 8100 3200
+Text Label 7700 3200 0    50   ~ 0
+nRF_TXD
+NoConn ~ 8100 3500
+NoConn ~ 8100 3600
+NoConn ~ 8100 3800
+Wire Wire Line
+	8600 4100 8600 4250
+$Comp
+L sense:GND #PWR0107
+U 1 1 5E7AB3F1
+P 8600 4250
+F 0 "#PWR0107" H 8600 4000 50  0001 C CNN
+F 1 "GND" H 8605 4077 50  0000 C CNN
+F 2 "" H 8600 4250 50  0001 C CNN
+F 3 "" H 8600 4250 50  0001 C CNN
+	1    8600 4250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8800 4100 8800 4250
+$Comp
+L sense:GND #PWR0108
+U 1 1 5E7AB3F8
+P 8800 4250
+F 0 "#PWR0108" H 8800 4000 50  0001 C CNN
+F 1 "GND" H 8805 4077 50  0000 C CNN
+F 2 "" H 8800 4250 50  0001 C CNN
+F 3 "" H 8800 4250 50  0001 C CNN
+	1    8800 4250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9300 3600 9800 3600
+Text Label 9800 3400 2    50   ~ 0
+1PPS
+Text Label 9800 3600 2    50   ~ 0
+L80_TIMER
+$Comp
+L sense:Test_Point TP1
+U 1 1 5E79A99A
+P 10050 3400
+F 0 "TP1" H 10108 3518 50  0000 L CNN
+F 1 "Test_Point" H 10108 3427 50  0000 L CNN
+F 2 "sense_fp:Measurement_Point_Round-SMD-Pad_Small" H 10250 3400 50  0001 C CNN
+F 3 "" H 10250 3400 50  0001 C CNN
+	1    10050 3400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9300 3400 10050 3400
+Wire Wire Line
+	2150 2900 2550 2900
+Text Label 2550 2900 2    50   ~ 0
+L80_TIMER
+$Comp
+L sense:Test_Point TP2
+U 1 1 5E7ACB0C
+P 1050 3150
+F 0 "TP2" H 1108 3268 50  0000 L CNN
+F 1 "Test_Point" H 1108 3177 50  0000 L CNN
+F 2 "sense_fp:Measurement_Point_Round-SMD-Pad_Small" H 1250 3150 50  0001 C CNN
+F 3 "" H 1250 3150 50  0001 C CNN
+	1    1050 3150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1050 3150 1050 3400
+$Comp
+L sense:GND #PWR0109
+U 1 1 5E7AF5F4
+P 1050 3400
+F 0 "#PWR0109" H 1050 3150 50  0001 C CNN
+F 1 "GND" H 1055 3227 50  0000 C CNN
+F 2 "" H 1050 3400 50  0001 C CNN
+F 3 "" H 1050 3400 50  0001 C CNN
+	1    1050 3400
+	1    0    0    -1  
+$EndComp
+Text Notes 1850 2600 0    50   ~ 0
+From nRF board
+Text Notes 4200 2400 0    50   ~ 0
+Boosting from AA battery VIN\nto 3.3V required for L80
+Text Notes 8400 2450 0    50   ~ 0
+L80 module
+$EndSCHEMATC

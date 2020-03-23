@@ -1,0 +1,5 @@
+(fp_lib_table
+  (lib (name sense_fp)(type KiCad)(uri /home/prithvi/KiCadProjects/sense_snap_hw/kicad_lib/sense_fp.pretty)(options "")(descr ""))
+  (lib (name Inductor_SMD)(type KiCad)(uri /home/prithvi/KiCadProjects/kicad-footprints/Inductor_SMD.pretty)(options "")(descr ""))
+  (lib (name Connector_PinSocket_2.54mm)(type KiCad)(uri /home/prithvi/KiCadProjects/kicad-footprints/Connector_PinSocket_2.54mm.pretty)(options "")(descr ""))
+)

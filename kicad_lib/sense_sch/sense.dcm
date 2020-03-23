@@ -405,6 +405,11 @@ K REGULATOR LDO 5.0V
 F https://www.exar.com/content/document.ashx?id=22106&languageid=1033&type=Datasheet&partnumber=SPX3819&filename=SPX3819.pdf&part=SPX3819
 $ENDCMP
 #
+$CMP SX1308
+D High Efficiency 1.2MHz2A Step Up Converter
+F http://www.nmj.sumomo.ne.jp/suz-avr/PMIC/SX1308-Suosemi.pdf
+$ENDCMP
+#
 $CMP TLV2371DBV
 D Rail-to-Rail Input/Output Operational Amplifier, SOT-23-5
 K single opamp

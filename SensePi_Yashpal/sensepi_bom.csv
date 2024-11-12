@@ -1,0 +1,37 @@
+No,PN,Part,References,Value,Footprint,Qty
+1,Battery,Battery-sense_rev3-sense_rev4-rescue-sense_rev4-rescue,BT1,Battery,Molex_KK-6410-02_02x2.54mm_Straight,1
+2,CC0402MRX5R6BB104,C-sense_rev3-sense_rev4-rescue-sense_rev4-rescue,C5 C11 C14 C15 C16 C17,100nF,402,6
+3,CC0402JRNPO8BN101,C-sense_rev3-sense_rev4-rescue-sense_rev4-rescue,C12,100pF,402,1
+4,CL10B105KP8NFNC,C-sense_rev3-sense_rev4-rescue-sense_rev4-rescue,C2 C3,1uF,603,2
+5,CL21A226MPQNNNE,C-sense_rev3-sense_rev4-rescue-sense_rev4-rescue,C1 C7 C8 C13,22uF,805,4
+6,CC0402KRX7R8BB682,C-sense_rev3-sense_rev4-rescue-sense_rev4-rescue,C9 C10,6.8nF,402,2
+7,CC0402CRNPO9BN8R0,C-sense_rev3-sense_rev4-rescue-sense_rev4-rescue,C4 C6,8pF,402,2
+8,XZMDKVG45S,LED_GREEN_RED-RESCUE-sense_rev4-sense_rev4-rescue-sense_rev4-rescue-sense_rev4-rescue,D1,XZMDKVG45S,XZMDKVG45S(V4-X),1
+9,Audio-Jack-4,Audio-Jack-4-RESCUE-sense_rev4-sense_rev4-rescue-sense_rev4-rescue-sense_rev4-rescue,J1,Audio-Jack-4,Molex_KK-6410-04_04x2.54mm_Straight,1
+10,MLZ2012N100LTD25,INDUCTOR_SMALL-sense_rev3-sense_rev4-rescue-sense_rev4-rescue,L2,10uH,805,1
+11,ASCH0010050515NJCP,INDUCTOR_SMALL-sense_rev3-sense_rev4-rescue-sense_rev4-rescue,L1,15nH,402,1
+12,HTSW-106-07-S-S,CONN_02X05-sense_rev3-sense_rev4-rescue-sense_rev4-rescue,J2,6 pin conn,prog_connect,1
+13,DMG2301L-13,Q_PMOS_DGS-RESCUE-sense_rev4-sense_rev4-rescue-sense_rev4-rescue-sense_rev4-rescue,Q1,PMOS SOT23,SOT-23_Handsoldering,1
+14,RC0402FR-071M5L,R-sense_rev3-sense_rev4-rescue-sense_rev4-rescue,R3 R4 R7 R8,1M5,402,4
+15,RMCF0402FT27R0,R-sense_rev3-sense_rev4-rescue-sense_rev4-rescue,R1 R2 R13,27E,402,3
+16,RC0402FR-0733KL,R-sense_rev3-sense_rev4-rescue-sense_rev4-rescue,R5 R6 R9 R10 R12,33k,402,5
+17,CR0402-FX-470GLFCT-ND,R-sense_rev3-sense_rev4-rescue-sense_rev4-rescue,R11,47k,402,1
+18,SW_SPST,SW_SPST-sense_rev3-sense_rev4-rescue-sense_rev4-rescue,SW1,SW_SPST,Molex_KK-6410-02_02x2.54mm_Straight,1
+19,MDBT42Q-192K,MDBT42Q-sense_rev3-sense_rev4-rescue-sense_rev4-rescue,U1,MDBT42Q,mdbt42Q,1
+20,ZSBG323671,PIR-sense_rev3-sense_rev4-rescue-sense_rev4-rescue,U2,PIR,PIR_TO5,1
+21,TLV8802DGKR,TLV8802-RESCUE-sense_rev4-sense_rev4-rescue-sense_rev4-rescue-sense_rev4-rescue,U3,TLV8802,SSOP-8_2.95x2.8mm_Pitch0.65mm,1
+22,MCP4012T-503E/CH,,U4,MCP4012T-503E,,1
+23,M200S-32.768-12.5-TR,Crystal-sense_rev3-sense_rev4-rescue-sense_rev4-rescue,Y1,Crystal,Crystal_C38-LF_d3.0mm_l8.0mm_Horizontal,1
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
